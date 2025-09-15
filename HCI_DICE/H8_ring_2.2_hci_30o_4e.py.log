@@ -1,0 +1,21 @@
+converged SCF energy = -3.84988307642273
+converged SCF energy = -3.84988307642267
+Nuclear repulsion energy: 5.397349401824396
+Mean field electronic energy: -9.247232478247067
+Starting HCI for radius 2.2, cutoff 0.001, 30 spatial orbitals
+num_dets: 12475
+Final energy: -4.107068998730545
+sci state: 1234321
+Starting HCI for radius 2.2, cutoff 0.0001, 30 spatial orbitals
+num_dets: 231707
+Final energy: -4.126733909063901
+sci state: 22600516
+Starting HCI for radius 2.2, cutoff 1e-05, 30 spatial orbitals
+num_dets: 1695868
+Final energy: -4.1281265733967984
+sci state: 177822225
+Starting HCI for radius 2.2, cutoff 1e-06, 30 spatial orbitals
+num_dets: 8862493
+Final energy: -4.139549942858453
+sci state: 505530256
+Starting HCI for radius 2.2, cutoff 1e-07, 30 spatial orbitals

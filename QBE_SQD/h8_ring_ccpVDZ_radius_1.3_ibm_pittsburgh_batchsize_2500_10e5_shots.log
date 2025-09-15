@@ -1,0 +1,5354 @@
+Aug 01 01:33:35 ####### 
+                ####### libDMET   version 0.5
+                ####### A periodic DMET library for lattice model and realistic solid.
+                ####### 
+converged SCF energy = -4.16689224759201
+Atom indices of motifs (1-indexed)
+------------------------------------------------
+ Fragment |    Origin |    Centers |      Edges
+------------------------------------------------
+        1 |         1 |          1 |       2, 8
+        2 |         2 |          2 |       1, 3
+        3 |         3 |          3 |       2, 4
+        4 |         4 |          4 |       3, 5
+        5 |         5 |          5 |       4, 6
+        6 |         6 |          6 |       5, 7
+        7 |         7 |          7 |       6, 8
+        8 |         8 |          8 |       1, 7
+------------------------------------------------
+
+-----------------------------------------------------------
+  MMM     MMM    OOOO    LL           BBBBBBB    EEEEEEE 
+  M MM   MM M   OO  OO   LL           BB     B   EE      
+  M  MM MM  M  OO    OO  LL           BB     B   EE      
+  M   MMM   M  OO    OO  LL     ===   BBBBBBB    EEEEEEE 
+  M         M  OO    OO  LL           BB     B   EE      
+  M         M   OO  OO   LL           BB     B   EE      
+  M         M    OOOO    LLLLLL       BBBBBBB    EEEEEEE 
+
+            MOLECULAR BOOTSTRAP EMBEDDING
+            BEn =  2
+-----------------------------------------------------------
+
+Scratch dir is in: /tmp/QuEmb_2273681
+HF-in-HF error                 :  5.5762e-11 Ha
+samples_per_batch: 2500
+-----------------------------------------------------
+             Starting BE optimization 
+             Solver :  SQD
+-----------------------------------------------------
+
+-- Beginning optimization iteration  0
+Overwritten attributes  get_ovlp get_hcore  of <class 'pyscf.scf.hf.RHF'>
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583711
+E(CCSD) = -13.35857524814177  E_corr = -0.05770708977064484
+Gate counts: OrderedDict({'rz': 3870, 'sx': 3812, 'cz': 1638, 'x': 408, 'measure': 38, 'barrier': 1})
+Circuit depth: 501
+Running circuit...
+Circuit runtime: 4478.572737526149 seconds.
+Job ID: d2653dumm7js73ajpamg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.339106768576281
+		Subspace dimension: 356409
+	Subsample 1
+		Energy: -13.339106768576281
+		Subspace dimension: 356409
+	Subsample 2
+		Energy: -13.339106768576281
+		Subspace dimension: 356409
+	Subsample 3
+		Energy: -13.339106768576281
+		Subspace dimension: 356409
+	Subsample 4
+		Energy: -13.339106768576281
+		Subspace dimension: 356409
+Iteration 2
+	Subsample 0
+		Energy: -13.359147707208159
+		Subspace dimension: 2992900
+	Subsample 1
+		Energy: -13.359240505616325
+		Subspace dimension: 3055504
+	Subsample 2
+		Energy: -13.359326132639543
+		Subspace dimension: 3045025
+	Subsample 3
+		Energy: -13.359295278717852
+		Subspace dimension: 3104644
+	Subsample 4
+		Energy: -13.35933302845435
+		Subspace dimension: 3083536
+Iteration 3
+	Subsample 0
+		Energy: -13.359390271735977
+		Subspace dimension: 3225616
+	Subsample 1
+		Energy: -13.35940495311872
+		Subspace dimension: 3147076
+	Subsample 2
+		Energy: -13.359380837497941
+		Subspace dimension: 3229209
+	Subsample 3
+		Energy: -13.359411543123299
+		Subspace dimension: 3279721
+	Subsample 4
+		Energy: -13.359384344071389
+		Subspace dimension: 3157729
+Iteration 4
+	Subsample 0
+		Energy: -13.359413773297979
+		Subspace dimension: 3175524
+	Subsample 1
+		Energy: -13.359415017204034
+		Subspace dimension: 3186225
+	Subsample 2
+		Energy: -13.35941513738588
+		Subspace dimension: 3175524
+	Subsample 3
+		Energy: -13.359415257548537
+		Subspace dimension: 3211264
+	Subsample 4
+		Energy: -13.359412904559033
+		Subspace dimension: 3189796
+Iteration 5
+	Subsample 0
+		Energy: -13.35941631637248
+		Subspace dimension: 3175524
+	Subsample 1
+		Energy: -13.359415313026288
+		Subspace dimension: 3122289
+	Subsample 2
+		Energy: -13.359416035149861
+		Subspace dimension: 3168400
+	Subsample 3
+		Energy: -13.359413204937695
+		Subspace dimension: 3027600
+	Subsample 4
+		Energy: -13.359415001803221
+		Subspace dimension: 3182656
+solve_fermion loop runtime: 2509.8390312483534 seconds.
+SQD wavefunction amplitudes size: 3175524
+% of FCI space: 21.13721975673111
+SQD fragment ground state energy: -13.35941631637248
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583718
+E(CCSD) = -13.3733874955418  E_corr = -0.07251933717001238
+Gate counts: OrderedDict({'rz': 3782, 'sx': 3762, 'cz': 1628, 'x': 394, 'measure': 38, 'barrier': 1})
+Circuit depth: 492
+Running circuit...
+Circuit runtime: 39.21006617881358 seconds.
+Job ID: d266qb6mm7js73ajqv3g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.330507041194366
+		Subspace dimension: 269361
+	Subsample 1
+		Energy: -13.330507041194366
+		Subspace dimension: 269361
+	Subsample 2
+		Energy: -13.330507041194366
+		Subspace dimension: 269361
+	Subsample 3
+		Energy: -13.330507041194366
+		Subspace dimension: 269361
+	Subsample 4
+		Energy: -13.330507041194366
+		Subspace dimension: 269361
+Iteration 2
+	Subsample 0
+		Energy: -13.374392448724045
+		Subspace dimension: 3104644
+	Subsample 1
+		Energy: -13.374404282071621
+		Subspace dimension: 3168400
+	Subsample 2
+		Energy: -13.374325656622403
+		Subspace dimension: 3104644
+	Subsample 3
+		Energy: -13.374297149361801
+		Subspace dimension: 3104644
+	Subsample 4
+		Energy: -13.3743833827602
+		Subspace dimension: 3154176
+Iteration 3
+	Subsample 0
+		Energy: -13.37450575716087
+		Subspace dimension: 3204100
+	Subsample 1
+		Energy: -13.374497793879621
+		Subspace dimension: 3411409
+	Subsample 2
+		Energy: -13.374510552356742
+		Subspace dimension: 3132900
+	Subsample 3
+		Energy: -13.374498669400564
+		Subspace dimension: 3168400
+	Subsample 4
+		Energy: -13.37450907059484
+		Subspace dimension: 3204100
+Iteration 4
+	Subsample 0
+		Energy: -13.37451070131923
+		Subspace dimension: 3168400
+	Subsample 1
+		Energy: -13.374510882728758
+		Subspace dimension: 3276100
+	Subsample 2
+		Energy: -13.374511495304644
+		Subspace dimension: 3150625
+	Subsample 3
+		Energy: -13.374513994046719
+		Subspace dimension: 3312400
+	Subsample 4
+		Energy: -13.374512676293472
+		Subspace dimension: 3196944
+Iteration 5
+	Subsample 0
+		Energy: -13.374510694956298
+		Subspace dimension: 3279721
+	Subsample 1
+		Energy: -13.374513156987007
+		Subspace dimension: 3261636
+	Subsample 2
+		Energy: -13.374509913211611
+		Subspace dimension: 3182656
+	Subsample 3
+		Energy: -13.374516707628999
+		Subspace dimension: 3265249
+	Subsample 4
+		Energy: -13.374511172203741
+		Subspace dimension: 3356224
+solve_fermion loop runtime: 2730.4137882189825 seconds.
+SQD wavefunction amplitudes size: 3265249
+% of FCI space: 21.73445569091794
+SQD fragment ground state energy: -13.374516707628999
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583711
+E(CCSD) = -13.35857524814177  E_corr = -0.05770708977064523
+Gate counts: OrderedDict({'rz': 3861, 'sx': 3828, 'cz': 1598, 'x': 392, 'measure': 38, 'barrier': 1})
+Circuit depth: 478
+Running circuit...
+Circuit runtime: 35.30457905959338 seconds.
+Job ID: d267g8or9r0c73cfv7d0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.338273179997953
+		Subspace dimension: 516961
+	Subsample 1
+		Energy: -13.338273179997953
+		Subspace dimension: 516961
+	Subsample 2
+		Energy: -13.338273179997953
+		Subspace dimension: 516961
+	Subsample 3
+		Energy: -13.338273179997953
+		Subspace dimension: 516961
+	Subsample 4
+		Energy: -13.338273179997953
+		Subspace dimension: 516961
+Iteration 2
+	Subsample 0
+		Energy: -13.359320605779715
+		Subspace dimension: 3052009
+	Subsample 1
+		Energy: -13.359368530396154
+		Subspace dimension: 3041536
+	Subsample 2
+		Energy: -13.3593336259897
+		Subspace dimension: 3129361
+	Subsample 3
+		Energy: -13.35918553084416
+		Subspace dimension: 3010225
+	Subsample 4
+		Energy: -13.35928481169869
+		Subspace dimension: 3006756
+Iteration 3
+	Subsample 0
+		Energy: -13.35941567427705
+		Subspace dimension: 3250809
+	Subsample 1
+		Energy: -13.35939521651634
+		Subspace dimension: 3157729
+	Subsample 2
+		Energy: -13.359397747903119
+		Subspace dimension: 3073009
+	Subsample 3
+		Energy: -13.359397086468825
+		Subspace dimension: 3136441
+	Subsample 4
+		Energy: -13.35941151433083
+		Subspace dimension: 3211264
+Iteration 4
+	Subsample 0
+		Energy: -13.359414886836513
+		Subspace dimension: 3027600
+	Subsample 1
+		Energy: -13.359415677577188
+		Subspace dimension: 3240000
+	Subsample 2
+		Energy: -13.359412848552656
+		Subspace dimension: 3222025
+	Subsample 3
+		Energy: -13.359416195240565
+		Subspace dimension: 3179089
+	Subsample 4
+		Energy: -13.359414929147729
+		Subspace dimension: 3147076
+Iteration 5
+	Subsample 0
+		Energy: -13.359415635944792
+		Subspace dimension: 3168400
+	Subsample 1
+		Energy: -13.359413976776782
+		Subspace dimension: 3087049
+	Subsample 2
+		Energy: -13.359411676452291
+		Subspace dimension: 3179089
+	Subsample 3
+		Energy: -13.359413618480064
+		Subspace dimension: 3147076
+	Subsample 4
+		Energy: -13.35941611933671
+		Subspace dimension: 3059001
+solve_fermion loop runtime: 2549.1906746560708 seconds.
+SQD wavefunction amplitudes size: 3179089
+% of FCI space: 21.160949443054612
+SQD fragment ground state energy: -13.359416195240565
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583718
+E(CCSD) = -13.37338749554179  E_corr = -0.07251933717001345
+Gate counts: OrderedDict({'rz': 3829, 'sx': 3770, 'cz': 1636, 'x': 418, 'measure': 38, 'barrier': 1})
+Circuit depth: 496
+Running circuit...
+Circuit runtime: 44.6440615914762 seconds.
+Job ID: d2684oout9ds739gfk10
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.340586248916841
+		Subspace dimension: 357604
+	Subsample 1
+		Energy: -13.340586248916841
+		Subspace dimension: 357604
+	Subsample 2
+		Energy: -13.340586248916841
+		Subspace dimension: 357604
+	Subsample 3
+		Energy: -13.340586248916841
+		Subspace dimension: 357604
+	Subsample 4
+		Energy: -13.340586248916841
+		Subspace dimension: 357604
+Iteration 2
+	Subsample 0
+		Energy: -13.37426649140114
+		Subspace dimension: 3161284
+	Subsample 1
+		Energy: -13.374435068500771
+		Subspace dimension: 3218436
+	Subsample 2
+		Energy: -13.374378969264546
+		Subspace dimension: 3204100
+	Subsample 3
+		Energy: -13.374133891296369
+		Subspace dimension: 3171961
+	Subsample 4
+		Energy: -13.374130033837412
+		Subspace dimension: 3229209
+Iteration 3
+	Subsample 0
+		Energy: -13.374504384417042
+		Subspace dimension: 3367225
+	Subsample 1
+		Energy: -13.374514440651348
+		Subspace dimension: 3294225
+	Subsample 2
+		Energy: -13.374503669840209
+		Subspace dimension: 3305124
+	Subsample 3
+		Energy: -13.374507528890597
+		Subspace dimension: 3218436
+	Subsample 4
+		Energy: -13.374487372879367
+		Subspace dimension: 3175524
+Iteration 4
+	Subsample 0
+		Energy: -13.374515372838546
+		Subspace dimension: 3467044
+	Subsample 1
+		Energy: -13.374512710177365
+		Subspace dimension: 3265249
+	Subsample 2
+		Energy: -13.374511139163896
+		Subspace dimension: 3225616
+	Subsample 3
+		Energy: -13.374511723091743
+		Subspace dimension: 3232804
+	Subsample 4
+		Energy: -13.374513399527721
+		Subspace dimension: 3182656
+Iteration 5
+	Subsample 0
+		Energy: -13.374514609562622
+		Subspace dimension: 3396649
+	Subsample 1
+		Energy: -13.37451244446891
+		Subspace dimension: 3286969
+	Subsample 2
+		Energy: -13.374513539075256
+		Subspace dimension: 3164841
+	Subsample 3
+		Energy: -13.374515362179064
+		Subspace dimension: 3261636
+	Subsample 4
+		Energy: -13.374512207831579
+		Subspace dimension: 3308761
+solve_fermion loop runtime: 2783.465733527206 seconds.
+SQD wavefunction amplitudes size: 3467044
+% of FCI space: 23.07766243752403
+SQD fragment ground state energy: -13.374515372838546
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583711
+E(CCSD) = -13.35857524814177  E_corr = -0.05770708977064455
+Gate counts: OrderedDict({'sx': 3906, 'rz': 3895, 'cz': 1638, 'x': 394, 'measure': 38, 'barrier': 1})
+Circuit depth: 481
+Running circuit...
+Circuit runtime: 44.46241714898497 seconds.
+Job ID: d268r65vkhdc73ebgh2g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.323323434676377
+		Subspace dimension: 223729
+	Subsample 1
+		Energy: -13.323323434676377
+		Subspace dimension: 223729
+	Subsample 2
+		Energy: -13.323323434676377
+		Subspace dimension: 223729
+	Subsample 3
+		Energy: -13.323323434676377
+		Subspace dimension: 223729
+	Subsample 4
+		Energy: -13.323323434676377
+		Subspace dimension: 223729
+Iteration 2
+	Subsample 0
+		Energy: -13.359234754282948
+		Subspace dimension: 3143529
+	Subsample 1
+		Energy: -13.359346241889172
+		Subspace dimension: 3229209
+	Subsample 2
+		Energy: -13.359282949449224
+		Subspace dimension: 3139984
+	Subsample 3
+		Energy: -13.359155172928515
+		Subspace dimension: 3010225
+	Subsample 4
+		Energy: -13.359249677591722
+		Subspace dimension: 3132900
+Iteration 3
+	Subsample 0
+		Energy: -13.359408075778862
+		Subspace dimension: 3171961
+	Subsample 1
+		Energy: -13.359405700554477
+		Subspace dimension: 3136441
+	Subsample 2
+		Energy: -13.359404746875205
+		Subspace dimension: 3207681
+	Subsample 3
+		Energy: -13.35940915544007
+		Subspace dimension: 3200521
+	Subsample 4
+		Energy: -13.3594088781482
+		Subspace dimension: 3200521
+Iteration 4
+	Subsample 0
+		Energy: -13.359413869581626
+		Subspace dimension: 3164841
+	Subsample 1
+		Energy: -13.359414865300577
+		Subspace dimension: 3279721
+	Subsample 2
+		Energy: -13.359410215286523
+		Subspace dimension: 3196944
+	Subsample 3
+		Energy: -13.359408901815424
+		Subspace dimension: 3182656
+	Subsample 4
+		Energy: -13.35941237938271
+		Subspace dimension: 3139984
+Iteration 5
+	Subsample 0
+		Energy: -13.35941566597301
+		Subspace dimension: 3319684
+	Subsample 1
+		Energy: -13.359415096954635
+		Subspace dimension: 3211264
+	Subsample 2
+		Energy: -13.359416797335117
+		Subspace dimension: 3168400
+	Subsample 3
+		Energy: -13.35941768933212
+		Subspace dimension: 3189796
+	Subsample 4
+		Energy: -13.359414348573694
+		Subspace dimension: 3229209
+solve_fermion loop runtime: 2502.363798809238 seconds.
+SQD wavefunction amplitudes size: 3189796
+% of FCI space: 21.232218377547095
+SQD fragment ground state energy: -13.35941768933212
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583718
+E(CCSD) = -13.3733874955418  E_corr = -0.07251933717001277
+Gate counts: OrderedDict({'rz': 3806, 'sx': 3744, 'cz': 1640, 'x': 416, 'measure': 38, 'barrier': 1})
+Circuit depth: 494
+Running circuit...
+Circuit runtime: 2669.9637756049633 seconds.
+Job ID: d269fcgr9r0c73cg15v0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.364127752618572
+		Subspace dimension: 571536
+	Subsample 1
+		Energy: -13.364127752618572
+		Subspace dimension: 571536
+	Subsample 2
+		Energy: -13.364127752618572
+		Subspace dimension: 571536
+	Subsample 3
+		Energy: -13.364127752618572
+		Subspace dimension: 571536
+	Subsample 4
+		Energy: -13.364127752618572
+		Subspace dimension: 571536
+Iteration 2
+	Subsample 0
+		Energy: -13.374452193199872
+		Subspace dimension: 3003289
+	Subsample 1
+		Energy: -13.374382191472552
+		Subspace dimension: 3196944
+	Subsample 2
+		Energy: -13.37439522141909
+		Subspace dimension: 3062500
+	Subsample 3
+		Energy: -13.374363823808537
+		Subspace dimension: 3066001
+	Subsample 4
+		Energy: -13.374333953137736
+		Subspace dimension: 3041536
+Iteration 3
+	Subsample 0
+		Energy: -13.374504365766253
+		Subspace dimension: 3254416
+	Subsample 1
+		Energy: -13.374505929449308
+		Subspace dimension: 3290596
+	Subsample 2
+		Energy: -13.374500479569866
+		Subspace dimension: 3108169
+	Subsample 3
+		Energy: -13.37449912788895
+		Subspace dimension: 3200521
+	Subsample 4
+		Energy: -13.37449127366977
+		Subspace dimension: 3261636
+Iteration 4
+	Subsample 0
+		Energy: -13.37451340046505
+		Subspace dimension: 3157729
+	Subsample 1
+		Energy: -13.374511566766898
+		Subspace dimension: 3179089
+	Subsample 2
+		Energy: -13.374511852958111
+		Subspace dimension: 3261636
+	Subsample 3
+		Energy: -13.374512612567452
+		Subspace dimension: 3104644
+	Subsample 4
+		Energy: -13.374508394347144
+		Subspace dimension: 3268864
+Iteration 5
+	Subsample 0
+		Energy: -13.37451305842414
+		Subspace dimension: 3236401
+	Subsample 1
+		Energy: -13.374517065241774
+		Subspace dimension: 3265249
+	Subsample 2
+		Energy: -13.374515841561541
+		Subspace dimension: 3319684
+	Subsample 3
+		Energy: -13.374508738640166
+		Subspace dimension: 3272481
+	Subsample 4
+		Energy: -13.374516427952118
+		Subspace dimension: 3301489
+solve_fermion loop runtime: 2787.257526625879 seconds.
+SQD wavefunction amplitudes size: 3265249
+% of FCI space: 21.73445569091794
+SQD fragment ground state energy: -13.374517065241774
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583711
+E(CCSD) = -13.35857524814178  E_corr = -0.05770708977064342
+Gate counts: OrderedDict({'rz': 3838, 'sx': 3804, 'cz': 1638, 'x': 419, 'measure': 38, 'barrier': 1})
+Circuit depth: 489
+Running circuit...
+Circuit runtime: 54.52942309901118 seconds.
+Job ID: d26aqbdvkhdc73ebieqg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.308469528275353
+		Subspace dimension: 57121
+	Subsample 1
+		Energy: -13.308469528275353
+		Subspace dimension: 57121
+	Subsample 2
+		Energy: -13.308469528275353
+		Subspace dimension: 57121
+	Subsample 3
+		Energy: -13.308469528275353
+		Subspace dimension: 57121
+	Subsample 4
+		Energy: -13.308469528275353
+		Subspace dimension: 57121
+Iteration 2
+	Subsample 0
+		Energy: -13.359108793247739
+		Subspace dimension: 3363556
+	Subsample 1
+		Energy: -13.359024298000936
+		Subspace dimension: 3504384
+	Subsample 2
+		Energy: -13.359206273543828
+		Subspace dimension: 3356224
+	Subsample 3
+		Energy: -13.359107785555768
+		Subspace dimension: 3444736
+	Subsample 4
+		Energy: -13.359320806086386
+		Subspace dimension: 3508129
+Iteration 3
+	Subsample 0
+		Energy: -13.35939422360739
+		Subspace dimension: 3663396
+	Subsample 1
+		Energy: -13.3594101841382
+		Subspace dimension: 3556996
+	Subsample 2
+		Energy: -13.359406781925033
+		Subspace dimension: 3459600
+	Subsample 3
+		Energy: -13.359404742391614
+		Subspace dimension: 3575881
+	Subsample 4
+		Energy: -13.359379959802242
+		Subspace dimension: 3617604
+Iteration 4
+	Subsample 0
+		Energy: -13.359407490713934
+		Subspace dimension: 3602404
+	Subsample 1
+		Energy: -13.35941352417715
+		Subspace dimension: 3678724
+	Subsample 2
+		Energy: -13.359412229694572
+		Subspace dimension: 3640464
+	Subsample 3
+		Energy: -13.359410280550197
+		Subspace dimension: 3625216
+	Subsample 4
+		Energy: -13.35941274229628
+		Subspace dimension: 3636649
+Iteration 5
+	Subsample 0
+		Energy: -13.359415972451396
+		Subspace dimension: 3644281
+	Subsample 1
+		Energy: -13.359415797875888
+		Subspace dimension: 3610000
+	Subsample 2
+		Energy: -13.359414278869217
+		Subspace dimension: 3545689
+	Subsample 3
+		Energy: -13.359412900946475
+		Subspace dimension: 3519376
+	Subsample 4
+		Energy: -13.359416756443036
+		Subspace dimension: 3448449
+solve_fermion loop runtime: 2726.5662585729733 seconds.
+SQD wavefunction amplitudes size: 3448449
+% of FCI space: 22.95388865991239
+SQD fragment ground state energy: -13.359416756443036
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.3008681583718
+E(CCSD) = -13.3733874955418  E_corr = -0.07251933717001255
+WARNING:urllib3.connectionpool:Retrying (PostForcelistRetry(total=4, connect=3, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api/v1/jobs/d26bgd79aclc739u68e0?exclude_params=true
+Gate counts: OrderedDict({'rz': 3813, 'sx': 3770, 'cz': 1620, 'x': 396, 'measure': 38, 'barrier': 1})
+Circuit depth: 469
+Running circuit...
+Circuit runtime: 32061.93004912231 seconds.
+Job ID: d26bgd79aclc739u68e0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.315533624814304
+		Subspace dimension: 94864
+	Subsample 1
+		Energy: -13.315533624814304
+		Subspace dimension: 94864
+	Subsample 2
+		Energy: -13.315533624814304
+		Subspace dimension: 94864
+	Subsample 3
+		Energy: -13.315533624814304
+		Subspace dimension: 94864
+	Subsample 4
+		Energy: -13.315533624814304
+		Subspace dimension: 94864
+Iteration 2
+	Subsample 0
+		Energy: -13.373947718039462
+		Subspace dimension: 3511876
+	Subsample 1
+		Energy: -13.374336412839355
+		Subspace dimension: 3323329
+	Subsample 2
+		Energy: -13.37431997189577
+		Subspace dimension: 3594816
+	Subsample 3
+		Energy: -13.373965092162331
+		Subspace dimension: 3538161
+	Subsample 4
+		Energy: -13.374011511516569
+		Subspace dimension: 3625216
+Iteration 3
+	Subsample 0
+		Energy: -13.374441999729177
+		Subspace dimension: 3579664
+	Subsample 1
+		Energy: -13.374493087003254
+		Subspace dimension: 3583449
+	Subsample 2
+		Energy: -13.374508839991641
+		Subspace dimension: 3694084
+	Subsample 3
+		Energy: -13.374492538487
+		Subspace dimension: 3779136
+	Subsample 4
+		Energy: -13.374501269980888
+		Subspace dimension: 3678724
+Iteration 4
+	Subsample 0
+		Energy: -13.374510438050763
+		Subspace dimension: 3775249
+	Subsample 1
+		Energy: -13.374510832746019
+		Subspace dimension: 3732624
+	Subsample 2
+		Energy: -13.374512861563046
+		Subspace dimension: 3694084
+	Subsample 3
+		Energy: -13.374512627949178
+		Subspace dimension: 3663396
+	Subsample 4
+		Energy: -13.374505571028719
+		Subspace dimension: 3825936
+Iteration 5
+	Subsample 0
+		Energy: -13.37451327064255
+		Subspace dimension: 3632836
+	Subsample 1
+		Energy: -13.374510434917152
+		Subspace dimension: 3767481
+	Subsample 2
+		Energy: -13.374513434296716
+		Subspace dimension: 3541924
+	Subsample 3
+		Energy: -13.374510074062407
+		Subspace dimension: 3736489
+	Subsample 4
+		Energy: -13.374509936308028
+		Subspace dimension: 3594816
+solve_fermion loop runtime: 3024.6685915542766 seconds.
+SQD wavefunction amplitudes size: 3541924
+% of FCI space: 23.576085694720014
+SQD fragment ground state energy: -13.374513434296716
+
+Error in density matching      :   4.1161e-03
+Cumulative energy      :   -4.364779618705463
+
+-- In iter  0
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2276821133241
+E(CCSD) = -13.28924403157747  E_corr = -0.06156191825333209
+Gate counts: OrderedDict({'sx': 4012, 'rz': 3934, 'cz': 1642, 'x': 367, 'measure': 38, 'barrier': 1})
+Circuit depth: 489
+Running circuit...
+Circuit runtime: 257.4821740491316 seconds.
+Job ID: d26k2r856fsc73e51q10
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.23791072665639
+		Subspace dimension: 32041
+	Subsample 1
+		Energy: -13.23791072665639
+		Subspace dimension: 32041
+	Subsample 2
+		Energy: -13.23791072665639
+		Subspace dimension: 32041
+	Subsample 3
+		Energy: -13.23791072665639
+		Subspace dimension: 32041
+	Subsample 4
+		Energy: -13.23791072665639
+		Subspace dimension: 32041
+Iteration 2
+	Subsample 0
+		Energy: -13.290231608497152
+		Subspace dimension: 3640464
+	Subsample 1
+		Energy: -13.28993148723433
+		Subspace dimension: 3598609
+	Subsample 2
+		Energy: -13.289825570449601
+		Subspace dimension: 3701776
+	Subsample 3
+		Energy: -13.29007420568632
+		Subspace dimension: 3686400
+	Subsample 4
+		Energy: -13.28973973056125
+		Subspace dimension: 3496900
+Iteration 3
+	Subsample 0
+		Energy: -13.290369085605247
+		Subspace dimension: 3810304
+	Subsample 1
+		Energy: -13.290391471529155
+		Subspace dimension: 3636649
+	Subsample 2
+		Energy: -13.290389544568283
+		Subspace dimension: 3779136
+	Subsample 3
+		Energy: -13.290395441289252
+		Subspace dimension: 3748096
+	Subsample 4
+		Energy: -13.290380464430147
+		Subspace dimension: 3705625
+Iteration 4
+	Subsample 0
+		Energy: -13.290398336297821
+		Subspace dimension: 3865156
+	Subsample 1
+		Energy: -13.290400316720666
+		Subspace dimension: 3721041
+	Subsample 2
+		Energy: -13.290400338947316
+		Subspace dimension: 3671056
+	Subsample 3
+		Energy: -13.290398193610555
+		Subspace dimension: 3655744
+	Subsample 4
+		Energy: -13.290397094972743
+		Subspace dimension: 3701776
+Iteration 5
+	Subsample 0
+		Energy: -13.290398169564963
+		Subspace dimension: 3686400
+	Subsample 1
+		Energy: -13.290398171204776
+		Subspace dimension: 3763600
+	Subsample 2
+		Energy: -13.29040000100548
+		Subspace dimension: 3779136
+	Subsample 3
+		Energy: -13.290398841687209
+		Subspace dimension: 3786916
+	Subsample 4
+		Energy: -13.290399136739934
+		Subspace dimension: 3763600
+solve_fermion loop runtime: 3058.88223449979 seconds.
+SQD wavefunction amplitudes size: 3671056
+% of FCI space: 24.43562618681713
+SQD fragment ground state energy: -13.290400338947316
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2124999362417
+E(CCSD) = -13.30503586411484  E_corr = -0.09253592787313966
+Gate counts: OrderedDict({'sx': 3978, 'rz': 3904, 'cz': 1642, 'x': 367, 'measure': 38, 'barrier': 1})
+Circuit depth: 504
+Running circuit...
+Circuit runtime: 43.731117312796414 seconds.
+Job ID: d26kt3pogaas73crudl0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.229171554426639
+		Subspace dimension: 26569
+	Subsample 1
+		Energy: -13.229171554426639
+		Subspace dimension: 26569
+	Subsample 2
+		Energy: -13.229171554426639
+		Subspace dimension: 26569
+	Subsample 3
+		Energy: -13.229171554426639
+		Subspace dimension: 26569
+	Subsample 4
+		Energy: -13.229171554426639
+		Subspace dimension: 26569
+Iteration 2
+	Subsample 0
+		Energy: -13.307136114125349
+		Subspace dimension: 3602404
+	Subsample 1
+		Energy: -13.30709621189827
+		Subspace dimension: 3775249
+	Subsample 2
+		Energy: -13.307362300162811
+		Subspace dimension: 3659569
+	Subsample 3
+		Energy: -13.307257644704446
+		Subspace dimension: 3636649
+	Subsample 4
+		Energy: -13.30603480164784
+		Subspace dimension: 3606201
+Iteration 3
+	Subsample 0
+		Energy: -13.308073092991156
+		Subspace dimension: 3984016
+	Subsample 1
+		Energy: -13.308055277822943
+		Subspace dimension: 3751969
+	Subsample 2
+		Energy: -13.307594553131578
+		Subspace dimension: 3837681
+	Subsample 3
+		Energy: -13.307992955800385
+		Subspace dimension: 3721041
+	Subsample 4
+		Energy: -13.30807738510394
+		Subspace dimension: 3779136
+Iteration 4
+	Subsample 0
+		Energy: -13.308098191944168
+		Subspace dimension: 3810304
+	Subsample 1
+		Energy: -13.308096349012065
+		Subspace dimension: 3825936
+	Subsample 2
+		Energy: -13.308092612201447
+		Subspace dimension: 3822025
+	Subsample 3
+		Energy: -13.308099122497158
+		Subspace dimension: 3873024
+	Subsample 4
+		Energy: -13.30809519288312
+		Subspace dimension: 3814209
+Iteration 5
+	Subsample 0
+		Energy: -13.308099620880895
+		Subspace dimension: 3783025
+	Subsample 1
+		Energy: -13.308096756789446
+		Subspace dimension: 3798601
+	Subsample 2
+		Energy: -13.308097453786372
+		Subspace dimension: 3825936
+	Subsample 3
+		Energy: -13.308101424289106
+		Subspace dimension: 3841600
+	Subsample 4
+		Energy: -13.308103166254227
+		Subspace dimension: 4008004
+solve_fermion loop runtime: 5149.784795210697 seconds.
+SQD wavefunction amplitudes size: 4008004
+% of FCI space: 26.67845096867708
+SQD fragment ground state energy: -13.308103166254227
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2276743317419
+E(CCSD) = -13.2892341286429  E_corr = -0.0615597969009908
+Gate counts: OrderedDict({'sx': 3938, 'rz': 3897, 'cz': 1642, 'x': 378, 'measure': 38, 'barrier': 1})
+Circuit depth: 486
+Running circuit...
+Circuit runtime: 39.01973458472639 seconds.
+Job ID: d26m623octts738iea10
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.237660771160831
+		Subspace dimension: 72361
+	Subsample 1
+		Energy: -13.237660771160831
+		Subspace dimension: 72361
+	Subsample 2
+		Energy: -13.237660771160831
+		Subspace dimension: 72361
+	Subsample 3
+		Energy: -13.237660771160831
+		Subspace dimension: 72361
+	Subsample 4
+		Energy: -13.237660771160831
+		Subspace dimension: 72361
+Iteration 2
+	Subsample 0
+		Energy: -13.289798290697046
+		Subspace dimension: 3636649
+	Subsample 1
+		Energy: -13.290042669169146
+		Subspace dimension: 3523129
+	Subsample 2
+		Energy: -13.290021364807847
+		Subspace dimension: 3579664
+	Subsample 3
+		Energy: -13.289314600085335
+		Subspace dimension: 3705625
+	Subsample 4
+		Energy: -13.289695774099416
+		Subspace dimension: 3583449
+Iteration 3
+	Subsample 0
+		Energy: -13.290378750400924
+		Subspace dimension: 3837681
+	Subsample 1
+		Energy: -13.290340857215666
+		Subspace dimension: 3908529
+	Subsample 2
+		Energy: -13.290379901484668
+		Subspace dimension: 3900625
+	Subsample 3
+		Energy: -13.290174740573727
+		Subspace dimension: 3751969
+	Subsample 4
+		Energy: -13.290377477937803
+		Subspace dimension: 3865156
+Iteration 4
+	Subsample 0
+		Energy: -13.290381081304773
+		Subspace dimension: 3763600
+	Subsample 1
+		Energy: -13.290385154873327
+		Subspace dimension: 3779136
+	Subsample 2
+		Energy: -13.2903844957545
+		Subspace dimension: 3814209
+	Subsample 3
+		Energy: -13.290385435593839
+		Subspace dimension: 3790809
+	Subsample 4
+		Energy: -13.290383120028315
+		Subspace dimension: 3884841
+Iteration 5
+	Subsample 0
+		Energy: -13.290389115705334
+		Subspace dimension: 3794704
+	Subsample 1
+		Energy: -13.290390896700348
+		Subspace dimension: 3940225
+	Subsample 2
+		Energy: -13.29039310824931
+		Subspace dimension: 3920400
+	Subsample 3
+		Energy: -13.29038769288958
+		Subspace dimension: 3732624
+	Subsample 4
+		Energy: -13.290387755819935
+		Subspace dimension: 3976036
+solve_fermion loop runtime: 3123.0524887032807 seconds.
+SQD wavefunction amplitudes size: 3920400
+% of FCI space: 26.09533303300137
+SQD fragment ground state energy: -13.29039310824931
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2125335371786
+E(CCSD) = -13.30517781762794  E_corr = -0.09264428044929565
+Gate counts: OrderedDict({'rz': 3838, 'sx': 3812, 'cz': 1646, 'x': 408, 'measure': 38, 'barrier': 1})
+Circuit depth: 502
+Running circuit...
+Circuit runtime: 79.72819956764579 seconds.
+Job ID: d26mv4129u8s73f7dr0g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.213751410798835
+		Subspace dimension: 21904
+	Subsample 1
+		Energy: -13.213751410798835
+		Subspace dimension: 21904
+	Subsample 2
+		Energy: -13.213751410798835
+		Subspace dimension: 21904
+	Subsample 3
+		Energy: -13.213751410798835
+		Subspace dimension: 21904
+	Subsample 4
+		Energy: -13.213751410798835
+		Subspace dimension: 21904
+Iteration 2
+	Subsample 0
+		Energy: -13.307665669943912
+		Subspace dimension: 3705625
+	Subsample 1
+		Energy: -13.306850595695291
+		Subspace dimension: 3602404
+	Subsample 2
+		Energy: -13.30787825175359
+		Subspace dimension: 3568321
+	Subsample 3
+		Energy: -13.30681772597616
+		Subspace dimension: 3504384
+	Subsample 4
+		Energy: -13.307546563796949
+		Subspace dimension: 3367225
+Iteration 3
+	Subsample 0
+		Energy: -13.308242027656233
+		Subspace dimension: 3701776
+	Subsample 1
+		Energy: -13.30817958465255
+		Subspace dimension: 3598609
+	Subsample 2
+		Energy: -13.308234507467654
+		Subspace dimension: 3610000
+	Subsample 3
+		Energy: -13.308244747683442
+		Subspace dimension: 3697929
+	Subsample 4
+		Energy: -13.308226457959488
+		Subspace dimension: 3767481
+Iteration 4
+	Subsample 0
+		Energy: -13.308255659043724
+		Subspace dimension: 3798601
+	Subsample 1
+		Energy: -13.308264245525526
+		Subspace dimension: 3924361
+	Subsample 2
+		Energy: -13.308266317274933
+		Subspace dimension: 3892729
+	Subsample 3
+		Energy: -13.308259779816636
+		Subspace dimension: 4016016
+	Subsample 4
+		Energy: -13.308258623363425
+		Subspace dimension: 3833764
+Iteration 5
+	Subsample 0
+		Energy: -13.30827010338051
+		Subspace dimension: 3810304
+	Subsample 1
+		Energy: -13.308271720590094
+		Subspace dimension: 3798601
+	Subsample 2
+		Energy: -13.308272655669525
+		Subspace dimension: 3876961
+	Subsample 3
+		Energy: -13.308270228381248
+		Subspace dimension: 3908529
+	Subsample 4
+		Energy: -13.308274003984979
+		Subspace dimension: 3876961
+solve_fermion loop runtime: 5090.775959792547 seconds.
+SQD wavefunction amplitudes size: 3876961
+% of FCI space: 25.80619029970361
+SQD fragment ground state energy: -13.308274003984979
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2276683723166
+E(CCSD) = -13.28923038502104  E_corr = -0.06156201270442301
+Gate counts: OrderedDict({'rz': 3895, 'sx': 3888, 'cz': 1642, 'x': 398, 'measure': 38, 'barrier': 1})
+Circuit depth: 482
+Running circuit...
+Circuit runtime: 40.77180003654212 seconds.
+Job ID: d26o7ro56fsc73e56cj0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.239783532140654
+		Subspace dimension: 51984
+	Subsample 1
+		Energy: -13.239783532140654
+		Subspace dimension: 51984
+	Subsample 2
+		Energy: -13.239783532140654
+		Subspace dimension: 51984
+	Subsample 3
+		Energy: -13.239783532140654
+		Subspace dimension: 51984
+	Subsample 4
+		Energy: -13.239783532140654
+		Subspace dimension: 51984
+Iteration 2
+	Subsample 0
+		Energy: -13.290083688624014
+		Subspace dimension: 3594816
+	Subsample 1
+		Energy: -13.290028631346216
+		Subspace dimension: 3613801
+	Subsample 2
+		Energy: -13.29024331463953
+		Subspace dimension: 3602404
+	Subsample 3
+		Energy: -13.289688554396971
+		Subspace dimension: 3556996
+	Subsample 4
+		Energy: -13.290050594807655
+		Subspace dimension: 3651921
+Iteration 3
+	Subsample 0
+		Energy: -13.29036931004819
+		Subspace dimension: 3728761
+	Subsample 1
+		Energy: -13.290369793811022
+		Subspace dimension: 3904576
+	Subsample 2
+		Energy: -13.290371572026975
+		Subspace dimension: 3674889
+	Subsample 3
+		Energy: -13.290371229465354
+		Subspace dimension: 3779136
+	Subsample 4
+		Energy: -13.29037223832778
+		Subspace dimension: 3814209
+Iteration 4
+	Subsample 0
+		Energy: -13.290383846211881
+		Subspace dimension: 3763600
+	Subsample 1
+		Energy: -13.290382711975823
+		Subspace dimension: 3755844
+	Subsample 2
+		Energy: -13.290382106124751
+		Subspace dimension: 3728761
+	Subsample 3
+		Energy: -13.29038098878868
+		Subspace dimension: 3602404
+	Subsample 4
+		Energy: -13.2903874251762
+		Subspace dimension: 3763600
+Iteration 5
+	Subsample 0
+		Energy: -13.29038944699608
+		Subspace dimension: 3865156
+	Subsample 1
+		Energy: -13.290386728196586
+		Subspace dimension: 3721041
+	Subsample 2
+		Energy: -13.290381750829447
+		Subspace dimension: 3686400
+	Subsample 3
+		Energy: -13.290387345250188
+		Subspace dimension: 3748096
+	Subsample 4
+		Energy: -13.29038777756562
+		Subspace dimension: 3705625
+solve_fermion loop runtime: 3063.628869268112 seconds.
+SQD wavefunction amplitudes size: 3865156
+% of FCI space: 25.72761275494935
+SQD fragment ground state energy: -13.29038944699608
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2125274230829
+E(CCSD) = -13.30505289550622  E_corr = -0.09252547242328711
+Gate counts: OrderedDict({'rz': 3924, 'sx': 3888, 'cz': 1642, 'x': 395, 'measure': 38, 'barrier': 1})
+Circuit depth: 514
+Running circuit...
+Circuit runtime: 48.158105324953794 seconds.
+Job ID: d26p0f056fsc73e57640
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.216849648980261
+		Subspace dimension: 28561
+	Subsample 1
+		Energy: -13.216849648980261
+		Subspace dimension: 28561
+	Subsample 2
+		Energy: -13.216849648980261
+		Subspace dimension: 28561
+	Subsample 3
+		Energy: -13.216849648980261
+		Subspace dimension: 28561
+	Subsample 4
+		Energy: -13.216849648980261
+		Subspace dimension: 28561
+Iteration 2
+	Subsample 0
+		Energy: -13.307618987306878
+		Subspace dimension: 3802500
+	Subsample 1
+		Energy: -13.306892542835346
+		Subspace dimension: 3837681
+	Subsample 2
+		Energy: -13.307739508113821
+		Subspace dimension: 3845521
+	Subsample 3
+		Energy: -13.307226292952576
+		Subspace dimension: 3825936
+	Subsample 4
+		Energy: -13.307470272320948
+		Subspace dimension: 3837681
+Iteration 3
+	Subsample 0
+		Energy: -13.30804469958674
+		Subspace dimension: 4008004
+	Subsample 1
+		Energy: -13.308061817896188
+		Subspace dimension: 4044121
+	Subsample 2
+		Energy: -13.308050566749706
+		Subspace dimension: 3861225
+	Subsample 3
+		Energy: -13.308004182891954
+		Subspace dimension: 3992004
+	Subsample 4
+		Energy: -13.308072668808377
+		Subspace dimension: 4008004
+Iteration 4
+	Subsample 0
+		Energy: -13.308101028093377
+		Subspace dimension: 3932289
+	Subsample 1
+		Energy: -13.308102133685354
+		Subspace dimension: 3932289
+	Subsample 2
+		Energy: -13.30809461222764
+		Subspace dimension: 4064256
+	Subsample 3
+		Energy: -13.308096438940284
+		Subspace dimension: 3900625
+	Subsample 4
+		Energy: -13.308097578856277
+		Subspace dimension: 3790809
+Iteration 5
+	Subsample 0
+		Energy: -13.308110510284209
+		Subspace dimension: 4096576
+	Subsample 1
+		Energy: -13.3081086036029
+		Subspace dimension: 4157521
+	Subsample 2
+		Energy: -13.30810873070079
+		Subspace dimension: 3940225
+	Subsample 3
+		Energy: -13.30811312060828
+		Subspace dimension: 4076361
+	Subsample 4
+		Energy: -13.308113050198585
+		Subspace dimension: 3924361
+solve_fermion loop runtime: 5310.797321274877 seconds.
+SQD wavefunction amplitudes size: 4076361
+% of FCI space: 27.133455223379883
+SQD fragment ground state energy: -13.30811312060828
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2276789195302
+E(CCSD) = -13.28924732698193  E_corr = -0.06156840745172193
+Gate counts: OrderedDict({'rz': 3837, 'sx': 3806, 'cz': 1642, 'x': 412, 'measure': 38, 'barrier': 1})
+Circuit depth: 480
+Running circuit...
+Circuit runtime: 68.29387955646962 seconds.
+Job ID: d26qampogaas73cs49i0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.240128822174903
+		Subspace dimension: 45796
+	Subsample 1
+		Energy: -13.240128822174903
+		Subspace dimension: 45796
+	Subsample 2
+		Energy: -13.240128822174903
+		Subspace dimension: 45796
+	Subsample 3
+		Energy: -13.240128822174903
+		Subspace dimension: 45796
+	Subsample 4
+		Energy: -13.240128822174903
+		Subspace dimension: 45796
+Iteration 2
+	Subsample 0
+		Energy: -13.290171001454633
+		Subspace dimension: 3545689
+	Subsample 1
+		Energy: -13.290181517911018
+		Subspace dimension: 3345241
+	Subsample 2
+		Energy: -13.29022373768865
+		Subspace dimension: 3549456
+	Subsample 3
+		Energy: -13.28904434399943
+		Subspace dimension: 3334276
+	Subsample 4
+		Energy: -13.290318896996084
+		Subspace dimension: 3508129
+Iteration 3
+	Subsample 0
+		Energy: -13.290400840291591
+		Subspace dimension: 3556996
+	Subsample 1
+		Energy: -13.290403441972607
+		Subspace dimension: 3575881
+	Subsample 2
+		Energy: -13.290376957724728
+		Subspace dimension: 3594816
+	Subsample 3
+		Energy: -13.290398208967227
+		Subspace dimension: 3549456
+	Subsample 4
+		Energy: -13.290404437392
+		Subspace dimension: 3594816
+Iteration 4
+	Subsample 0
+		Energy: -13.290402543716848
+		Subspace dimension: 3508129
+	Subsample 1
+		Energy: -13.290404433898278
+		Subspace dimension: 3640464
+	Subsample 2
+		Energy: -13.29040293969545
+		Subspace dimension: 3694084
+	Subsample 3
+		Energy: -13.290404768852989
+		Subspace dimension: 3644281
+	Subsample 4
+		Energy: -13.29040438348239
+		Subspace dimension: 3659569
+Iteration 5
+	Subsample 0
+		Energy: -13.290406271195438
+		Subspace dimension: 3560769
+	Subsample 1
+		Energy: -13.290403471085428
+		Subspace dimension: 3671056
+	Subsample 2
+		Energy: -13.290406819369032
+		Subspace dimension: 3655744
+	Subsample 3
+		Energy: -13.290405225713378
+		Subspace dimension: 3556996
+	Subsample 4
+		Energy: -13.29040019679708
+		Subspace dimension: 3740356
+solve_fermion loop runtime: 2961.908151597716 seconds.
+SQD wavefunction amplitudes size: 3655744
+% of FCI space: 24.333705020762313
+SQD fragment ground state energy: -13.290406819369032
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2124879640769
+E(CCSD) = -13.30504653331125  E_corr = -0.09255856923439908
+Gate counts: OrderedDict({'sx': 3966, 'rz': 3917, 'cz': 1646, 'x': 386, 'measure': 38, 'barrier': 1})
+Circuit depth: 494
+Running circuit...
+Circuit runtime: 44.07439878024161 seconds.
+Job ID: d26r2njoctts738ijhog
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.23184514654961
+		Subspace dimension: 52900
+	Subsample 1
+		Energy: -13.23184514654961
+		Subspace dimension: 52900
+	Subsample 2
+		Energy: -13.23184514654961
+		Subspace dimension: 52900
+	Subsample 3
+		Energy: -13.23184514654961
+		Subspace dimension: 52900
+	Subsample 4
+		Energy: -13.23184514654961
+		Subspace dimension: 52900
+Iteration 2
+	Subsample 0
+		Energy: -13.307629982844478
+		Subspace dimension: 3474496
+	Subsample 1
+		Energy: -13.30744023588012
+		Subspace dimension: 3545689
+	Subsample 2
+		Energy: -13.307819875794166
+		Subspace dimension: 3530641
+	Subsample 3
+		Energy: -13.306815568526778
+		Subspace dimension: 3341584
+	Subsample 4
+		Energy: -13.307300753679936
+		Subspace dimension: 3452164
+Iteration 3
+	Subsample 0
+		Energy: -13.308098594059357
+		Subspace dimension: 3568321
+	Subsample 1
+		Energy: -13.308014984753108
+		Subspace dimension: 3640464
+	Subsample 2
+		Energy: -13.308098080936734
+		Subspace dimension: 3640464
+	Subsample 3
+		Energy: -13.308090410315263
+		Subspace dimension: 3655744
+	Subsample 4
+		Energy: -13.30805834812582
+		Subspace dimension: 3713329
+Iteration 4
+	Subsample 0
+		Energy: -13.308109443876134
+		Subspace dimension: 3671056
+	Subsample 1
+		Energy: -13.308107710752617
+		Subspace dimension: 3724900
+	Subsample 2
+		Energy: -13.308107746590945
+		Subspace dimension: 3572100
+	Subsample 3
+		Energy: -13.308113475840484
+		Subspace dimension: 3740356
+	Subsample 4
+		Energy: -13.308105770144412
+		Subspace dimension: 3541924
+Iteration 5
+	Subsample 0
+		Energy: -13.308110384881436
+		Subspace dimension: 3508129
+	Subsample 1
+		Energy: -13.308112569854776
+		Subspace dimension: 3845521
+	Subsample 2
+		Energy: -13.308111941372639
+		Subspace dimension: 3841600
+	Subsample 3
+		Energy: -13.30810728325089
+		Subspace dimension: 3659569
+	Subsample 4
+		Energy: -13.30811511340978
+		Subspace dimension: 3598609
+solve_fermion loop runtime: 4922.158330067061 seconds.
+SQD wavefunction amplitudes size: 3598609
+% of FCI space: 23.953397691703916
+SQD fragment ground state energy: -13.30811511340978
+
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2933824275137
+E(CCSD) = -13.35130200547431  E_corr = -0.05791957796064303
+Gate counts: OrderedDict({'sx': 3894, 'rz': 3849, 'cz': 1638, 'x': 388, 'measure': 38, 'barrier': 1})
+Circuit depth: 495
+Running circuit...
+Circuit runtime: 1404.6680735386908 seconds.
+Job ID: d26s9r856fsc73e5aojg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.301071988742175
+		Subspace dimension: 29241
+	Subsample 1
+		Energy: -13.301071988742175
+		Subspace dimension: 29241
+	Subsample 2
+		Energy: -13.301071988742175
+		Subspace dimension: 29241
+	Subsample 3
+		Energy: -13.301071988742175
+		Subspace dimension: 29241
+	Subsample 4
+		Energy: -13.301071988742175
+		Subspace dimension: 29241
+Iteration 2
+	Subsample 0
+		Energy: -13.351852818268913
+		Subspace dimension: 3594816
+	Subsample 1
+		Energy: -13.352037611834977
+		Subspace dimension: 3629025
+	Subsample 2
+		Energy: -13.351926847511308
+		Subspace dimension: 3648100
+	Subsample 3
+		Energy: -13.351859734544627
+		Subspace dimension: 3606201
+	Subsample 4
+		Energy: -13.351265423585035
+		Subspace dimension: 3644281
+Iteration 3
+	Subsample 0
+		Energy: -13.352147031346789
+		Subspace dimension: 3822025
+	Subsample 1
+		Energy: -13.352140311498042
+		Subspace dimension: 3748096
+	Subsample 2
+		Energy: -13.352149947975962
+		Subspace dimension: 3636649
+	Subsample 3
+		Energy: -13.352132457592704
+		Subspace dimension: 3786916
+	Subsample 4
+		Energy: -13.352143734952955
+		Subspace dimension: 3976036
+Iteration 4
+	Subsample 0
+		Energy: -13.35215394886738
+		Subspace dimension: 3865156
+	Subsample 1
+		Energy: -13.352154899432643
+		Subspace dimension: 3810304
+	Subsample 2
+		Energy: -13.352151891461812
+		Subspace dimension: 3916441
+	Subsample 3
+		Energy: -13.352154529153614
+		Subspace dimension: 3900625
+	Subsample 4
+		Energy: -13.352153260484219
+		Subspace dimension: 3880900
+Iteration 5
+	Subsample 0
+		Energy: -13.352151892918876
+		Subspace dimension: 3671056
+	Subsample 1
+		Energy: -13.352157194344304
+		Subspace dimension: 3952144
+	Subsample 2
+		Energy: -13.352157624713504
+		Subspace dimension: 3802500
+	Subsample 3
+		Energy: -13.35215385061492
+		Subspace dimension: 3837681
+	Subsample 4
+		Energy: -13.352154942016469
+		Subspace dimension: 3779136
+solve_fermion loop runtime: 2883.286613110453 seconds.
+SQD wavefunction amplitudes size: 3802500
+% of FCI space: 25.310556029483656
+SQD fragment ground state energy: -13.352157624713504
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2917883275018
+E(CCSD) = -13.36491729850351  E_corr = -0.07312897100174354
+Gate counts: OrderedDict({'sx': 3934, 'rz': 3912, 'cz': 1652, 'x': 388, 'measure': 38, 'barrier': 1})
+Circuit depth: 493
+Running circuit...
+Circuit runtime: 40.538568750955164 seconds.
+Job ID: d26tbm9ogaas73cs7fkg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.322429543063944
+		Subspace dimension: 60025
+	Subsample 1
+		Energy: -13.322429543063944
+		Subspace dimension: 60025
+	Subsample 2
+		Energy: -13.322429543063944
+		Subspace dimension: 60025
+	Subsample 3
+		Energy: -13.322429543063944
+		Subspace dimension: 60025
+	Subsample 4
+		Energy: -13.322429543063944
+		Subspace dimension: 60025
+Iteration 2
+	Subsample 0
+		Energy: -13.36594584341869
+		Subspace dimension: 3591025
+	Subsample 1
+		Energy: -13.365786325375117
+		Subspace dimension: 3526884
+	Subsample 2
+		Energy: -13.365855861102109
+		Subspace dimension: 3538161
+	Subsample 3
+		Energy: -13.365929309086702
+		Subspace dimension: 3444736
+	Subsample 4
+		Energy: -13.365829026571827
+		Subspace dimension: 3319684
+Iteration 3
+	Subsample 0
+		Energy: -13.366029211354611
+		Subspace dimension: 3621409
+	Subsample 1
+		Energy: -13.36605247663522
+		Subspace dimension: 3526884
+	Subsample 2
+		Energy: -13.366040855038358
+		Subspace dimension: 3441025
+	Subsample 3
+		Energy: -13.366032601546536
+		Subspace dimension: 3337929
+	Subsample 4
+		Energy: -13.366041134614594
+		Subspace dimension: 3485689
+Iteration 4
+	Subsample 0
+		Energy: -13.36605635748292
+		Subspace dimension: 3463321
+	Subsample 1
+		Energy: -13.366052045450155
+		Subspace dimension: 3363556
+	Subsample 2
+		Energy: -13.36605528805836
+		Subspace dimension: 3448449
+	Subsample 3
+		Energy: -13.366052871767632
+		Subspace dimension: 3538161
+	Subsample 4
+		Energy: -13.366056640595996
+		Subspace dimension: 3448449
+Iteration 5
+	Subsample 0
+		Energy: -13.366058035181466
+		Subspace dimension: 3659569
+	Subsample 1
+		Energy: -13.366056792845143
+		Subspace dimension: 3418801
+	Subsample 2
+		Energy: -13.366057577745558
+		Subspace dimension: 3534400
+	Subsample 3
+		Energy: -13.366057769905188
+		Subspace dimension: 3790809
+	Subsample 4
+		Energy: -13.366052742788346
+		Subspace dimension: 3591025
+solve_fermion loop runtime: 2911.6550160348415 seconds.
+SQD wavefunction amplitudes size: 3659569
+% of FCI space: 24.35916534339552
+SQD fragment ground state energy: -13.366058035181466
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.293381767032
+E(CCSD) = -13.35130125640537  E_corr = -0.05791948937336346
+Gate counts: OrderedDict({'rz': 3815, 'sx': 3802, 'cz': 1638, 'x': 416, 'measure': 38, 'barrier': 1})
+Circuit depth: 484
+Running circuit...
+Circuit runtime: 951.4952692864463 seconds.
+Job ID: d26u33056fsc73e5clo0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.30234729882233
+		Subspace dimension: 51076
+	Subsample 1
+		Energy: -13.30234729882233
+		Subspace dimension: 51076
+	Subsample 2
+		Energy: -13.30234729882233
+		Subspace dimension: 51076
+	Subsample 3
+		Energy: -13.30234729882233
+		Subspace dimension: 51076
+	Subsample 4
+		Energy: -13.30234729882233
+		Subspace dimension: 51076
+Iteration 2
+	Subsample 0
+		Energy: -13.351947828641254
+		Subspace dimension: 3378244
+	Subsample 1
+		Energy: -13.35187277271687
+		Subspace dimension: 3519376
+	Subsample 2
+		Energy: -13.352055314008178
+		Subspace dimension: 3378244
+	Subsample 3
+		Energy: -13.351943003132218
+		Subspace dimension: 3348900
+	Subsample 4
+		Energy: -13.352072370044262
+		Subspace dimension: 3545689
+Iteration 3
+	Subsample 0
+		Energy: -13.35214732642363
+		Subspace dimension: 3629025
+	Subsample 1
+		Energy: -13.3521513953596
+		Subspace dimension: 3496900
+	Subsample 2
+		Energy: -13.352150089498966
+		Subspace dimension: 3526884
+	Subsample 3
+		Energy: -13.352147109383834
+		Subspace dimension: 3610000
+	Subsample 4
+		Energy: -13.352152811163304
+		Subspace dimension: 3648100
+Iteration 4
+	Subsample 0
+		Energy: -13.35215269723103
+		Subspace dimension: 3736489
+	Subsample 1
+		Energy: -13.352152092750526
+		Subspace dimension: 3671056
+	Subsample 2
+		Energy: -13.352156010985214
+		Subspace dimension: 3724900
+	Subsample 3
+		Energy: -13.352154277668966
+		Subspace dimension: 3579664
+	Subsample 4
+		Energy: -13.352156901023456
+		Subspace dimension: 3678724
+Iteration 5
+	Subsample 0
+		Energy: -13.352155730456962
+		Subspace dimension: 3625216
+	Subsample 1
+		Energy: -13.352156110285629
+		Subspace dimension: 3556996
+	Subsample 2
+		Energy: -13.35215635106996
+		Subspace dimension: 3686400
+	Subsample 3
+		Energy: -13.352154171428257
+		Subspace dimension: 3448449
+	Subsample 4
+		Energy: -13.352157878085404
+		Subspace dimension: 3721041
+solve_fermion loop runtime: 2745.2356047211215 seconds.
+SQD wavefunction amplitudes size: 3721041
+% of FCI space: 24.768341017358548
+SQD fragment ground state energy: -13.352157878085404
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2917910398822
+E(CCSD) = -13.36492086755644  E_corr = -0.07312982767426396
+Gate counts: OrderedDict({'sx': 3998, 'rz': 3913, 'cz': 1642, 'x': 360, 'measure': 38, 'barrier': 1})
+Circuit depth: 502
+Running circuit...
+Circuit runtime: 39.58464295975864 seconds.
+Job ID: d26v0a929u8s73f7mh8g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.316991747093478
+		Subspace dimension: 59536
+	Subsample 1
+		Energy: -13.316991747093478
+		Subspace dimension: 59536
+	Subsample 2
+		Energy: -13.316991747093478
+		Subspace dimension: 59536
+	Subsample 3
+		Energy: -13.316991747093478
+		Subspace dimension: 59536
+	Subsample 4
+		Energy: -13.316991747093478
+		Subspace dimension: 59536
+Iteration 2
+	Subsample 0
+		Energy: -13.365905841935811
+		Subspace dimension: 3474496
+	Subsample 1
+		Energy: -13.365923190720089
+		Subspace dimension: 3459600
+	Subsample 2
+		Energy: -13.365805180147005
+		Subspace dimension: 3493161
+	Subsample 3
+		Energy: -13.365862478708491
+		Subspace dimension: 3721041
+	Subsample 4
+		Energy: -13.365926434823628
+		Subspace dimension: 3526884
+Iteration 3
+	Subsample 0
+		Energy: -13.366049556076314
+		Subspace dimension: 3455881
+	Subsample 1
+		Energy: -13.366056754076254
+		Subspace dimension: 3485689
+	Subsample 2
+		Energy: -13.366056756016686
+		Subspace dimension: 3474496
+	Subsample 3
+		Energy: -13.366026353528234
+		Subspace dimension: 3538161
+	Subsample 4
+		Energy: -13.366044619673026
+		Subspace dimension: 3504384
+Iteration 4
+	Subsample 0
+		Energy: -13.36605794380615
+		Subspace dimension: 3632836
+	Subsample 1
+		Energy: -13.366055288227097
+		Subspace dimension: 3678724
+	Subsample 2
+		Energy: -13.366062317805806
+		Subspace dimension: 3659569
+	Subsample 3
+		Energy: -13.366060561974368
+		Subspace dimension: 3541924
+	Subsample 4
+		Energy: -13.366061691557304
+		Subspace dimension: 3632836
+Iteration 5
+	Subsample 0
+		Energy: -13.366061117448382
+		Subspace dimension: 3629025
+	Subsample 1
+		Energy: -13.366061060574207
+		Subspace dimension: 3534400
+	Subsample 2
+		Energy: -13.36606052082914
+		Subspace dimension: 3441025
+	Subsample 3
+		Energy: -13.366059679850661
+		Subspace dimension: 3493161
+	Subsample 4
+		Energy: -13.366058930270626
+		Subspace dimension: 3489424
+solve_fermion loop runtime: 2940.1802497459576 seconds.
+SQD wavefunction amplitudes size: 3659569
+% of FCI space: 24.35916534339552
+SQD fragment ground state energy: -13.366062317805806
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2933810399374
+E(CCSD) = -13.35130058207644  E_corr = -0.05791954213904169
+Gate counts: OrderedDict({'sx': 3846, 'rz': 3791, 'cz': 1638, 'x': 385, 'measure': 38, 'barrier': 1})
+Circuit depth: 483
+Running circuit...
+Circuit runtime: 44.868461581878364 seconds.
+Job ID: d26vntroctts738iois0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.305999224511384
+		Subspace dimension: 72900
+	Subsample 1
+		Energy: -13.305999224511384
+		Subspace dimension: 72900
+	Subsample 2
+		Energy: -13.305999224511384
+		Subspace dimension: 72900
+	Subsample 3
+		Energy: -13.305999224511384
+		Subspace dimension: 72900
+	Subsample 4
+		Energy: -13.305999224511384
+		Subspace dimension: 72900
+Iteration 2
+	Subsample 0
+		Energy: -13.352064054765522
+		Subspace dimension: 3526884
+	Subsample 1
+		Energy: -13.351932581171006
+		Subspace dimension: 3478225
+	Subsample 2
+		Energy: -13.351997657914913
+		Subspace dimension: 3381921
+	Subsample 3
+		Energy: -13.351786871252859
+		Subspace dimension: 3448449
+	Subsample 4
+		Energy: -13.352052407652899
+		Subspace dimension: 3200521
+Iteration 3
+	Subsample 0
+		Energy: -13.352134940128984
+		Subspace dimension: 3636649
+	Subsample 1
+		Energy: -13.352135344471899
+		Subspace dimension: 3632836
+	Subsample 2
+		Energy: -13.352116185930631
+		Subspace dimension: 3541924
+	Subsample 3
+		Energy: -13.352149586710972
+		Subspace dimension: 3606201
+	Subsample 4
+		Energy: -13.352150793462744
+		Subspace dimension: 3575881
+Iteration 4
+	Subsample 0
+		Energy: -13.3521533071285
+		Subspace dimension: 3583449
+	Subsample 1
+		Energy: -13.352152683795154
+		Subspace dimension: 3530641
+	Subsample 2
+		Energy: -13.352155118050364
+		Subspace dimension: 3640464
+	Subsample 3
+		Energy: -13.352156483111496
+		Subspace dimension: 3508129
+	Subsample 4
+		Energy: -13.352154476551027
+		Subspace dimension: 3694084
+Iteration 5
+	Subsample 0
+		Energy: -13.352154473563374
+		Subspace dimension: 3541924
+	Subsample 1
+		Energy: -13.352151713850072
+		Subspace dimension: 3594816
+	Subsample 2
+		Energy: -13.352152877551498
+		Subspace dimension: 3579664
+	Subsample 3
+		Energy: -13.3521532042783
+		Subspace dimension: 3553225
+	Subsample 4
+		Energy: -13.352157744908611
+		Subspace dimension: 3613801
+solve_fermion loop runtime: 2725.9427485838532 seconds.
+SQD wavefunction amplitudes size: 3613801
+% of FCI space: 24.05452010253887
+SQD fragment ground state energy: -13.352157744908611
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2917910749927
+E(CCSD) = -13.3649200230826  E_corr = -0.07312894808993833
+Gate counts: OrderedDict({'sx': 4026, 'rz': 3945, 'cz': 1642, 'x': 356, 'measure': 38, 'barrier': 1})
+Circuit depth: 508
+Running circuit...
+Circuit runtime: 45.05558838322759 seconds.
+Job ID: d270dt929u8s73f7o2cg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.316083098521833
+		Subspace dimension: 38025
+	Subsample 1
+		Energy: -13.316083098521833
+		Subspace dimension: 38025
+	Subsample 2
+		Energy: -13.316083098521833
+		Subspace dimension: 38025
+	Subsample 3
+		Energy: -13.316083098521833
+		Subspace dimension: 38025
+	Subsample 4
+		Energy: -13.316083098521833
+		Subspace dimension: 38025
+Iteration 2
+	Subsample 0
+		Energy: -13.365925208300082
+		Subspace dimension: 3455881
+	Subsample 1
+		Energy: -13.365972438207228
+		Subspace dimension: 3564544
+	Subsample 2
+		Energy: -13.365906154610535
+		Subspace dimension: 3530641
+	Subsample 3
+		Energy: -13.365965274139704
+		Subspace dimension: 3367225
+	Subsample 4
+		Energy: -13.365811279885696
+		Subspace dimension: 3326976
+Iteration 3
+	Subsample 0
+		Energy: -13.36605572326307
+		Subspace dimension: 3651921
+	Subsample 1
+		Energy: -13.36605167396002
+		Subspace dimension: 3534400
+	Subsample 2
+		Energy: -13.366049313263689
+		Subspace dimension: 3598609
+	Subsample 3
+		Energy: -13.366048623057187
+		Subspace dimension: 3441025
+	Subsample 4
+		Energy: -13.366055159657622
+		Subspace dimension: 3625216
+Iteration 4
+	Subsample 0
+		Energy: -13.366058472072753
+		Subspace dimension: 3598609
+	Subsample 1
+		Energy: -13.366057154713053
+		Subspace dimension: 3470769
+	Subsample 2
+		Energy: -13.366054504574041
+		Subspace dimension: 3467044
+	Subsample 3
+		Energy: -13.366057908412712
+		Subspace dimension: 3583449
+	Subsample 4
+		Energy: -13.36606094250015
+		Subspace dimension: 3560769
+Iteration 5
+	Subsample 0
+		Energy: -13.366055989791416
+		Subspace dimension: 3444736
+	Subsample 1
+		Energy: -13.366053431343238
+		Subspace dimension: 3564544
+	Subsample 2
+		Energy: -13.36606001640627
+		Subspace dimension: 3671056
+	Subsample 3
+		Energy: -13.366058400846269
+		Subspace dimension: 3694084
+	Subsample 4
+		Energy: -13.366056497157563
+		Subspace dimension: 3478225
+solve_fermion loop runtime: 2924.4095853576437 seconds.
+SQD wavefunction amplitudes size: 3560769
+% of FCI space: 23.701523545706372
+SQD fragment ground state energy: -13.36606094250015
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2933818361821
+E(CCSD) = -13.35130164118608  E_corr = -0.05791980500402424
+Gate counts: OrderedDict({'rz': 3810, 'sx': 3798, 'cz': 1638, 'x': 417, 'measure': 38, 'barrier': 1})
+Circuit depth: 489
+Running circuit...
+Circuit runtime: 44.51845032721758 seconds.
+Job ID: d2715ep29u8s73f7oq90
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.314324277727668
+		Subspace dimension: 107584
+	Subsample 1
+		Energy: -13.314324277727668
+		Subspace dimension: 107584
+	Subsample 2
+		Energy: -13.314324277727668
+		Subspace dimension: 107584
+	Subsample 3
+		Energy: -13.314324277727668
+		Subspace dimension: 107584
+	Subsample 4
+		Energy: -13.314324277727668
+		Subspace dimension: 107584
+Iteration 2
+	Subsample 0
+		Energy: -13.352046948955886
+		Subspace dimension: 3286969
+	Subsample 1
+		Energy: -13.352048524394968
+		Subspace dimension: 3193369
+	Subsample 2
+		Energy: -13.352027696618286
+		Subspace dimension: 3323329
+	Subsample 3
+		Energy: -13.351437168762176
+		Subspace dimension: 3316041
+	Subsample 4
+		Energy: -13.351847221007553
+		Subspace dimension: 3341584
+Iteration 3
+	Subsample 0
+		Energy: -13.352146693340302
+		Subspace dimension: 3352561
+	Subsample 1
+		Energy: -13.352153385058937
+		Subspace dimension: 3459600
+	Subsample 2
+		Energy: -13.352148321723172
+		Subspace dimension: 3345241
+	Subsample 3
+		Energy: -13.352139640539564
+		Subspace dimension: 3378244
+	Subsample 4
+		Energy: -13.352155948776195
+		Subspace dimension: 3411409
+Iteration 4
+	Subsample 0
+		Energy: -13.352158004326721
+		Subspace dimension: 3400336
+	Subsample 1
+		Energy: -13.352156859259393
+		Subspace dimension: 3470769
+	Subsample 2
+		Energy: -13.352157263643647
+		Subspace dimension: 3572100
+	Subsample 3
+		Energy: -13.352157904997364
+		Subspace dimension: 3459600
+	Subsample 4
+		Energy: -13.352157077085339
+		Subspace dimension: 3370896
+Iteration 5
+	Subsample 0
+		Energy: -13.352157919993553
+		Subspace dimension: 3572100
+	Subsample 1
+		Energy: -13.352159420810478
+		Subspace dimension: 3359889
+	Subsample 2
+		Energy: -13.352158466602905
+		Subspace dimension: 3459600
+	Subsample 3
+		Energy: -13.352158634985244
+		Subspace dimension: 3478225
+	Subsample 4
+		Energy: -13.35215670066158
+		Subspace dimension: 3538161
+solve_fermion loop runtime: 2636.330639246851 seconds.
+SQD wavefunction amplitudes size: 3359889
+% of FCI space: 22.364407307651756
+SQD fragment ground state energy: -13.352159420810478
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2917869580266
+E(CCSD) = -13.36491621536201  E_corr = -0.07312925733542466
+Gate counts: OrderedDict({'sx': 4017, 'rz': 3962, 'cz': 1648, 'x': 380, 'measure': 38, 'barrier': 1})
+Circuit depth: 497
+Running circuit...
+Circuit runtime: 40.40723747108132 seconds.
+Job ID: d271qmo56fsc73e5gi8g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.320809429433899
+		Subspace dimension: 56644
+	Subsample 1
+		Energy: -13.320809429433899
+		Subspace dimension: 56644
+	Subsample 2
+		Energy: -13.320809429433899
+		Subspace dimension: 56644
+	Subsample 3
+		Energy: -13.320809429433899
+		Subspace dimension: 56644
+	Subsample 4
+		Energy: -13.320809429433899
+		Subspace dimension: 56644
+Iteration 2
+	Subsample 0
+		Energy: -13.36574280043417
+		Subspace dimension: 3392964
+	Subsample 1
+		Energy: -13.365803587529488
+		Subspace dimension: 3389281
+	Subsample 2
+		Energy: -13.365967888211955
+		Subspace dimension: 3363556
+	Subsample 3
+		Energy: -13.365731450736002
+		Subspace dimension: 3222025
+	Subsample 4
+		Energy: -13.365737820661518
+		Subspace dimension: 3541924
+Iteration 3
+	Subsample 0
+		Energy: -13.36604675298915
+		Subspace dimension: 3575881
+	Subsample 1
+		Energy: -13.366043975474923
+		Subspace dimension: 3591025
+	Subsample 2
+		Energy: -13.36604834163141
+		Subspace dimension: 3478225
+	Subsample 3
+		Energy: -13.366049951237374
+		Subspace dimension: 3545689
+	Subsample 4
+		Energy: -13.366031722953847
+		Subspace dimension: 3674889
+Iteration 4
+	Subsample 0
+		Energy: -13.366057512992056
+		Subspace dimension: 3736489
+	Subsample 1
+		Energy: -13.366052288134384
+		Subspace dimension: 3587236
+	Subsample 2
+		Energy: -13.366051290116738
+		Subspace dimension: 3455881
+	Subsample 3
+		Energy: -13.366051680079996
+		Subspace dimension: 3575881
+	Subsample 4
+		Energy: -13.36605428083262
+		Subspace dimension: 3617604
+Iteration 5
+	Subsample 0
+		Energy: -13.366054380357436
+		Subspace dimension: 3783025
+	Subsample 1
+		Energy: -13.366053760357488
+		Subspace dimension: 3648100
+	Subsample 2
+		Energy: -13.366054752066464
+		Subspace dimension: 3579664
+	Subsample 3
+		Energy: -13.366053954758257
+		Subspace dimension: 3485689
+	Subsample 4
+		Energy: -13.366058275278379
+		Subspace dimension: 3587236
+solve_fermion loop runtime: 2939.1284486055374 seconds.
+SQD wavefunction amplitudes size: 3587236
+% of FCI space: 23.877695665741175
+SQD fragment ground state energy: -13.366058275278379
+
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   3.5867e-03
+Cumulative energy      :   -4.364802099058355
+
+-- In iter  1
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2301952799708
+E(CCSD) = -13.28967826517314  E_corr = -0.0594829852023266
+Gate counts: OrderedDict({'sx': 3848, 'rz': 3840, 'cz': 1630, 'x': 380, 'measure': 38, 'barrier': 1})
+Circuit depth: 478
+Running circuit...
+Circuit runtime: 39.50683875195682 seconds.
+Job ID: d272ia056fsc73e5hbsg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.245020237380537
+		Subspace dimension: 84100
+	Subsample 1
+		Energy: -13.245020237380537
+		Subspace dimension: 84100
+	Subsample 2
+		Energy: -13.245020237380537
+		Subspace dimension: 84100
+	Subsample 3
+		Energy: -13.245020237380537
+		Subspace dimension: 84100
+	Subsample 4
+		Energy: -13.245020237380537
+		Subspace dimension: 84100
+Iteration 2
+	Subsample 0
+		Energy: -13.29058643660065
+		Subspace dimension: 3433609
+	Subsample 1
+		Energy: -13.290375076896074
+		Subspace dimension: 3415104
+	Subsample 2
+		Energy: -13.290466459785891
+		Subspace dimension: 3345241
+	Subsample 3
+		Energy: -13.289745140867815
+		Subspace dimension: 3530641
+	Subsample 4
+		Energy: -13.290397329744607
+		Subspace dimension: 3389281
+Iteration 3
+	Subsample 0
+		Energy: -13.290636383879505
+		Subspace dimension: 3587236
+	Subsample 1
+		Energy: -13.290658422266254
+		Subspace dimension: 3545689
+	Subsample 2
+		Energy: -13.290650892240349
+		Subspace dimension: 3579664
+	Subsample 3
+		Energy: -13.290660746198784
+		Subspace dimension: 3276100
+	Subsample 4
+		Energy: -13.290654380264119
+		Subspace dimension: 3470769
+Iteration 4
+	Subsample 0
+		Energy: -13.290663632117354
+		Subspace dimension: 3455881
+	Subsample 1
+		Energy: -13.290660462985057
+		Subspace dimension: 3485689
+	Subsample 2
+		Energy: -13.290661699102513
+		Subspace dimension: 3444736
+	Subsample 3
+		Energy: -13.290660840279923
+		Subspace dimension: 3579664
+	Subsample 4
+		Energy: -13.29066400876251
+		Subspace dimension: 3568321
+Iteration 5
+	Subsample 0
+		Energy: -13.290660224633942
+		Subspace dimension: 3374569
+	Subsample 1
+		Energy: -13.290660950084993
+		Subspace dimension: 3437316
+	Subsample 2
+		Energy: -13.290664408777676
+		Subspace dimension: 3526884
+	Subsample 3
+		Energy: -13.290664634567186
+		Subspace dimension: 3467044
+	Subsample 4
+		Energy: -13.290661261985319
+		Subspace dimension: 3441025
+solve_fermion loop runtime: 2672.965594037436 seconds.
+SQD wavefunction amplitudes size: 3467044
+% of FCI space: 23.07766243752403
+SQD fragment ground state energy: -13.290664634567186
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.206999559967
+E(CCSD) = -13.27866096093513  E_corr = -0.07166140096810956
+Gate counts: OrderedDict({'sx': 4007, 'rz': 3974, 'cz': 1646, 'x': 381, 'measure': 38, 'barrier': 1})
+Circuit depth: 494
+Running circuit...
+Circuit runtime: 49.31300548836589 seconds.
+Job ID: d2737q056fsc73e5i4ng
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.219053814077126
+		Subspace dimension: 54289
+	Subsample 1
+		Energy: -13.219053814077126
+		Subspace dimension: 54289
+	Subsample 2
+		Energy: -13.219053814077126
+		Subspace dimension: 54289
+	Subsample 3
+		Energy: -13.219053814077126
+		Subspace dimension: 54289
+	Subsample 4
+		Energy: -13.219053814077126
+		Subspace dimension: 54289
+Iteration 2
+	Subsample 0
+		Energy: -13.279481447931907
+		Subspace dimension: 3538161
+	Subsample 1
+		Energy: -13.279671487043265
+		Subspace dimension: 3392964
+	Subsample 2
+		Energy: -13.279429267270762
+		Subspace dimension: 3474496
+	Subsample 3
+		Energy: -13.27933846036648
+		Subspace dimension: 3474496
+	Subsample 4
+		Energy: -13.27945117796656
+		Subspace dimension: 3560769
+Iteration 3
+	Subsample 0
+		Energy: -13.279715398906264
+		Subspace dimension: 3636649
+	Subsample 1
+		Energy: -13.279745864294414
+		Subspace dimension: 3452164
+	Subsample 2
+		Energy: -13.279711028694724
+		Subspace dimension: 3530641
+	Subsample 3
+		Energy: -13.279743301851312
+		Subspace dimension: 3629025
+	Subsample 4
+		Energy: -13.279739840772251
+		Subspace dimension: 3736489
+Iteration 4
+	Subsample 0
+		Energy: -13.279751146647623
+		Subspace dimension: 3744225
+	Subsample 1
+		Energy: -13.27974667972805
+		Subspace dimension: 3549456
+	Subsample 2
+		Energy: -13.27974905378092
+		Subspace dimension: 3575881
+	Subsample 3
+		Energy: -13.279747984433094
+		Subspace dimension: 3629025
+	Subsample 4
+		Energy: -13.279749555346323
+		Subspace dimension: 3504384
+Iteration 5
+	Subsample 0
+		Energy: -13.279751137300378
+		Subspace dimension: 3617604
+	Subsample 1
+		Energy: -13.279750116962386
+		Subspace dimension: 3467044
+	Subsample 2
+		Energy: -13.279750341076765
+		Subspace dimension: 3575881
+	Subsample 3
+		Energy: -13.279753401880026
+		Subspace dimension: 3575881
+	Subsample 4
+		Energy: -13.279756445974428
+		Subspace dimension: 3667225
+solve_fermion loop runtime: 2953.2905074646696 seconds.
+SQD wavefunction amplitudes size: 3667225
+% of FCI space: 24.41012592642293
+SQD fragment ground state energy: -13.279756445974428
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2301761535615
+E(CCSD) = -13.28965734260598  E_corr = -0.05948118904446825
+Gate counts: OrderedDict({'sx': 3938, 'rz': 3905, 'cz': 1642, 'x': 389, 'measure': 38, 'barrier': 1})
+Circuit depth: 489
+Running circuit...
+Circuit runtime: 39.36496267840266 seconds.
+Job ID: d273vj856fsc73e5itdg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.247186874951705
+		Subspace dimension: 56644
+	Subsample 1
+		Energy: -13.247186874951705
+		Subspace dimension: 56644
+	Subsample 2
+		Energy: -13.247186874951705
+		Subspace dimension: 56644
+	Subsample 3
+		Energy: -13.247186874951705
+		Subspace dimension: 56644
+	Subsample 4
+		Energy: -13.247186874951705
+		Subspace dimension: 56644
+Iteration 2
+	Subsample 0
+		Energy: -13.290475251880054
+		Subspace dimension: 3526884
+	Subsample 1
+		Energy: -13.290444481361348
+		Subspace dimension: 3485689
+	Subsample 2
+		Energy: -13.290455524475634
+		Subspace dimension: 3429904
+	Subsample 3
+		Energy: -13.290415598772105
+		Subspace dimension: 3429904
+	Subsample 4
+		Energy: -13.29041913658252
+		Subspace dimension: 3283344
+Iteration 3
+	Subsample 0
+		Energy: -13.290638555525822
+		Subspace dimension: 3396649
+	Subsample 1
+		Energy: -13.290612761117037
+		Subspace dimension: 3489424
+	Subsample 2
+		Energy: -13.29062664537745
+		Subspace dimension: 3444736
+	Subsample 3
+		Energy: -13.290615230523908
+		Subspace dimension: 3481956
+	Subsample 4
+		Energy: -13.290625804736221
+		Subspace dimension: 3530641
+Iteration 4
+	Subsample 0
+		Energy: -13.290640780925209
+		Subspace dimension: 3560769
+	Subsample 1
+		Energy: -13.290641819013127
+		Subspace dimension: 3674889
+	Subsample 2
+		Energy: -13.29063916490577
+		Subspace dimension: 3481956
+	Subsample 3
+		Energy: -13.290639460753908
+		Subspace dimension: 3587236
+	Subsample 4
+		Energy: -13.290643402869746
+		Subspace dimension: 3489424
+Iteration 5
+	Subsample 0
+		Energy: -13.290644357616298
+		Subspace dimension: 3572100
+	Subsample 1
+		Energy: -13.29064421723297
+		Subspace dimension: 3441025
+	Subsample 2
+		Energy: -13.290644296560071
+		Subspace dimension: 3697929
+	Subsample 3
+		Energy: -13.29064431896543
+		Subspace dimension: 3583449
+	Subsample 4
+		Energy: -13.290642883520157
+		Subspace dimension: 3485689
+solve_fermion loop runtime: 2695.3135634185746 seconds.
+SQD wavefunction amplitudes size: 3572100
+% of FCI space: 23.776946007342158
+SQD fragment ground state energy: -13.290644357616298
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2069716006179
+E(CCSD) = -13.27861329178672  E_corr = -0.07164169116885641
+Gate counts: OrderedDict({'sx': 4054, 'rz': 3974, 'cz': 1646, 'x': 364, 'measure': 38, 'barrier': 1})
+Circuit depth: 498
+Running circuit...
+Circuit runtime: 10294.331277968362 seconds.
+Job ID: d274l9pogaas73csfajg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.230345303295334
+		Subspace dimension: 96100
+	Subsample 1
+		Energy: -13.230345303295334
+		Subspace dimension: 96100
+	Subsample 2
+		Energy: -13.230345303295334
+		Subspace dimension: 96100
+	Subsample 3
+		Energy: -13.230345303295334
+		Subspace dimension: 96100
+	Subsample 4
+		Energy: -13.230345303295334
+		Subspace dimension: 96100
+Iteration 2
+	Subsample 0
+		Energy: -13.279458376869753
+		Subspace dimension: 3508129
+	Subsample 1
+		Energy: -13.279442947800389
+		Subspace dimension: 3523129
+	Subsample 2
+		Energy: -13.279492143571249
+		Subspace dimension: 3508129
+	Subsample 3
+		Energy: -13.279549090625853
+		Subspace dimension: 3489424
+	Subsample 4
+		Energy: -13.279225294173134
+		Subspace dimension: 3493161
+Iteration 3
+	Subsample 0
+		Energy: -13.279694708621404
+		Subspace dimension: 3598609
+	Subsample 1
+		Energy: -13.279689067679547
+		Subspace dimension: 3356224
+	Subsample 2
+		Energy: -13.279689047459518
+		Subspace dimension: 3560769
+	Subsample 3
+		Energy: -13.279700541863422
+		Subspace dimension: 3587236
+	Subsample 4
+		Energy: -13.279673649463744
+		Subspace dimension: 3678724
+Iteration 4
+	Subsample 0
+		Energy: -13.279701826469154
+		Subspace dimension: 3644281
+	Subsample 1
+		Energy: -13.2797025149064
+		Subspace dimension: 3526884
+	Subsample 2
+		Energy: -13.27970792537734
+		Subspace dimension: 3545689
+	Subsample 3
+		Energy: -13.279695976894395
+		Subspace dimension: 3783025
+	Subsample 4
+		Energy: -13.279701897186824
+		Subspace dimension: 3515625
+Iteration 5
+	Subsample 0
+		Energy: -13.27970335507335
+		Subspace dimension: 3598609
+	Subsample 1
+		Energy: -13.279705715704702
+		Subspace dimension: 3598609
+	Subsample 2
+		Energy: -13.279703500883627
+		Subspace dimension: 3678724
+	Subsample 3
+		Energy: -13.279702189500966
+		Subspace dimension: 3602404
+	Subsample 4
+		Energy: -13.279701473931102
+		Subspace dimension: 3455881
+solve_fermion loop runtime: 2966.2606984199956 seconds.
+SQD wavefunction amplitudes size: 3545689
+% of FCI space: 23.60114663974329
+SQD fragment ground state energy: -13.27970792537734
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2302229628612
+E(CCSD) = -13.2896990862404  E_corr = -0.05947612337924965
+Gate counts: OrderedDict({'sx': 3848, 'rz': 3845, 'cz': 1642, 'x': 402, 'measure': 38, 'barrier': 1})
+Circuit depth: 482
+Running circuit...
+Circuit runtime: 35.63783385697752 seconds.
+Job ID: d277t7856fsc73e5n1vg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.248544719772386
+		Subspace dimension: 54756
+	Subsample 1
+		Energy: -13.248544719772386
+		Subspace dimension: 54756
+	Subsample 2
+		Energy: -13.248544719772386
+		Subspace dimension: 54756
+	Subsample 3
+		Energy: -13.248544719772386
+		Subspace dimension: 54756
+	Subsample 4
+		Energy: -13.248544719772386
+		Subspace dimension: 54756
+Iteration 2
+	Subsample 0
+		Energy: -13.290483342699067
+		Subspace dimension: 3632836
+	Subsample 1
+		Energy: -13.29035713262422
+		Subspace dimension: 3515625
+	Subsample 2
+		Energy: -13.290338236237929
+		Subspace dimension: 3606201
+	Subsample 3
+		Energy: -13.290149919294729
+		Subspace dimension: 3541924
+	Subsample 4
+		Energy: -13.290474160787113
+		Subspace dimension: 3515625
+Iteration 3
+	Subsample 0
+		Energy: -13.290630793071218
+		Subspace dimension: 3538161
+	Subsample 1
+		Energy: -13.290680350839585
+		Subspace dimension: 3459600
+	Subsample 2
+		Energy: -13.290677861213329
+		Subspace dimension: 3667225
+	Subsample 3
+		Energy: -13.290661773652985
+		Subspace dimension: 3549456
+	Subsample 4
+		Energy: -13.290668315459653
+		Subspace dimension: 3732624
+Iteration 4
+	Subsample 0
+		Energy: -13.290685088304187
+		Subspace dimension: 3759721
+	Subsample 1
+		Energy: -13.290681030109164
+		Subspace dimension: 3621409
+	Subsample 2
+		Energy: -13.290680771620853
+		Subspace dimension: 3697929
+	Subsample 3
+		Energy: -13.290685970589308
+		Subspace dimension: 3771364
+	Subsample 4
+		Energy: -13.29067823838891
+		Subspace dimension: 3845521
+Iteration 5
+	Subsample 0
+		Energy: -13.290684852304668
+		Subspace dimension: 3671056
+	Subsample 1
+		Energy: -13.290683677070268
+		Subspace dimension: 3663396
+	Subsample 2
+		Energy: -13.290684239054364
+		Subspace dimension: 3568321
+	Subsample 3
+		Energy: -13.290687521374762
+		Subspace dimension: 3694084
+	Subsample 4
+		Energy: -13.290685657883904
+		Subspace dimension: 3644281
+solve_fermion loop runtime: 2786.853691236116 seconds.
+SQD wavefunction amplitudes size: 3694084
+% of FCI space: 24.588907313509296
+SQD fragment ground state energy: -13.290687521374762
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2068886610738
+E(CCSD) = -13.27855752513734  E_corr = -0.07166886406355155
+Gate counts: OrderedDict({'sx': 4020, 'rz': 3940, 'cz': 1650, 'x': 366, 'measure': 38, 'barrier': 1})
+Circuit depth: 505
+Running circuit...
+Circuit runtime: 57.87842797860503 seconds.
+Job ID: d278jjh29u8s73f80n7g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.247653460667188
+		Subspace dimension: 79524
+	Subsample 1
+		Energy: -13.247653460667188
+		Subspace dimension: 79524
+	Subsample 2
+		Energy: -13.247653460667188
+		Subspace dimension: 79524
+	Subsample 3
+		Energy: -13.247653460667188
+		Subspace dimension: 79524
+	Subsample 4
+		Energy: -13.247653460667188
+		Subspace dimension: 79524
+Iteration 2
+	Subsample 0
+		Energy: -13.279325585148042
+		Subspace dimension: 3508129
+	Subsample 1
+		Energy: -13.279488050636093
+		Subspace dimension: 3330625
+	Subsample 2
+		Energy: -13.27946769681723
+		Subspace dimension: 3422500
+	Subsample 3
+		Energy: -13.279423663184417
+		Subspace dimension: 3504384
+	Subsample 4
+		Energy: -13.279504457664773
+		Subspace dimension: 3381921
+Iteration 3
+	Subsample 0
+		Energy: -13.279639235788482
+		Subspace dimension: 3396649
+	Subsample 1
+		Energy: -13.279628049568535
+		Subspace dimension: 3470769
+	Subsample 2
+		Energy: -13.279638977708945
+		Subspace dimension: 3485689
+	Subsample 3
+		Energy: -13.279635174548707
+		Subspace dimension: 3485689
+	Subsample 4
+		Energy: -13.27962256520273
+		Subspace dimension: 3493161
+Iteration 4
+	Subsample 0
+		Energy: -13.279645584313894
+		Subspace dimension: 3359889
+	Subsample 1
+		Energy: -13.279642167045468
+		Subspace dimension: 3591025
+	Subsample 2
+		Energy: -13.279648888371634
+		Subspace dimension: 3659569
+	Subsample 3
+		Energy: -13.279646573208224
+		Subspace dimension: 3651921
+	Subsample 4
+		Energy: -13.27964715080822
+		Subspace dimension: 3651921
+Iteration 5
+	Subsample 0
+		Energy: -13.279649553228667
+		Subspace dimension: 3674889
+	Subsample 1
+		Energy: -13.279647882601138
+		Subspace dimension: 3426201
+	Subsample 2
+		Energy: -13.279646855691098
+		Subspace dimension: 3474496
+	Subsample 3
+		Energy: -13.279649632987981
+		Subspace dimension: 3534400
+	Subsample 4
+		Energy: -13.279648335657544
+		Subspace dimension: 3452164
+solve_fermion loop runtime: 2912.494351156056 seconds.
+SQD wavefunction amplitudes size: 3534400
+% of FCI space: 23.526003742434458
+SQD fragment ground state energy: -13.279649632987981
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2302334510063
+E(CCSD) = -13.28970710926091  E_corr = -0.05947365825462251
+Gate counts: OrderedDict({'sx': 3918, 'rz': 3909, 'cz': 1626, 'x': 380, 'measure': 38, 'barrier': 1})
+Circuit depth: 503
+Running circuit...
+Circuit runtime: 55.20947046671063 seconds.
+Job ID: d279b5129u8s73f81dl0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.289538308981435
+		Subspace dimension: 1454436
+	Subsample 1
+		Energy: -13.289538308981435
+		Subspace dimension: 1454436
+	Subsample 2
+		Energy: -13.289538308981435
+		Subspace dimension: 1454436
+	Subsample 3
+		Energy: -13.289538308981435
+		Subspace dimension: 1454436
+	Subsample 4
+		Energy: -13.289538308981435
+		Subspace dimension: 1454436
+Iteration 2
+	Subsample 0
+		Energy: -13.29057790837064
+		Subspace dimension: 3034564
+	Subsample 1
+		Energy: -13.290419021430692
+		Subspace dimension: 3062500
+	Subsample 2
+		Energy: -13.290656012247968
+		Subspace dimension: 3062500
+	Subsample 3
+		Energy: -13.29052821733943
+		Subspace dimension: 3104644
+	Subsample 4
+		Energy: -13.290651191892314
+		Subspace dimension: 3104644
+Iteration 3
+	Subsample 0
+		Energy: -13.290682026085523
+		Subspace dimension: 3108169
+	Subsample 1
+		Energy: -13.290686629913862
+		Subspace dimension: 3258025
+	Subsample 2
+		Energy: -13.290685516445505
+		Subspace dimension: 3017169
+	Subsample 3
+		Energy: -13.290684305591467
+		Subspace dimension: 3186225
+	Subsample 4
+		Energy: -13.290686019302154
+		Subspace dimension: 3048516
+Iteration 4
+	Subsample 0
+		Energy: -13.290685344281432
+		Subspace dimension: 3243601
+	Subsample 1
+		Energy: -13.290689973065943
+		Subspace dimension: 3083536
+	Subsample 2
+		Energy: -13.290688686673318
+		Subspace dimension: 3052009
+	Subsample 3
+		Energy: -13.290690041428924
+		Subspace dimension: 3055504
+	Subsample 4
+		Energy: -13.290691521748162
+		Subspace dimension: 3147076
+Iteration 5
+	Subsample 0
+		Energy: -13.29069343555856
+		Subspace dimension: 3214849
+	Subsample 1
+		Energy: -13.2906905198427
+		Subspace dimension: 3055504
+	Subsample 2
+		Energy: -13.290691392421287
+		Subspace dimension: 3076516
+	Subsample 3
+		Energy: -13.290690299669249
+		Subspace dimension: 3218436
+	Subsample 4
+		Energy: -13.290692052448906
+		Subspace dimension: 3136441
+solve_fermion loop runtime: 2694.352396612987 seconds.
+SQD wavefunction amplitudes size: 3214849
+% of FCI space: 21.39897849857449
+SQD fragment ground state energy: -13.29069343555856
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2069101944115
+E(CCSD) = -13.27855470943461  E_corr = -0.0716445150231359
+Gate counts: OrderedDict({'sx': 4016, 'rz': 3919, 'cz': 1646, 'x': 365, 'measure': 38, 'barrier': 1})
+Circuit depth: 503
+Running circuit...
+Circuit runtime: 46.57944913674146 seconds.
+Job ID: d27a0to56fsc73e5p2q0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.278049149034663
+		Subspace dimension: 1483524
+	Subsample 1
+		Energy: -13.278049149034663
+		Subspace dimension: 1483524
+	Subsample 2
+		Energy: -13.278049149034663
+		Subspace dimension: 1483524
+	Subsample 3
+		Energy: -13.278049149034663
+		Subspace dimension: 1483524
+	Subsample 4
+		Energy: -13.278049149034663
+		Subspace dimension: 1483524
+Iteration 2
+	Subsample 0
+		Energy: -13.279541273560193
+		Subspace dimension: 3083536
+	Subsample 1
+		Energy: -13.27962398230177
+		Subspace dimension: 3108169
+	Subsample 2
+		Energy: -13.279570038963307
+		Subspace dimension: 3139984
+	Subsample 3
+		Energy: -13.279572755070825
+		Subspace dimension: 3139984
+	Subsample 4
+		Energy: -13.279448230944416
+		Subspace dimension: 3182656
+Iteration 3
+	Subsample 0
+		Energy: -13.279641148066291
+		Subspace dimension: 3101121
+	Subsample 1
+		Energy: -13.279641984223602
+		Subspace dimension: 3118756
+	Subsample 2
+		Energy: -13.279636351900256
+		Subspace dimension: 3024121
+	Subsample 3
+		Energy: -13.279630833561908
+		Subspace dimension: 3083536
+	Subsample 4
+		Energy: -13.27964504388078
+		Subspace dimension: 3196944
+Iteration 4
+	Subsample 0
+		Energy: -13.27964442689268
+		Subspace dimension: 3003289
+	Subsample 1
+		Energy: -13.279645538053034
+		Subspace dimension: 3157729
+	Subsample 2
+		Energy: -13.279649505134179
+		Subspace dimension: 3193369
+	Subsample 3
+		Energy: -13.279642988215421
+		Subspace dimension: 3168400
+	Subsample 4
+		Energy: -13.279642914815707
+		Subspace dimension: 3147076
+Iteration 5
+	Subsample 0
+		Energy: -13.279643341208466
+		Subspace dimension: 2992900
+	Subsample 1
+		Energy: -13.27964344616351
+		Subspace dimension: 3101121
+	Subsample 2
+		Energy: -13.27964233483235
+		Subspace dimension: 3211264
+	Subsample 3
+		Energy: -13.279646117911245
+		Subspace dimension: 3101121
+	Subsample 4
+		Energy: -13.279641357107897
+		Subspace dimension: 3125824
+solve_fermion loop runtime: 2918.5194309148937 seconds.
+SQD wavefunction amplitudes size: 3193369
+% of FCI space: 21.25600131421859
+SQD fragment ground state energy: -13.279649505134179
+
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   8.5593e-04
+Cumulative energy      :   -4.362197516671807
+
+-- In iter  2
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2387102390136
+E(CCSD) = -13.29693659790747  E_corr = -0.05822635889391081
+Gate counts: OrderedDict({'sx': 3968, 'rz': 3884, 'cz': 1638, 'x': 375, 'measure': 38, 'barrier': 1})
+Circuit depth: 489
+Running circuit...
+Circuit runtime: 35.144324271939695 seconds.
+Job ID: d27aocroctts738j3u2g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.296302657680565
+		Subspace dimension: 1485961
+	Subsample 1
+		Energy: -13.296302657680565
+		Subspace dimension: 1485961
+	Subsample 2
+		Energy: -13.296302657680565
+		Subspace dimension: 1485961
+	Subsample 3
+		Energy: -13.296302657680565
+		Subspace dimension: 1485961
+	Subsample 4
+		Energy: -13.296302657680565
+		Subspace dimension: 1485961
+Iteration 2
+	Subsample 0
+		Energy: -13.297798469524967
+		Subspace dimension: 2961841
+	Subsample 1
+		Energy: -13.297718246705015
+		Subspace dimension: 2913849
+	Subsample 2
+		Energy: -13.297743450140334
+		Subspace dimension: 2999824
+	Subsample 3
+		Energy: -13.297599772228535
+		Subspace dimension: 2941225
+	Subsample 4
+		Energy: -13.297683131964591
+		Subspace dimension: 2913849
+Iteration 3
+	Subsample 0
+		Energy: -13.297819094044511
+		Subspace dimension: 2927521
+	Subsample 1
+		Energy: -13.29781908210399
+		Subspace dimension: 3150625
+	Subsample 2
+		Energy: -13.297823353678512
+		Subspace dimension: 2866249
+	Subsample 3
+		Energy: -13.297816853150454
+		Subspace dimension: 3129361
+	Subsample 4
+		Energy: -13.2978102252216
+		Subspace dimension: 3003289
+Iteration 4
+	Subsample 0
+		Energy: -13.29782054021458
+		Subspace dimension: 3062500
+	Subsample 1
+		Energy: -13.297822884829708
+		Subspace dimension: 3073009
+	Subsample 2
+		Energy: -13.297824316972237
+		Subspace dimension: 3111696
+	Subsample 3
+		Energy: -13.297823275689254
+		Subspace dimension: 2999824
+	Subsample 4
+		Energy: -13.297822016748436
+		Subspace dimension: 3083536
+Iteration 5
+	Subsample 0
+		Energy: -13.297824425318794
+		Subspace dimension: 3168400
+	Subsample 1
+		Energy: -13.297825085175777
+		Subspace dimension: 3136441
+	Subsample 2
+		Energy: -13.297826085112398
+		Subspace dimension: 3045025
+	Subsample 3
+		Energy: -13.297822629174028
+		Subspace dimension: 3118756
+	Subsample 4
+		Energy: -13.297823660554911
+		Subspace dimension: 3108169
+solve_fermion loop runtime: 2645.371005904861 seconds.
+SQD wavefunction amplitudes size: 3045025
+% of FCI space: 20.268580111421027
+SQD fragment ground state energy: -13.297826085112398
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1921836371813
+E(CCSD) = -13.26579744737627  E_corr = -0.07361381019495619
+Gate counts: OrderedDict({'sx': 4023, 'rz': 3945, 'cz': 1646, 'x': 374, 'measure': 38, 'barrier': 1})
+Circuit depth: 494
+Running circuit...
+Circuit runtime: 9568.724019626155 seconds.
+Job ID: d27bdkboctts738j4in0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.263417411155677
+		Subspace dimension: 1420864
+	Subsample 1
+		Energy: -13.263417411155677
+		Subspace dimension: 1420864
+	Subsample 2
+		Energy: -13.263417411155677
+		Subspace dimension: 1420864
+	Subsample 3
+		Energy: -13.263417411155677
+		Subspace dimension: 1420864
+	Subsample 4
+		Energy: -13.263417411155677
+		Subspace dimension: 1420864
+Iteration 2
+	Subsample 0
+		Energy: -13.266882684177398
+		Subspace dimension: 3150625
+	Subsample 1
+		Energy: -13.266883720897598
+		Subspace dimension: 2975625
+	Subsample 2
+		Energy: -13.266865907445064
+		Subspace dimension: 3268864
+	Subsample 3
+		Energy: -13.266872642023094
+		Subspace dimension: 3087049
+	Subsample 4
+		Energy: -13.266807910376489
+		Subspace dimension: 2996361
+Iteration 3
+	Subsample 0
+		Energy: -13.266925674686583
+		Subspace dimension: 3150625
+	Subsample 1
+		Energy: -13.266942192700334
+		Subspace dimension: 3161284
+	Subsample 2
+		Energy: -13.266940155793812
+		Subspace dimension: 3108169
+	Subsample 3
+		Energy: -13.266939032137069
+		Subspace dimension: 3003289
+	Subsample 4
+		Energy: -13.266920135826895
+		Subspace dimension: 3097600
+Iteration 4
+	Subsample 0
+		Energy: -13.266945298355727
+		Subspace dimension: 2917264
+	Subsample 1
+		Energy: -13.266937716629762
+		Subspace dimension: 3073009
+	Subsample 2
+		Energy: -13.266938856827654
+		Subspace dimension: 3154176
+	Subsample 3
+		Energy: -13.266941549594799
+		Subspace dimension: 3048516
+	Subsample 4
+		Energy: -13.266937323593943
+		Subspace dimension: 3020644
+Iteration 5
+	Subsample 0
+		Energy: -13.266939586972253
+		Subspace dimension: 3090564
+	Subsample 1
+		Energy: -13.26694189181892
+		Subspace dimension: 3094081
+	Subsample 2
+		Energy: -13.266942836768406
+		Subspace dimension: 3164841
+	Subsample 3
+		Energy: -13.266940213442602
+		Subspace dimension: 3122289
+	Subsample 4
+		Energy: -13.266943429161476
+		Subspace dimension: 3240000
+solve_fermion loop runtime: 2894.6967413593084 seconds.
+SQD wavefunction amplitudes size: 2917264
+% of FCI space: 19.418165397710872
+SQD fragment ground state energy: -13.266945298355727
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2386874739745
+E(CCSD) = -13.29691337934752  E_corr = -0.05822590537302992
+Gate counts: OrderedDict({'sx': 3946, 'rz': 3894, 'cz': 1634, 'x': 376, 'measure': 38, 'barrier': 1})
+Circuit depth: 489
+Running circuit...
+Circuit runtime: 34.94970455300063 seconds.
+Job ID: d27ef9h29u8s73f86g10
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.2932299587437
+		Subspace dimension: 1517824
+	Subsample 1
+		Energy: -13.2932299587437
+		Subspace dimension: 1517824
+	Subsample 2
+		Energy: -13.2932299587437
+		Subspace dimension: 1517824
+	Subsample 3
+		Energy: -13.2932299587437
+		Subspace dimension: 1517824
+	Subsample 4
+		Energy: -13.2932299587437
+		Subspace dimension: 1517824
+Iteration 2
+	Subsample 0
+		Energy: -13.297528862405882
+		Subspace dimension: 2924100
+	Subsample 1
+		Energy: -13.297757080399483
+		Subspace dimension: 2996361
+	Subsample 2
+		Energy: -13.29775384009559
+		Subspace dimension: 2879809
+	Subsample 3
+		Energy: -13.297680717579256
+		Subspace dimension: 2920681
+	Subsample 4
+		Energy: -13.297661556747654
+		Subspace dimension: 2951524
+Iteration 3
+	Subsample 0
+		Energy: -13.297779391429094
+		Subspace dimension: 2968729
+	Subsample 1
+		Energy: -13.297799194891377
+		Subspace dimension: 3062500
+	Subsample 2
+		Energy: -13.297795842429602
+		Subspace dimension: 3027600
+	Subsample 3
+		Energy: -13.297794997482994
+		Subspace dimension: 3111696
+	Subsample 4
+		Energy: -13.297772543854716
+		Subspace dimension: 2951524
+Iteration 4
+	Subsample 0
+		Energy: -13.297799268679904
+		Subspace dimension: 3027600
+	Subsample 1
+		Energy: -13.297798412737789
+		Subspace dimension: 3045025
+	Subsample 2
+		Energy: -13.297796126981382
+		Subspace dimension: 2910436
+	Subsample 3
+		Energy: -13.297799357049009
+		Subspace dimension: 3132900
+	Subsample 4
+		Energy: -13.297800096526798
+		Subspace dimension: 3062500
+Iteration 5
+	Subsample 0
+		Energy: -13.29779633467775
+		Subspace dimension: 3080025
+	Subsample 1
+		Energy: -13.29779829911547
+		Subspace dimension: 2913849
+	Subsample 2
+		Energy: -13.297799293619166
+		Subspace dimension: 3101121
+	Subsample 3
+		Energy: -13.297796229852839
+		Subspace dimension: 3104644
+	Subsample 4
+		Energy: -13.297799416121398
+		Subspace dimension: 3066001
+solve_fermion loop runtime: 2636.1304687391967 seconds.
+SQD wavefunction amplitudes size: 3062500
+% of FCI space: 20.384898840313923
+SQD fragment ground state energy: -13.297800096526798
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1922006754013
+E(CCSD) = -13.26581684500312  E_corr = -0.07361616960183152
+Gate counts: OrderedDict({'sx': 4013, 'rz': 3934, 'cz': 1646, 'x': 350, 'measure': 38, 'barrier': 1})
+Circuit depth: 502
+Running circuit...
+Circuit runtime: 35.62623277772218 seconds.
+Job ID: d27f4ehogaas73csph3g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.25685686879969
+		Subspace dimension: 1221025
+	Subsample 1
+		Energy: -13.25685686879969
+		Subspace dimension: 1221025
+	Subsample 2
+		Energy: -13.25685686879969
+		Subspace dimension: 1221025
+	Subsample 3
+		Energy: -13.25685686879969
+		Subspace dimension: 1221025
+	Subsample 4
+		Energy: -13.25685686879969
+		Subspace dimension: 1221025
+Iteration 2
+	Subsample 0
+		Energy: -13.266849741410718
+		Subspace dimension: 3196944
+	Subsample 1
+		Energy: -13.266906550863947
+		Subspace dimension: 3418801
+	Subsample 2
+		Energy: -13.26675558822321
+		Subspace dimension: 3301489
+	Subsample 3
+		Energy: -13.266825796169767
+		Subspace dimension: 3229209
+	Subsample 4
+		Energy: -13.26688391680903
+		Subspace dimension: 3150625
+Iteration 3
+	Subsample 0
+		Energy: -13.266957439153034
+		Subspace dimension: 3341584
+	Subsample 1
+		Energy: -13.266961524102037
+		Subspace dimension: 3268864
+	Subsample 2
+		Energy: -13.26695545450525
+		Subspace dimension: 3286969
+	Subsample 3
+		Energy: -13.266958006547691
+		Subspace dimension: 3157729
+	Subsample 4
+		Energy: -13.266948030032008
+		Subspace dimension: 3175524
+Iteration 4
+	Subsample 0
+		Energy: -13.266962485999167
+		Subspace dimension: 3341584
+	Subsample 1
+		Energy: -13.266965613989012
+		Subspace dimension: 3272481
+	Subsample 2
+		Energy: -13.266964778765532
+		Subspace dimension: 3341584
+	Subsample 3
+		Energy: -13.26696242383736
+		Subspace dimension: 3316041
+	Subsample 4
+		Energy: -13.266967695232855
+		Subspace dimension: 3396649
+Iteration 5
+	Subsample 0
+		Energy: -13.266959559537865
+		Subspace dimension: 3276100
+	Subsample 1
+		Energy: -13.266959594471295
+		Subspace dimension: 3356224
+	Subsample 2
+		Energy: -13.266964788128494
+		Subspace dimension: 3312400
+	Subsample 3
+		Energy: -13.266961725319597
+		Subspace dimension: 3279721
+	Subsample 4
+		Energy: -13.266967266773404
+		Subspace dimension: 3437316
+solve_fermion loop runtime: 2980.661519050598 seconds.
+SQD wavefunction amplitudes size: 3396649
+% of FCI space: 22.609092656670512
+SQD fragment ground state energy: -13.266967695232855
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2387116320319
+E(CCSD) = -13.29693964471023  E_corr = -0.05822801267829674
+Gate counts: OrderedDict({'rz': 3871, 'sx': 3870, 'cz': 1638, 'x': 398, 'measure': 38, 'barrier': 1})
+Circuit depth: 484
+Running circuit...
+Circuit runtime: 1983.9955318188295 seconds.
+Job ID: d27fsaroctts738j8thg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.295174178314584
+		Subspace dimension: 1562500
+	Subsample 1
+		Energy: -13.295174178314584
+		Subspace dimension: 1562500
+	Subsample 2
+		Energy: -13.295174178314584
+		Subspace dimension: 1562500
+	Subsample 3
+		Energy: -13.295174178314584
+		Subspace dimension: 1562500
+	Subsample 4
+		Energy: -13.295174178314584
+		Subspace dimension: 1562500
+Iteration 2
+	Subsample 0
+		Energy: -13.297697834048256
+		Subspace dimension: 2996361
+	Subsample 1
+		Energy: -13.297742491030634
+		Subspace dimension: 3111696
+	Subsample 2
+		Energy: -13.297749955003336
+		Subspace dimension: 3101121
+	Subsample 3
+		Energy: -13.297656023882908
+		Subspace dimension: 3045025
+	Subsample 4
+		Energy: -13.297715772566761
+		Subspace dimension: 2972176
+Iteration 3
+	Subsample 0
+		Energy: -13.297823705770984
+		Subspace dimension: 3150625
+	Subsample 1
+		Energy: -13.297804733769407
+		Subspace dimension: 3083536
+	Subsample 2
+		Energy: -13.297823229529444
+		Subspace dimension: 3193369
+	Subsample 3
+		Energy: -13.297821283133276
+		Subspace dimension: 2951524
+	Subsample 4
+		Energy: -13.297822355196624
+		Subspace dimension: 3161284
+Iteration 4
+	Subsample 0
+		Energy: -13.297827260190852
+		Subspace dimension: 3147076
+	Subsample 1
+		Energy: -13.297824994298384
+		Subspace dimension: 3083536
+	Subsample 2
+		Energy: -13.297826460117598
+		Subspace dimension: 2999824
+	Subsample 3
+		Energy: -13.297826606833505
+		Subspace dimension: 3118756
+	Subsample 4
+		Energy: -13.297825932451715
+		Subspace dimension: 3268864
+Iteration 5
+	Subsample 0
+		Energy: -13.297828620615446
+		Subspace dimension: 3258025
+	Subsample 1
+		Energy: -13.297828461824276
+		Subspace dimension: 3179089
+	Subsample 2
+		Energy: -13.2978268708553
+		Subspace dimension: 3179089
+	Subsample 3
+		Energy: -13.297823626169903
+		Subspace dimension: 3101121
+	Subsample 4
+		Energy: -13.297825452708555
+		Subspace dimension: 3038049
+solve_fermion loop runtime: 2714.5560468519107 seconds.
+SQD wavefunction amplitudes size: 3258025
+% of FCI space: 21.686370626682045
+SQD fragment ground state energy: -13.297828620615446
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1921488172939
+E(CCSD) = -13.26576333659648  E_corr = -0.07361451930256606
+Gate counts: OrderedDict({'sx': 4048, 'rz': 3974, 'cz': 1646, 'x': 368, 'measure': 38, 'barrier': 1})
+Circuit depth: 506
+Running circuit...
+Circuit runtime: 61.77959571685642 seconds.
+Job ID: d27h1bjoctts738ja160
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.265000249605144
+		Subspace dimension: 1690000
+	Subsample 1
+		Energy: -13.265000249605144
+		Subspace dimension: 1690000
+	Subsample 2
+		Energy: -13.265000249605144
+		Subspace dimension: 1690000
+	Subsample 3
+		Energy: -13.265000249605144
+		Subspace dimension: 1690000
+	Subsample 4
+		Energy: -13.265000249605144
+		Subspace dimension: 1690000
+Iteration 2
+	Subsample 0
+		Energy: -13.26672181103482
+		Subspace dimension: 3094081
+	Subsample 1
+		Energy: -13.266856815329843
+		Subspace dimension: 3073009
+	Subsample 2
+		Energy: -13.266751381088994
+		Subspace dimension: 3094081
+	Subsample 3
+		Energy: -13.266862711226562
+		Subspace dimension: 3003289
+	Subsample 4
+		Energy: -13.266892931845938
+		Subspace dimension: 3129361
+Iteration 3
+	Subsample 0
+		Energy: -13.26690701312174
+		Subspace dimension: 3175524
+	Subsample 1
+		Energy: -13.266908804039149
+		Subspace dimension: 3225616
+	Subsample 2
+		Energy: -13.266908858330535
+		Subspace dimension: 3139984
+	Subsample 3
+		Energy: -13.266905616323326
+		Subspace dimension: 2907025
+	Subsample 4
+		Energy: -13.266907571297217
+		Subspace dimension: 3118756
+Iteration 4
+	Subsample 0
+		Energy: -13.26691069109392
+		Subspace dimension: 3087049
+	Subsample 1
+		Energy: -13.266911309109908
+		Subspace dimension: 3055504
+	Subsample 2
+		Energy: -13.266909981786918
+		Subspace dimension: 3122289
+	Subsample 3
+		Energy: -13.266910252702356
+		Subspace dimension: 3073009
+	Subsample 4
+		Energy: -13.266906551138154
+		Subspace dimension: 2982529
+Iteration 5
+	Subsample 0
+		Energy: -13.266911304946202
+		Subspace dimension: 2975625
+	Subsample 1
+		Energy: -13.266914054843367
+		Subspace dimension: 3125824
+	Subsample 2
+		Energy: -13.266909839351706
+		Subspace dimension: 3175524
+	Subsample 3
+		Energy: -13.26691063372233
+		Subspace dimension: 3090564
+	Subsample 4
+		Energy: -13.266907622458463
+		Subspace dimension: 3111696
+solve_fermion loop runtime: 2937.393725551665 seconds.
+SQD wavefunction amplitudes size: 3125824
+% of FCI space: 20.806401969836873
+SQD fragment ground state energy: -13.266914054843367
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2387261339983
+E(CCSD) = -13.29695555427319  E_corr = -0.05822942027490291
+Gate counts: OrderedDict({'sx': 3946, 'rz': 3886, 'cz': 1638, 'x': 378, 'measure': 38, 'barrier': 1})
+Circuit depth: 498
+Running circuit...
+Circuit runtime: 39.383729931898415 seconds.
+Job ID: d27hp3h29u8s73f89kd0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.289207985082939
+		Subspace dimension: 1592644
+	Subsample 1
+		Energy: -13.289207985082939
+		Subspace dimension: 1592644
+	Subsample 2
+		Energy: -13.289207985082939
+		Subspace dimension: 1592644
+	Subsample 3
+		Energy: -13.289207985082939
+		Subspace dimension: 1592644
+	Subsample 4
+		Energy: -13.289207985082939
+		Subspace dimension: 1592644
+Iteration 2
+	Subsample 0
+		Energy: -13.297683724175336
+		Subspace dimension: 3272481
+	Subsample 1
+		Energy: -13.297744296076631
+		Subspace dimension: 2968729
+	Subsample 2
+		Energy: -13.297786604541606
+		Subspace dimension: 3017169
+	Subsample 3
+		Energy: -13.297678636434911
+		Subspace dimension: 3207681
+	Subsample 4
+		Energy: -13.297774796002185
+		Subspace dimension: 3179089
+Iteration 3
+	Subsample 0
+		Energy: -13.29783890604818
+		Subspace dimension: 3348900
+	Subsample 1
+		Energy: -13.297838204335044
+		Subspace dimension: 3240000
+	Subsample 2
+		Energy: -13.297834724065284
+		Subspace dimension: 3356224
+	Subsample 3
+		Energy: -13.297838083188841
+		Subspace dimension: 3147076
+	Subsample 4
+		Energy: -13.297835925212619
+		Subspace dimension: 3374569
+Iteration 4
+	Subsample 0
+		Energy: -13.297841701522998
+		Subspace dimension: 3319684
+	Subsample 1
+		Energy: -13.297838358819186
+		Subspace dimension: 3305124
+	Subsample 2
+		Energy: -13.297840114074305
+		Subspace dimension: 3308761
+	Subsample 3
+		Energy: -13.297841564153735
+		Subspace dimension: 3496900
+	Subsample 4
+		Energy: -13.297843875410212
+		Subspace dimension: 3247204
+Iteration 5
+	Subsample 0
+		Energy: -13.297839438036497
+		Subspace dimension: 3319684
+	Subsample 1
+		Energy: -13.297837774897532
+		Subspace dimension: 3254416
+	Subsample 2
+		Energy: -13.297839094517105
+		Subspace dimension: 3254416
+	Subsample 3
+		Energy: -13.297841307939088
+		Subspace dimension: 3323329
+	Subsample 4
+		Energy: -13.297842161765791
+		Subspace dimension: 3426201
+solve_fermion loop runtime: 2829.818426154554 seconds.
+SQD wavefunction amplitudes size: 3247204
+% of FCI space: 21.614342874730685
+SQD fragment ground state energy: -13.297843875410212
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1921352784083
+E(CCSD) = -13.26575195305104  E_corr = -0.07361667464274435
+Gate counts: OrderedDict({'sx': 4036, 'rz': 3933, 'cz': 1646, 'x': 368, 'measure': 38, 'barrier': 1})
+Circuit depth: 500
+Running circuit...
+Circuit runtime: 58.140428888611495 seconds.
+Job ID: d27ifqroctts738jbdb0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.253355280032627
+		Subspace dimension: 900601
+	Subsample 1
+		Energy: -13.253355280032627
+		Subspace dimension: 900601
+	Subsample 2
+		Energy: -13.253355280032627
+		Subspace dimension: 900601
+	Subsample 3
+		Energy: -13.253355280032627
+		Subspace dimension: 900601
+	Subsample 4
+		Energy: -13.253355280032627
+		Subspace dimension: 900601
+Iteration 2
+	Subsample 0
+		Energy: -13.266822010929019
+		Subspace dimension: 3493161
+	Subsample 1
+		Energy: -13.266685941387665
+		Subspace dimension: 3323329
+	Subsample 2
+		Energy: -13.266651273347097
+		Subspace dimension: 3171961
+	Subsample 3
+		Energy: -13.266851058324582
+		Subspace dimension: 3352561
+	Subsample 4
+		Energy: -13.266819806775459
+		Subspace dimension: 3258025
+Iteration 3
+	Subsample 0
+		Energy: -13.266890957602694
+		Subspace dimension: 3389281
+	Subsample 1
+		Energy: -13.266890956783444
+		Subspace dimension: 3337929
+	Subsample 2
+		Energy: -13.26688319914689
+		Subspace dimension: 3286969
+	Subsample 3
+		Energy: -13.266894446625635
+		Subspace dimension: 3381921
+	Subsample 4
+		Energy: -13.266895914009684
+		Subspace dimension: 3444736
+Iteration 4
+	Subsample 0
+		Energy: -13.266897498507733
+		Subspace dimension: 3330625
+	Subsample 1
+		Energy: -13.266901288846908
+		Subspace dimension: 3305124
+	Subsample 2
+		Energy: -13.266890352689373
+		Subspace dimension: 3345241
+	Subsample 3
+		Energy: -13.266897686423558
+		Subspace dimension: 3378244
+	Subsample 4
+		Energy: -13.266899296879018
+		Subspace dimension: 3312400
+Iteration 5
+	Subsample 0
+		Energy: -13.266898597350481
+		Subspace dimension: 3356224
+	Subsample 1
+		Energy: -13.26689995872704
+		Subspace dimension: 3356224
+	Subsample 2
+		Energy: -13.26689833263117
+		Subspace dimension: 3334276
+	Subsample 3
+		Energy: -13.266898905303417
+		Subspace dimension: 3459600
+	Subsample 4
+		Energy: -13.266900110125999
+		Subspace dimension: 3429904
+solve_fermion loop runtime: 2979.919368803501 seconds.
+SQD wavefunction amplitudes size: 3305124
+% of FCI space: 21.9998753941857
+SQD fragment ground state energy: -13.266901288846908
+
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   1.8186e-04
+Cumulative energy      :   -4.364341692690181
+
+-- In iter  3
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2427507535707
+E(CCSD) = -13.3009471712863  E_corr = -0.05819641771558582
+Gate counts: OrderedDict({'sx': 3994, 'rz': 3909, 'cz': 1638, 'x': 370, 'measure': 38, 'barrier': 1})
+Circuit depth: 488
+Running circuit...
+Circuit runtime: 44.94143584370613 seconds.
+Job ID: d27j7sp29u8s73f8b05g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.29973131397631
+		Subspace dimension: 1327104
+	Subsample 1
+		Energy: -13.29973131397631
+		Subspace dimension: 1327104
+	Subsample 2
+		Energy: -13.29973131397631
+		Subspace dimension: 1327104
+	Subsample 3
+		Energy: -13.29973131397631
+		Subspace dimension: 1327104
+	Subsample 4
+		Energy: -13.29973131397631
+		Subspace dimension: 1327104
+Iteration 2
+	Subsample 0
+		Energy: -13.301627007701548
+		Subspace dimension: 3010225
+	Subsample 1
+		Energy: -13.30174276144077
+		Subspace dimension: 3055504
+	Subsample 2
+		Energy: -13.301728550010285
+		Subspace dimension: 3045025
+	Subsample 3
+		Energy: -13.3017299677124
+		Subspace dimension: 3020644
+	Subsample 4
+		Energy: -13.301617722529157
+		Subspace dimension: 2989441
+Iteration 3
+	Subsample 0
+		Energy: -13.301827101071252
+		Subspace dimension: 3283344
+	Subsample 1
+		Energy: -13.30183359438795
+		Subspace dimension: 3073009
+	Subsample 2
+		Energy: -13.30180725039327
+		Subspace dimension: 2968729
+	Subsample 3
+		Energy: -13.301825240495562
+		Subspace dimension: 3171961
+	Subsample 4
+		Energy: -13.30183009331598
+		Subspace dimension: 3179089
+Iteration 4
+	Subsample 0
+		Energy: -13.30182918218824
+		Subspace dimension: 3104644
+	Subsample 1
+		Energy: -13.301827431778502
+		Subspace dimension: 3297856
+	Subsample 2
+		Energy: -13.301831629675055
+		Subspace dimension: 3111696
+	Subsample 3
+		Energy: -13.301829005052793
+		Subspace dimension: 3048516
+	Subsample 4
+		Energy: -13.30183187599642
+		Subspace dimension: 3055504
+Iteration 5
+	Subsample 0
+		Energy: -13.301829276128844
+		Subspace dimension: 3214849
+	Subsample 1
+		Energy: -13.301833971112806
+		Subspace dimension: 3066001
+	Subsample 2
+		Energy: -13.301831245970257
+		Subspace dimension: 3066001
+	Subsample 3
+		Energy: -13.30183078232337
+		Subspace dimension: 3066001
+	Subsample 4
+		Energy: -13.301832519655244
+		Subspace dimension: 3104644
+solve_fermion loop runtime: 2659.541747983545 seconds.
+SQD wavefunction amplitudes size: 3066001
+% of FCI space: 20.408202523853493
+SQD fragment ground state energy: -13.301833971112806
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1904479134686
+E(CCSD) = -13.26385226345882  E_corr = -0.07340434999019436
+Gate counts: OrderedDict({'sx': 4070, 'rz': 3968, 'cz': 1642, 'x': 354, 'measure': 38, 'barrier': 1})
+Circuit depth: 496
+Running circuit...
+Circuit runtime: 40.690418370999396 seconds.
+Job ID: d27jt9roctts738jcod0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.262992557823683
+		Subspace dimension: 1390041
+	Subsample 1
+		Energy: -13.262992557823683
+		Subspace dimension: 1390041
+	Subsample 2
+		Energy: -13.262992557823683
+		Subspace dimension: 1390041
+	Subsample 3
+		Energy: -13.262992557823683
+		Subspace dimension: 1390041
+	Subsample 4
+		Energy: -13.262992557823683
+		Subspace dimension: 1390041
+Iteration 2
+	Subsample 0
+		Energy: -13.264894361609137
+		Subspace dimension: 3090564
+	Subsample 1
+		Energy: -13.264765113310267
+		Subspace dimension: 2999824
+	Subsample 2
+		Energy: -13.264883841391116
+		Subspace dimension: 3157729
+	Subsample 3
+		Energy: -13.264923771727037
+		Subspace dimension: 3115225
+	Subsample 4
+		Energy: -13.264921491163014
+		Subspace dimension: 3279721
+Iteration 3
+	Subsample 0
+		Energy: -13.26498965300658
+		Subspace dimension: 3125824
+	Subsample 1
+		Energy: -13.264991308278798
+		Subspace dimension: 3104644
+	Subsample 2
+		Energy: -13.264991806682593
+		Subspace dimension: 3139984
+	Subsample 3
+		Energy: -13.26499241605385
+		Subspace dimension: 3104644
+	Subsample 4
+		Energy: -13.264949411464759
+		Subspace dimension: 3136441
+Iteration 4
+	Subsample 0
+		Energy: -13.264994753094145
+		Subspace dimension: 3150625
+	Subsample 1
+		Energy: -13.264994673304072
+		Subspace dimension: 3168400
+	Subsample 2
+		Energy: -13.264994783435009
+		Subspace dimension: 3171961
+	Subsample 3
+		Energy: -13.26499073018798
+		Subspace dimension: 3265249
+	Subsample 4
+		Energy: -13.26499527438798
+		Subspace dimension: 3045025
+Iteration 5
+	Subsample 0
+		Energy: -13.264992327936847
+		Subspace dimension: 3038049
+	Subsample 1
+		Energy: -13.264999285862647
+		Subspace dimension: 3204100
+	Subsample 2
+		Energy: -13.264995361137238
+		Subspace dimension: 3218436
+	Subsample 3
+		Energy: -13.264997424112918
+		Subspace dimension: 3250809
+	Subsample 4
+		Energy: -13.26499555973911
+		Subspace dimension: 3111696
+solve_fermion loop runtime: 2919.2385352309793 seconds.
+SQD wavefunction amplitudes size: 3204100
+% of FCI space: 21.327429999755047
+SQD fragment ground state energy: -13.264999285862647
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2427991714976
+E(CCSD) = -13.30099691760744  E_corr = -0.05819774610981612
+Gate counts: OrderedDict({'sx': 4076, 'rz': 3935, 'cz': 1642, 'x': 335, 'measure': 38, 'barrier': 1})
+Circuit depth: 491
+Running circuit...
+Circuit runtime: 35.75019428692758 seconds.
+Job ID: d27kkn856fsc73e639hg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.300383085774007
+		Subspace dimension: 1550025
+	Subsample 1
+		Energy: -13.300383085774007
+		Subspace dimension: 1550025
+	Subsample 2
+		Energy: -13.300383085774007
+		Subspace dimension: 1550025
+	Subsample 3
+		Energy: -13.300383085774007
+		Subspace dimension: 1550025
+	Subsample 4
+		Energy: -13.300383085774007
+		Subspace dimension: 1550025
+Iteration 2
+	Subsample 0
+		Energy: -13.301753394499759
+		Subspace dimension: 2941225
+	Subsample 1
+		Energy: -13.301752458867906
+		Subspace dimension: 2954961
+	Subsample 2
+		Energy: -13.301757372133192
+		Subspace dimension: 3045025
+	Subsample 3
+		Energy: -13.301820217477175
+		Subspace dimension: 3186225
+	Subsample 4
+		Energy: -13.301721600309584
+		Subspace dimension: 3062500
+Iteration 3
+	Subsample 0
+		Energy: -13.301872374067766
+		Subspace dimension: 2979076
+	Subsample 1
+		Energy: -13.301873324247914
+		Subspace dimension: 2845969
+	Subsample 2
+		Energy: -13.301878049356956
+		Subspace dimension: 2934369
+	Subsample 3
+		Energy: -13.30187998913876
+		Subspace dimension: 3115225
+	Subsample 4
+		Energy: -13.30187906612728
+		Subspace dimension: 3076516
+Iteration 4
+	Subsample 0
+		Energy: -13.301881350223786
+		Subspace dimension: 3164841
+	Subsample 1
+		Energy: -13.301876602677266
+		Subspace dimension: 2972176
+	Subsample 2
+		Energy: -13.301880087772044
+		Subspace dimension: 2992900
+	Subsample 3
+		Energy: -13.301880713391458
+		Subspace dimension: 3108169
+	Subsample 4
+		Energy: -13.301881150372523
+		Subspace dimension: 3150625
+Iteration 5
+	Subsample 0
+		Energy: -13.30188089367093
+		Subspace dimension: 3006756
+	Subsample 1
+		Energy: -13.301879826445246
+		Subspace dimension: 3066001
+	Subsample 2
+		Energy: -13.301880734412448
+		Subspace dimension: 3104644
+	Subsample 3
+		Energy: -13.301880380335737
+		Subspace dimension: 2965284
+	Subsample 4
+		Energy: -13.301878085182725
+		Subspace dimension: 3080025
+solve_fermion loop runtime: 2661.6990914335474 seconds.
+SQD wavefunction amplitudes size: 3164841
+% of FCI space: 21.066110573282597
+SQD fragment ground state energy: -13.301881350223786
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1904749759368
+E(CCSD) = -13.26387835938174  E_corr = -0.07340338344495187
+Gate counts: OrderedDict({'sx': 4098, 'rz': 3957, 'cz': 1642, 'x': 338, 'measure': 38, 'barrier': 1})
+Circuit depth: 493
+Running circuit...
+Circuit runtime: 48.88001484144479 seconds.
+Job ID: d27la3056fsc73e63t9g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.262695522033924
+		Subspace dimension: 1413721
+	Subsample 1
+		Energy: -13.262695522033924
+		Subspace dimension: 1413721
+	Subsample 2
+		Energy: -13.262695522033924
+		Subspace dimension: 1413721
+	Subsample 3
+		Energy: -13.262695522033924
+		Subspace dimension: 1413721
+	Subsample 4
+		Energy: -13.262695522033924
+		Subspace dimension: 1413721
+Iteration 2
+	Subsample 0
+		Energy: -13.264978858727734
+		Subspace dimension: 2989441
+	Subsample 1
+		Energy: -13.264962552333603
+		Subspace dimension: 2999824
+	Subsample 2
+		Energy: -13.264897048561059
+		Subspace dimension: 3031081
+	Subsample 3
+		Energy: -13.264969350766682
+		Subspace dimension: 3132900
+	Subsample 4
+		Energy: -13.264962232539261
+		Subspace dimension: 3041536
+Iteration 3
+	Subsample 0
+		Energy: -13.265013711138696
+		Subspace dimension: 2968729
+	Subsample 1
+		Energy: -13.265015323783278
+		Subspace dimension: 3066001
+	Subsample 2
+		Energy: -13.26501673162991
+		Subspace dimension: 3101121
+	Subsample 3
+		Energy: -13.2650147362709
+		Subspace dimension: 3111696
+	Subsample 4
+		Energy: -13.265011067256612
+		Subspace dimension: 3034564
+Iteration 4
+	Subsample 0
+		Energy: -13.265020585651223
+		Subspace dimension: 3069504
+	Subsample 1
+		Energy: -13.265019844015299
+		Subspace dimension: 2954961
+	Subsample 2
+		Energy: -13.26502039547477
+		Subspace dimension: 3073009
+	Subsample 3
+		Energy: -13.265022766652894
+		Subspace dimension: 3041536
+	Subsample 4
+		Energy: -13.265018213877443
+		Subspace dimension: 3073009
+Iteration 5
+	Subsample 0
+		Energy: -13.265018913077522
+		Subspace dimension: 3094081
+	Subsample 1
+		Energy: -13.265021781616417
+		Subspace dimension: 3161284
+	Subsample 2
+		Energy: -13.265021415645627
+		Subspace dimension: 2917264
+	Subsample 3
+		Energy: -13.265018990351233
+		Subspace dimension: 3038049
+	Subsample 4
+		Energy: -13.265024504894864
+		Subspace dimension: 3143529
+solve_fermion loop runtime: 2856.964648780413 seconds.
+SQD wavefunction amplitudes size: 3143529
+% of FCI space: 20.924251646234506
+SQD fragment ground state energy: -13.265024504894864
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2427418856916
+E(CCSD) = -13.30093736124702  E_corr = -0.05819547555542364
+Gate counts: OrderedDict({'sx': 3976, 'rz': 3958, 'cz': 1638, 'x': 370, 'measure': 38, 'barrier': 1})
+Circuit depth: 495
+Running circuit...
+Circuit runtime: 68.45908935088664 seconds.
+Job ID: d27m13929u8s73f8dhe0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.299829602710636
+		Subspace dimension: 1447209
+	Subsample 1
+		Energy: -13.299829602710636
+		Subspace dimension: 1447209
+	Subsample 2
+		Energy: -13.299829602710636
+		Subspace dimension: 1447209
+	Subsample 3
+		Energy: -13.299829602710636
+		Subspace dimension: 1447209
+	Subsample 4
+		Energy: -13.299829602710636
+		Subspace dimension: 1447209
+Iteration 2
+	Subsample 0
+		Energy: -13.301705318055491
+		Subspace dimension: 3083536
+	Subsample 1
+		Energy: -13.301788609671997
+		Subspace dimension: 3034564
+	Subsample 2
+		Energy: -13.301761779993708
+		Subspace dimension: 3161284
+	Subsample 3
+		Energy: -13.301710993734474
+		Subspace dimension: 3087049
+	Subsample 4
+		Energy: -13.301693756076103
+		Subspace dimension: 3204100
+Iteration 3
+	Subsample 0
+		Energy: -13.301820359301642
+		Subspace dimension: 3222025
+	Subsample 1
+		Energy: -13.301821182258083
+		Subspace dimension: 3250809
+	Subsample 2
+		Energy: -13.30181792401426
+		Subspace dimension: 3094081
+	Subsample 3
+		Energy: -13.301820014877611
+		Subspace dimension: 3232804
+	Subsample 4
+		Energy: -13.301820385954468
+		Subspace dimension: 3143529
+Iteration 4
+	Subsample 0
+		Energy: -13.301822148099113
+		Subspace dimension: 3225616
+	Subsample 1
+		Energy: -13.301823819364746
+		Subspace dimension: 3125824
+	Subsample 2
+		Energy: -13.301824958279582
+		Subspace dimension: 3254416
+	Subsample 3
+		Energy: -13.301819918523416
+		Subspace dimension: 3247204
+	Subsample 4
+		Energy: -13.301823110257422
+		Subspace dimension: 3161284
+Iteration 5
+	Subsample 0
+		Energy: -13.301822035190142
+		Subspace dimension: 3240000
+	Subsample 1
+		Energy: -13.301821617185045
+		Subspace dimension: 3232804
+	Subsample 2
+		Energy: -13.301824162367629
+		Subspace dimension: 3150625
+	Subsample 3
+		Energy: -13.301819426461806
+		Subspace dimension: 3254416
+	Subsample 4
+		Energy: -13.301820689956601
+		Subspace dimension: 3139984
+solve_fermion loop runtime: 2738.4935549953952 seconds.
+SQD wavefunction amplitudes size: 3254416
+% of FCI space: 21.662348063444593
+SQD fragment ground state energy: -13.301824958279582
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1906086495047
+E(CCSD) = -13.26400053463539  E_corr = -0.07339188513071168
+Gate counts: OrderedDict({'sx': 4068, 'rz': 3939, 'cz': 1646, 'x': 350, 'measure': 38, 'barrier': 1})
+Circuit depth: 507
+Running circuit...
+Circuit runtime: 4463.408881563693 seconds.
+Job ID: d27mnb056fsc73e657e0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.261304281171634
+		Subspace dimension: 1329409
+	Subsample 1
+		Energy: -13.261304281171634
+		Subspace dimension: 1329409
+	Subsample 2
+		Energy: -13.261304281171634
+		Subspace dimension: 1329409
+	Subsample 3
+		Energy: -13.261304281171634
+		Subspace dimension: 1329409
+	Subsample 4
+		Energy: -13.261304281171634
+		Subspace dimension: 1329409
+Iteration 2
+	Subsample 0
+		Energy: -13.265029954269057
+		Subspace dimension: 3034564
+	Subsample 1
+		Energy: -13.265102441002636
+		Subspace dimension: 3164841
+	Subsample 2
+		Energy: -13.264922012368887
+		Subspace dimension: 3083536
+	Subsample 3
+		Energy: -13.264869392377657
+		Subspace dimension: 3186225
+	Subsample 4
+		Energy: -13.26508972606064
+		Subspace dimension: 3020644
+Iteration 3
+	Subsample 0
+		Energy: -13.265135803373072
+		Subspace dimension: 3186225
+	Subsample 1
+		Energy: -13.265131521468223
+		Subspace dimension: 3154176
+	Subsample 2
+		Energy: -13.265139413401947
+		Subspace dimension: 3168400
+	Subsample 3
+		Energy: -13.265140691260232
+		Subspace dimension: 3139984
+	Subsample 4
+		Energy: -13.265139850688408
+		Subspace dimension: 3250809
+Iteration 4
+	Subsample 0
+		Energy: -13.265145660881721
+		Subspace dimension: 3193369
+	Subsample 1
+		Energy: -13.265143827014565
+		Subspace dimension: 3168400
+	Subsample 2
+		Energy: -13.265143138420376
+		Subspace dimension: 3240000
+	Subsample 3
+		Energy: -13.265142186034794
+		Subspace dimension: 3305124
+	Subsample 4
+		Energy: -13.26514450425582
+		Subspace dimension: 3136441
+Iteration 5
+	Subsample 0
+		Energy: -13.265142072074918
+		Subspace dimension: 3108169
+	Subsample 1
+		Energy: -13.26514544425081
+		Subspace dimension: 3207681
+	Subsample 2
+		Energy: -13.265140523114079
+		Subspace dimension: 3003289
+	Subsample 3
+		Energy: -13.26514082430477
+		Subspace dimension: 3122289
+	Subsample 4
+		Energy: -13.265142739961854
+		Subspace dimension: 3218436
+solve_fermion loop runtime: 2918.4434392005205 seconds.
+SQD wavefunction amplitudes size: 3193369
+% of FCI space: 21.25600131421859
+SQD fragment ground state energy: -13.265145660881721
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2426930766811
+E(CCSD) = -13.30088780596661  E_corr = -0.05819472928547101
+Gate counts: OrderedDict({'sx': 4032, 'rz': 3947, 'cz': 1634, 'x': 360, 'measure': 38, 'barrier': 1})
+Circuit depth: 495
+Running circuit...
+Circuit runtime: 35.07777805067599 seconds.
+Job ID: d27ohag56fsc73e66tb0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.294347790460673
+		Subspace dimension: 1100401
+	Subsample 1
+		Energy: -13.294347790460673
+		Subspace dimension: 1100401
+	Subsample 2
+		Energy: -13.294347790460673
+		Subspace dimension: 1100401
+	Subsample 3
+		Energy: -13.294347790460673
+		Subspace dimension: 1100401
+	Subsample 4
+		Energy: -13.294347790460673
+		Subspace dimension: 1100401
+Iteration 2
+	Subsample 0
+		Energy: -13.301679221894638
+		Subspace dimension: 3236401
+	Subsample 1
+		Energy: -13.301694583051997
+		Subspace dimension: 3186225
+	Subsample 2
+		Energy: -13.301728380187916
+		Subspace dimension: 3348900
+	Subsample 3
+		Energy: -13.301578526483675
+		Subspace dimension: 3265249
+	Subsample 4
+		Energy: -13.301667458404365
+		Subspace dimension: 3204100
+Iteration 3
+	Subsample 0
+		Energy: -13.301768069952644
+		Subspace dimension: 3171961
+	Subsample 1
+		Energy: -13.30177084565671
+		Subspace dimension: 3297856
+	Subsample 2
+		Energy: -13.30174431497873
+		Subspace dimension: 3276100
+	Subsample 3
+		Energy: -13.301766081548964
+		Subspace dimension: 3157729
+	Subsample 4
+		Energy: -13.30176679135473
+		Subspace dimension: 3193369
+Iteration 4
+	Subsample 0
+		Energy: -13.30176828940624
+		Subspace dimension: 3186225
+	Subsample 1
+		Energy: -13.301772336661072
+		Subspace dimension: 3254416
+	Subsample 2
+		Energy: -13.301767389581
+		Subspace dimension: 3094081
+	Subsample 3
+		Energy: -13.301768924893798
+		Subspace dimension: 3345241
+	Subsample 4
+		Energy: -13.301773311961432
+		Subspace dimension: 3268864
+Iteration 5
+	Subsample 0
+		Energy: -13.301772123255343
+		Subspace dimension: 3261636
+	Subsample 1
+		Energy: -13.301771261325506
+		Subspace dimension: 3179089
+	Subsample 2
+		Energy: -13.301773152873563
+		Subspace dimension: 3276100
+	Subsample 3
+		Energy: -13.301769798097972
+		Subspace dimension: 3463321
+	Subsample 4
+		Energy: -13.30177149439747
+		Subspace dimension: 3385600
+solve_fermion loop runtime: 2727.4187238207087 seconds.
+SQD wavefunction amplitudes size: 3268864
+% of FCI space: 21.758518191916384
+SQD fragment ground state energy: -13.301773311961432
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1905817449747
+E(CCSD) = -13.26398123518299  E_corr = -0.07339949020828897
+Gate counts: OrderedDict({'sx': 4010, 'rz': 3960, 'cz': 1642, 'x': 372, 'measure': 38, 'barrier': 1})
+Circuit depth: 497
+Running circuit...
+Circuit runtime: 7225.77693289984 seconds.
+Job ID: d27p76joctts738jhleg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.261402988532991
+		Subspace dimension: 1320201
+	Subsample 1
+		Energy: -13.261402988532991
+		Subspace dimension: 1320201
+	Subsample 2
+		Energy: -13.261402988532991
+		Subspace dimension: 1320201
+	Subsample 3
+		Energy: -13.261402988532991
+		Subspace dimension: 1320201
+	Subsample 4
+		Energy: -13.261402988532991
+		Subspace dimension: 1320201
+Iteration 2
+	Subsample 0
+		Energy: -13.265039821152236
+		Subspace dimension: 3319684
+	Subsample 1
+		Energy: -13.264996210220263
+		Subspace dimension: 3211264
+	Subsample 2
+		Energy: -13.265058554146218
+		Subspace dimension: 3080025
+	Subsample 3
+		Energy: -13.265022256628628
+		Subspace dimension: 3189796
+	Subsample 4
+		Energy: -13.265049763192163
+		Subspace dimension: 3122289
+Iteration 3
+	Subsample 0
+		Energy: -13.265120471825794
+		Subspace dimension: 3139984
+	Subsample 1
+		Energy: -13.265123129934976
+		Subspace dimension: 3186225
+	Subsample 2
+		Energy: -13.265119712432833
+		Subspace dimension: 3323329
+	Subsample 3
+		Energy: -13.265121916103768
+		Subspace dimension: 3272481
+	Subsample 4
+		Energy: -13.265117627922667
+		Subspace dimension: 3179089
+Iteration 4
+	Subsample 0
+		Energy: -13.26512571636688
+		Subspace dimension: 3261636
+	Subsample 1
+		Energy: -13.26512401098183
+		Subspace dimension: 3290596
+	Subsample 2
+		Energy: -13.265128353893056
+		Subspace dimension: 3283344
+	Subsample 3
+		Energy: -13.265121836048706
+		Subspace dimension: 3294225
+	Subsample 4
+		Energy: -13.265128633007636
+		Subspace dimension: 3139984
+Iteration 5
+	Subsample 0
+		Energy: -13.265126662362775
+		Subspace dimension: 3175524
+	Subsample 1
+		Energy: -13.265125608038637
+		Subspace dimension: 3080025
+	Subsample 2
+		Energy: -13.265122319570898
+		Subspace dimension: 3265249
+	Subsample 3
+		Energy: -13.265125353610884
+		Subspace dimension: 3312400
+	Subsample 4
+		Energy: -13.265120895595278
+		Subspace dimension: 3265249
+solve_fermion loop runtime: 2966.8557211980224 seconds.
+SQD wavefunction amplitudes size: 3139984
+% of FCI space: 20.900655085780986
+SQD fragment ground state energy: -13.265128633007636
+
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   1.2199e-04
+Cumulative energy      :   -4.363903826572007
+
+-- In iter  4
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2437024455456
+E(CCSD) = -13.30205306398644  E_corr = -0.0583506184408307
+Gate counts: OrderedDict({'sx': 4092, 'rz': 3987, 'cz': 1638, 'x': 351, 'measure': 38, 'barrier': 1})
+Circuit depth: 494
+Running circuit...
+Circuit runtime: 1372.8120202124119 seconds.
+Job ID: d27rn4boctts738jk2dg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.29965684529754
+		Subspace dimension: 1416100
+	Subsample 1
+		Energy: -13.29965684529754
+		Subspace dimension: 1416100
+	Subsample 2
+		Energy: -13.29965684529754
+		Subspace dimension: 1416100
+	Subsample 3
+		Energy: -13.29965684529754
+		Subspace dimension: 1416100
+	Subsample 4
+		Energy: -13.29965684529754
+		Subspace dimension: 1416100
+Iteration 2
+	Subsample 0
+		Energy: -13.302787581132524
+		Subspace dimension: 3143529
+	Subsample 1
+		Energy: -13.302772473835162
+		Subspace dimension: 3154176
+	Subsample 2
+		Energy: -13.30284347813446
+		Subspace dimension: 3150625
+	Subsample 3
+		Energy: -13.302847366336566
+		Subspace dimension: 3083536
+	Subsample 4
+		Energy: -13.302907592246331
+		Subspace dimension: 3006756
+Iteration 3
+	Subsample 0
+		Energy: -13.302939117865021
+		Subspace dimension: 3055504
+	Subsample 1
+		Energy: -13.302946049615766
+		Subspace dimension: 3101121
+	Subsample 2
+		Energy: -13.302944046843734
+		Subspace dimension: 3268864
+	Subsample 3
+		Energy: -13.302932213960869
+		Subspace dimension: 3250809
+	Subsample 4
+		Energy: -13.302943843224867
+		Subspace dimension: 3115225
+Iteration 4
+	Subsample 0
+		Energy: -13.30294638601232
+		Subspace dimension: 3186225
+	Subsample 1
+		Energy: -13.302946848987792
+		Subspace dimension: 3200521
+	Subsample 2
+		Energy: -13.302945445271229
+		Subspace dimension: 3154176
+	Subsample 3
+		Energy: -13.302943805877966
+		Subspace dimension: 3175524
+	Subsample 4
+		Energy: -13.302947103060022
+		Subspace dimension: 3222025
+Iteration 5
+	Subsample 0
+		Energy: -13.302946725016074
+		Subspace dimension: 3200521
+	Subsample 1
+		Energy: -13.30294543695039
+		Subspace dimension: 3179089
+	Subsample 2
+		Energy: -13.302945233966216
+		Subspace dimension: 3090564
+	Subsample 3
+		Energy: -13.302944955855326
+		Subspace dimension: 3258025
+	Subsample 4
+		Energy: -13.30294564846731
+		Subspace dimension: 3308761
+solve_fermion loop runtime: 2729.213235651143 seconds.
+SQD wavefunction amplitudes size: 3222025
+% of FCI space: 21.446744060722438
+SQD fragment ground state energy: -13.302947103060022
+
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1900476898637
+E(CCSD) = -13.2633557647165  E_corr = -0.073308074852769
+Gate counts: OrderedDict({'sx': 4150, 'rz': 4007, 'cz': 1650, 'x': 331, 'measure': 38, 'barrier': 1})
+Circuit depth: 501
+Running circuit...
+Circuit runtime: 44.142209821380675 seconds.
+Job ID: d27snf856fsc73e6arn0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.261005298149293
+		Subspace dimension: 1552516
+	Subsample 1
+		Energy: -13.261005298149293
+		Subspace dimension: 1552516
+	Subsample 2
+		Energy: -13.261005298149293
+		Subspace dimension: 1552516
+	Subsample 3
+		Energy: -13.261005298149293
+		Subspace dimension: 1552516
+	Subsample 4
+		Energy: -13.261005298149293
+		Subspace dimension: 1552516
+Iteration 2
+	Subsample 0
+		Energy: -13.264415574753611
+		Subspace dimension: 3211264
+	Subsample 1
+		Energy: -13.264228238478337
+		Subspace dimension: 3027600
+	Subsample 2
+		Energy: -13.264340177328855
+		Subspace dimension: 2876416
+	Subsample 3
+		Energy: -13.264328026159525
+		Subspace dimension: 2992900
+	Subsample 4
+		Energy: -13.264410309210577
+		Subspace dimension: 3062500
+Iteration 3
+	Subsample 0
+		Energy: -13.26448900754331
+		Subspace dimension: 3062500
+	Subsample 1
+		Energy: -13.26446775081287
+		Subspace dimension: 3179089
+	Subsample 2
+		Energy: -13.26447953969317
+		Subspace dimension: 3080025
+	Subsample 3
+		Energy: -13.264489331240018
+		Subspace dimension: 3204100
+	Subsample 4
+		Energy: -13.264482214407463
+		Subspace dimension: 3115225
+Iteration 4
+	Subsample 0
+		Energy: -13.264495671439684
+		Subspace dimension: 3111696
+	Subsample 1
+		Energy: -13.264496731342463
+		Subspace dimension: 2948089
+	Subsample 2
+		Energy: -13.26449757088237
+		Subspace dimension: 3108169
+	Subsample 3
+		Energy: -13.264491468017463
+		Subspace dimension: 3094081
+	Subsample 4
+		Energy: -13.264496445345369
+		Subspace dimension: 3240000
+Iteration 5
+	Subsample 0
+		Energy: -13.264495461822131
+		Subspace dimension: 3076516
+	Subsample 1
+		Energy: -13.264491581401844
+		Subspace dimension: 3154176
+	Subsample 2
+		Energy: -13.264498741400436
+		Subspace dimension: 3265249
+	Subsample 3
+		Energy: -13.264493217546674
+		Subspace dimension: 3122289
+	Subsample 4
+		Energy: -13.264490770132241
+		Subspace dimension: 3261636
+solve_fermion loop runtime: 2925.702923675999 seconds.
+SQD wavefunction amplitudes size: 3265249
+% of FCI space: 21.73445569091794
+SQD fragment ground state energy: -13.264498741400436
+
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2437335479565
+E(CCSD) = -13.30208572651579  E_corr = -0.05835217855933693
+Gate counts: OrderedDict({'sx': 4106, 'rz': 3993, 'cz': 1638, 'x': 344, 'measure': 38, 'barrier': 1})
+Circuit depth: 503
+Running circuit...
+Circuit runtime: 35.46014979388565 seconds.
+Job ID: d27tev929u8s73f8kopg
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.301415075552221
+		Subspace dimension: 1962801
+	Subsample 1
+		Energy: -13.301415075552221
+		Subspace dimension: 1962801
+	Subsample 2
+		Energy: -13.301415075552221
+		Subspace dimension: 1962801
+	Subsample 3
+		Energy: -13.301415075552221
+		Subspace dimension: 1962801
+	Subsample 4
+		Energy: -13.301415075552221
+		Subspace dimension: 1962801
+Iteration 2
+	Subsample 0
+		Energy: -13.302757079807947
+		Subspace dimension: 3020644
+	Subsample 1
+		Energy: -13.30281520413215
+		Subspace dimension: 2822400
+	Subsample 2
+		Energy: -13.302818978468038
+		Subspace dimension: 3034564
+	Subsample 3
+		Energy: -13.302927240729073
+		Subspace dimension: 3027600
+	Subsample 4
+		Energy: -13.302870131947353
+		Subspace dimension: 2910436
+Iteration 3
+	Subsample 0
+		Energy: -13.302976065244486
+		Subspace dimension: 3076516
+	Subsample 1
+		Energy: -13.302949187025042
+		Subspace dimension: 2968729
+	Subsample 2
+		Energy: -13.302937924132786
+		Subspace dimension: 2982529
+	Subsample 3
+		Energy: -13.302945481617046
+		Subspace dimension: 2999824
+	Subsample 4
+		Energy: -13.30295637603353
+		Subspace dimension: 3111696
+Iteration 4
+	Subsample 0
+		Energy: -13.302978257236086
+		Subspace dimension: 3027600
+	Subsample 1
+		Energy: -13.302977397602188
+		Subspace dimension: 2999824
+	Subsample 2
+		Energy: -13.302974709828488
+		Subspace dimension: 3055504
+	Subsample 3
+		Energy: -13.302980122676974
+		Subspace dimension: 3052009
+	Subsample 4
+		Energy: -13.30297850968449
+		Subspace dimension: 2948089
+Iteration 5
+	Subsample 0
+		Energy: -13.302977793442507
+		Subspace dimension: 2968729
+	Subsample 1
+		Energy: -13.302978414283935
+		Subspace dimension: 2883204
+	Subsample 2
+		Energy: -13.3029750039741
+		Subspace dimension: 2992900
+	Subsample 3
+		Energy: -13.302981127758585
+		Subspace dimension: 3017169
+	Subsample 4
+		Energy: -13.302978521591552
+		Subspace dimension: 3069504
+solve_fermion loop runtime: 2703.3277728557587 seconds.
+SQD wavefunction amplitudes size: 3017169
+% of FCI space: 20.08316239971628
+SQD fragment ground state energy: -13.302981127758585
+
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1900565928413
+E(CCSD) = -13.26336414379711  E_corr = -0.07330755095584665
+Gate counts: OrderedDict({'sx': 4112, 'rz': 3972, 'cz': 1650, 'x': 344, 'measure': 38, 'barrier': 1})
+Circuit depth: 494
+Running circuit...
+Circuit runtime: 39.622156041674316 seconds.
+Job ID: d27u4kp29u8s73f8le5g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.25911506391377
+		Subspace dimension: 1311025
+	Subsample 1
+		Energy: -13.25911506391377
+		Subspace dimension: 1311025
+	Subsample 2
+		Energy: -13.25911506391377
+		Subspace dimension: 1311025
+	Subsample 3
+		Energy: -13.25911506391377
+		Subspace dimension: 1311025
+	Subsample 4
+		Energy: -13.25911506391377
+		Subspace dimension: 1311025
+Iteration 2
+	Subsample 0
+		Energy: -13.264445132707873
+		Subspace dimension: 3017169
+	Subsample 1
+		Energy: -13.264472265116986
+		Subspace dimension: 3276100
+	Subsample 2
+		Energy: -13.264417455583914
+		Subspace dimension: 3003289
+	Subsample 3
+		Energy: -13.264471583201438
+		Subspace dimension: 3097600
+	Subsample 4
+		Energy: -13.264437396614033
+		Subspace dimension: 3104644
+Iteration 3
+	Subsample 0
+		Energy: -13.264499314717677
+		Subspace dimension: 3073009
+	Subsample 1
+		Energy: -13.264500906978077
+		Subspace dimension: 3150625
+	Subsample 2
+		Energy: -13.264505637992222
+		Subspace dimension: 3108169
+	Subsample 3
+		Energy: -13.264505453976273
+		Subspace dimension: 3168400
+	Subsample 4
+		Energy: -13.264502546162065
+		Subspace dimension: 3003289
+Iteration 4
+	Subsample 0
+		Energy: -13.26450614790042
+		Subspace dimension: 3359889
+	Subsample 1
+		Energy: -13.264507728512369
+		Subspace dimension: 3352561
+	Subsample 2
+		Energy: -13.264499083996986
+		Subspace dimension: 3265249
+	Subsample 3
+		Energy: -13.26450399871901
+		Subspace dimension: 3297856
+	Subsample 4
+		Energy: -13.26449860233095
+		Subspace dimension: 3211264
+Iteration 5
+	Subsample 0
+		Energy: -13.264506225585503
+		Subspace dimension: 3312400
+	Subsample 1
+		Energy: -13.264504596515815
+		Subspace dimension: 3080025
+	Subsample 2
+		Energy: -13.264503833969627
+		Subspace dimension: 3104644
+	Subsample 3
+		Energy: -13.264505136617974
+		Subspace dimension: 3175524
+	Subsample 4
+		Energy: -13.264506127439207
+		Subspace dimension: 3182656
+solve_fermion loop runtime: 2920.2224343447015 seconds.
+SQD wavefunction amplitudes size: 3352561
+% of FCI space: 22.315629988891978
+SQD fragment ground state energy: -13.264507728512369
+
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2436932952892
+E(CCSD) = -13.30204354630395  E_corr = -0.05835025101470486
+Gate counts: OrderedDict({'sx': 4062, 'rz': 3954, 'cz': 1638, 'x': 344, 'measure': 38, 'barrier': 1})
+Circuit depth: 493
+Running circuit...
+Circuit runtime: 39.72552166879177 seconds.
+Job ID: d27us31ogaas73ct8tr0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.302261467111311
+		Subspace dimension: 1814409
+	Subsample 1
+		Energy: -13.302261467111311
+		Subspace dimension: 1814409
+	Subsample 2
+		Energy: -13.302261467111311
+		Subspace dimension: 1814409
+	Subsample 3
+		Energy: -13.302261467111311
+		Subspace dimension: 1814409
+	Subsample 4
+		Energy: -13.302261467111311
+		Subspace dimension: 1814409
+Iteration 2
+	Subsample 0
+		Energy: -13.302840895331117
+		Subspace dimension: 2927521
+	Subsample 1
+		Energy: -13.30283276740453
+		Subspace dimension: 2879809
+	Subsample 2
+		Energy: -13.302876533746726
+		Subspace dimension: 2869636
+	Subsample 3
+		Energy: -13.302878967980472
+		Subspace dimension: 2937796
+	Subsample 4
+		Energy: -13.30285729643312
+		Subspace dimension: 2849344
+Iteration 3
+	Subsample 0
+		Energy: -13.302929235230856
+		Subspace dimension: 2941225
+	Subsample 1
+		Energy: -13.302913223318177
+		Subspace dimension: 2917264
+	Subsample 2
+		Energy: -13.30292769377711
+		Subspace dimension: 2965284
+	Subsample 3
+		Energy: -13.302926522424405
+		Subspace dimension: 3024121
+	Subsample 4
+		Energy: -13.302917241789116
+		Subspace dimension: 2958400
+Iteration 4
+	Subsample 0
+		Energy: -13.302936423058199
+		Subspace dimension: 3017169
+	Subsample 1
+		Energy: -13.302936563033715
+		Subspace dimension: 2992900
+	Subsample 2
+		Energy: -13.302928024234799
+		Subspace dimension: 2961841
+	Subsample 3
+		Energy: -13.30293618401776
+		Subspace dimension: 3154176
+	Subsample 4
+		Energy: -13.302933090428297
+		Subspace dimension: 3013696
+Iteration 5
+	Subsample 0
+		Energy: -13.302934584365449
+		Subspace dimension: 2917264
+	Subsample 1
+		Energy: -13.30293732711427
+		Subspace dimension: 2873025
+	Subsample 2
+		Energy: -13.302936202371502
+		Subspace dimension: 3073009
+	Subsample 3
+		Energy: -13.302935242688156
+		Subspace dimension: 2965284
+	Subsample 4
+		Energy: -13.302937555706956
+		Subspace dimension: 3087049
+solve_fermion loop runtime: 2655.5090810712427 seconds.
+SQD wavefunction amplitudes size: 3087049
+% of FCI space: 20.54830418941788
+SQD fragment ground state energy: -13.302937555706956
+
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1901659108352
+E(CCSD) = -13.26348846697811  E_corr = -0.07332255614295108
+Gate counts: OrderedDict({'sx': 4074, 'rz': 3964, 'cz': 1642, 'x': 350, 'measure': 38, 'barrier': 1})
+Circuit depth: 499
+Running circuit...
+Circuit runtime: 41.00786422751844 seconds.
+Job ID: d27vhe9ogaas73ct9j90
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.261376952590968
+		Subspace dimension: 1532644
+	Subsample 1
+		Energy: -13.261376952590968
+		Subspace dimension: 1532644
+	Subsample 2
+		Energy: -13.261376952590968
+		Subspace dimension: 1532644
+	Subsample 3
+		Energy: -13.261376952590968
+		Subspace dimension: 1532644
+	Subsample 4
+		Energy: -13.261376952590968
+		Subspace dimension: 1532644
+Iteration 2
+	Subsample 0
+		Energy: -13.26451388896903
+		Subspace dimension: 3087049
+	Subsample 1
+		Energy: -13.26459455810263
+		Subspace dimension: 3097600
+	Subsample 2
+		Energy: -13.264444235991546
+		Subspace dimension: 3111696
+	Subsample 3
+		Energy: -13.264572826500016
+		Subspace dimension: 2965284
+	Subsample 4
+		Energy: -13.26454537499634
+		Subspace dimension: 3097600
+Iteration 3
+	Subsample 0
+		Energy: -13.264626047268065
+		Subspace dimension: 3378244
+	Subsample 1
+		Energy: -13.26462327036564
+		Subspace dimension: 3168400
+	Subsample 2
+		Energy: -13.264628232510173
+		Subspace dimension: 3168400
+	Subsample 3
+		Energy: -13.264617121558517
+		Subspace dimension: 3232804
+	Subsample 4
+		Energy: -13.26462949037769
+		Subspace dimension: 3301489
+Iteration 4
+	Subsample 0
+		Energy: -13.264630084751829
+		Subspace dimension: 3290596
+	Subsample 1
+		Energy: -13.264629025517578
+		Subspace dimension: 3094081
+	Subsample 2
+		Energy: -13.264627936841194
+		Subspace dimension: 3168400
+	Subsample 3
+		Energy: -13.264627670925996
+		Subspace dimension: 3094081
+	Subsample 4
+		Energy: -13.26462947657646
+		Subspace dimension: 3250809
+Iteration 5
+	Subsample 0
+		Energy: -13.264628839718435
+		Subspace dimension: 3157729
+	Subsample 1
+		Energy: -13.264630632561332
+		Subspace dimension: 3196944
+	Subsample 2
+		Energy: -13.264629954234557
+		Subspace dimension: 3186225
+	Subsample 3
+		Energy: -13.264626875272919
+		Subspace dimension: 3143529
+	Subsample 4
+		Energy: -13.26462930646713
+		Subspace dimension: 3161284
+solve_fermion loop runtime: 2964.9798024101183 seconds.
+SQD wavefunction amplitudes size: 3196944
+% of FCI space: 21.279797563477075
+SQD fragment ground state energy: -13.264630632561332
+
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.2436649227981
+E(CCSD) = -13.3020142535646  E_corr = -0.05834933076645798
+Gate counts: OrderedDict({'sx': 4094, 'rz': 3973, 'cz': 1638, 'x': 349, 'measure': 38, 'barrier': 1})
+Circuit depth: 499
+Running circuit...
+Circuit runtime: 79.15371952392161 seconds.
+Job ID: d28097boctts738jp54g
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.300390303034051
+		Subspace dimension: 1572516
+	Subsample 1
+		Energy: -13.300390303034051
+		Subspace dimension: 1572516
+	Subsample 2
+		Energy: -13.300390303034051
+		Subspace dimension: 1572516
+	Subsample 3
+		Energy: -13.300390303034051
+		Subspace dimension: 1572516
+	Subsample 4
+		Energy: -13.300390303034051
+		Subspace dimension: 1572516
+Iteration 2
+	Subsample 0
+		Energy: -13.302747691810453
+		Subspace dimension: 3196944
+	Subsample 1
+		Energy: -13.302783138819345
+		Subspace dimension: 3207681
+	Subsample 2
+		Energy: -13.302815208135401
+		Subspace dimension: 3087049
+	Subsample 3
+		Energy: -13.302797115331593
+		Subspace dimension: 3225616
+	Subsample 4
+		Energy: -13.302757781946747
+		Subspace dimension: 3204100
+Iteration 3
+	Subsample 0
+		Energy: -13.302885222118109
+		Subspace dimension: 3418801
+	Subsample 1
+		Energy: -13.302891157792665
+		Subspace dimension: 3211264
+	Subsample 2
+		Energy: -13.302891234829708
+		Subspace dimension: 3316041
+	Subsample 3
+		Energy: -13.30289536478768
+		Subspace dimension: 3268864
+	Subsample 4
+		Energy: -13.302866905340569
+		Subspace dimension: 3186225
+Iteration 4
+	Subsample 0
+		Energy: -13.302908718073349
+		Subspace dimension: 3265249
+	Subsample 1
+		Energy: -13.302897797962036
+		Subspace dimension: 3283344
+	Subsample 2
+		Energy: -13.302896075192383
+		Subspace dimension: 3279721
+	Subsample 3
+		Energy: -13.302906803092817
+		Subspace dimension: 3214849
+	Subsample 4
+		Energy: -13.302905189914584
+		Subspace dimension: 3258025
+Iteration 5
+	Subsample 0
+		Energy: -13.302908311546634
+		Subspace dimension: 3139984
+	Subsample 1
+		Energy: -13.302905185282006
+		Subspace dimension: 3334276
+	Subsample 2
+		Energy: -13.302904555482897
+		Subspace dimension: 3359889
+	Subsample 3
+		Energy: -13.30290645298428
+		Subspace dimension: 3359889
+	Subsample 4
+		Energy: -13.302903103179672
+		Subspace dimension: 3129361
+solve_fermion loop runtime: 2812.931563515216 seconds.
+SQD wavefunction amplitudes size: 3265249
+% of FCI space: 21.73445569091794
+SQD fragment ground state energy: -13.302908718073349
+
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -13.1901387971219
+E(CCSD) = -13.26344631532136  E_corr = -0.07330751819943276
+Gate counts: OrderedDict({'sx': 4096, 'rz': 4025, 'cz': 1646, 'x': 358, 'measure': 38, 'barrier': 1})
+Circuit depth: 504
+Running circuit...
+Circuit runtime: 11147.51768032927 seconds.
+Job ID: d28103pogaas73ctbbu0
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -13.260651124078702
+		Subspace dimension: 1452025
+	Subsample 1
+		Energy: -13.260651124078702
+		Subspace dimension: 1452025
+	Subsample 2
+		Energy: -13.260651124078702
+		Subspace dimension: 1452025
+	Subsample 3
+		Energy: -13.260651124078702
+		Subspace dimension: 1452025
+	Subsample 4
+		Energy: -13.260651124078702
+		Subspace dimension: 1452025
+Iteration 2
+	Subsample 0
+		Energy: -13.264529107493537
+		Subspace dimension: 3129361
+	Subsample 1
+		Energy: -13.264502940560497
+		Subspace dimension: 3010225
+	Subsample 2
+		Energy: -13.264491240905322
+		Subspace dimension: 3038049
+	Subsample 3
+		Energy: -13.264553321124545
+		Subspace dimension: 3097600
+	Subsample 4
+		Energy: -13.264432383431478
+		Subspace dimension: 3143529
+Iteration 3
+	Subsample 0
+		Energy: -13.264587789593428
+		Subspace dimension: 3182656
+	Subsample 1
+		Energy: -13.264584746982639
+		Subspace dimension: 3179089
+	Subsample 2
+		Energy: -13.264582524703483
+		Subspace dimension: 3247204
+	Subsample 3
+		Energy: -13.264579138637224
+		Subspace dimension: 3010225
+	Subsample 4
+		Energy: -13.264584785280169
+		Subspace dimension: 3111696
+Iteration 4
+	Subsample 0
+		Energy: -13.264582546717742
+		Subspace dimension: 3279721
+	Subsample 1
+		Energy: -13.264584926539532
+		Subspace dimension: 3143529
+	Subsample 2
+		Energy: -13.264585811481732
+		Subspace dimension: 3108169
+	Subsample 3
+		Energy: -13.2645806491975
+		Subspace dimension: 3189796
+	Subsample 4
+		Energy: -13.2645869199667
+		Subspace dimension: 3080025
+Iteration 5
+	Subsample 0
+		Energy: -13.264587613736827
+		Subspace dimension: 3164841
+	Subsample 1
+		Energy: -13.264585225800365
+		Subspace dimension: 3094081
+	Subsample 2
+		Energy: -13.264584807847273
+		Subspace dimension: 3083536
+	Subsample 3
+		Energy: -13.264587496285966
+		Subspace dimension: 3150625
+	Subsample 4
+		Energy: -13.26458894934793
+		Subspace dimension: 3150625
+solve_fermion loop runtime: 2923.7254952332005 seconds.
+SQD wavefunction amplitudes size: 3150625
+% of FCI space: 20.971484704902547
+SQD fragment ground state energy: -13.26458894934793
+
+ No. of line search steps in QN opt : 1
+
+Reached the maximum number of iterations: 5
+Error in density matching      :   6.7138e-05
+Cumulative energy      :   -4.3642546996417915
+
+BE DID NOT CONVERGE IN 5 STEPS
+-----------------------------------------------------
+ BE ENERGIES with cumulant-based expression
+-----------------------------------------------------
+ E_BE = E_HF + Tr(F del g) + Tr(V K_approx)
+ E_HF            :    -4.16689225 Ha
+ Tr(F del g)     :     0.18701671 Ha
+ Tr(V K_approx)  :    -0.38437916 Ha
+ E_BE            :    -4.36425470 Ha
+ Ecorr BE        :    -0.19736245 Ha
+-----------------------------------------------------
+
+BE energy: -4.3642546996417915

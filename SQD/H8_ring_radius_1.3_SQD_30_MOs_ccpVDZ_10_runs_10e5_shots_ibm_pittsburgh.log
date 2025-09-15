@@ -1,0 +1,1584 @@
+converged SCF energy = -4.16689224759201
+converged SCF energy = -4.16689224759194
+Nuclear repulsion energy: 9.133975910779744
+Mean field electronic energy: -13.300868158371683
+E(CCSD) = -4.330739051716794  E_corr = -0.1638468041248552
+Save directory: /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2
+ISA circuit saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/isa_circuit.qpy
+Gate counts (w/ pre-init passes): OrderedDict({'rz': 10032, 'sx': 9797, 'cz': 3876, 'x': 871, 'measure': 60, 'barrier': 1})
+Circuit depth: 752
+Saved bit array 0 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_0.npz
+Saved bit array 1 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_1.npz
+Saved bit array 2 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_2.npz
+Saved bit array 3 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_3.npz
+Saved bit array 4 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_4.npz
+Saved bit array 5 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_5.npz
+Saved bit array 6 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_6.npz
+Saved bit array 7 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_7.npz
+Saved bit array 8 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_8.npz
+Saved bit array 9 to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/bit_array_9.npz
+job ID: d2fmcq3ibkqs73fb2dbg
+############# Bit Array 0 #############
+Running with samples_per_batch = 500
+Iteration 1
+	Subsample 0
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 1
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 2
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 3
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 4
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+Iteration 2
+	Subsample 0
+		Energy: -12.609291063853243
+		Subspace dimension: 640000
+	Subsample 1
+		Energy: -12.590939731763038
+		Subspace dimension: 603729
+	Subsample 2
+		Energy: -13.30809841614346
+		Subspace dimension: 595984
+	Subsample 3
+		Energy: -13.343558715788312
+		Subspace dimension: 624100
+	Subsample 4
+		Energy: -13.327251131575753
+		Subspace dimension: 622521
+Iteration 3
+	Subsample 0
+		Energy: -13.451106754171365
+		Subspace dimension: 622521
+	Subsample 1
+		Energy: -13.456260026612762
+		Subspace dimension: 636804
+	Subsample 2
+		Energy: -13.46020615573441
+		Subspace dimension: 667489
+	Subsample 3
+		Energy: -13.444452817191001
+		Subspace dimension: 654481
+	Subsample 4
+		Energy: -13.444022381317435
+		Subspace dimension: 662596
+Iteration 4
+	Subsample 0
+		Energy: -13.482663077533726
+		Subspace dimension: 912025
+	Subsample 1
+		Energy: -13.484077668874887
+		Subspace dimension: 948676
+	Subsample 2
+		Energy: -13.482070088751417
+		Subspace dimension: 980100
+	Subsample 3
+		Energy: -13.473177191577436
+		Subspace dimension: 952576
+	Subsample 4
+		Energy: -13.479599832309173
+		Subspace dimension: 962361
+Iteration 5
+	Subsample 0
+		Energy: -13.487025089321747
+		Subspace dimension: 1304164
+	Subsample 1
+		Energy: -13.491714050864568
+		Subspace dimension: 1249924
+	Subsample 2
+		Energy: -13.490466006917107
+		Subspace dimension: 1299600
+	Subsample 3
+		Energy: -13.491145081452373
+		Subspace dimension: 1311025
+	Subsample 4
+		Energy: -13.489052172402378
+		Subspace dimension: 1265625
+############# Final Result for bit array 0 ############
+Final energy for batch size 500: -13.491714050864568
+Final subspace dimension for batch size 500: 1249924
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_500_array_0.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_500_bit_array_0.npz
+Running with samples_per_batch = 1000
+Iteration 1
+	Subsample 0
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 1
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 2
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 3
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 4
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+Iteration 2
+	Subsample 0
+		Energy: -13.346259196960832
+		Subspace dimension: 2042041
+	Subsample 1
+		Energy: -13.365507241147103
+		Subspace dimension: 2090916
+	Subsample 2
+		Energy: -13.356199999446938
+		Subspace dimension: 2022084
+	Subsample 3
+		Energy: -13.354700916370854
+		Subspace dimension: 2082249
+	Subsample 4
+		Energy: -13.343634009151002
+		Subspace dimension: 2079364
+Iteration 3
+	Subsample 0
+		Energy: -13.487796890825775
+		Subspace dimension: 1968409
+	Subsample 1
+		Energy: -13.476536655772719
+		Subspace dimension: 2002225
+	Subsample 2
+		Energy: -13.480354663138849
+		Subspace dimension: 1918225
+	Subsample 3
+		Energy: -13.475984748338224
+		Subspace dimension: 1898884
+	Subsample 4
+		Energy: -13.483874086166264
+		Subspace dimension: 1957201
+Iteration 4
+	Subsample 0
+		Energy: -13.493068007724585
+		Subspace dimension: 2802276
+	Subsample 1
+		Energy: -13.493398699428157
+		Subspace dimension: 2805625
+	Subsample 2
+		Energy: -13.492560808389767
+		Subspace dimension: 2706025
+	Subsample 3
+		Energy: -13.493541823373368
+		Subspace dimension: 2752281
+	Subsample 4
+		Energy: -13.494237044565278
+		Subspace dimension: 2666689
+Iteration 5
+	Subsample 0
+		Energy: -13.495993444961174
+		Subspace dimension: 3385600
+	Subsample 1
+		Energy: -13.495921052457808
+		Subspace dimension: 3470769
+	Subsample 2
+		Energy: -13.49600100960457
+		Subspace dimension: 3478225
+	Subsample 3
+		Energy: -13.49583128341903
+		Subspace dimension: 3363556
+	Subsample 4
+		Energy: -13.49627164605883
+		Subspace dimension: 3459600
+############# Final Result for bit array 0 ############
+Final energy for batch size 1000: -13.49627164605883
+Final subspace dimension for batch size 1000: 3459600
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_1000_array_0.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_1000_bit_array_0.npz
+Running with samples_per_batch = 2000
+Iteration 1
+	Subsample 0
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 1
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 2
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 3
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 4
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+Iteration 2
+	Subsample 0
+		Energy: -13.411236527395273
+		Subspace dimension: 6507601
+	Subsample 1
+		Energy: -13.37698039565652
+		Subspace dimension: 6640929
+	Subsample 2
+		Energy: -13.41159986316014
+		Subspace dimension: 6305121
+	Subsample 3
+		Energy: -13.411893418361233
+		Subspace dimension: 6568969
+	Subsample 4
+		Energy: -13.402410901716811
+		Subspace dimension: 6320196
+Iteration 3
+	Subsample 0
+		Energy: -13.493366467368201
+		Subspace dimension: 5731236
+	Subsample 1
+		Energy: -13.494487355334707
+		Subspace dimension: 5359225
+	Subsample 2
+		Energy: -13.495062506526036
+		Subspace dimension: 5740816
+	Subsample 3
+		Energy: -13.492390813345775
+		Subspace dimension: 5494336
+	Subsample 4
+		Energy: -13.494733783163692
+		Subspace dimension: 5678689
+Iteration 4
+	Subsample 0
+		Energy: -13.498015706146871
+		Subspace dimension: 7219969
+	Subsample 1
+		Energy: -13.498572074344375
+		Subspace dimension: 7382089
+	Subsample 2
+		Energy: -13.498142116074797
+		Subspace dimension: 7209225
+	Subsample 3
+		Energy: -13.498624740076263
+		Subspace dimension: 7485696
+	Subsample 4
+		Energy: -13.498682330992867
+		Subspace dimension: 7463824
+Iteration 5
+	Subsample 0
+		Energy: -13.500973860637671
+		Subspace dimension: 8761600
+	Subsample 1
+		Energy: -13.500521647267151
+		Subspace dimension: 8803089
+	Subsample 2
+		Energy: -13.500329232834368
+		Subspace dimension: 8844676
+	Subsample 3
+		Energy: -13.501033169610743
+		Subspace dimension: 8898289
+	Subsample 4
+		Energy: -13.500619008992802
+		Subspace dimension: 8820900
+############# Final Result for bit array 0 ############
+Final energy for batch size 2000: -13.501033169610743
+Final subspace dimension for batch size 2000: 8898289
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_2000_array_0.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_2000_bit_array_0.npz
+Running with samples_per_batch = 3000
+Iteration 1
+	Subsample 0
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 1
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 2
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 3
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 4
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+Iteration 2
+	Subsample 0
+		Energy: -13.419217038532704
+		Subspace dimension: 12355225
+	Subsample 1
+		Energy: -13.425524898826378
+		Subspace dimension: 11950849
+	Subsample 2
+		Energy: -13.428097197402744
+		Subspace dimension: 12110400
+	Subsample 3
+		Energy: -13.421843556795231
+		Subspace dimension: 11737476
+	Subsample 4
+		Energy: -13.402073040091329
+		Subspace dimension: 11792356
+Iteration 3
+	Subsample 0
+		Energy: -13.498144259567539
+		Subspace dimension: 9935104
+	Subsample 1
+		Energy: -13.497498507189936
+		Subspace dimension: 9734400
+	Subsample 2
+		Energy: -13.498602841440027
+		Subspace dimension: 9859600
+	Subsample 3
+		Energy: -13.497895319694136
+		Subspace dimension: 10163344
+	Subsample 4
+		Energy: -13.498407322590204
+		Subspace dimension: 10061584
+Iteration 4
+	Subsample 0
+		Energy: -13.500913873707802
+		Subspace dimension: 11992369
+	Subsample 1
+		Energy: -13.501237141921102
+		Subspace dimension: 12264004
+	Subsample 2
+		Energy: -13.501241991908099
+		Subspace dimension: 12222016
+	Subsample 3
+		Energy: -13.500939292604357
+		Subspace dimension: 12110400
+	Subsample 4
+		Energy: -13.501009519483258
+		Subspace dimension: 12348196
+Iteration 5
+	Subsample 0
+		Energy: -13.502282249294918
+		Subspace dimension: 13816089
+	Subsample 1
+		Energy: -13.502640010720425
+		Subspace dimension: 13616100
+	Subsample 2
+		Energy: -13.502546412842477
+		Subspace dimension: 13557124
+	Subsample 3
+		Energy: -13.502487384419378
+		Subspace dimension: 13950225
+	Subsample 4
+		Energy: -13.502452482209437
+		Subspace dimension: 14062500
+############# Final Result for bit array 0 ############
+Final energy for batch size 3000: -13.502640010720425
+Final subspace dimension for batch size 3000: 13616100
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_3000_array_0.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_3000_bit_array_0.npz
+Running with samples_per_batch = 4000
+Iteration 1
+	Subsample 0
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 1
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 2
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 3
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 4
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+Iteration 2
+	Subsample 0
+		Energy: -13.437734972860586
+		Subspace dimension: 18344089
+	Subsample 1
+		Energy: -13.436678912216536
+		Subspace dimension: 17850625
+	Subsample 2
+		Energy: -13.448761212881404
+		Subspace dimension: 17665209
+	Subsample 3
+		Energy: -13.44974572626028
+		Subspace dimension: 18275625
+	Subsample 4
+		Energy: -13.443954939468838
+		Subspace dimension: 18190225
+Iteration 3
+	Subsample 0
+		Energy: -13.500674851350473
+		Subspace dimension: 14861025
+	Subsample 1
+		Energy: -13.499767358091988
+		Subspace dimension: 14891881
+	Subsample 2
+		Energy: -13.499874882423912
+		Subspace dimension: 14622976
+	Subsample 3
+		Energy: -13.500975472509694
+		Subspace dimension: 15186609
+	Subsample 4
+		Energy: -13.500135509985466
+		Subspace dimension: 14523721
+Iteration 4
+	Subsample 0
+		Energy: -13.50281837669965
+		Subspace dimension: 17288964
+	Subsample 1
+		Energy: -13.50291264084375
+		Subspace dimension: 17297281
+	Subsample 2
+		Energy: -13.502712838041504
+		Subspace dimension: 17682025
+	Subsample 3
+		Energy: -13.503023726868435
+		Subspace dimension: 17497489
+	Subsample 4
+		Energy: -13.502703671599562
+		Subspace dimension: 17347225
+Iteration 5
+	Subsample 0
+		Energy: -13.503698407490772
+		Subspace dimension: 19079424
+	Subsample 1
+		Energy: -13.503753754726462
+		Subspace dimension: 18309841
+	Subsample 2
+		Energy: -13.50367034598674
+		Subspace dimension: 18766224
+	Subsample 3
+		Energy: -13.503653855949597
+		Subspace dimension: 18421264
+	Subsample 4
+		Energy: -13.503853174973523
+		Subspace dimension: 18748900
+############# Final Result for bit array 0 ############
+Final energy for batch size 4000: -13.503853174973523
+Final subspace dimension for batch size 4000: 18748900
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_4000_array_0.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_4000_bit_array_0.npz
+Running with samples_per_batch = 5000
+Iteration 1
+	Subsample 0
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 1
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 2
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 3
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+	Subsample 4
+		Energy: -10.184616983431665
+		Subspace dimension: 64
+Iteration 2
+	Subsample 0
+		Energy: -13.430915809964759
+		Subspace dimension: 24453025
+	Subsample 1
+		Energy: -13.442427551586714
+		Subspace dimension: 25240576
+	Subsample 2
+		Energy: -13.446744254715966
+		Subspace dimension: 24950025
+	Subsample 3
+		Energy: -13.45262017667258
+		Subspace dimension: 24502500
+	Subsample 4
+		Energy: -13.44469702163502
+		Subspace dimension: 24730729
+Iteration 3
+	Subsample 0
+		Energy: -13.500719948423297
+		Subspace dimension: 19527561
+	Subsample 1
+		Energy: -13.500724672349904
+		Subspace dimension: 19465744
+	Subsample 2
+		Energy: -13.500709720112553
+		Subspace dimension: 19386409
+	Subsample 3
+		Energy: -13.50076202664081
+		Subspace dimension: 19184400
+	Subsample 4
+		Energy: -13.501347914206173
+		Subspace dimension: 20034576
+Iteration 4
+	Subsample 0
+		Energy: -13.503448359728484
+		Subspace dimension: 22146436
+	Subsample 1
+		Energy: -13.50338317398575
+		Subspace dimension: 21864976
+	Subsample 2
+		Energy: -13.50359116518818
+		Subspace dimension: 22505536
+	Subsample 3
+		Energy: -13.503220797967268
+		Subspace dimension: 22033636
+	Subsample 4
+		Energy: -13.503030904052416
+		Subspace dimension: 22619536
+Iteration 5
+	Subsample 0
+		Energy: -13.504031844954753
+		Subspace dimension: 23902321
+	Subsample 1
+		Energy: -13.503982039241931
+		Subspace dimension: 23155344
+	Subsample 2
+		Energy: -13.503927850632158
+		Subspace dimension: 23338561
+	Subsample 3
+		Energy: -13.503962211279244
+		Subspace dimension: 23396569
+	Subsample 4
+		Energy: -13.504038724782141
+		Subspace dimension: 23164969
+############# Final Result for bit array 0 ############
+Final energy for batch size 5000: -13.504038724782141
+Final subspace dimension for batch size 5000: 23164969
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_5000_array_0.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_5000_bit_array_0.npz
+############# Bit Array 1 #############
+Running with samples_per_batch = 500
+Iteration 1
+	Subsample 0
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.352713520138092
+		Subspace dimension: 622521
+	Subsample 1
+		Energy: -13.359247894999706
+		Subspace dimension: 619369
+	Subsample 2
+		Energy: -13.361002668766677
+		Subspace dimension: 622521
+	Subsample 3
+		Energy: -13.346651840617248
+		Subspace dimension: 617796
+	Subsample 4
+		Energy: -13.355933528877303
+		Subspace dimension: 665856
+Iteration 3
+	Subsample 0
+		Energy: -13.438249367203127
+		Subspace dimension: 826281
+	Subsample 1
+		Energy: -13.446746468295416
+		Subspace dimension: 846400
+	Subsample 2
+		Energy: -13.430785026538123
+		Subspace dimension: 837225
+	Subsample 3
+		Energy: -13.446913070757578
+		Subspace dimension: 894916
+	Subsample 4
+		Energy: -13.447898704619677
+		Subspace dimension: 831744
+Iteration 4
+	Subsample 0
+		Energy: -13.454182444856848
+		Subspace dimension: 1270129
+	Subsample 1
+		Energy: -13.455393200218593
+		Subspace dimension: 1258884
+	Subsample 2
+		Energy: -13.456016945455708
+		Subspace dimension: 1236544
+	Subsample 3
+		Energy: -13.461290044182752
+		Subspace dimension: 1247689
+	Subsample 4
+		Energy: -13.457059487361903
+		Subspace dimension: 1247689
+Iteration 5
+	Subsample 0
+		Energy: -13.485282717139317
+		Subspace dimension: 1406596
+	Subsample 1
+		Energy: -13.4845856351299
+		Subspace dimension: 1375929
+	Subsample 2
+		Energy: -13.479506168174625
+		Subspace dimension: 1392400
+	Subsample 3
+		Energy: -13.488570623351189
+		Subspace dimension: 1336336
+	Subsample 4
+		Energy: -13.488881361777954
+		Subspace dimension: 1401856
+############# Final Result for bit array 1 ############
+Final energy for batch size 500: -13.488881361777954
+Final subspace dimension for batch size 500: 1401856
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_500_array_1.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_500_bit_array_1.npz
+Running with samples_per_batch = 1000
+Iteration 1
+	Subsample 0
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.398645784740825
+		Subspace dimension: 1962801
+	Subsample 1
+		Energy: -13.3901706143158
+		Subspace dimension: 2022084
+	Subsample 2
+		Energy: -13.405156072311613
+		Subspace dimension: 2042041
+	Subsample 3
+		Energy: -13.384144266832966
+		Subspace dimension: 2053489
+	Subsample 4
+		Energy: -13.383004476751713
+		Subspace dimension: 2010724
+Iteration 3
+	Subsample 0
+		Energy: -13.485162859763735
+		Subspace dimension: 2175625
+	Subsample 1
+		Energy: -13.479416299563
+		Subspace dimension: 2193361
+	Subsample 2
+		Energy: -13.482851860956472
+		Subspace dimension: 2289169
+	Subsample 3
+		Energy: -13.477140684522537
+		Subspace dimension: 2199289
+	Subsample 4
+		Energy: -13.487861815977926
+		Subspace dimension: 2193361
+Iteration 4
+	Subsample 0
+		Energy: -13.492716653653439
+		Subspace dimension: 2835856
+	Subsample 1
+		Energy: -13.49333025731649
+		Subspace dimension: 2849344
+	Subsample 2
+		Energy: -13.495150718088984
+		Subspace dimension: 2951524
+	Subsample 3
+		Energy: -13.495260220663482
+		Subspace dimension: 2866249
+	Subsample 4
+		Energy: -13.493897198223577
+		Subspace dimension: 2883204
+Iteration 5
+	Subsample 0
+		Energy: -13.497164810720058
+		Subspace dimension: 3728761
+	Subsample 1
+		Energy: -13.49688786362266
+		Subspace dimension: 3591025
+	Subsample 2
+		Energy: -13.497119614574931
+		Subspace dimension: 3545689
+	Subsample 3
+		Energy: -13.496822002259039
+		Subspace dimension: 3667225
+	Subsample 4
+		Energy: -13.496836187108984
+		Subspace dimension: 3467044
+############# Final Result for bit array 1 ############
+Final energy for batch size 1000: -13.497164810720058
+Final subspace dimension for batch size 1000: 3728761
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_1000_array_1.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_1000_bit_array_1.npz
+Running with samples_per_batch = 2000
+Iteration 1
+	Subsample 0
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.404373197747242
+		Subspace dimension: 6036849
+	Subsample 1
+		Energy: -13.427863272994395
+		Subspace dimension: 6385729
+	Subsample 2
+		Energy: -13.437732899347038
+		Subspace dimension: 6390784
+	Subsample 3
+		Energy: -13.43209882886727
+		Subspace dimension: 6315169
+	Subsample 4
+		Energy: -13.415442824002694
+		Subspace dimension: 6320196
+Iteration 3
+	Subsample 0
+		Energy: -13.495494154662907
+		Subspace dimension: 6584356
+	Subsample 1
+		Energy: -13.496686446901913
+		Subspace dimension: 6310144
+	Subsample 2
+		Energy: -13.491714677517205
+		Subspace dimension: 6466849
+	Subsample 3
+		Energy: -13.496025816691871
+		Subspace dimension: 7027801
+	Subsample 4
+		Energy: -13.493053576470313
+		Subspace dimension: 6395841
+Iteration 4
+	Subsample 0
+		Energy: -13.49961950224151
+		Subspace dimension: 7717284
+	Subsample 1
+		Energy: -13.499960233164535
+		Subspace dimension: 7452900
+	Subsample 2
+		Energy: -13.49984917276856
+		Subspace dimension: 7823209
+	Subsample 3
+		Energy: -13.499320009490571
+		Subspace dimension: 7700625
+	Subsample 4
+		Energy: -13.499258292902052
+		Subspace dimension: 7617600
+Iteration 5
+	Subsample 0
+		Energy: -13.501581313505298
+		Subspace dimension: 8958049
+	Subsample 1
+		Energy: -13.50122401965477
+		Subspace dimension: 8714304
+	Subsample 2
+		Energy: -13.501428015473065
+		Subspace dimension: 8928144
+	Subsample 3
+		Energy: -13.50135088771143
+		Subspace dimension: 8732025
+	Subsample 4
+		Energy: -13.501308838967176
+		Subspace dimension: 8958049
+############# Final Result for bit array 1 ############
+Final energy for batch size 2000: -13.501581313505298
+Final subspace dimension for batch size 2000: 8958049
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_2000_array_1.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_2000_bit_array_1.npz
+Running with samples_per_batch = 3000
+Iteration 1
+	Subsample 0
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.445158295281654
+		Subspace dimension: 11737476
+	Subsample 1
+		Energy: -13.442519634026047
+		Subspace dimension: 11607649
+	Subsample 2
+		Energy: -13.449570799084878
+		Subspace dimension: 11916304
+	Subsample 3
+		Energy: -13.445252281093587
+		Subspace dimension: 11573604
+	Subsample 4
+		Energy: -13.454701798342086
+		Subspace dimension: 11764900
+Iteration 3
+	Subsample 0
+		Energy: -13.498586735084809
+		Subspace dimension: 10863616
+	Subsample 1
+		Energy: -13.499021945176628
+		Subspace dimension: 10719076
+	Subsample 2
+		Energy: -13.498347347555006
+		Subspace dimension: 10517049
+	Subsample 3
+		Energy: -13.499552021168153
+		Subspace dimension: 10394176
+	Subsample 4
+		Energy: -13.497566118457057
+		Subspace dimension: 10413529
+Iteration 4
+	Subsample 0
+		Energy: -13.501788258563511
+		Subspace dimension: 12313081
+	Subsample 1
+		Energy: -13.502178021723912
+		Subspace dimension: 12320100
+	Subsample 2
+		Energy: -13.501729997661537
+		Subspace dimension: 11723776
+	Subsample 3
+		Energy: -13.501603126056283
+		Subspace dimension: 12131289
+	Subsample 4
+		Energy: -13.50164867447778
+		Subspace dimension: 12222016
+Iteration 5
+	Subsample 0
+		Energy: -13.502990327861601
+		Subspace dimension: 14130081
+	Subsample 1
+		Energy: -13.503105394079096
+		Subspace dimension: 13905441
+	Subsample 2
+		Energy: -13.502926702008107
+		Subspace dimension: 13571856
+	Subsample 3
+		Energy: -13.503086004395367
+		Subspace dimension: 14227984
+	Subsample 4
+		Energy: -13.503189330066357
+		Subspace dimension: 13608721
+############# Final Result for bit array 1 ############
+Final energy for batch size 3000: -13.503189330066357
+Final subspace dimension for batch size 3000: 13608721
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_3000_array_1.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_3000_bit_array_1.npz
+Running with samples_per_batch = 4000
+Iteration 1
+	Subsample 0
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.460422366339085
+		Subspace dimension: 18241441
+	Subsample 1
+		Energy: -13.446461724402441
+		Subspace dimension: 17455684
+	Subsample 2
+		Energy: -13.468600553656092
+		Subspace dimension: 18301284
+	Subsample 3
+		Energy: -13.4578045198205
+		Subspace dimension: 17799961
+	Subsample 4
+		Energy: -13.464885737451734
+		Subspace dimension: 17884441
+Iteration 3
+	Subsample 0
+		Energy: -13.499752727852428
+		Subspace dimension: 15000129
+	Subsample 1
+		Energy: -13.500142982454749
+		Subspace dimension: 14853316
+	Subsample 2
+		Energy: -13.500479318722382
+		Subspace dimension: 15023376
+	Subsample 3
+		Energy: -13.50008532121208
+		Subspace dimension: 15350724
+	Subsample 4
+		Energy: -13.499760369876318
+		Subspace dimension: 15374241
+Iteration 4
+	Subsample 0
+		Energy: -13.502736524984774
+		Subspace dimension: 17197609
+	Subsample 1
+		Energy: -13.502687640759063
+		Subspace dimension: 18020025
+	Subsample 2
+		Energy: -13.502848171901912
+		Subspace dimension: 17189316
+	Subsample 3
+		Energy: -13.503107233816426
+		Subspace dimension: 17363889
+	Subsample 4
+		Energy: -13.50251695493854
+		Subspace dimension: 17472400
+Iteration 5
+	Subsample 0
+		Energy: -13.503720448379616
+		Subspace dimension: 18438436
+	Subsample 1
+		Energy: -13.503600593576428
+		Subspace dimension: 19079424
+	Subsample 2
+		Energy: -13.503723297258757
+		Subspace dimension: 18826921
+	Subsample 3
+		Energy: -13.503579366511575
+		Subspace dimension: 18507204
+	Subsample 4
+		Energy: -13.503557694286652
+		Subspace dimension: 18267076
+############# Final Result for bit array 1 ############
+Final energy for batch size 4000: -13.503723297258757
+Final subspace dimension for batch size 4000: 18826921
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_4000_array_1.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_4000_bit_array_1.npz
+Running with samples_per_batch = 5000
+Iteration 1
+	Subsample 0
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -11.33282849736058
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.453055018178132
+		Subspace dimension: 24403600
+	Subsample 1
+		Energy: -13.461296445845141
+		Subspace dimension: 24621444
+	Subsample 2
+		Energy: -13.462241886024314
+		Subspace dimension: 23775376
+	Subsample 3
+		Energy: -13.472333132210503
+		Subspace dimension: 24403600
+	Subsample 4
+		Energy: -13.462997471064721
+		Subspace dimension: 24068836
+Iteration 3
+	Subsample 0
+		Energy: -13.501976242798882
+		Subspace dimension: 20079361
+	Subsample 1
+		Energy: -13.501285474382932
+		Subspace dimension: 19838116
+	Subsample 2
+		Energy: -13.501798561794445
+		Subspace dimension: 19740249
+	Subsample 3
+		Energy: -13.501920904409811
+		Subspace dimension: 20259001
+	Subsample 4
+		Energy: -13.501684089514118
+		Subspace dimension: 20097289
+Iteration 4
+	Subsample 0
+		Energy: -13.503383932440004
+		Subspace dimension: 22080601
+	Subsample 1
+		Energy: -13.503544491501213
+		Subspace dimension: 21724921
+	Subsample 2
+		Energy: -13.503595579837317
+		Subspace dimension: 22810176
+	Subsample 3
+		Energy: -13.503435458925818
+		Subspace dimension: 22052416
+	Subsample 4
+		Energy: -13.503645285611393
+		Subspace dimension: 22363441
+Iteration 5
+	Subsample 0
+		Energy: -13.504022498133676
+		Subspace dimension: 23203489
+	Subsample 1
+		Energy: -13.504072976724405
+		Subspace dimension: 23386896
+	Subsample 2
+		Energy: -13.504015649279543
+		Subspace dimension: 22905796
+	Subsample 3
+		Energy: -13.504109657546703
+		Subspace dimension: 23931664
+	Subsample 4
+		Energy: -13.503998960090046
+		Subspace dimension: 23049601
+############# Final Result for bit array 1 ############
+Final energy for batch size 5000: -13.504109657546703
+Final subspace dimension for batch size 5000: 23931664
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_5000_array_1.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_5000_bit_array_1.npz
+############# Bit Array 2 #############
+Running with samples_per_batch = 500
+Iteration 1
+	Subsample 0
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.36473768253311
+		Subspace dimension: 609961
+	Subsample 1
+		Energy: -13.370176398092452
+		Subspace dimension: 635209
+	Subsample 2
+		Energy: -13.359382947107358
+		Subspace dimension: 594441
+	Subsample 3
+		Energy: -13.359111446073564
+		Subspace dimension: 613089
+	Subsample 4
+		Energy: -13.360258588088305
+		Subspace dimension: 576081
+Iteration 3
+	Subsample 0
+		Energy: -13.463167415836509
+		Subspace dimension: 753424
+	Subsample 1
+		Energy: -13.468077967863008
+		Subspace dimension: 767376
+	Subsample 2
+		Energy: -13.456816761303125
+		Subspace dimension: 739600
+	Subsample 3
+		Energy: -13.462362266754402
+		Subspace dimension: 736164
+	Subsample 4
+		Energy: -13.454342608435342
+		Subspace dimension: 784996
+Iteration 4
+	Subsample 0
+		Energy: -13.483709993978593
+		Subspace dimension: 1020100
+	Subsample 1
+		Energy: -13.48330753976171
+		Subspace dimension: 1071225
+	Subsample 2
+		Energy: -13.48324800189967
+		Subspace dimension: 1071225
+	Subsample 3
+		Energy: -13.480593132032967
+		Subspace dimension: 1108809
+	Subsample 4
+		Energy: -13.490112807904026
+		Subspace dimension: 1106704
+Iteration 5
+	Subsample 0
+		Energy: -13.491691677131275
+		Subspace dimension: 1345600
+	Subsample 1
+		Energy: -13.491936248444516
+		Subspace dimension: 1418481
+	Subsample 2
+		Energy: -13.492259575306369
+		Subspace dimension: 1382976
+	Subsample 3
+		Energy: -13.492359396433745
+		Subspace dimension: 1430416
+	Subsample 4
+		Energy: -13.491614746947283
+		Subspace dimension: 1322500
+############# Final Result for bit array 2 ############
+Final energy for batch size 500: -13.492359396433745
+Final subspace dimension for batch size 500: 1430416
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_500_array_2.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_500_bit_array_2.npz
+Running with samples_per_batch = 1000
+Iteration 1
+	Subsample 0
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.404273456422674
+		Subspace dimension: 2039184
+	Subsample 1
+		Energy: -13.39123659154879
+		Subspace dimension: 1951609
+	Subsample 2
+		Energy: -13.388247990848075
+		Subspace dimension: 1962801
+	Subsample 3
+		Energy: -13.389824375235484
+		Subspace dimension: 1865956
+	Subsample 4
+		Energy: -13.391138048590822
+		Subspace dimension: 1996569
+Iteration 3
+	Subsample 0
+		Energy: -13.480155499929607
+		Subspace dimension: 2134521
+	Subsample 1
+		Energy: -13.486052851312131
+		Subspace dimension: 2111209
+	Subsample 2
+		Energy: -13.482193671497564
+		Subspace dimension: 2163841
+	Subsample 3
+		Energy: -13.486702588296891
+		Subspace dimension: 2214144
+	Subsample 4
+		Energy: -13.48495622433034
+		Subspace dimension: 2152089
+Iteration 4
+	Subsample 0
+		Energy: -13.492407397164579
+		Subspace dimension: 3013696
+	Subsample 1
+		Energy: -13.494368383472185
+		Subspace dimension: 2913849
+	Subsample 2
+		Energy: -13.494594930870683
+		Subspace dimension: 2907025
+	Subsample 3
+		Energy: -13.493258971923892
+		Subspace dimension: 2917264
+	Subsample 4
+		Energy: -13.494865039999018
+		Subspace dimension: 3038049
+Iteration 5
+	Subsample 0
+		Energy: -13.496470649553682
+		Subspace dimension: 3671056
+	Subsample 1
+		Energy: -13.496124441393784
+		Subspace dimension: 3829849
+	Subsample 2
+		Energy: -13.49711596495446
+		Subspace dimension: 3818116
+	Subsample 3
+		Energy: -13.497041625593205
+		Subspace dimension: 3759721
+	Subsample 4
+		Energy: -13.496514166418969
+		Subspace dimension: 3671056
+############# Final Result for bit array 2 ############
+Final energy for batch size 1000: -13.49711596495446
+Final subspace dimension for batch size 1000: 3818116
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_1000_array_2.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_1000_bit_array_2.npz
+Running with samples_per_batch = 2000
+Iteration 1
+	Subsample 0
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.420899445857266
+		Subspace dimension: 6125625
+	Subsample 1
+		Energy: -13.438720985163549
+		Subspace dimension: 6091024
+	Subsample 2
+		Energy: -13.428758059403984
+		Subspace dimension: 6140484
+	Subsample 3
+		Energy: -13.423098639335945
+		Subspace dimension: 6370576
+	Subsample 4
+		Energy: -13.443493936435848
+		Subspace dimension: 6165289
+Iteration 3
+	Subsample 0
+		Energy: -13.496244617902354
+		Subspace dimension: 5851561
+	Subsample 1
+		Energy: -13.495692142991148
+		Subspace dimension: 5784025
+	Subsample 2
+		Energy: -13.497021506682671
+		Subspace dimension: 5900041
+	Subsample 3
+		Energy: -13.494210043276246
+		Subspace dimension: 5692996
+	Subsample 4
+		Energy: -13.496285067735469
+		Subspace dimension: 5793649
+Iteration 4
+	Subsample 0
+		Energy: -13.499389396618877
+		Subspace dimension: 7452900
+	Subsample 1
+		Energy: -13.499526535211215
+		Subspace dimension: 7711729
+	Subsample 2
+		Energy: -13.499358126828275
+		Subspace dimension: 7656289
+	Subsample 3
+		Energy: -13.49967464827388
+		Subspace dimension: 7606564
+	Subsample 4
+		Energy: -13.498969739339943
+		Subspace dimension: 7420176
+Iteration 5
+	Subsample 0
+		Energy: -13.501219357159052
+		Subspace dimension: 8791225
+	Subsample 1
+		Energy: -13.501328577502276
+		Subspace dimension: 9006001
+	Subsample 2
+		Energy: -13.50123252407087
+		Subspace dimension: 8567329
+	Subsample 3
+		Energy: -13.501207467371088
+		Subspace dimension: 8732025
+	Subsample 4
+		Energy: -13.50114886536046
+		Subspace dimension: 8814961
+############# Final Result for bit array 2 ############
+Final energy for batch size 2000: -13.501328577502276
+Final subspace dimension for batch size 2000: 9006001
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_2000_array_2.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_2000_bit_array_2.npz
+Running with samples_per_batch = 3000
+Iteration 1
+	Subsample 0
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.440703298876207
+		Subspace dimension: 11390625
+	Subsample 1
+		Energy: -13.454295705713871
+		Subspace dimension: 11723776
+	Subsample 2
+		Energy: -13.459083842900238
+		Subspace dimension: 11451456
+	Subsample 3
+		Energy: -13.445895804872977
+		Subspace dimension: 11560000
+	Subsample 4
+		Energy: -13.448369453786107
+		Subspace dimension: 11546404
+Iteration 3
+	Subsample 0
+		Energy: -13.498798252973765
+		Subspace dimension: 10163344
+	Subsample 1
+		Energy: -13.4992043697594
+		Subspace dimension: 10543009
+	Subsample 2
+		Energy: -13.498965641242053
+		Subspace dimension: 10712529
+	Subsample 3
+		Energy: -13.499221683921444
+		Subspace dimension: 10510564
+	Subsample 4
+		Energy: -13.499095266009261
+		Subspace dimension: 10304100
+Iteration 4
+	Subsample 0
+		Energy: -13.501669731510901
+		Subspace dimension: 12902464
+	Subsample 1
+		Energy: -13.501452992875725
+		Subspace dimension: 12376324
+	Subsample 2
+		Energy: -13.501466634821124
+		Subspace dimension: 12645136
+	Subsample 3
+		Energy: -13.50118301694966
+		Subspace dimension: 12716356
+	Subsample 4
+		Energy: -13.501853226164151
+		Subspace dimension: 12581209
+Iteration 5
+	Subsample 0
+		Energy: -13.50310403754529
+		Subspace dimension: 14152644
+	Subsample 1
+		Energy: -13.50300928578558
+		Subspace dimension: 13816089
+	Subsample 2
+		Energy: -13.503143969057135
+		Subspace dimension: 13793796
+	Subsample 3
+		Energy: -13.50294112282712
+		Subspace dimension: 14167696
+	Subsample 4
+		Energy: -13.502758276057175
+		Subspace dimension: 13845841
+############# Final Result for bit array 2 ############
+Final energy for batch size 3000: -13.503143969057135
+Final subspace dimension for batch size 3000: 13793796
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_3000_array_2.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_3000_bit_array_2.npz
+Running with samples_per_batch = 4000
+Iteration 1
+	Subsample 0
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.45474578240543
+		Subspace dimension: 17489124
+	Subsample 1
+		Energy: -13.464702202168674
+		Subspace dimension: 17572864
+	Subsample 2
+		Energy: -13.46088064017483
+		Subspace dimension: 17472400
+	Subsample 3
+		Energy: -13.468992621981679
+		Subspace dimension: 17766225
+	Subsample 4
+		Energy: -13.46953530990839
+		Subspace dimension: 17189316
+Iteration 3
+	Subsample 0
+		Energy: -13.500726543064918
+		Subspace dimension: 14938225
+	Subsample 1
+		Energy: -13.500865935671724
+		Subspace dimension: 14961424
+	Subsample 2
+		Energy: -13.500501042475126
+		Subspace dimension: 15642025
+	Subsample 3
+		Energy: -13.500849923214258
+		Subspace dimension: 15100996
+	Subsample 4
+		Energy: -13.500113887792645
+		Subspace dimension: 14607684
+Iteration 4
+	Subsample 0
+		Energy: -13.502626153753106
+		Subspace dimension: 17397241
+	Subsample 1
+		Energy: -13.502435266977633
+		Subspace dimension: 17505856
+	Subsample 2
+		Energy: -13.502778076120636
+		Subspace dimension: 18079504
+	Subsample 3
+		Energy: -13.502971070598923
+		Subspace dimension: 17698849
+	Subsample 4
+		Energy: -13.50270634571734
+		Subspace dimension: 17322244
+Iteration 5
+	Subsample 0
+		Energy: -13.503621933191159
+		Subspace dimension: 19695844
+	Subsample 1
+		Energy: -13.503751230527719
+		Subspace dimension: 18957316
+	Subsample 2
+		Energy: -13.503755331291227
+		Subspace dimension: 19333609
+	Subsample 3
+		Energy: -13.503524470816389
+		Subspace dimension: 18896409
+	Subsample 4
+		Energy: -13.503549754456468
+		Subspace dimension: 19044496
+############# Final Result for bit array 2 ############
+Final energy for batch size 4000: -13.503755331291227
+Final subspace dimension for batch size 4000: 19333609
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_4000_array_2.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_4000_bit_array_2.npz
+Running with samples_per_batch = 5000
+Iteration 1
+	Subsample 0
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 1
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 2
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 3
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+	Subsample 4
+		Energy: -10.90045821933997
+		Subspace dimension: 4
+Iteration 2
+	Subsample 0
+		Energy: -13.463108868050467
+		Subspace dimension: 24059025
+	Subsample 1
+		Energy: -13.474944890480456
+		Subspace dimension: 24621444
+	Subsample 2
+		Energy: -13.47433687357803
+		Subspace dimension: 23415921
+	Subsample 3
+		Energy: -13.462352106781566
+		Subspace dimension: 24245776
+	Subsample 4
+		Energy: -13.475419242919088
+		Subspace dimension: 23687689
+Iteration 3
+	Subsample 0
+		Energy: -13.501534846461881
+		Subspace dimension: 19927296
+	Subsample 1
+		Energy: -13.501078046639506
+		Subspace dimension: 19580625
+	Subsample 2
+		Energy: -13.501423747841999
+		Subspace dimension: 19971961
+	Subsample 3
+		Energy: -13.501245274437064
+		Subspace dimension: 19184400
+	Subsample 4
+		Energy: -13.501140343431857
+		Subspace dimension: 20061441
+Iteration 4
+	Subsample 0
+		Energy: -13.503559510938658
+		Subspace dimension: 22467600
+	Subsample 1
+		Energy: -13.503317136419149
+		Subspace dimension: 21659716
+	Subsample 2
+		Energy: -13.503212498434102
+		Subspace dimension: 22829284
+	Subsample 3
+		Energy: -13.503582890624953
+		Subspace dimension: 22562500
+	Subsample 4
+		Energy: -13.503261604494082
+		Subspace dimension: 22137025
+Iteration 5
+	Subsample 0
+		Energy: -13.504016252350754
+		Subspace dimension: 23078416
+	Subsample 1
+		Energy: -13.503967034868731
+		Subspace dimension: 23931664
+	Subsample 2
+		Energy: -13.503943305620886
+		Subspace dimension: 23532201
+	Subsample 3
+		Energy: -13.503986110218698
+		Subspace dimension: 24098281
+	Subsample 4
+		Energy: -13.503962844824773
+		Subspace dimension: 23833924
+############# Final Result for bit array 2 ############
+Final energy for batch size 5000: -13.504016252350754
+Final subspace dimension for batch size 5000: 23078416
+Result history saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/result_history_batchsize_5000_array_2.npz
+Final result saved to /home/jhbierma/QBE_SQD_saved_files/H8_hring_radius_1.3_ccpVDZ_30_MOs_SQD_ibm_pittsburgh_shots_100000_ansatz_reps_2_run_2/final_result_batchsize_5000_bit_array_2.npz
+############# Bit Array 3 #############
+Running with samples_per_batch = 500
+Traceback (most recent call last):
+  File "/home/jhbierma/Desktop/projects/QBE-SQD_tests/comparison_tests/H8_hring_ccpVDZ_SQD_ibm_pittsburgh_batches.py", line 239, in <module>
+    result = diagonalize_fermionic_hamiltonian(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jhbierma/miniconda3/envs/QBE_SQD_qiskit_2.1.0_sqd_0.11.0/lib/python3.12/site-packages/qiskit_addon_sqd/fermion.py", line 273, in diagonalize_fermionic_hamiltonian
+    strs_a, strs_b = bitstring_matrix_to_ci_strs(subsample, open_shell=not symmetrize_spin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jhbierma/miniconda3/envs/QBE_SQD_qiskit_2.1.0_sqd_0.11.0/lib/python3.12/site-packages/qiskit_addon_sqd/fermion.py", line 710, in bitstring_matrix_to_ci_strs
+    norb = bitstring_matrix.shape[1] // 2
+           ~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range

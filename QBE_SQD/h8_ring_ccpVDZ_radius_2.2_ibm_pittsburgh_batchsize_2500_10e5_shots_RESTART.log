@@ -1,0 +1,2632 @@
+Aug 30 12:15:53 ####### 
+                ####### libDMET   version 0.5
+                ####### A periodic DMET library for lattice model and realistic solid.
+                ####### 
+converged SCF energy = -3.84988307642273
+
+Fragment sites
+--------------------------
+Fragment |   Origin | Atoms 
+--------------------------
+      0  |      H1  |     H2      H8  
+      1  |      H2  |     H1      H3  
+      2  |      H3  |     H2      H4  
+      3  |      H4  |     H3      H5  
+      4  |      H5  |     H4      H6  
+      5  |      H6  |     H5      H7  
+      6  |      H7  |     H6      H8  
+      7  |      H8  |     H1      H7  
+--------------------------
+ No. of fragments :  8
+*H : Center H atoms (printed as Edges above.)
+
+-----------------------------------------------------------
+  MMM     MMM    OOOO    LL           BBBBBBB    EEEEEEE 
+  M MM   MM M   OO  OO   LL           BB     B   EE      
+  M  MM MM  M  OO    OO  LL           BB     B   EE      
+  M   MMM   M  OO    OO  LL     ===   BBBBBBB    EEEEEEE 
+  M         M  OO    OO  LL           BB     B   EE      
+  M         M   OO  OO   LL           BB     B   EE      
+  M         M    OOOO    LLLLLL       BBBBBBB    EEEEEEE 
+
+            MOLECULAR BOOTSTRAP EMBEDDING
+            BEn =  2
+-----------------------------------------------------------
+
+Scratch dir is in: /tmp/QuEmb_142080
+ERI file restored from: /mnt/beegfs/jhbierma/QBE_SQD_checkpoint_files/H8_ring_qbe_sqd_cc-pVDZ_radius_2.2_ibm_pittsburgh_batchsize_2500_timestamp_2025_08_22_01_21_57/H8_hring_qbe_sqd_ccpVDZ_checkpt_eri.h5
+HF-in-HF error                 :  9.1472e-10 Ha
+samples_per_batch: 2500
+-----------------------------------------------------
+             Starting BE optimization 
+             Solver :  SQD_batch_mode
+-----------------------------------------------------
+
+Restarting BE optimization from iteration 4
+ERI file copied to: /mnt/beegfs/jhbierma/QBE_SQD_checkpoint_files/H8_ring_qbe_sqd_cc-pVDZ_radius_2.2_ibm_pittsburgh_batchsize_2500_timestamp_2025_08_22_01_21_57/H8_hring_qbe_sqd_ccpVDZ_checkpt_restart_eri.h5
+Checkpoint saved to /mnt/beegfs/jhbierma/QBE_SQD_checkpoint_files/H8_ring_qbe_sqd_cc-pVDZ_radius_2.2_ibm_pittsburgh_batchsize_2500_timestamp_2025_08_22_01_21_57/H8_hring_qbe_sqd_ccpVDZ_checkpt_restart.chk
+-- In iter  4
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -32.1541724453045
+E(CCSD) = -32.18665105417435  E_corr = -0.03247860886988746
+Circuit depth for fragment f0: 490
+Circuit gate counts for fragment f0: OrderedDict({'sx': 4198, 'rz': 4016, 'cz': 1620, 'x': 313, 'measure': 38, 'barrier': 1})
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -27.1959934360602
+E(CCSD) = -27.27900108476355  E_corr = -0.08300764870332979
+Circuit depth for fragment f1: 461
+Circuit gate counts for fragment f1: OrderedDict({'sx': 4098, 'rz': 3974, 'cz': 1568, 'x': 312, 'measure': 38, 'barrier': 1})
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -34.5670904687618
+E(CCSD) = -34.59904754261504  E_corr = -0.03195707385327107
+Circuit depth for fragment f2: 463
+Circuit gate counts for fragment f2: OrderedDict({'sx': 4132, 'rz': 4009, 'cz': 1600, 'x': 321, 'measure': 38, 'barrier': 1})
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -26.6235158528604
+E(CCSD) = -26.70640553780211  E_corr = -0.08288968494167732
+Circuit depth for fragment f3: 459
+Circuit gate counts for fragment f3: OrderedDict({'sx': 4058, 'rz': 3961, 'cz': 1580, 'x': 321, 'measure': 38, 'barrier': 1})
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.15016525546566
+E(CCSD) = -9.241488955833317  E_corr = -0.09132370036766042
+Circuit depth for fragment f4: 517
+Circuit gate counts for fragment f4: OrderedDict({'sx': 4262, 'rz': 4088, 'cz': 1646, 'x': 323, 'measure': 38, 'barrier': 1})
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -25.6445487024595
+E(CCSD) = -25.7284983737455  E_corr = -0.08394967128598085
+Circuit depth for fragment f5: 461
+Circuit gate counts for fragment f5: OrderedDict({'sx': 4002, 'rz': 3939, 'cz': 1564, 'x': 327, 'measure': 38, 'barrier': 1})
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -10.609598255769
+E(CCSD) = -10.70557415785874  E_corr = -0.09597590208971468
+Circuit depth for fragment f6: 510
+Circuit gate counts for fragment f6: OrderedDict({'sx': 4260, 'rz': 4048, 'cz': 1646, 'x': 304, 'measure': 38, 'barrier': 1})
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -25.9407186983723
+E(CCSD) = -26.0250819060706  E_corr = -0.08436320769834757
+Circuit depth for fragment f7: 454
+Circuit gate counts for fragment f7: OrderedDict({'sx': 4112, 'rz': 4037, 'cz': 1572, 'x': 327, 'measure': 38, 'barrier': 1})
+Circuits runtime: 109471.31047166407 seconds.
+Job ID: d2pihbdt2ras73bd6rbg
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -32.18638748374198
+		Subspace dimension: 748225
+	Subsample 1
+		Energy: -32.18638748374198
+		Subspace dimension: 748225
+	Subsample 2
+		Energy: -32.18638748374198
+		Subspace dimension: 748225
+	Subsample 3
+		Energy: -32.18638748374198
+		Subspace dimension: 748225
+	Subsample 4
+		Energy: -32.18638748374198
+		Subspace dimension: 748225
+absolute_vals: [9.71527584e-01 3.28769050e-04 2.64763756e-02 ... 1.17692090e-12
+ 2.02247181e-19 1.25950100e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -32.18670228455899
+		Subspace dimension: 2879809
+	Subsample 1
+		Energy: -32.18670338903511
+		Subspace dimension: 2585664
+	Subsample 2
+		Energy: -32.186703903852944
+		Subspace dimension: 2808976
+	Subsample 3
+		Energy: -32.186701568073175
+		Subspace dimension: 2849344
+	Subsample 4
+		Energy: -32.18670108171884
+		Subspace dimension: 2706025
+absolute_vals: [9.71400252e-01 3.52252450e-04 2.65776588e-02 ... 8.88180369e-12
+ 8.75797530e-13 8.46987495e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -32.18670067589724
+		Subspace dimension: 2782224
+	Subsample 1
+		Energy: -32.186703621678646
+		Subspace dimension: 2669956
+	Subsample 2
+		Energy: -32.186703713953165
+		Subspace dimension: 2842596
+	Subsample 3
+		Energy: -32.18670389640163
+		Subspace dimension: 2706025
+	Subsample 4
+		Energy: -32.186704090812704
+		Subspace dimension: 2712609
+absolute_vals: [9.71399806e-01 3.47941371e-04 2.65790682e-02 ... 2.34001809e-14
+ 2.30692424e-18 8.39914593e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -32.186704218668766
+		Subspace dimension: 2798929
+	Subsample 1
+		Energy: -32.18670336228942
+		Subspace dimension: 2656900
+	Subsample 2
+		Energy: -32.186701817119854
+		Subspace dimension: 2849344
+	Subsample 3
+		Energy: -32.18670098582822
+		Subspace dimension: 2825761
+	Subsample 4
+		Energy: -32.186704648709345
+		Subspace dimension: 2748964
+absolute_vals: [9.71398896e-01 3.52810838e-04 2.65740245e-02 ... 1.55158837e-11
+ 5.21030152e-13 7.45158443e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -32.18670201253073
+		Subspace dimension: 2893401
+	Subsample 1
+		Energy: -32.18670317781505
+		Subspace dimension: 2663424
+	Subsample 2
+		Energy: -32.18670525259941
+		Subspace dimension: 2778889
+	Subsample 3
+		Energy: -32.186704187792635
+		Subspace dimension: 2752281
+	Subsample 4
+		Energy: -32.186702915270615
+		Subspace dimension: 2822400
+absolute_vals: [9.71397820e-01 3.50900974e-04 2.65767506e-02 ... 1.62274043e-12
+ 1.11018298e-11 8.35369011e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 2859.909266726114 seconds.
+SQD wavefunction amplitudes size: 2778889
+% of FCI space: 18.49710078480363
+SQD fragment ground state energy: -32.18670525259941
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -27.278915519637923
+		Subspace dimension: 970225
+	Subsample 1
+		Energy: -27.278915519637923
+		Subspace dimension: 970225
+	Subsample 2
+		Energy: -27.278915519637923
+		Subspace dimension: 970225
+	Subsample 3
+		Energy: -27.278915519637923
+		Subspace dimension: 970225
+	Subsample 4
+		Energy: -27.278915519637923
+		Subspace dimension: 970225
+absolute_vals: [8.54662932e-01 1.84499968e-03 1.03951134e-01 ... 1.79750502e-11
+ 5.55527899e-12 1.01091610e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -27.279310851367654
+		Subspace dimension: 2402500
+	Subsample 1
+		Energy: -27.279304699303115
+		Subspace dimension: 2205225
+	Subsample 2
+		Energy: -27.279307059346667
+		Subspace dimension: 2328676
+	Subsample 3
+		Energy: -27.279307890260025
+		Subspace dimension: 2229049
+	Subsample 4
+		Energy: -27.27931133572619
+		Subspace dimension: 2280100
+absolute_vals: [8.53796326e-01 1.82355533e-03 1.04571487e-01 ... 1.13500818e-22
+ 8.43039102e-23 1.37147829e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -27.279310636472495
+		Subspace dimension: 2328676
+	Subsample 1
+		Energy: -27.27931126408445
+		Subspace dimension: 2259009
+	Subsample 2
+		Energy: -27.27931068003955
+		Subspace dimension: 2238016
+	Subsample 3
+		Energy: -27.27931178224824
+		Subspace dimension: 2328676
+	Subsample 4
+		Energy: -27.27931094042905
+		Subspace dimension: 2274064
+absolute_vals: [8.53795525e-01 1.82414804e-03 1.04571941e-01 ... 9.09236835e-22
+ 4.60705099e-13 1.32889820e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -27.27931088561099
+		Subspace dimension: 2265025
+	Subsample 1
+		Energy: -27.279311115788424
+		Subspace dimension: 2319529
+	Subsample 2
+		Energy: -27.279311148584156
+		Subspace dimension: 2298256
+	Subsample 3
+		Energy: -27.27931205697723
+		Subspace dimension: 2247001
+	Subsample 4
+		Energy: -27.27931174834852
+		Subspace dimension: 2232036
+absolute_vals: [8.53794941e-01 1.82441598e-03 1.04571934e-01 ... 3.79402342e-13
+ 2.91298246e-23 1.37355663e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -27.279311158441047
+		Subspace dimension: 2331729
+	Subsample 1
+		Energy: -27.2793120616997
+		Subspace dimension: 2280100
+	Subsample 2
+		Energy: -27.279310617539586
+		Subspace dimension: 2265025
+	Subsample 3
+		Energy: -27.27931113818914
+		Subspace dimension: 2298256
+	Subsample 4
+		Energy: -27.27931180657325
+		Subspace dimension: 2331729
+absolute_vals: [8.53795214e-01 1.82431421e-03 1.04571737e-01 ... 1.19543406e-22
+ 4.78587134e-23 1.38998290e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 2465.271767392056 seconds.
+SQD wavefunction amplitudes size: 2280100
+% of FCI space: 15.177014806791764
+SQD fragment ground state energy: -27.2793120616997
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -34.59886579543533
+		Subspace dimension: 874225
+	Subsample 1
+		Energy: -34.59886579543533
+		Subspace dimension: 874225
+	Subsample 2
+		Energy: -34.59886579543533
+		Subspace dimension: 874225
+	Subsample 3
+		Energy: -34.59886579543533
+		Subspace dimension: 874225
+	Subsample 4
+		Energy: -34.59886579543533
+		Subspace dimension: 874225
+absolute_vals: [9.71697272e-01 1.29231545e-05 2.64939665e-02 ... 2.82594489e-20
+ 5.83139207e-12 1.34726911e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -34.59909889680197
+		Subspace dimension: 2722500
+	Subsample 1
+		Energy: -34.59909787971011
+		Subspace dimension: 2732409
+	Subsample 2
+		Energy: -34.59909396077329
+		Subspace dimension: 2699449
+	Subsample 3
+		Energy: -34.59909684240951
+		Subspace dimension: 2689600
+	Subsample 4
+		Energy: -34.59909640360901
+		Subspace dimension: 2849344
+absolute_vals: [9.71563858e-01 4.89271866e-05 2.66130902e-02 ... 3.27112175e-14
+ 1.45271178e-12 8.94452850e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -34.59909775464062
+		Subspace dimension: 2706025
+	Subsample 1
+		Energy: -34.59909717445121
+		Subspace dimension: 2866249
+	Subsample 2
+		Energy: -34.59909782661955
+		Subspace dimension: 2624400
+	Subsample 3
+		Energy: -34.59909667819745
+		Subspace dimension: 2699449
+	Subsample 4
+		Energy: -34.599099962465516
+		Subspace dimension: 2725801
+absolute_vals: [9.71562014e-01 4.95578618e-05 2.66148464e-02 ... 3.17043847e-12
+ 1.06255135e-19 8.87537907e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -34.599100187054674
+		Subspace dimension: 2722500
+	Subsample 1
+		Energy: -34.599098121270714
+		Subspace dimension: 2719201
+	Subsample 2
+		Energy: -34.59909737735724
+		Subspace dimension: 2745649
+	Subsample 3
+		Energy: -34.59909877144349
+		Subspace dimension: 2712609
+	Subsample 4
+		Energy: -34.59909856088373
+		Subspace dimension: 2742336
+absolute_vals: [9.71561659e-01 4.92346768e-05 2.66135857e-02 ... 7.87459781e-19
+ 3.24056454e-12 8.83492657e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -34.59909714925139
+		Subspace dimension: 2748964
+	Subsample 1
+		Energy: -34.59909472409717
+		Subspace dimension: 2748964
+	Subsample 2
+		Energy: -34.59909834033232
+		Subspace dimension: 2742336
+	Subsample 3
+		Energy: -34.59909950554551
+		Subspace dimension: 2775556
+	Subsample 4
+		Energy: -34.599096203429355
+		Subspace dimension: 2679769
+absolute_vals: [9.71562851e-01 4.92638661e-05 2.66142810e-02 ... 1.05946088e-13
+ 3.53365249e-12 8.52009813e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 2857.867616991978 seconds.
+SQD wavefunction amplitudes size: 2722500
+% of FCI space: 18.121759050695395
+SQD fragment ground state energy: -34.599100187054674
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -26.705830388305216
+		Subspace dimension: 848241
+	Subsample 1
+		Energy: -26.705830388305216
+		Subspace dimension: 848241
+	Subsample 2
+		Energy: -26.705830388305216
+		Subspace dimension: 848241
+	Subsample 3
+		Energy: -26.705830388305216
+		Subspace dimension: 848241
+	Subsample 4
+		Energy: -26.705830388305216
+		Subspace dimension: 848241
+absolute_vals: [8.55569289e-01 1.96202933e-03 1.04160971e-01 ... 4.95158935e-13
+ 1.40666304e-22 1.07086116e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -26.706723250135994
+		Subspace dimension: 2211169
+	Subsample 1
+		Energy: -26.70671350533503
+		Subspace dimension: 2331729
+	Subsample 2
+		Energy: -26.706723615334496
+		Subspace dimension: 2292196
+	Subsample 3
+		Energy: -26.706724729736713
+		Subspace dimension: 2307361
+	Subsample 4
+		Energy: -26.70671757287743
+		Subspace dimension: 2298256
+absolute_vals: [8.54171919e-01 1.92605730e-03 1.04612103e-01 ... 1.98137279e-13
+ 2.10063324e-12 1.13895598e-09]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -26.706725324294226
+		Subspace dimension: 2271049
+	Subsample 1
+		Energy: -26.706726706306135
+		Subspace dimension: 2322576
+	Subsample 2
+		Energy: -26.706725875905015
+		Subspace dimension: 2304324
+	Subsample 3
+		Energy: -26.706724376348426
+		Subspace dimension: 2359296
+	Subsample 4
+		Energy: -26.70672658224318
+		Subspace dimension: 2337841
+absolute_vals: [8.54172216e-01 1.92597621e-03 1.04612255e-01 ... 2.94670078e-23
+ 1.81996894e-13 1.48591713e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -26.70672565899417
+		Subspace dimension: 2458624
+	Subsample 1
+		Energy: -26.706726617060305
+		Subspace dimension: 2289169
+	Subsample 2
+		Energy: -26.706726479178
+		Subspace dimension: 2334784
+	Subsample 3
+		Energy: -26.706725697133436
+		Subspace dimension: 2286144
+	Subsample 4
+		Energy: -26.70672658921746
+		Subspace dimension: 2322576
+absolute_vals: [8.54171771e-01 1.92603196e-03 1.04611709e-01 ... 2.92407919e-16
+ 5.81188713e-23 1.48744754e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -26.706726294873498
+		Subspace dimension: 2399401
+	Subsample 1
+		Energy: -26.706724716600064
+		Subspace dimension: 2418025
+	Subsample 2
+		Energy: -26.706725917166924
+		Subspace dimension: 2331729
+	Subsample 3
+		Energy: -26.706725760281255
+		Subspace dimension: 2356225
+	Subsample 4
+		Energy: -26.70672605752543
+		Subspace dimension: 2353156
+absolute_vals: [8.54170839e-01 1.92614380e-03 1.04613421e-01 ... 5.92729712e-11
+ 8.33508632e-11 1.72475336e-09]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 2475.522988068871 seconds.
+SQD wavefunction amplitudes size: 2322576
+% of FCI space: 15.459747529450105
+SQD fragment ground state energy: -26.706726706306135
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.25064089964038
+		Subspace dimension: 804609
+	Subsample 1
+		Energy: -9.25064089964038
+		Subspace dimension: 804609
+	Subsample 2
+		Energy: -9.25064089964038
+		Subspace dimension: 804609
+	Subsample 3
+		Energy: -9.25064089964038
+		Subspace dimension: 804609
+	Subsample 4
+		Energy: -9.25064089964038
+		Subspace dimension: 804609
+absolute_vals: [1.81975681e-02 6.37517180e-01 9.56469391e-04 ... 1.14914410e-13
+ 4.10957263e-12 4.13913392e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.276132083504287
+		Subspace dimension: 2331729
+	Subsample 1
+		Energy: -9.276139444545635
+		Subspace dimension: 2286144
+	Subsample 2
+		Energy: -9.276167534385502
+		Subspace dimension: 2307361
+	Subsample 3
+		Energy: -9.27610581740903
+		Subspace dimension: 2259009
+	Subsample 4
+		Energy: -9.276140834296504
+		Subspace dimension: 2286144
+absolute_vals: [5.39325494e-03 6.19940442e-01 3.51146706e-04 ... 1.85737296e-19
+ 2.62430302e-11 8.13065629e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.276197878495172
+		Subspace dimension: 2390116
+	Subsample 1
+		Energy: -9.276195225102473
+		Subspace dimension: 2262016
+	Subsample 2
+		Energy: -9.276193998937105
+		Subspace dimension: 2387025
+	Subsample 3
+		Energy: -9.276200283068157
+		Subspace dimension: 2365444
+	Subsample 4
+		Energy: -9.276196461161426
+		Subspace dimension: 2283121
+absolute_vals: [5.05620801e-03 6.19924952e-01 3.66616221e-04 ... 9.66263035e-14
+ 4.89547137e-21 1.58146317e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.276201694399429
+		Subspace dimension: 2396304
+	Subsample 1
+		Energy: -9.276197057341882
+		Subspace dimension: 2295225
+	Subsample 2
+		Energy: -9.276202803516808
+		Subspace dimension: 2411809
+	Subsample 3
+		Energy: -9.276198327197179
+		Subspace dimension: 2322576
+	Subsample 4
+		Energy: -9.276200365562243
+		Subspace dimension: 2374681
+absolute_vals: [5.05413656e-03 6.19924165e-01 3.67934440e-04 ... 2.37644878e-18
+ 1.40547683e-18 2.31445688e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.276203098423004
+		Subspace dimension: 2328676
+	Subsample 1
+		Energy: -9.276203235780471
+		Subspace dimension: 2458624
+	Subsample 2
+		Energy: -9.276201322700324
+		Subspace dimension: 2411809
+	Subsample 3
+		Energy: -9.27620247586007
+		Subspace dimension: 2411809
+	Subsample 4
+		Energy: -9.276200958645108
+		Subspace dimension: 2399401
+absolute_vals: [5.11999538e-03 6.19923456e-01 3.58902592e-04 ... 1.92965257e-21
+ 1.51446475e-11 1.61057101e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 6045.9701513480395 seconds.
+SQD wavefunction amplitudes size: 2458624
+% of FCI space: 16.36532294738546
+SQD fragment ground state energy: -9.276203235780471
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -25.72790297483445
+		Subspace dimension: 813604
+	Subsample 1
+		Energy: -25.72790297483445
+		Subspace dimension: 813604
+	Subsample 2
+		Energy: -25.72790297483445
+		Subspace dimension: 813604
+	Subsample 3
+		Energy: -25.72790297483445
+		Subspace dimension: 813604
+	Subsample 4
+		Energy: -25.72790297483445
+		Subspace dimension: 813604
+absolute_vals: [8.55172745e-01 1.66203646e-02 1.02987911e-01 ... 4.50239262e-13
+ 8.83771082e-14 1.05237702e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -25.728786052839197
+		Subspace dimension: 2256004
+	Subsample 1
+		Energy: -25.72879210430894
+		Subspace dimension: 2283121
+	Subsample 2
+		Energy: -25.728792884657224
+		Subspace dimension: 2292196
+	Subsample 3
+		Energy: -25.72879150474201
+		Subspace dimension: 2353156
+	Subsample 4
+		Energy: -25.72878872483126
+		Subspace dimension: 2350089
+absolute_vals: [8.52823708e-01 1.68050379e-02 1.03813262e-01 ... 1.38824470e-23
+ 3.96537976e-23 1.62828663e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -25.728793857157918
+		Subspace dimension: 2356225
+	Subsample 1
+		Energy: -25.728794105103646
+		Subspace dimension: 2304324
+	Subsample 2
+		Energy: -25.728793746328872
+		Subspace dimension: 2387025
+	Subsample 3
+		Energy: -25.72879358740455
+		Subspace dimension: 2319529
+	Subsample 4
+		Energy: -25.728793707485362
+		Subspace dimension: 2304324
+absolute_vals: [8.52823819e-01 1.68043987e-02 1.03812781e-01 ... 1.27646461e-23
+ 1.14359518e-12 1.64592425e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -25.728793123401957
+		Subspace dimension: 2365444
+	Subsample 1
+		Energy: -25.728792577646587
+		Subspace dimension: 2377764
+	Subsample 2
+		Energy: -25.728794157300378
+		Subspace dimension: 2362369
+	Subsample 3
+		Energy: -25.728793631682528
+		Subspace dimension: 2265025
+	Subsample 4
+		Energy: -25.728793152334124
+		Subspace dimension: 2310400
+absolute_vals: [8.52823917e-01 1.68055881e-02 1.03812915e-01 ... 4.63544430e-12
+ 3.67935693e-13 1.59651749e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -25.728793250010277
+		Subspace dimension: 2343961
+	Subsample 1
+		Energy: -25.728793150869805
+		Subspace dimension: 2353156
+	Subsample 2
+		Energy: -25.728793577183183
+		Subspace dimension: 2262016
+	Subsample 3
+		Energy: -25.728793559427096
+		Subspace dimension: 2301289
+	Subsample 4
+		Energy: -25.728793562728868
+		Subspace dimension: 2283121
+absolute_vals: [8.52824684e-01 1.68050433e-02 1.03812792e-01 ... 9.11132714e-13
+ 6.92395629e-13 1.53191669e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 2484.207658611005 seconds.
+SQD wavefunction amplitudes size: 2362369
+% of FCI space: 15.724621416650958
+SQD fragment ground state energy: -25.728794157300378
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -10.701220508477931
+		Subspace dimension: 724201
+	Subsample 1
+		Energy: -10.701220508477931
+		Subspace dimension: 724201
+	Subsample 2
+		Energy: -10.701220508477931
+		Subspace dimension: 724201
+	Subsample 3
+		Energy: -10.701220508477931
+		Subspace dimension: 724201
+	Subsample 4
+		Energy: -10.701220508477931
+		Subspace dimension: 724201
+absolute_vals: [9.15500834e-01 7.55325243e-02 3.12894850e-02 ... 2.30746372e-18
+ 1.07517682e-17 2.83545758e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -10.707873676214346
+		Subspace dimension: 2669956
+	Subsample 1
+		Energy: -10.707869142632466
+		Subspace dimension: 2643876
+	Subsample 2
+		Energy: -10.707840830463713
+		Subspace dimension: 2656900
+	Subsample 3
+		Energy: -10.707848240687724
+		Subspace dimension: 2785561
+	Subsample 4
+		Energy: -10.707843049833034
+		Subspace dimension: 2689600
+absolute_vals: [9.09359828e-01 7.59245436e-02 3.18454168e-02 ... 7.93848855e-18
+ 8.32814417e-12 3.85367283e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -10.707883873244864
+		Subspace dimension: 2689600
+	Subsample 1
+		Energy: -10.707884561305198
+		Subspace dimension: 2772225
+	Subsample 2
+		Energy: -10.707882025233975
+		Subspace dimension: 2729104
+	Subsample 3
+		Energy: -10.707883773577134
+		Subspace dimension: 2660161
+	Subsample 4
+		Energy: -10.707884555424211
+		Subspace dimension: 2679769
+absolute_vals: [9.09326999e-01 7.59559398e-02 3.18352752e-02 ... 3.36219734e-11
+ 2.59869946e-11 3.79933331e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -10.707884703013054
+		Subspace dimension: 2745649
+	Subsample 1
+		Energy: -10.707882132542201
+		Subspace dimension: 2715904
+	Subsample 2
+		Energy: -10.707883478504185
+		Subspace dimension: 2765569
+	Subsample 3
+		Energy: -10.707885358501953
+		Subspace dimension: 2683044
+	Subsample 4
+		Energy: -10.707883658192173
+		Subspace dimension: 2735716
+absolute_vals: [9.09322903e-01 7.59665353e-02 3.18373287e-02 ... 2.09783836e-12
+ 1.58878379e-12 3.95989051e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -10.707883677465533
+		Subspace dimension: 2686321
+	Subsample 1
+		Energy: -10.707883688215443
+		Subspace dimension: 2696164
+	Subsample 2
+		Energy: -10.707884865827456
+		Subspace dimension: 2735716
+	Subsample 3
+		Energy: -10.707883114063815
+		Subspace dimension: 2778889
+	Subsample 4
+		Energy: -10.707883882430458
+		Subspace dimension: 2666689
+absolute_vals: [9.09324161e-01 7.59624531e-02 3.18353234e-02 ... 2.83198566e-19
+ 7.22168509e-11 2.63294294e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 3756.014958236832 seconds.
+SQD wavefunction amplitudes size: 2683044
+% of FCI space: 17.859128334403664
+SQD fragment ground state energy: -10.707885358501953
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -26.024997340109103
+		Subspace dimension: 1129969
+	Subsample 1
+		Energy: -26.024997340109103
+		Subspace dimension: 1129969
+	Subsample 2
+		Energy: -26.024997340109103
+		Subspace dimension: 1129969
+	Subsample 3
+		Energy: -26.024997340109103
+		Subspace dimension: 1129969
+	Subsample 4
+		Energy: -26.024997340109103
+		Subspace dimension: 1129969
+absolute_vals: [8.52213266e-01 1.31011016e-02 1.03835709e-01 ... 5.51063485e-13
+ 1.34936725e-12 1.38375791e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -26.025366717605426
+		Subspace dimension: 2259009
+	Subsample 1
+		Energy: -26.02536515288668
+		Subspace dimension: 2131600
+	Subsample 2
+		Energy: -26.02536650833673
+		Subspace dimension: 2226064
+	Subsample 3
+		Energy: -26.02536608396205
+		Subspace dimension: 2155024
+	Subsample 4
+		Energy: -26.025363881257565
+		Subspace dimension: 2214144
+absolute_vals: [8.52150346e-01 1.30782003e-02 1.03915174e-01 ... 3.54470529e-13
+ 2.20593101e-12 1.43807325e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -26.02536710208497
+		Subspace dimension: 2128681
+	Subsample 1
+		Energy: -26.025367321869922
+		Subspace dimension: 2166784
+	Subsample 2
+		Energy: -26.025366659857767
+		Subspace dimension: 2169729
+	Subsample 3
+		Energy: -26.025366342200154
+		Subspace dimension: 2226064
+	Subsample 4
+		Energy: -26.02536701160735
+		Subspace dimension: 2241009
+absolute_vals: [8.52150729e-01 1.30782736e-02 1.03915060e-01 ... 1.20394637e-22
+ 1.00729897e-22 1.50524208e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -26.02536685516615
+		Subspace dimension: 2105401
+	Subsample 1
+		Energy: -26.02536676697387
+		Subspace dimension: 2223081
+	Subsample 2
+		Energy: -26.025365987987065
+		Subspace dimension: 2253001
+	Subsample 3
+		Energy: -26.02536551269712
+		Subspace dimension: 2137444
+	Subsample 4
+		Energy: -26.02536639384242
+		Subspace dimension: 2202256
+absolute_vals: [8.52151007e-01 1.30772801e-02 1.03914956e-01 ... 1.90718593e-23
+ 5.97755804e-14 1.49875162e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -26.025367032879984
+		Subspace dimension: 2196324
+	Subsample 1
+		Energy: -26.02536680293306
+		Subspace dimension: 2259009
+	Subsample 2
+		Energy: -26.025366714895828
+		Subspace dimension: 2157961
+	Subsample 3
+		Energy: -26.02536648513593
+		Subspace dimension: 2214144
+	Subsample 4
+		Energy: -26.025367233012258
+		Subspace dimension: 2223081
+absolute_vals: [8.52151579e-01 1.30771856e-02 1.03914284e-01 ... 1.96706741e-23
+ 1.56354208e-23 1.50770927e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 2441.247059610905 seconds.
+SQD wavefunction amplitudes size: 2166784
+% of FCI space: 14.4227502526729
+SQD fragment ground state energy: -26.025367321869922
+
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.4719231217342
+CCSD not converged
+E(CCSD) = -9.651012912561141  E_corr = -0.1790897908269448
+Circuit depth for fragment f0: 506
+Circuit gate counts for fragment f0: OrderedDict({'sx': 4256, 'rz': 4134, 'cz': 1626, 'x': 332, 'measure': 38, 'barrier': 1})
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.18221352430179
+E(CCSD) = -9.281789633976247  E_corr = -0.09957610967446112
+Circuit depth for fragment f1: 500
+Circuit gate counts for fragment f1: OrderedDict({'sx': 4258, 'rz': 4063, 'cz': 1646, 'x': 320, 'measure': 38, 'barrier': 1})
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.71889504638421
+E(CCSD) = -9.830059966507097  E_corr = -0.1111649201228889
+Circuit depth for fragment f2: 507
+Circuit gate counts for fragment f2: OrderedDict({'sx': 4252, 'rz': 4088, 'cz': 1642, 'x': 324, 'measure': 38, 'barrier': 1})
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.18223321194059
+E(CCSD) = -9.282125392462044  E_corr = -0.09989218052145743
+Circuit depth for fragment f3: 506
+Circuit gate counts for fragment f3: OrderedDict({'sx': 4246, 'rz': 4084, 'cz': 1634, 'x': 322, 'measure': 38, 'barrier': 1})
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.23537193020929
+E(CCSD) = -9.324239768176959  E_corr = -0.08886783796767338
+Circuit depth for fragment f4: 510
+Circuit gate counts for fragment f4: OrderedDict({'sx': 4268, 'rz': 4081, 'cz': 1650, 'x': 315, 'measure': 38, 'barrier': 1})
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.1810497274845
+E(CCSD) = -9.272933368295732  E_corr = -0.09188364081123419
+Circuit depth for fragment f5: 509
+Circuit gate counts for fragment f5: OrderedDict({'sx': 4186, 'rz': 4031, 'cz': 1642, 'x': 332, 'measure': 38, 'barrier': 1})
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.23166504529587
+E(CCSD) = -9.322228864148663  E_corr = -0.09056381885279728
+Circuit depth for fragment f6: 500
+Circuit gate counts for fragment f6: OrderedDict({'sx': 4264, 'rz': 4070, 'cz': 1646, 'x': 310, 'measure': 38, 'barrier': 1})
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.18095866305024
+E(CCSD) = -9.271751966918458  E_corr = -0.09079330386821403
+Circuit depth for fragment f7: 498
+Circuit gate counts for fragment f7: OrderedDict({'sx': 4228, 'rz': 4094, 'cz': 1630, 'x': 310, 'measure': 38, 'barrier': 1})
+Circuits runtime: 983.7245642440394 seconds.
+Job ID: d2qjh0polshc73bma060
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.663383556016397
+		Subspace dimension: 749956
+	Subsample 1
+		Energy: -9.663383556016397
+		Subspace dimension: 749956
+	Subsample 2
+		Energy: -9.663383556016397
+		Subspace dimension: 749956
+	Subsample 3
+		Energy: -9.663383556016397
+		Subspace dimension: 749956
+	Subsample 4
+		Energy: -9.663383556016397
+		Subspace dimension: 749956
+absolute_vals: [1.34009897e-02 8.68151099e-02 3.84065364e-02 ... 4.64722031e-18
+ 2.20186010e-12 2.49231305e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.703282102270338
+		Subspace dimension: 2067844
+	Subsample 1
+		Energy: -9.70350432196907
+		Subspace dimension: 1968409
+	Subsample 2
+		Energy: -9.702613132270143
+		Subspace dimension: 2010724
+	Subsample 3
+		Energy: -9.703146231330585
+		Subspace dimension: 2047761
+	Subsample 4
+		Energy: -9.703471343860588
+		Subspace dimension: 2039184
+absolute_vals: [1.08819875e-02 7.06691998e-02 2.78521282e-02 ... 2.01344540e-12
+ 6.59661913e-11 2.39876098e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.703737555861533
+		Subspace dimension: 2030625
+	Subsample 1
+		Energy: -9.70394569586802
+		Subspace dimension: 2119936
+	Subsample 2
+		Energy: -9.703760987870892
+		Subspace dimension: 2119936
+	Subsample 3
+		Energy: -9.70392441116748
+		Subspace dimension: 2010724
+	Subsample 4
+		Energy: -9.703781423661825
+		Subspace dimension: 2064969
+absolute_vals: [1.08800464e-02 7.05411886e-02 2.78053317e-02 ... 5.46066788e-11
+ 3.92405533e-11 2.38570157e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.704041883195242
+		Subspace dimension: 2184484
+	Subsample 1
+		Energy: -9.704027002647411
+		Subspace dimension: 2128681
+	Subsample 2
+		Energy: -9.70400538120961
+		Subspace dimension: 2178576
+	Subsample 3
+		Energy: -9.704006364841367
+		Subspace dimension: 2190400
+	Subsample 4
+		Energy: -9.703988940433202
+		Subspace dimension: 2016400
+absolute_vals: [1.08617393e-02 7.04803860e-02 2.77942544e-02 ... 3.80165423e-13
+ 6.51004024e-18 5.79069773e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.704063658261632
+		Subspace dimension: 2205225
+	Subsample 1
+		Energy: -9.704076729272398
+		Subspace dimension: 2322576
+	Subsample 2
+		Energy: -9.704056838656602
+		Subspace dimension: 2253001
+	Subsample 3
+		Energy: -9.704074769204365
+		Subspace dimension: 2134521
+	Subsample 4
+		Energy: -9.704060539507378
+		Subspace dimension: 2208196
+absolute_vals: [1.08616609e-02 7.04599040e-02 2.77905875e-02 ... 9.09958063e-11
+ 3.35126351e-11 2.88254134e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 7089.948305733036 seconds.
+SQD wavefunction amplitudes size: 2322576
+% of FCI space: 15.459747529450105
+SQD fragment ground state energy: -9.704076729272398
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.286704006682353
+		Subspace dimension: 927369
+	Subsample 1
+		Energy: -9.286704006682353
+		Subspace dimension: 927369
+	Subsample 2
+		Energy: -9.286704006682353
+		Subspace dimension: 927369
+	Subsample 3
+		Energy: -9.286704006682353
+		Subspace dimension: 927369
+	Subsample 4
+		Energy: -9.286704006682353
+		Subspace dimension: 927369
+absolute_vals: [8.94395616e-01 3.69787318e-02 2.70140761e-03 ... 8.69431571e-11
+ 3.67167770e-11 1.68375295e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.30136137731811
+		Subspace dimension: 2748964
+	Subsample 1
+		Energy: -9.301391834637833
+		Subspace dimension: 2748964
+	Subsample 2
+		Energy: -9.30136908040884
+		Subspace dimension: 2666689
+	Subsample 3
+		Energy: -9.301373463565884
+		Subspace dimension: 2595321
+	Subsample 4
+		Energy: -9.301337362616739
+		Subspace dimension: 2627641
+absolute_vals: [1.97238914e-02 5.90458229e-01 7.35816381e-03 ... 2.18634282e-12
+ 3.70090911e-11 5.92582499e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.301433818226212
+		Subspace dimension: 2452356
+	Subsample 1
+		Energy: -9.301423290686952
+		Subspace dimension: 2496400
+	Subsample 2
+		Energy: -9.301433772224424
+		Subspace dimension: 2582449
+	Subsample 3
+		Energy: -9.30143143887993
+		Subspace dimension: 2449225
+	Subsample 4
+		Energy: -9.30142473232306
+		Subspace dimension: 2474329
+absolute_vals: [1.96544302e-02 5.90432659e-01 7.43344118e-03 ... 4.96723800e-12
+ 6.98118754e-21 8.79727316e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.301442928549776
+		Subspace dimension: 2595321
+	Subsample 1
+		Energy: -9.301442929115879
+		Subspace dimension: 2531281
+	Subsample 2
+		Energy: -9.301437913302273
+		Subspace dimension: 2528100
+	Subsample 3
+		Energy: -9.301445873040514
+		Subspace dimension: 2509056
+	Subsample 4
+		Energy: -9.301444164133905
+		Subspace dimension: 2579236
+absolute_vals: [1.96295983e-02 5.90424768e-01 7.45444408e-03 ... 4.22151461e-11
+ 1.50288609e-20 6.82348527e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.301452029013014
+		Subspace dimension: 2692881
+	Subsample 1
+		Energy: -9.301450150666561
+		Subspace dimension: 2490084
+	Subsample 2
+		Energy: -9.301450808581311
+		Subspace dimension: 2576025
+	Subsample 3
+		Energy: -9.301446983794557
+		Subspace dimension: 2474329
+	Subsample 4
+		Energy: -9.30144948033124
+		Subspace dimension: 2534464
+absolute_vals: [1.96119049e-02 5.90426433e-01 7.46331161e-03 ... 1.54218330e-18
+ 1.10286706e-18 3.73985174e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 6540.612048119074 seconds.
+SQD wavefunction amplitudes size: 2692881
+% of FCI space: 17.924606293552127
+SQD fragment ground state energy: -9.301452029013014
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.803531916189927
+		Subspace dimension: 831744
+	Subsample 1
+		Energy: -9.803531916189927
+		Subspace dimension: 831744
+	Subsample 2
+		Energy: -9.803531916189927
+		Subspace dimension: 831744
+	Subsample 3
+		Energy: -9.803531916189927
+		Subspace dimension: 831744
+	Subsample 4
+		Energy: -9.803531916189927
+		Subspace dimension: 831744
+absolute_vals: [7.05852988e-02 7.01121362e-03 1.47741671e-02 ... 2.89995779e-10
+ 8.70910541e-10 6.06799145e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.832586816875718
+		Subspace dimension: 2117025
+	Subsample 1
+		Energy: -9.832825778089983
+		Subspace dimension: 2042041
+	Subsample 2
+		Energy: -9.83263704384327
+		Subspace dimension: 2033476
+	Subsample 3
+		Energy: -9.832444519684511
+		Subspace dimension: 2059225
+	Subsample 4
+		Energy: -9.832571238706452
+		Subspace dimension: 1985281
+absolute_vals: [4.14294748e-02 5.56355807e-02 3.43894897e-02 ... 4.91678579e-11
+ 2.91577635e-20 7.69555031e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.833067678546936
+		Subspace dimension: 2122849
+	Subsample 1
+		Energy: -9.833033130497434
+		Subspace dimension: 2093809
+	Subsample 2
+		Energy: -9.833051654253847
+		Subspace dimension: 2099601
+	Subsample 3
+		Energy: -9.83302549166323
+		Subspace dimension: 2064969
+	Subsample 4
+		Energy: -9.833073449293083
+		Subspace dimension: 2175625
+absolute_vals: [3.96951434e-02 5.67783898e-02 3.44880834e-02 ... 1.35490108e-11
+ 3.95431404e-11 1.77506946e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.833110096761601
+		Subspace dimension: 2244004
+	Subsample 1
+		Energy: -9.833113527814334
+		Subspace dimension: 2205225
+	Subsample 2
+		Energy: -9.83310977204523
+		Subspace dimension: 2241009
+	Subsample 3
+		Energy: -9.833109222472224
+		Subspace dimension: 2193361
+	Subsample 4
+		Energy: -9.833100753168694
+		Subspace dimension: 2146225
+absolute_vals: [3.94407268e-02 5.69356431e-02 3.45079317e-02 ... 2.68684165e-18
+ 9.72732566e-19 2.42342921e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.833129342466437
+		Subspace dimension: 2134521
+	Subsample 1
+		Energy: -9.8331245486294
+		Subspace dimension: 2166784
+	Subsample 2
+		Energy: -9.833120613049772
+		Subspace dimension: 2163841
+	Subsample 3
+		Energy: -9.833129197588988
+		Subspace dimension: 2229049
+	Subsample 4
+		Energy: -9.833125763465775
+		Subspace dimension: 2143296
+absolute_vals: [3.92917437e-02 5.70286114e-02 3.45118336e-02 ... 5.34018150e-12
+ 6.13282881e-12 1.91668749e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 28429.910625146935 seconds.
+SQD wavefunction amplitudes size: 2134521
+% of FCI space: 14.2079982555186
+SQD fragment ground state energy: -9.833129342466437
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.295450838941733
+		Subspace dimension: 908209
+	Subsample 1
+		Energy: -9.295450838941733
+		Subspace dimension: 908209
+	Subsample 2
+		Energy: -9.295450838941733
+		Subspace dimension: 908209
+	Subsample 3
+		Energy: -9.295450838941733
+		Subspace dimension: 908209
+	Subsample 4
+		Energy: -9.295450838941733
+		Subspace dimension: 908209
+absolute_vals: [1.56712342e-02 5.94154155e-01 6.48830318e-03 ... 6.38874947e-22
+ 1.42180724e-12 6.99997219e-13]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.3030644515183
+		Subspace dimension: 2295225
+	Subsample 1
+		Energy: -9.303059790359834
+		Subspace dimension: 2205225
+	Subsample 2
+		Energy: -9.303021354984761
+		Subspace dimension: 2295225
+	Subsample 3
+		Energy: -9.303010106331133
+		Subspace dimension: 2298256
+	Subsample 4
+		Energy: -9.30296147512313
+		Subspace dimension: 2205225
+absolute_vals: [4.58570357e-03 5.90210447e-01 7.41402707e-03 ... 3.71982833e-10
+ 2.49680385e-10 6.10343042e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.303121560719347
+		Subspace dimension: 2387025
+	Subsample 1
+		Energy: -9.303141076270414
+		Subspace dimension: 2496400
+	Subsample 2
+		Energy: -9.303162331005055
+		Subspace dimension: 2380849
+	Subsample 3
+		Energy: -9.303132880215163
+		Subspace dimension: 2455489
+	Subsample 4
+		Energy: -9.303163149927016
+		Subspace dimension: 2449225
+absolute_vals: [4.25183500e-03 5.90138519e-01 7.49428849e-03 ... 6.87406999e-11
+ 6.74252009e-11 3.06457637e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.303169481233953
+		Subspace dimension: 2411809
+	Subsample 1
+		Energy: -9.303174819454057
+		Subspace dimension: 2340900
+	Subsample 2
+		Energy: -9.303176001261773
+		Subspace dimension: 2421136
+	Subsample 3
+		Energy: -9.30317012224807
+		Subspace dimension: 2405601
+	Subsample 4
+		Energy: -9.30317067477569
+		Subspace dimension: 2458624
+absolute_vals: [4.08287703e-03 5.90128160e-01 7.51053937e-03 ... 4.85121110e-13
+ 1.88944843e-10 3.31344031e-10]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.303173352292411
+		Subspace dimension: 2402500
+	Subsample 1
+		Energy: -9.303174754287095
+		Subspace dimension: 2418025
+	Subsample 2
+		Energy: -9.303176343342725
+		Subspace dimension: 2458624
+	Subsample 3
+		Energy: -9.303174532487336
+		Subspace dimension: 2468041
+	Subsample 4
+		Energy: -9.303176123942851
+		Subspace dimension: 2464900
+absolute_vals: [4.08747881e-03 5.90126525e-01 7.50320700e-03 ... 4.11870259e-20
+ 1.06233465e-11 1.26282436e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 8408.84068760695 seconds.
+SQD wavefunction amplitudes size: 2458624
+% of FCI space: 16.36532294738546
+SQD fragment ground state energy: -9.303176343342725
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.328828027453572
+		Subspace dimension: 910116
+	Subsample 1
+		Energy: -9.328828027453572
+		Subspace dimension: 910116
+	Subsample 2
+		Energy: -9.328828027453572
+		Subspace dimension: 910116
+	Subsample 3
+		Energy: -9.328828027453572
+		Subspace dimension: 910116
+	Subsample 4
+		Energy: -9.328828027453572
+		Subspace dimension: 910116
+absolute_vals: [9.16167296e-01 9.71750019e-03 4.67688180e-02 ... 5.38566213e-13
+ 6.84214995e-20 6.81960803e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.345672854594962
+		Subspace dimension: 2477476
+	Subsample 1
+		Energy: -9.345059076212035
+		Subspace dimension: 2676496
+	Subsample 2
+		Energy: -9.34570447728596
+		Subspace dimension: 2729104
+	Subsample 3
+		Energy: -9.345638280102346
+		Subspace dimension: 2588881
+	Subsample 4
+		Energy: -9.345565113420133
+		Subspace dimension: 2588881
+absolute_vals: [1.78651169e-03 6.21034701e-01 3.03147109e-04 ... 2.24696762e-13
+ 1.80918909e-11 3.70196515e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.345773857053917
+		Subspace dimension: 2356225
+	Subsample 1
+		Energy: -9.345760707060647
+		Subspace dimension: 2387025
+	Subsample 2
+		Energy: -9.345764983911195
+		Subspace dimension: 2380849
+	Subsample 3
+		Energy: -9.345777831328103
+		Subspace dimension: 2356225
+	Subsample 4
+		Energy: -9.345778012154078
+		Subspace dimension: 2408704
+absolute_vals: [1.36719721e-03 6.20995048e-01 2.88432699e-04 ... 7.08309698e-14
+ 1.90098920e-11 2.88359049e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.34578223148257
+		Subspace dimension: 2390116
+	Subsample 1
+		Energy: -9.345793066511208
+		Subspace dimension: 2424249
+	Subsample 2
+		Energy: -9.345782011640756
+		Subspace dimension: 2418025
+	Subsample 3
+		Energy: -9.34579159375162
+		Subspace dimension: 2316484
+	Subsample 4
+		Energy: -9.345790919232893
+		Subspace dimension: 2421136
+absolute_vals: [1.86196281e-03 6.20992279e-01 3.05933313e-04 ... 4.25013191e-19
+ 6.29250253e-20 9.88784977e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.345792538416752
+		Subspace dimension: 2569609
+	Subsample 1
+		Energy: -9.345791990879974
+		Subspace dimension: 2396304
+	Subsample 2
+		Energy: -9.345791177761235
+		Subspace dimension: 2490084
+	Subsample 3
+		Energy: -9.345793570785357
+		Subspace dimension: 2509056
+	Subsample 4
+		Energy: -9.345791942249406
+		Subspace dimension: 2377764
+absolute_vals: [1.87600563e-03 6.20992526e-01 3.04198997e-04 ... 8.21631857e-11
+ 9.83932024e-18 2.87262860e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 7555.489330796059 seconds.
+SQD wavefunction amplitudes size: 2509056
+% of FCI space: 16.701013141120878
+SQD fragment ground state energy: -9.345793570785357
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.272138992838526
+		Subspace dimension: 848241
+	Subsample 1
+		Energy: -9.272138992838526
+		Subspace dimension: 848241
+	Subsample 2
+		Energy: -9.272138992838526
+		Subspace dimension: 848241
+	Subsample 3
+		Energy: -9.272138992838526
+		Subspace dimension: 848241
+	Subsample 4
+		Energy: -9.272138992838526
+		Subspace dimension: 848241
+absolute_vals: [9.20122412e-01 9.63737412e-03 1.68875980e-02 ... 2.94461552e-11
+ 1.36426462e-22 3.88036098e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.281542610282004
+		Subspace dimension: 2715904
+	Subsample 1
+		Energy: -9.281563006905056
+		Subspace dimension: 2842596
+	Subsample 2
+		Energy: -9.281569716802963
+		Subspace dimension: 2948089
+	Subsample 3
+		Energy: -9.281565888404867
+		Subspace dimension: 2965284
+	Subsample 4
+		Energy: -9.281492276421837
+		Subspace dimension: 2788900
+absolute_vals: [8.00073888e-01 2.72275454e-01 2.00602013e-02 ... 2.07905096e-22
+ 4.11039738e-10 1.58233507e-09]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.28161005073316
+		Subspace dimension: 2673225
+	Subsample 1
+		Energy: -9.281625392016782
+		Subspace dimension: 2673225
+	Subsample 2
+		Energy: -9.281608785362579
+		Subspace dimension: 2765569
+	Subsample 3
+		Energy: -9.281617358324944
+		Subspace dimension: 2666689
+	Subsample 4
+		Energy: -9.28160661831301
+		Subspace dimension: 2706025
+absolute_vals: [7.98981498e-01 2.73578644e-01 2.00665312e-02 ... 3.83691530e-22
+ 2.27704719e-22 2.57893300e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.2816300646784
+		Subspace dimension: 2627641
+	Subsample 1
+		Energy: -9.281625325473668
+		Subspace dimension: 2742336
+	Subsample 2
+		Energy: -9.281628041154361
+		Subspace dimension: 2712609
+	Subsample 3
+		Energy: -9.281621526297984
+		Subspace dimension: 2739025
+	Subsample 4
+		Energy: -9.281628455173363
+		Subspace dimension: 2706025
+absolute_vals: [7.98681109e-01 2.73947216e-01 2.00719001e-02 ... 3.09646592e-12
+ 2.55037020e-10 2.28743499e-09]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.28162893489714
+		Subspace dimension: 2835856
+	Subsample 1
+		Energy: -9.281630144236562
+		Subspace dimension: 2709316
+	Subsample 2
+		Energy: -9.281628059632757
+		Subspace dimension: 2729104
+	Subsample 3
+		Energy: -9.281627077772338
+		Subspace dimension: 2715904
+	Subsample 4
+		Energy: -9.281627578734799
+		Subspace dimension: 2683044
+absolute_vals: [7.98743289e-01 2.73863745e-01 2.00682696e-02 ... 2.65675076e-22
+ 3.74192155e-22 2.28716436e-10]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 7148.806141404901 seconds.
+SQD wavefunction amplitudes size: 2709316
+% of FCI space: 18.034002477206187
+SQD fragment ground state energy: -9.281630144236562
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.338247042448243
+		Subspace dimension: 992016
+	Subsample 1
+		Energy: -9.338247042448243
+		Subspace dimension: 992016
+	Subsample 2
+		Energy: -9.338247042448243
+		Subspace dimension: 992016
+	Subsample 3
+		Energy: -9.338247042448243
+		Subspace dimension: 992016
+	Subsample 4
+		Energy: -9.338247042448243
+		Subspace dimension: 992016
+absolute_vals: [1.72261912e-02 6.22235739e-01 1.73962316e-03 ... 7.81086356e-13
+ 6.75557839e-21 2.11658432e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.343490052392978
+		Subspace dimension: 2396304
+	Subsample 1
+		Energy: -9.343564481922012
+		Subspace dimension: 2411809
+	Subsample 2
+		Energy: -9.343554143020551
+		Subspace dimension: 2359296
+	Subsample 3
+		Energy: -9.343541310854167
+		Subspace dimension: 2322576
+	Subsample 4
+		Energy: -9.343500248577913
+		Subspace dimension: 2343961
+absolute_vals: [2.06632235e-03 6.21214877e-01 2.34377448e-04 ... 2.95953851e-19
+ 1.73713650e-19 1.89816881e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.343616371050768
+		Subspace dimension: 2547216
+	Subsample 1
+		Energy: -9.343621051255376
+		Subspace dimension: 2421136
+	Subsample 2
+		Energy: -9.343628296227022
+		Subspace dimension: 2442969
+	Subsample 3
+		Energy: -9.343616903008796
+		Subspace dimension: 2486929
+	Subsample 4
+		Energy: -9.343613069861942
+		Subspace dimension: 2493241
+absolute_vals: [1.79139134e-03 6.21198837e-01 2.24269878e-04 ... 1.33477058e-12
+ 1.61171146e-11 3.24212854e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.343634790424225
+		Subspace dimension: 2452356
+	Subsample 1
+		Energy: -9.343638942830303
+		Subspace dimension: 2563201
+	Subsample 2
+		Energy: -9.34363765595037
+		Subspace dimension: 2439844
+	Subsample 3
+		Energy: -9.34363482664223
+		Subspace dimension: 2604996
+	Subsample 4
+		Energy: -9.343632190729622
+		Subspace dimension: 2486929
+absolute_vals: [1.68577931e-03 6.21198735e-01 2.13761095e-04 ... 2.90316162e-20
+ 1.95000816e-11 1.94164457e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.343641110701306
+		Subspace dimension: 2477476
+	Subsample 1
+		Energy: -9.343639237956403
+		Subspace dimension: 2647129
+	Subsample 2
+		Energy: -9.343639295827263
+		Subspace dimension: 2572816
+	Subsample 3
+		Energy: -9.34364148018446
+		Subspace dimension: 2531281
+	Subsample 4
+		Energy: -9.343639742663193
+		Subspace dimension: 2627641
+absolute_vals: [1.73493026e-03 6.21196486e-01 2.21583326e-04 ... 1.96368288e-17
+ 3.16714124e-11 8.04725645e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 7706.7513304250315 seconds.
+SQD wavefunction amplitudes size: 2531281
+% of FCI space: 16.84894926413344
+SQD fragment ground state energy: -9.34364148018446
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.2716586590997
+		Subspace dimension: 822649
+	Subsample 1
+		Energy: -9.2716586590997
+		Subspace dimension: 822649
+	Subsample 2
+		Energy: -9.2716586590997
+		Subspace dimension: 822649
+	Subsample 3
+		Energy: -9.2716586590997
+		Subspace dimension: 822649
+	Subsample 4
+		Energy: -9.2716586590997
+		Subspace dimension: 822649
+absolute_vals: [9.07777758e-01 7.35015409e-02 2.25027838e-02 ... 6.67581987e-22
+ 1.56850733e-21 5.10958111e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.279708851570327
+		Subspace dimension: 2808976
+	Subsample 1
+		Energy: -9.279720238012947
+		Subspace dimension: 2699449
+	Subsample 2
+		Energy: -9.27969075070212
+		Subspace dimension: 2785561
+	Subsample 3
+		Energy: -9.27972681283494
+		Subspace dimension: 2696164
+	Subsample 4
+		Energy: -9.279696457701682
+		Subspace dimension: 2735716
+absolute_vals: [8.80512196e-01 1.35999369e-01 1.66193450e-02 ... 8.18758195e-24
+ 1.37836165e-21 1.30064126e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.279765775890468
+		Subspace dimension: 2792241
+	Subsample 1
+		Energy: -9.279777720337599
+		Subspace dimension: 2896804
+	Subsample 2
+		Energy: -9.279758268380856
+		Subspace dimension: 2876416
+	Subsample 3
+		Energy: -9.279764544258096
+		Subspace dimension: 2924100
+	Subsample 4
+		Energy: -9.279768674375273
+		Subspace dimension: 2825761
+absolute_vals: [8.79856798e-01 1.37545010e-01 1.66392571e-02 ... 9.65508538e-13
+ 8.34045851e-10 1.03344801e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.279773706194574
+		Subspace dimension: 2822400
+	Subsample 1
+		Energy: -9.279774725468325
+		Subspace dimension: 2900209
+	Subsample 2
+		Energy: -9.279773096601499
+		Subspace dimension: 2676496
+	Subsample 3
+		Energy: -9.279773013137024
+		Subspace dimension: 2819041
+	Subsample 4
+		Energy: -9.279774544763175
+		Subspace dimension: 2839225
+absolute_vals: [8.79879037e-01 1.37499431e-01 1.66384851e-02 ... 1.30047826e-11
+ 9.44087691e-21 5.30829445e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.279773667710046
+		Subspace dimension: 2856100
+	Subsample 1
+		Energy: -9.279775419489695
+		Subspace dimension: 2686321
+	Subsample 2
+		Energy: -9.279774944729166
+		Subspace dimension: 2722500
+	Subsample 3
+		Energy: -9.279775109739337
+		Subspace dimension: 2739025
+	Subsample 4
+		Energy: -9.279774912804438
+		Subspace dimension: 2762244
+absolute_vals: [8.79886034e-01 1.37478473e-01 1.66417595e-02 ... 1.43970277e-21
+ 2.76794874e-21 2.97064965e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 6796.3117821200285 seconds.
+SQD wavefunction amplitudes size: 2896804
+% of FCI space: 19.28197763272383
+SQD fragment ground state energy: -9.279777720337599
+
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.24467830708294
+E(CCSD) = -9.340419797209201  E_corr = -0.09574149012626228
+Circuit depth for fragment f0: 497
+Circuit gate counts for fragment f0: OrderedDict({'sx': 4254, 'rz': 4101, 'cz': 1642, 'x': 326, 'measure': 38, 'barrier': 1})
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.17687975154778
+E(CCSD) = -9.263346048669112  E_corr = -0.08646629712133538
+Circuit depth for fragment f1: 500
+Circuit gate counts for fragment f1: OrderedDict({'sx': 4250, 'rz': 4091, 'cz': 1642, 'x': 320, 'measure': 38, 'barrier': 1})
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.24454700273219
+E(CCSD) = -9.34049465994889  E_corr = -0.09594765721670344
+Circuit depth for fragment f2: 499
+Circuit gate counts for fragment f2: OrderedDict({'sx': 4252, 'rz': 4080, 'cz': 1642, 'x': 323, 'measure': 38, 'barrier': 1})
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.17687019163193
+E(CCSD) = -9.263115370404961  E_corr = -0.08624517877302849
+Circuit depth for fragment f3: 513
+Circuit gate counts for fragment f3: OrderedDict({'sx': 4146, 'rz': 4033, 'cz': 1634, 'x': 348, 'measure': 38, 'barrier': 1})
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.24458182177606
+E(CCSD) = -9.339085196370542  E_corr = -0.09450337459448233
+Circuit depth for fragment f4: 498
+Circuit gate counts for fragment f4: OrderedDict({'sx': 4250, 'rz': 4101, 'cz': 1642, 'x': 318, 'measure': 38, 'barrier': 1})
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.17660352645813
+E(CCSD) = -9.260924104942065  E_corr = -0.08432057848393044
+Circuit depth for fragment f5: 505
+Circuit gate counts for fragment f5: OrderedDict({'sx': 4162, 'rz': 4019, 'cz': 1642, 'x': 338, 'measure': 38, 'barrier': 1})
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.24335777070172
+E(CCSD) = -9.33284015654802  E_corr = -0.08948238584629802
+Circuit depth for fragment f6: 497
+Circuit gate counts for fragment f6: OrderedDict({'sx': 4264, 'rz': 4071, 'cz': 1646, 'x': 317, 'measure': 38, 'barrier': 1})
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+converged SCF energy = -9.17662654818619
+E(CCSD) = -9.261330563788327  E_corr = -0.08470401560213923
+Circuit depth for fragment f7: 497
+Circuit gate counts for fragment f7: OrderedDict({'sx': 4252, 'rz': 4096, 'cz': 1642, 'x': 328, 'measure': 38, 'barrier': 1})
+Circuits runtime: 6461.802709716139 seconds.
+Job ID: d2r79b1olshc73bmsbqg
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.351324362556635
+		Subspace dimension: 1361889
+	Subsample 1
+		Energy: -9.351324362556635
+		Subspace dimension: 1361889
+	Subsample 2
+		Energy: -9.351324362556635
+		Subspace dimension: 1361889
+	Subsample 3
+		Energy: -9.351324362556635
+		Subspace dimension: 1361889
+	Subsample 4
+		Energy: -9.351324362556635
+		Subspace dimension: 1361889
+absolute_vals: [2.80943772e-02 6.22604332e-01 1.54416775e-03 ... 2.53869238e-19
+ 7.81257012e-20 8.79674455e-12]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.350597612352932
+		Subspace dimension: 2283121
+	Subsample 1
+		Energy: -9.35053106873814
+		Subspace dimension: 2166784
+	Subsample 2
+		Energy: -9.350556838142946
+		Subspace dimension: 2175625
+	Subsample 3
+		Energy: -9.350604226545265
+		Subspace dimension: 2047761
+	Subsample 4
+		Energy: -9.350507708648827
+		Subspace dimension: 2193361
+absolute_vals: [8.99217076e-01 4.17179413e-06 3.91197040e-02 ... 6.17712307e-10
+ 3.21896702e-18 1.02013881e-08]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.350700483897286
+		Subspace dimension: 2540836
+	Subsample 1
+		Energy: -9.35068850385011
+		Subspace dimension: 2477476
+	Subsample 2
+		Energy: -9.350694281781507
+		Subspace dimension: 2486929
+	Subsample 3
+		Energy: -9.350683318438431
+		Subspace dimension: 2480625
+	Subsample 4
+		Energy: -9.350680374430482
+		Subspace dimension: 2660161
+absolute_vals: [8.99136653e-01 3.40523609e-05 3.91653773e-02 ... 5.75286664e-11
+ 4.11320670e-12 3.48463510e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.350704322551053
+		Subspace dimension: 2537649
+	Subsample 1
+		Energy: -9.350704410439754
+		Subspace dimension: 2550409
+	Subsample 2
+		Energy: -9.350711328917667
+		Subspace dimension: 2576025
+	Subsample 3
+		Energy: -9.350699069916114
+		Subspace dimension: 2534464
+	Subsample 4
+		Energy: -9.350707329544873
+		Subspace dimension: 2722500
+absolute_vals: [8.99119306e-01 5.17732673e-05 3.91832720e-02 ... 3.42457854e-10
+ 2.13582473e-17 6.76895997e-09]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.350709702478188
+		Subspace dimension: 2650384
+	Subsample 1
+		Energy: -9.350703282755337
+		Subspace dimension: 2637376
+	Subsample 2
+		Energy: -9.350704583106111
+		Subspace dimension: 2534464
+	Subsample 3
+		Energy: -9.350706776022077
+		Subspace dimension: 2598544
+	Subsample 4
+		Energy: -9.350710493817761
+		Subspace dimension: 2588881
+absolute_vals: [8.99114030e-01 4.67991682e-05 3.91827973e-02 ... 2.73184669e-17
+ 5.56634091e-10 2.29166390e-09]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 4419.504501844989 seconds.
+SQD wavefunction amplitudes size: 1361889
+% of FCI space: 9.06513289689348
+SQD fragment ground state energy: -9.351324362556635
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.269421729032413
+		Subspace dimension: 1411344
+	Subsample 1
+		Energy: -9.269421729032413
+		Subspace dimension: 1411344
+	Subsample 2
+		Energy: -9.269421729032413
+		Subspace dimension: 1411344
+	Subsample 3
+		Energy: -9.269421729032413
+		Subspace dimension: 1411344
+	Subsample 4
+		Energy: -9.269421729032413
+		Subspace dimension: 1411344
+absolute_vals: [9.12974036e-01 2.22028245e-03 4.02229815e-04 ... 1.80300656e-11
+ 2.86745617e-12 6.21830927e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.270579268763498
+		Subspace dimension: 2582449
+	Subsample 1
+		Energy: -9.270571923820706
+		Subspace dimension: 2601769
+	Subsample 2
+		Energy: -9.2705973721875
+		Subspace dimension: 2656900
+	Subsample 3
+		Energy: -9.270579898478584
+		Subspace dimension: 2547216
+	Subsample 4
+		Energy: -9.270573588723828
+		Subspace dimension: 2647129
+absolute_vals: [9.10805866e-01 2.76921072e-03 5.23915930e-04 ... 1.03940318e-13
+ 4.41314360e-21 3.56871940e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.270618043802374
+		Subspace dimension: 2617924
+	Subsample 1
+		Energy: -9.27062722917048
+		Subspace dimension: 2505889
+	Subsample 2
+		Energy: -9.270627960080997
+		Subspace dimension: 2566404
+	Subsample 3
+		Energy: -9.270623416223323
+		Subspace dimension: 2653641
+	Subsample 4
+		Energy: -9.270626594171777
+		Subspace dimension: 2550409
+absolute_vals: [9.10759630e-01 2.71113497e-03 5.17223731e-04 ... 8.97653561e-22
+ 7.50013810e-22 4.09480501e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.270631965710177
+		Subspace dimension: 2653641
+	Subsample 1
+		Energy: -9.270633095093089
+		Subspace dimension: 2588881
+	Subsample 2
+		Energy: -9.270636285467216
+		Subspace dimension: 2849344
+	Subsample 3
+		Energy: -9.270633808391164
+		Subspace dimension: 2852721
+	Subsample 4
+		Energy: -9.270634668223735
+		Subspace dimension: 2676496
+absolute_vals: [9.10749674e-01 2.74859545e-03 5.18327041e-04 ... 4.89631389e-22
+ 1.78182256e-13 1.77903921e-12]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.270635257585432
+		Subspace dimension: 2852721
+	Subsample 1
+		Energy: -9.27063529437026
+		Subspace dimension: 2686321
+	Subsample 2
+		Energy: -9.270637138550367
+		Subspace dimension: 2653641
+	Subsample 3
+		Energy: -9.270634238224716
+		Subspace dimension: 2611456
+	Subsample 4
+		Energy: -9.270637276320478
+		Subspace dimension: 2712609
+absolute_vals: [9.10746715e-01 2.82995553e-03 5.18119367e-04 ... 2.75094849e-21
+ 8.95946896e-14 7.53655979e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 5257.589441535994 seconds.
+SQD wavefunction amplitudes size: 2712609
+% of FCI space: 18.055921651697993
+SQD fragment ground state energy: -9.270637276320478
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.351189739283033
+		Subspace dimension: 1378276
+	Subsample 1
+		Energy: -9.351189739283033
+		Subspace dimension: 1378276
+	Subsample 2
+		Energy: -9.351189739283033
+		Subspace dimension: 1378276
+	Subsample 3
+		Energy: -9.351189739283033
+		Subspace dimension: 1378276
+	Subsample 4
+		Energy: -9.351189739283033
+		Subspace dimension: 1378276
+absolute_vals: [1.26826594e-02 6.22721805e-01 7.15987481e-04 ... 1.07168879e-12
+ 1.90623709e-12 5.99343921e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.356284709864653
+		Subspace dimension: 2220100
+	Subsample 1
+		Energy: -9.356212454075589
+		Subspace dimension: 2166784
+	Subsample 2
+		Energy: -9.356237530170752
+		Subspace dimension: 2140369
+	Subsample 3
+		Energy: -9.35626698460565
+		Subspace dimension: 2140369
+	Subsample 4
+		Energy: -9.356306406959362
+		Subspace dimension: 2193361
+absolute_vals: [1.69019287e-03 6.21291644e-01 1.06317040e-04 ... 1.80543789e-10
+ 3.39382255e-18 1.65895654e-10]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.356428920092096
+		Subspace dimension: 2418025
+	Subsample 1
+		Energy: -9.356410446781963
+		Subspace dimension: 2283121
+	Subsample 2
+		Energy: -9.356401824994657
+		Subspace dimension: 2322576
+	Subsample 3
+		Energy: -9.356391985878531
+		Subspace dimension: 2304324
+	Subsample 4
+		Energy: -9.35642027453264
+		Subspace dimension: 2405601
+absolute_vals: [1.16607248e-03 6.21212772e-01 9.23402539e-05 ... 3.26921600e-17
+ 2.31006079e-19 1.34880023e-10]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.35644171423337
+		Subspace dimension: 2199289
+	Subsample 1
+		Energy: -9.356459870371822
+		Subspace dimension: 2421136
+	Subsample 2
+		Energy: -9.356453028660505
+		Subspace dimension: 2356225
+	Subsample 3
+		Energy: -9.356451323910015
+		Subspace dimension: 2405601
+	Subsample 4
+		Energy: -9.356460224834947
+		Subspace dimension: 2328676
+absolute_vals: [1.26870921e-03 6.21204022e-01 9.56265875e-05 ... 1.92365016e-11
+ 1.76208809e-19 1.52810454e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.3564626070364
+		Subspace dimension: 2286144
+	Subsample 1
+		Energy: -9.356463643625354
+		Subspace dimension: 2399401
+	Subsample 2
+		Energy: -9.356465587075759
+		Subspace dimension: 2421136
+	Subsample 3
+		Energy: -9.356464910411479
+		Subspace dimension: 2277081
+	Subsample 4
+		Energy: -9.356466902391116
+		Subspace dimension: 2277081
+absolute_vals: [1.24841273e-03 6.21195295e-01 9.71150864e-05 ... 1.58667123e-17
+ 8.92303144e-18 1.47139771e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 8653.292985832086 seconds.
+SQD wavefunction amplitudes size: 2277081
+% of FCI space: 15.15691945671865
+SQD fragment ground state energy: -9.356466902391116
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.269231484269662
+		Subspace dimension: 1320201
+	Subsample 1
+		Energy: -9.269231484269662
+		Subspace dimension: 1320201
+	Subsample 2
+		Energy: -9.269231484269662
+		Subspace dimension: 1320201
+	Subsample 3
+		Energy: -9.269231484269662
+		Subspace dimension: 1320201
+	Subsample 4
+		Energy: -9.269231484269662
+		Subspace dimension: 1320201
+absolute_vals: [9.14369609e-01 1.68055092e-03 1.83365938e-04 ... 2.71188742e-22
+ 1.17196094e-13 8.85162382e-09]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.270280489522012
+		Subspace dimension: 2630884
+	Subsample 1
+		Energy: -9.270283618048053
+		Subspace dimension: 2505889
+	Subsample 2
+		Energy: -9.270252427472496
+		Subspace dimension: 2461761
+	Subsample 3
+		Energy: -9.270269129357004
+		Subspace dimension: 2592100
+	Subsample 4
+		Energy: -9.270276770554716
+		Subspace dimension: 2712609
+absolute_vals: [9.11449399e-01 2.86447261e-03 2.83619204e-04 ... 6.59577982e-09
+ 2.60563992e-11 7.90310872e-09]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.270337685071052
+		Subspace dimension: 2686321
+	Subsample 1
+		Energy: -9.270324142205283
+		Subspace dimension: 2745649
+	Subsample 2
+		Energy: -9.270329615126542
+		Subspace dimension: 2719201
+	Subsample 3
+		Energy: -9.270323813219122
+		Subspace dimension: 2544025
+	Subsample 4
+		Energy: -9.270335585012575
+		Subspace dimension: 2752281
+absolute_vals: [9.11357005e-01 2.92632652e-03 2.87702668e-04 ... 7.30788328e-21
+ 1.21571547e-20 1.19823101e-09]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.270343345558402
+		Subspace dimension: 2699449
+	Subsample 1
+		Energy: -9.270344120976329
+		Subspace dimension: 2676496
+	Subsample 2
+		Energy: -9.270343597288885
+		Subspace dimension: 2735716
+	Subsample 3
+		Energy: -9.27034189061445
+		Subspace dimension: 2792241
+	Subsample 4
+		Energy: -9.270342522180336
+		Subspace dimension: 2748964
+absolute_vals: [9.11347314e-01 2.88406422e-03 2.87004888e-04 ... 1.78495403e-21
+ 1.26617011e-11 2.45162037e-09]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.270345113212747
+		Subspace dimension: 2689600
+	Subsample 1
+		Energy: -9.270345804394156
+		Subspace dimension: 2709316
+	Subsample 2
+		Energy: -9.27034414974515
+		Subspace dimension: 2663424
+	Subsample 3
+		Energy: -9.270344785208552
+		Subspace dimension: 2755600
+	Subsample 4
+		Energy: -9.270345314168743
+		Subspace dimension: 2699449
+absolute_vals: [9.11347804e-01 2.88951131e-03 2.88231356e-04 ... 1.34689550e-22
+ 2.96249190e-13 5.29558705e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 5064.554879955016 seconds.
+SQD wavefunction amplitudes size: 2709316
+% of FCI space: 18.034002477206187
+SQD fragment ground state energy: -9.270345804394156
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.352325556538212
+		Subspace dimension: 1397124
+	Subsample 1
+		Energy: -9.352325556538212
+		Subspace dimension: 1397124
+	Subsample 2
+		Energy: -9.352325556538212
+		Subspace dimension: 1397124
+	Subsample 3
+		Energy: -9.352325556538212
+		Subspace dimension: 1397124
+	Subsample 4
+		Energy: -9.352325556538212
+		Subspace dimension: 1397124
+absolute_vals: [2.33092331e-02 6.21538789e-01 6.24871998e-03 ... 2.53569457e-11
+ 6.45324181e-10 2.14605357e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.355780504990562
+		Subspace dimension: 2259009
+	Subsample 1
+		Energy: -9.355783241046629
+		Subspace dimension: 2119936
+	Subsample 2
+		Energy: -9.355805779598981
+		Subspace dimension: 2163841
+	Subsample 3
+		Energy: -9.349186494103366
+		Subspace dimension: 2280100
+	Subsample 4
+		Energy: -9.349280307231147
+		Subspace dimension: 2117025
+absolute_vals: [1.04143725e-03 6.21332989e-01 1.48714952e-04 ... 5.86493874e-19
+ 7.75981703e-12 2.18613140e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.355887744356703
+		Subspace dimension: 2229049
+	Subsample 1
+		Energy: -9.35584356538066
+		Subspace dimension: 2184484
+	Subsample 2
+		Energy: -9.35588510783115
+		Subspace dimension: 2196324
+	Subsample 3
+		Energy: -9.355890783824439
+		Subspace dimension: 2238016
+	Subsample 4
+		Energy: -9.35587860996488
+		Subspace dimension: 2223081
+absolute_vals: [2.71746709e-03 6.21283769e-01 2.31128405e-04 ... 1.50773679e-12
+ 1.01750940e-12 4.62355726e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.355899951457257
+		Subspace dimension: 2322576
+	Subsample 1
+		Energy: -9.355904661740439
+		Subspace dimension: 2512225
+	Subsample 2
+		Energy: -9.355904478856878
+		Subspace dimension: 2319529
+	Subsample 3
+		Energy: -9.355906989413661
+		Subspace dimension: 2295225
+	Subsample 4
+		Energy: -9.355906838049659
+		Subspace dimension: 2301289
+absolute_vals: [2.60470021e-03 6.21279807e-01 2.25257918e-04 ... 2.79449752e-22
+ 2.06240995e-12 1.17324252e-11]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.355912025014923
+		Subspace dimension: 2365444
+	Subsample 1
+		Energy: -9.355910747586119
+		Subspace dimension: 2292196
+	Subsample 2
+		Energy: -9.355907643076034
+		Subspace dimension: 2199289
+	Subsample 3
+		Energy: -9.35591051573256
+		Subspace dimension: 2356225
+	Subsample 4
+		Energy: -9.355909959921863
+		Subspace dimension: 2402500
+absolute_vals: [2.61393983e-03 6.21274757e-01 2.24890222e-04 ... 1.73679339e-20
+ 2.18750029e-10 2.75665005e-12]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 7880.411814817926 seconds.
+SQD wavefunction amplitudes size: 2365444
+% of FCI space: 15.745089519160008
+SQD fragment ground state energy: -9.355912025014923
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.266697042150618
+		Subspace dimension: 1334025
+	Subsample 1
+		Energy: -9.266697042150618
+		Subspace dimension: 1334025
+	Subsample 2
+		Energy: -9.266697042150618
+		Subspace dimension: 1334025
+	Subsample 3
+		Energy: -9.266697042150618
+		Subspace dimension: 1334025
+	Subsample 4
+		Energy: -9.266697042150618
+		Subspace dimension: 1334025
+absolute_vals: [9.18609594e-01 1.37314572e-02 3.80370286e-03 ... 1.70690038e-12
+ 8.67820665e-13 1.49910818e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.26754221828147
+		Subspace dimension: 2624400
+	Subsample 1
+		Energy: -9.267535037929783
+		Subspace dimension: 2509056
+	Subsample 2
+		Energy: -9.267537699054209
+		Subspace dimension: 2471184
+	Subsample 3
+		Energy: -9.267532394809107
+		Subspace dimension: 2502724
+	Subsample 4
+		Energy: -9.267519433404818
+		Subspace dimension: 2480625
+absolute_vals: [9.16786212e-01 1.57814236e-02 3.89811709e-03 ... 4.28679753e-22
+ 1.83748241e-22 3.24694422e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.2675813231417
+		Subspace dimension: 2553604
+	Subsample 1
+		Energy: -9.267578579080919
+		Subspace dimension: 2502724
+	Subsample 2
+		Energy: -9.267575350610116
+		Subspace dimension: 2531281
+	Subsample 3
+		Energy: -9.267584535311826
+		Subspace dimension: 2617924
+	Subsample 4
+		Energy: -9.267576554937389
+		Subspace dimension: 2604996
+absolute_vals: [9.16743021e-01 1.59579486e-02 3.88806486e-03 ... 7.52779346e-20
+ 1.56057391e-21 2.90752478e-08]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.267584659736041
+		Subspace dimension: 2686321
+	Subsample 1
+		Energy: -9.26758550546624
+		Subspace dimension: 2643876
+	Subsample 2
+		Energy: -9.267585106701954
+		Subspace dimension: 2630884
+	Subsample 3
+		Energy: -9.267585729002695
+		Subspace dimension: 2748964
+	Subsample 4
+		Energy: -9.267587316265253
+		Subspace dimension: 2719201
+absolute_vals: [9.16737546e-01 1.60018368e-02 3.88905730e-03 ... 7.82865776e-22
+ 2.67905387e-22 2.97739892e-12]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.26758504602325
+		Subspace dimension: 2640625
+	Subsample 1
+		Energy: -9.267585961747702
+		Subspace dimension: 2772225
+	Subsample 2
+		Energy: -9.267585853514909
+		Subspace dimension: 2640625
+	Subsample 3
+		Energy: -9.26758480844627
+		Subspace dimension: 2653641
+	Subsample 4
+		Energy: -9.267586223839668
+		Subspace dimension: 2725801
+absolute_vals: [9.16746142e-01 1.59452959e-02 3.88734743e-03 ... 8.51296317e-12
+ 2.76544496e-12 3.53660272e-12]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 5353.621932012029 seconds.
+SQD wavefunction amplitudes size: 2719201
+% of FCI space: 18.099799938442597
+SQD fragment ground state energy: -9.267587316265253
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.34836780669025
+		Subspace dimension: 1313316
+	Subsample 1
+		Energy: -9.34836780669025
+		Subspace dimension: 1313316
+	Subsample 2
+		Energy: -9.34836780669025
+		Subspace dimension: 1313316
+	Subsample 3
+		Energy: -9.34836780669025
+		Subspace dimension: 1313316
+	Subsample 4
+		Energy: -9.34836780669025
+		Subspace dimension: 1313316
+absolute_vals: [8.57561485e-03 6.21699061e-01 6.60766671e-04 ... 1.72818743e-11
+ 1.16245791e-10 8.91487446e-11]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.352472031472908
+		Subspace dimension: 2059225
+	Subsample 1
+		Energy: -9.343517968476778
+		Subspace dimension: 2169729
+	Subsample 2
+		Energy: -9.343525292951316
+		Subspace dimension: 2005056
+	Subsample 3
+		Energy: -9.352492955420505
+		Subspace dimension: 2166784
+	Subsample 4
+		Energy: -9.35245487563316
+		Subspace dimension: 2211169
+absolute_vals: [1.41353159e-03 6.21237140e-01 9.21982442e-05 ... 1.15341142e-18
+ 2.11746820e-10 1.86064948e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.352598846703167
+		Subspace dimension: 2143296
+	Subsample 1
+		Energy: -9.352523544173588
+		Subspace dimension: 2169729
+	Subsample 2
+		Energy: -9.352604101067998
+		Subspace dimension: 2226064
+	Subsample 3
+		Energy: -9.352600621187833
+		Subspace dimension: 2259009
+	Subsample 4
+		Energy: -9.352609348129532
+		Subspace dimension: 2232036
+absolute_vals: [5.54725185e-04 6.21134626e-01 5.96481517e-05 ... 4.76307870e-20
+ 2.60874488e-20 3.98811747e-11]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.352619246917897
+		Subspace dimension: 2359296
+	Subsample 1
+		Energy: -9.352621262039833
+		Subspace dimension: 2304324
+	Subsample 2
+		Energy: -9.352612953328622
+		Subspace dimension: 2181529
+	Subsample 3
+		Energy: -9.352620025479641
+		Subspace dimension: 2259009
+	Subsample 4
+		Energy: -9.352615968061718
+		Subspace dimension: 2319529
+absolute_vals: [4.79732993e-04 6.21134060e-01 5.69599394e-05 ... 3.71016098e-10
+ 4.26480724e-10 1.05799684e-09]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.352623925960303
+		Subspace dimension: 2353156
+	Subsample 1
+		Energy: -9.352622975747497
+		Subspace dimension: 2280100
+	Subsample 2
+		Energy: -9.352622333037862
+		Subspace dimension: 2256004
+	Subsample 3
+		Energy: -9.352628328540586
+		Subspace dimension: 2295225
+	Subsample 4
+		Energy: -9.352625119035597
+		Subspace dimension: 2277081
+absolute_vals: [4.31077471e-04 6.21130453e-01 5.45951900e-05 ... 2.79149413e-12
+ 2.88499462e-20 5.20908887e-11]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 7719.822230261983 seconds.
+SQD wavefunction amplitudes size: 2295225
+% of FCI space: 15.277691245962291
+SQD fragment ground state energy: -9.352628328540586
+
+Using provided bitarray...
+Starting solver_fermion loop...
+Iteration 1
+	Subsample 0
+		Energy: -9.267258764589375
+		Subspace dimension: 1292769
+	Subsample 1
+		Energy: -9.267258764589375
+		Subspace dimension: 1292769
+	Subsample 2
+		Energy: -9.267258764589375
+		Subspace dimension: 1292769
+	Subsample 3
+		Energy: -9.267258764589375
+		Subspace dimension: 1292769
+	Subsample 4
+		Energy: -9.267258764589375
+		Subspace dimension: 1292769
+absolute_vals: [9.16009228e-01 1.96972407e-02 4.88027102e-03 ... 3.94885984e-21
+ 5.67007049e-11 8.94462591e-10]
+carryover_threshold: 0.0001
+Iteration 2
+	Subsample 0
+		Energy: -9.26804439949319
+		Subspace dimension: 2427364
+	Subsample 1
+		Energy: -9.268072722357886
+		Subspace dimension: 2553604
+	Subsample 2
+		Energy: -9.268050381595977
+		Subspace dimension: 2521744
+	Subsample 3
+		Energy: -9.268045392651556
+		Subspace dimension: 2524921
+	Subsample 4
+		Energy: -9.268075773193654
+		Subspace dimension: 2468041
+absolute_vals: [9.15547491e-01 2.08797145e-02 4.71440913e-03 ... 1.48953369e-21
+ 1.69511241e-11 1.78663832e-11]
+carryover_threshold: 0.0001
+Iteration 3
+	Subsample 0
+		Energy: -9.268092707880774
+		Subspace dimension: 2537649
+	Subsample 1
+		Energy: -9.268092828597332
+		Subspace dimension: 2715904
+	Subsample 2
+		Energy: -9.268088493905951
+		Subspace dimension: 2643876
+	Subsample 3
+		Energy: -9.268091303795945
+		Subspace dimension: 2650384
+	Subsample 4
+		Energy: -9.26808619376415
+		Subspace dimension: 2650384
+absolute_vals: [9.15510210e-01 2.09429517e-02 4.71162012e-03 ... 5.63980826e-10
+ 5.18633249e-11 4.92941161e-09]
+carryover_threshold: 0.0001
+Iteration 4
+	Subsample 0
+		Energy: -9.2680937054104
+		Subspace dimension: 2604996
+	Subsample 1
+		Energy: -9.2680930724196
+		Subspace dimension: 2604996
+	Subsample 2
+		Energy: -9.268093021514986
+		Subspace dimension: 2706025
+	Subsample 3
+		Energy: -9.268091987917172
+		Subspace dimension: 2505889
+	Subsample 4
+		Energy: -9.26809367830527
+		Subspace dimension: 2569609
+absolute_vals: [9.15510693e-01 2.09455621e-02 4.71076763e-03 ... 1.53621148e-12
+ 2.12078706e-11 9.99144055e-12]
+carryover_threshold: 0.0001
+Iteration 5
+	Subsample 0
+		Energy: -9.268092743304116
+		Subspace dimension: 2595321
+	Subsample 1
+		Energy: -9.268095177727567
+		Subspace dimension: 2569609
+	Subsample 2
+		Energy: -9.26809433476878
+		Subspace dimension: 2686321
+	Subsample 3
+		Energy: -9.26809254012797
+		Subspace dimension: 2592100
+	Subsample 4
+		Energy: -9.268093741697362
+		Subspace dimension: 2604996
+absolute_vals: [9.15510326e-01 2.08859936e-02 4.71400152e-03 ... 8.50493951e-20
+ 1.29201452e-08 9.95995018e-09]
+carryover_threshold: 0.0001
+solve_fermion loop runtime: 5485.5210083699785 seconds.
+SQD wavefunction amplitudes size: 2569609
+% of FCI space: 17.104071681358437
+SQD fragment ground state energy: -9.268095177727567
+
+ No. of line search steps in QN opt : 3
+
+Reached the maximum number of iterations: 5
+Error in density matching      :   1.8489e-02
+Cumulative energy      :   -4.330382461513233
+ERI file copied to: /mnt/beegfs/jhbierma/QBE_SQD_checkpoint_files/H8_ring_qbe_sqd_cc-pVDZ_radius_2.2_ibm_pittsburgh_batchsize_2500_timestamp_2025_08_22_01_21_57/H8_hring_qbe_sqd_ccpVDZ_checkpt_restart_eri.h5
+Checkpoint saved to /mnt/beegfs/jhbierma/QBE_SQD_checkpoint_files/H8_ring_qbe_sqd_cc-pVDZ_radius_2.2_ibm_pittsburgh_batchsize_2500_timestamp_2025_08_22_01_21_57/H8_hring_qbe_sqd_ccpVDZ_checkpt_restart.chk
+
+-- In iter  5

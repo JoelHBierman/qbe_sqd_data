@@ -1,0 +1,475 @@
+Sep 03 11:24:35 ####### 
+                ####### libDMET   version 0.5
+                ####### A periodic DMET library for lattice model and realistic solid.
+                ####### 
+converged SCF energy = -4.03830118111586
+
+Fragment sites
+--------------------------
+Fragment |   Origin | Atoms 
+--------------------------
+      0  |      H1  |     H2      H8  
+      1  |      H2  |     H1      H3  
+      2  |      H3  |     H2      H4  
+      3  |      H4  |     H3      H5  
+      4  |      H5  |     H4      H6  
+      5  |      H6  |     H5      H7  
+      6  |      H7  |     H6      H8  
+      7  |      H8  |     H1      H7  
+--------------------------
+ No. of fragments :  8
+*H : Center H atoms (printed as Edges above.)
+
+-----------------------------------------------------------
+  MMM     MMM    OOOO    LL           BBBBBBB    EEEEEEE 
+  M MM   MM M   OO  OO   LL           BB     B   EE      
+  M  MM MM  M  OO    OO  LL           BB     B   EE      
+  M   MMM   M  OO    OO  LL     ===   BBBBBBB    EEEEEEE 
+  M         M  OO    OO  LL           BB     B   EE      
+  M         M   OO  OO   LL           BB     B   EE      
+  M         M    OOOO    LLLLLL       BBBBBBB    EEEEEEE 
+
+            MOLECULAR BOOTSTRAP EMBEDDING
+            BEn =  2
+-----------------------------------------------------------
+
+Scratch dir is in: /tmp/QuEmb_143165
+HF-in-HF error                 :  7.6837e-10 Ha
+-----------------------------------------------------
+             Starting BE optimization 
+             Solver :  FCI
+-----------------------------------------------------
+
+-- Beginning optimization iteration  0
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Error in density matching      :   4.5618e-03
+Cumulative energy      :   -4.273129512880274
+
+-- In iter  0
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   3.4562e-03
+Cumulative energy      :   -4.265584527998431
+
+-- In iter  1
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   3.0461e-03
+Cumulative energy      :   -4.263448950067268
+
+-- In iter  2
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   1.2474e-03
+Cumulative energy      :   -4.2656007048944
+
+-- In iter  3
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   1.1034e-03
+Cumulative energy      :   -4.267231631097284
+
+-- In iter  4
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   8.6271e-04
+Cumulative energy      :   -4.269225767506505
+
+-- In iter  5
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   5.2147e-04
+Cumulative energy      :   -4.268106300278657
+
+-- In iter  6
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 3
+
+Error in density matching      :   5.1282e-04
+Cumulative energy      :   -4.268112873990669
+
+-- In iter  7
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   4.7661e-04
+Cumulative energy      :   -4.268140338356512
+
+-- In iter  8
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   1.8535e-04
+Cumulative energy      :   -4.268350959379263
+
+-- In iter  9
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   1.7806e-04
+Cumulative energy      :   -4.268425903731388
+
+-- In iter  10
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   1.6268e-04
+Cumulative energy      :   -4.2691591160636415
+
+-- In iter  11
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   1.4925e-04
+Cumulative energy      :   -4.269143060440025
+
+-- In iter  12
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   1.3512e-04
+Cumulative energy      :   -4.269109816507016
+
+-- In iter  13
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   1.2263e-04
+Cumulative energy      :   -4.2690323392806535
+
+-- In iter  14
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   1.0798e-04
+Cumulative energy      :   -4.268953948574029
+
+-- In iter  15
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   9.5370e-05
+Cumulative energy      :   -4.268886675610276
+
+-- In iter  16
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Error in density matching      :   8.7839e-05
+Cumulative energy      :   -4.268849302423849
+
+-- In iter  17
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 3
+
+Error in density matching      :   8.7531e-05
+Cumulative energy      :   -4.268846446796578
+
+-- In iter  18
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 1
+
+Error in density matching      :   8.1187e-05
+Cumulative energy      :   -4.268744686168625
+
+-- In iter  19
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+Fragment f0: (4, 4) electrons, 19 spatial orbitals
+Fragment f1: (4, 4) electrons, 19 spatial orbitals
+Fragment f2: (4, 4) electrons, 19 spatial orbitals
+Fragment f3: (4, 4) electrons, 19 spatial orbitals
+Fragment f4: (4, 4) electrons, 19 spatial orbitals
+Fragment f5: (4, 4) electrons, 19 spatial orbitals
+Fragment f6: (4, 4) electrons, 19 spatial orbitals
+Fragment f7: (4, 4) electrons, 19 spatial orbitals
+ No. of line search steps in QN opt : 2
+
+Reached the maximum number of iterations: 20
+Error in density matching      :   7.7708e-05
+Cumulative energy      :   -4.268744735441486
+
+BE DID NOT CONVERGE IN 20 STEPS
+-----------------------------------------------------
+ BE ENERGIES with cumulant-based expression
+-----------------------------------------------------
+ E_BE = E_HF + Tr(F del g) + Tr(V K_approx)
+ E_HF            :    -4.03830118 Ha
+ Tr(F del g)     :     0.22851086 Ha
+ Tr(V K_approx)  :    -0.45895441 Ha
+ E_BE            :    -4.26874474 Ha
+ Ecorr BE        :    -0.23044355 Ha
+-----------------------------------------------------
+

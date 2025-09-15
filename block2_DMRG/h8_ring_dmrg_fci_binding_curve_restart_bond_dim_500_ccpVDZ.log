@@ -1,0 +1,2013 @@
+Interatomic distance: 0.8 Angstroms
+
+WARN: Singularity detected in overlap matrix (condition number = 5.18e+04). SCF may be inaccurate and hard to converge.
+
+converged SCF energy = -3.34974458115857
+nuclear repulsion energy: 14.842710855017085 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.613549931881625e-18
+mpo terms =    1325426
+
+Build MPO | Nsites =    40 | Nterms =    1325426 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.041 T = 0.105
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.057 T = 0.172
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.065 T = 0.195
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4772 SPT = 0.7258 Tmvc = 0.077 T = 0.232
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.085 T = 0.259
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6229 SPT = 0.8637 Tmvc = 0.089 T = 0.282
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8552 SPT = 0.8769 Tmvc = 0.096 T = 0.308
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    11055 SPT = 0.8931 Tmvc = 0.106 T = 0.337
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13750 SPT = 0.9084 Tmvc = 0.112 T = 0.358
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16659 SPT = 0.9217 Tmvc = 0.137 T = 0.407
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19627 SPT = 0.9335 Tmvc = 0.160 T = 0.454
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22805 SPT = 0.9431 Tmvc = 0.176 T = 0.488
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26027 SPT = 0.9513 Tmvc = 0.189 T = 0.523
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29217 SPT = 0.9583 Tmvc = 0.205 T = 0.557
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32571 SPT = 0.9640 Tmvc = 0.247 T = 0.634
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35773 SPT = 0.9689 Tmvc = 0.285 T = 0.686
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38948 SPT = 0.9731 Tmvc = 0.329 T = 0.759
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42269 SPT = 0.9765 Tmvc = 0.352 T = 0.799
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45216 SPT = 0.9796 Tmvc = 0.353 T = 0.802
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47937 SPT = 0.9822 Tmvc = 0.366 T = 0.816
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530022 SPT = 0.8032 Tmvc = 0.429 T = 1.400
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    44959 SPT = 0.9797 Tmvc = 0.138 T = 0.410
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42013 SPT = 0.9766 Tmvc = 0.126 T = 0.386
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    39093 SPT = 0.9730 Tmvc = 0.116 T = 0.341
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35783 SPT = 0.9689 Tmvc = 0.099 T = 0.294
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32623 SPT = 0.9639 Tmvc = 0.089 T = 0.262
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29325 SPT = 0.9582 Tmvc = 0.072 T = 0.219
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25961 SPT = 0.9514 Tmvc = 0.058 T = 0.178
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22719 SPT = 0.9433 Tmvc = 0.051 T = 0.149
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19712 SPT = 0.9332 Tmvc = 0.043 T = 0.123
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16650 SPT = 0.9218 Tmvc = 0.034 T = 0.097
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13597 SPT = 0.9094 Tmvc = 0.025 T = 0.073
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    11024 SPT = 0.8934 Tmvc = 0.018 T = 0.053
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8530 SPT = 0.8773 Tmvc = 0.012 T = 0.037
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6306 SPT = 0.8620 Tmvc = 0.008 T = 0.024
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4341 SPT = 0.8532 Tmvc = 0.004 T = 0.015
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4723 SPT = 0.7356 Tmvc = 0.003 T = 0.012
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     13.247 Tmvc-total = 4.851 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293509 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     13.279 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293509 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     45.975 | E =      -3.3953207721 | DW = 6.07166e-14
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     96.207 | E =      -3.5225156543 | DE = -1.27e-01 | DW = 2.22116e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    140.750 | E =      -3.5321800328 | DE = -9.66e-03 | DW = 8.04268e-06
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    182.308 | E =      -3.5330017011 | DE = -8.22e-04 | DW = 7.62547e-06
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    306.168 | E =      -3.5339327112 | DE = -9.31e-04 | DW = 2.50992e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    502.951 | E =      -3.5342960519 | DE = -3.63e-04 | DW = 1.06859e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    700.600 | E =      -3.5343465234 | DE = -5.05e-05 | DW = 1.73816e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    892.791 | E =      -3.5343775140 | DE = -3.10e-05 | DW = 1.49122e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1070.884 | E =      -3.5343908019 | DE = -1.33e-05 | DW = 1.61697e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1237.535 | E =      -3.5343965574 | DE = -5.76e-06 | DW = 1.65372e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1413.519 | E =      -3.5344022234 | DE = -5.67e-06 | DW = 1.68065e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1579.525 | E =      -3.5344050826 | DE = -2.86e-06 | DW = 1.68621e-06
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+DMRG energy =   -3.534405082564032
+Interatomic distance: 0.9 Angstroms
+
+WARN: Singularity detected in overlap matrix (condition number = 2.05e+04). SCF may be inaccurate and hard to converge.
+
+converged SCF energy = -3.7182989983831
+nuclear repulsion energy: 13.193520760015190 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.985245440875586e-18
+mpo terms =    1325437
+
+Build MPO | Nsites =    40 | Nterms =    1325437 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.218 T = 0.445
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.287 T = 0.702
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.360 T = 0.839
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4762 SPT = 0.7264 Tmvc = 0.415 T = 0.950
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.478 T = 1.051
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6229 SPT = 0.8637 Tmvc = 0.486 T = 1.089
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8513 SPT = 0.8775 Tmvc = 0.538 T = 1.165
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    11021 SPT = 0.8934 Tmvc = 0.589 T = 1.309
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13758 SPT = 0.9083 Tmvc = 0.626 T = 1.316
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16660 SPT = 0.9217 Tmvc = 0.671 T = 1.384
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19633 SPT = 0.9335 Tmvc = 0.731 T = 1.473
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22771 SPT = 0.9432 Tmvc = 0.781 T = 1.527
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26013 SPT = 0.9513 Tmvc = 0.802 T = 1.556
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29209 SPT = 0.9583 Tmvc = 0.816 T = 1.586
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32558 SPT = 0.9640 Tmvc = 0.835 T = 1.593
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35957 SPT = 0.9688 Tmvc = 0.830 T = 1.579
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    39154 SPT = 0.9730 Tmvc = 0.842 T = 1.597
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42043 SPT = 0.9766 Tmvc = 0.834 T = 1.580
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    44986 SPT = 0.9797 Tmvc = 0.799 T = 1.521
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47923 SPT = 0.9822 Tmvc = 0.796 T = 1.507
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529817 SPT = 0.8033 Tmvc = 0.894 T = 2.350
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45138 SPT = 0.9796 Tmvc = 0.232 T = 0.597
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42007 SPT = 0.9766 Tmvc = 0.197 T = 0.521
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38921 SPT = 0.9731 Tmvc = 0.169 T = 0.449
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35793 SPT = 0.9689 Tmvc = 0.145 T = 0.378
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32621 SPT = 0.9639 Tmvc = 0.120 T = 0.314
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29336 SPT = 0.9581 Tmvc = 0.099 T = 0.270
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25965 SPT = 0.9514 Tmvc = 0.080 T = 0.220
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22723 SPT = 0.9433 Tmvc = 0.065 T = 0.178
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19691 SPT = 0.9333 Tmvc = 0.050 T = 0.142
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16643 SPT = 0.9218 Tmvc = 0.039 T = 0.107
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13607 SPT = 0.9093 Tmvc = 0.032 T = 0.085
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    11059 SPT = 0.8930 Tmvc = 0.019 T = 0.059
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8553 SPT = 0.8769 Tmvc = 0.013 T = 0.042
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6239 SPT = 0.8635 Tmvc = 0.009 T = 0.028
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4293 SPT = 0.8548 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4826 SPT = 0.7298 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     31.541 Tmvc-total = 14.905 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293144 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     31.585 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293144 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.768 | E =      -3.7653659905 | DW = 9.18811e-14
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     92.696 | E =      -3.8991719366 | DE = -1.34e-01 | DW = 2.14426e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    136.308 | E =      -3.9079381564 | DE = -8.77e-03 | DW = 8.63147e-06
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    177.116 | E =      -3.9084762100 | DE = -5.38e-04 | DW = 8.46982e-06
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    299.964 | E =      -3.9092982692 | DE = -8.22e-04 | DW = 3.13895e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    492.152 | E =      -3.9096384455 | DE = -3.40e-04 | DW = 1.24204e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    686.984 | E =      -3.9096783978 | DE = -4.00e-05 | DW = 1.52233e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    873.505 | E =      -3.9097091348 | DE = -3.07e-05 | DW = 1.31129e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1053.249 | E =      -3.9097189077 | DE = -9.77e-06 | DW = 1.40848e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1221.331 | E =      -3.9097253735 | DE = -6.47e-06 | DW = 1.43623e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1400.031 | E =      -3.9097296035 | DE = -4.23e-06 | DW = 1.44201e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1570.550 | E =      -3.9097317488 | DE = -2.15e-06 | DW = 1.47620e-06
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+DMRG energy =   -3.909731748767886
+Interatomic distance: 1.0 Angstroms
+
+WARN: Singularity detected in overlap matrix (condition number = 9.08e+03). SCF may be inaccurate and hard to converge.
+
+converged SCF energy = -3.94168391711509
+nuclear repulsion energy: 11.874168684013664 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.242235189613012e-18
+mpo terms =    1325466
+
+Build MPO | Nsites =    40 | Nterms =    1325466 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.156 T = 0.350
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.201 T = 0.553
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.248 T = 0.654
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4778 SPT = 0.7254 Tmvc = 0.303 T = 0.774
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.359 T = 0.868
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6295 SPT = 0.8622 Tmvc = 0.380 T = 0.922
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8541 SPT = 0.8771 Tmvc = 0.425 T = 0.997
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10981 SPT = 0.8938 Tmvc = 0.461 T = 1.059
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13722 SPT = 0.9086 Tmvc = 0.492 T = 1.116
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16627 SPT = 0.9219 Tmvc = 0.545 T = 1.188
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19640 SPT = 0.9335 Tmvc = 0.572 T = 1.223
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22779 SPT = 0.9432 Tmvc = 0.627 T = 1.307
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26009 SPT = 0.9514 Tmvc = 0.690 T = 1.388
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29215 SPT = 0.9583 Tmvc = 0.735 T = 1.460
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32548 SPT = 0.9640 Tmvc = 0.775 T = 1.515
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35974 SPT = 0.9688 Tmvc = 0.825 T = 1.574
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    39167 SPT = 0.9729 Tmvc = 0.874 T = 1.660
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42067 SPT = 0.9766 Tmvc = 0.937 T = 1.733
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    44977 SPT = 0.9797 Tmvc = 0.934 T = 1.724
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47827 SPT = 0.9822 Tmvc = 0.938 T = 1.720
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529988 SPT = 0.8032 Tmvc = 1.042 T = 2.797
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45223 SPT = 0.9796 Tmvc = 0.268 T = 0.720
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    41993 SPT = 0.9767 Tmvc = 0.225 T = 0.617
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38935 SPT = 0.9731 Tmvc = 0.189 T = 0.522
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35785 SPT = 0.9689 Tmvc = 0.155 T = 0.437
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32589 SPT = 0.9640 Tmvc = 0.131 T = 0.384
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29337 SPT = 0.9581 Tmvc = 0.106 T = 0.305
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25944 SPT = 0.9515 Tmvc = 0.086 T = 0.247
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22727 SPT = 0.9433 Tmvc = 0.072 T = 0.201
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19687 SPT = 0.9333 Tmvc = 0.055 T = 0.158
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16632 SPT = 0.9219 Tmvc = 0.041 T = 0.121
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13608 SPT = 0.9093 Tmvc = 0.029 T = 0.090
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    11056 SPT = 0.8930 Tmvc = 0.021 T = 0.065
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8551 SPT = 0.8770 Tmvc = 0.014 T = 0.045
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6207 SPT = 0.8642 Tmvc = 0.009 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.005 T = 0.018
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4778 SPT = 0.7325 Tmvc = 0.003 T = 0.015
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     30.559 Tmvc-total = 13.931 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293183 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     30.598 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293183 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.444 | E =      -3.9918551099 | DW = 2.04084e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     92.416 | E =      -4.1337929150 | DE = -1.42e-01 | DW = 3.13886e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    134.607 | E =      -4.1381685411 | DE = -4.38e-03 | DW = 6.73188e-06
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    174.411 | E =      -4.1386154253 | DE = -4.47e-04 | DW = 7.12902e-06
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    292.554 | E =      -4.1393617245 | DE = -7.46e-04 | DW = 2.60800e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    483.539 | E =      -4.1397071395 | DE = -3.45e-04 | DW = 1.74670e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    678.014 | E =      -4.1397539108 | DE = -4.68e-05 | DW = 1.99797e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    863.376 | E =      -4.1397857581 | DE = -3.18e-05 | DW = 1.84853e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1042.340 | E =      -4.1397942643 | DE = -8.51e-06 | DW = 1.66958e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1210.246 | E =      -4.1398050283 | DE = -1.08e-05 | DW = 1.78032e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1387.358 | E =      -4.1398054662 | DE = -4.38e-07 | DW = 1.79051e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1559.963 | E =      -4.1398089803 | DE = -3.51e-06 | DW = 1.79114e-06
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+DMRG energy =   -4.139808980294045
+Interatomic distance: 1.1 Angstroms
+
+WARN: Singularity detected in overlap matrix (condition number = 4.42e+03). SCF may be inaccurate and hard to converge.
+
+converged SCF energy = -4.07132587577941
+nuclear repulsion energy: 10.794698803648792 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.8849149656984455e-18
+mpo terms =    1325495
+
+Build MPO | Nsites =    40 | Nterms =    1325495 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.183 T = 0.389
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.248 T = 0.615
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.313 T = 0.741
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4768 SPT = 0.7260 Tmvc = 0.369 T = 0.851
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.420 T = 0.930
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6295 SPT = 0.8622 Tmvc = 0.438 T = 0.981
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8543 SPT = 0.8771 Tmvc = 0.467 T = 1.029
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    11007 SPT = 0.8935 Tmvc = 0.517 T = 1.102
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13718 SPT = 0.9086 Tmvc = 0.532 T = 1.130
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16613 SPT = 0.9219 Tmvc = 0.574 T = 1.200
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19639 SPT = 0.9335 Tmvc = 0.627 T = 1.278
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22770 SPT = 0.9432 Tmvc = 0.677 T = 1.343
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26009 SPT = 0.9514 Tmvc = 0.723 T = 1.406
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29417 SPT = 0.9580 Tmvc = 0.740 T = 1.429
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32707 SPT = 0.9638 Tmvc = 0.762 T = 1.454
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35838 SPT = 0.9689 Tmvc = 0.787 T = 1.488
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38978 SPT = 0.9731 Tmvc = 0.813 T = 1.520
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42061 SPT = 0.9766 Tmvc = 0.821 T = 1.539
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    44999 SPT = 0.9797 Tmvc = 0.821 T = 1.538
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47829 SPT = 0.9822 Tmvc = 0.832 T = 1.627
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530099 SPT = 0.8032 Tmvc = 0.918 T = 2.583
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45244 SPT = 0.9795 Tmvc = 0.229 T = 0.623
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42003 SPT = 0.9766 Tmvc = 0.192 T = 0.538
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38929 SPT = 0.9731 Tmvc = 0.167 T = 0.464
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35785 SPT = 0.9689 Tmvc = 0.141 T = 0.389
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32593 SPT = 0.9640 Tmvc = 0.118 T = 0.403
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29338 SPT = 0.9581 Tmvc = 0.096 T = 0.273
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25949 SPT = 0.9515 Tmvc = 0.078 T = 0.221
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22733 SPT = 0.9433 Tmvc = 0.064 T = 0.182
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19688 SPT = 0.9333 Tmvc = 0.052 T = 0.147
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16633 SPT = 0.9219 Tmvc = 0.036 T = 0.111
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13610 SPT = 0.9093 Tmvc = 0.028 T = 0.082
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    11028 SPT = 0.8933 Tmvc = 0.019 T = 0.059
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8527 SPT = 0.8773 Tmvc = 0.013 T = 0.042
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6223 SPT = 0.8638 Tmvc = 0.008 T = 0.027
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4286 SPT = 0.8550 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4828 SPT = 0.7297 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     29.769 Tmvc-total = 13.829 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293397 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     29.805 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293397 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.645 | E =      -4.1329605267 | DW = 3.72299e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     91.755 | E =      -4.2708371746 | DE = -1.38e-01 | DW = 4.33338e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    133.850 | E =      -4.2746851723 | DE = -3.85e-03 | DW = 8.01272e-06
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    173.031 | E =      -4.2750702378 | DE = -3.85e-04 | DW = 8.33515e-06
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    291.032 | E =      -4.2757834662 | DE = -7.13e-04 | DW = 2.78751e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    476.875 | E =      -4.2760877729 | DE = -3.04e-04 | DW = 1.54021e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    670.114 | E =      -4.2761213623 | DE = -3.36e-05 | DW = 1.74892e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    855.283 | E =      -4.2761451368 | DE = -2.38e-05 | DW = 1.64587e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1031.879 | E =      -4.2761484252 | DE = -3.29e-06 | DW = 1.50136e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1200.061 | E =      -4.2761613346 | DE = -1.29e-05 | DW = 1.60121e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1373.221 | E =      -4.2761616400 | DE = -3.05e-07 | DW = 1.58578e-06
+
+Sweep =   11 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1534.432 | E =      -4.2761651181 | DE = -3.48e-06 | DW = 1.58517e-06
+
+ATTENTION: DMRG is not converged to desired tolerance of 1.00000e-08
+DMRG energy =   -4.276165118102160
+Interatomic distance: 1.2 Angstroms
+
+WARN: Singularity detected in overlap matrix (condition number = 2.32e+03). SCF may be inaccurate and hard to converge.
+
+SCF not converged.
+SCF energy = -4.13948047336262
+nuclear repulsion energy: 9.895140570011391 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.879116123069838e-18
+mpo terms =    1325544
+
+Build MPO | Nsites =    40 | Nterms =    1325544 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.170 T = 0.372
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.233 T = 0.594
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.294 T = 0.775
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4795 SPT = 0.7245 Tmvc = 0.345 T = 0.824
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4295 SPT = 0.8547 Tmvc = 0.401 T = 0.912
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6295 SPT = 0.8622 Tmvc = 0.409 T = 0.946
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8542 SPT = 0.8771 Tmvc = 0.433 T = 0.992
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    11032 SPT = 0.8933 Tmvc = 0.488 T = 1.066
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13752 SPT = 0.9084 Tmvc = 0.504 T = 1.098
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16629 SPT = 0.9219 Tmvc = 0.544 T = 1.156
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19656 SPT = 0.9334 Tmvc = 0.582 T = 1.218
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22787 SPT = 0.9432 Tmvc = 0.630 T = 1.285
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26027 SPT = 0.9513 Tmvc = 0.679 T = 1.356
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29400 SPT = 0.9581 Tmvc = 0.696 T = 1.374
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32699 SPT = 0.9639 Tmvc = 0.725 T = 1.405
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35859 SPT = 0.9689 Tmvc = 0.753 T = 1.443
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38973 SPT = 0.9731 Tmvc = 0.772 T = 1.465
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42071 SPT = 0.9766 Tmvc = 0.788 T = 1.483
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45005 SPT = 0.9796 Tmvc = 0.787 T = 1.498
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47830 SPT = 0.9822 Tmvc = 0.778 T = 1.470
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530457 SPT = 0.8030 Tmvc = 0.881 T = 2.750
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45245 SPT = 0.9795 Tmvc = 0.225 T = 0.613
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42015 SPT = 0.9766 Tmvc = 0.190 T = 0.562
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38931 SPT = 0.9731 Tmvc = 0.159 T = 0.460
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35799 SPT = 0.9689 Tmvc = 0.136 T = 0.399
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32639 SPT = 0.9639 Tmvc = 0.114 T = 0.325
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29347 SPT = 0.9581 Tmvc = 0.096 T = 0.277
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25967 SPT = 0.9514 Tmvc = 0.075 T = 0.215
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22741 SPT = 0.9433 Tmvc = 0.061 T = 0.173
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19727 SPT = 0.9332 Tmvc = 0.047 T = 0.138
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16663 SPT = 0.9217 Tmvc = 0.035 T = 0.106
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13614 SPT = 0.9093 Tmvc = 0.027 T = 0.079
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    11048 SPT = 0.8931 Tmvc = 0.018 T = 0.057
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8542 SPT = 0.8771 Tmvc = 0.012 T = 0.040
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6231 SPT = 0.8636 Tmvc = 0.008 T = 0.026
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4289 SPT = 0.8549 Tmvc = 0.005 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4820 SPT = 0.7302 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     28.982 Tmvc-total = 13.101 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1294157 SIZE =     25547489 SPT = 0.9493
+
+Rank =     0 Ttotal =     29.015 MPO method = FastBipartite bond dimension =    1722 NNZ =      1294157 SIZE =     25547489 SPT = 0.9493
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.259 | E =      -4.2102155273 | DW = 3.65441e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     90.797 | E =      -4.3456301998 | DE = -1.35e-01 | DW = 5.40432e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    132.560 | E =      -4.3495923080 | DE = -3.96e-03 | DW = 9.88572e-06
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    171.590 | E =      -4.3499823362 | DE = -3.90e-04 | DW = 1.12735e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    288.940 | E =      -4.3506402121 | DE = -6.58e-04 | DW = 4.21490e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    476.191 | E =      -4.3509475018 | DE = -3.07e-04 | DW = 1.72794e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    671.274 | E =      -4.3509814001 | DE = -3.39e-05 | DW = 1.88989e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    857.704 | E =      -4.3510086349 | DE = -2.72e-05 | DW = 1.81303e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1035.234 | E =      -4.3510093477 | DE = -7.13e-07 | DW = 1.67071e-06
+
+Sweep =    9 | Direction = backward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1201.046 | E =      -4.3510230816 | DE = -1.37e-05 | DW = 1.70878e-06
+
+Sweep =   10 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1374.333 | E =      -4.3510230820 | DE = -3.85e-10 | DW = 1.70871e-06
+
+DMRG energy =   -4.351023082005659
+Interatomic distance: 1.3 Angstroms
+
+WARN: Singularity detected in overlap matrix (condition number = 1.31e+03). SCF may be inaccurate and hard to converge.
+
+converged SCF energy = -4.16689224759279
+nuclear repulsion energy: 9.133975910779744 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.416185020997495e-18
+mpo terms =    1325411
+
+Build MPO | Nsites =    40 | Nterms =    1325411 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.158 T = 0.343
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.207 T = 0.522
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.265 T = 0.634
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4766 SPT = 0.7261 Tmvc = 0.312 T = 0.730
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4285 SPT = 0.8551 Tmvc = 0.355 T = 0.802
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6299 SPT = 0.8622 Tmvc = 0.362 T = 0.833
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8545 SPT = 0.8770 Tmvc = 0.389 T = 0.881
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10981 SPT = 0.8938 Tmvc = 0.423 T = 0.940
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13733 SPT = 0.9085 Tmvc = 0.442 T = 0.964
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16645 SPT = 0.9218 Tmvc = 0.460 T = 0.998
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19635 SPT = 0.9335 Tmvc = 0.498 T = 1.051
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22781 SPT = 0.9432 Tmvc = 0.530 T = 1.099
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26009 SPT = 0.9514 Tmvc = 0.563 T = 1.150
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29395 SPT = 0.9581 Tmvc = 0.594 T = 1.194
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32703 SPT = 0.9639 Tmvc = 0.609 T = 1.213
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35773 SPT = 0.9689 Tmvc = 0.625 T = 1.237
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    39040 SPT = 0.9730 Tmvc = 0.645 T = 1.260
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42085 SPT = 0.9766 Tmvc = 0.647 T = 1.265
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45013 SPT = 0.9796 Tmvc = 0.635 T = 1.257
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47781 SPT = 0.9823 Tmvc = 0.633 T = 1.236
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530057 SPT = 0.8032 Tmvc = 0.725 T = 2.439
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45223 SPT = 0.9796 Tmvc = 0.201 T = 0.554
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42007 SPT = 0.9766 Tmvc = 0.168 T = 0.505
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38963 SPT = 0.9731 Tmvc = 0.141 T = 0.422
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35729 SPT = 0.9690 Tmvc = 0.118 T = 0.352
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32596 SPT = 0.9640 Tmvc = 0.101 T = 0.294
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29291 SPT = 0.9582 Tmvc = 0.080 T = 0.247
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26116 SPT = 0.9512 Tmvc = 0.068 T = 0.202
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22866 SPT = 0.9430 Tmvc = 0.057 T = 0.169
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19564 SPT = 0.9337 Tmvc = 0.045 T = 0.131
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16521 SPT = 0.9224 Tmvc = 0.035 T = 0.102
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13606 SPT = 0.9094 Tmvc = 0.026 T = 0.078
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    11026 SPT = 0.8933 Tmvc = 0.017 T = 0.055
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8525 SPT = 0.8773 Tmvc = 0.012 T = 0.039
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6226 SPT = 0.8638 Tmvc = 0.008 T = 0.026
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4273 SPT = 0.8555 Tmvc = 0.005 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4819 SPT = 0.7302 Tmvc = 0.003 T = 0.013
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     25.254 Tmvc-total = 11.164 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293311 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     25.285 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293311 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.328 | E =      -4.2501027926 | DW = 2.96110e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     91.123 | E =      -4.3802711063 | DE = -1.30e-01 | DW = 6.83158e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    133.152 | E =      -4.3839379465 | DE = -3.67e-03 | DW = 1.18071e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    172.701 | E =      -4.3843318078 | DE = -3.94e-04 | DW = 1.48578e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    290.451 | E =      -4.3850018012 | DE = -6.70e-04 | DW = 6.25606e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    474.952 | E =      -4.3852756990 | DE = -2.74e-04 | DW = 2.26386e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    661.180 | E =      -4.3853006466 | DE = -2.49e-05 | DW = 2.48585e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    839.098 | E =      -4.3853279826 | DE = -2.73e-05 | DW = 2.37821e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1014.840 | E =      -4.3853279815 | DE = 1.06e-09 | DW = 2.23629e-06
+
+DMRG energy =   -4.385327981507567
+Interatomic distance: 1.4 Angstroms
+converged SCF energy = -4.16709432720834
+nuclear repulsion energy: 8.481549060009764 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.398436537309663e-18
+mpo terms =    1325496
+
+Build MPO | Nsites =    40 | Nterms =    1325496 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.154 T = 0.337
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.203 T = 0.514
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.259 T = 0.627
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4764 SPT = 0.7262 Tmvc = 0.301 T = 0.719
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.346 T = 0.791
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6254 SPT = 0.8631 Tmvc = 0.353 T = 0.827
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8499 SPT = 0.8777 Tmvc = 0.379 T = 0.867
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10969 SPT = 0.8939 Tmvc = 0.410 T = 0.919
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13726 SPT = 0.9086 Tmvc = 0.423 T = 0.938
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16630 SPT = 0.9219 Tmvc = 0.447 T = 0.975
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19634 SPT = 0.9335 Tmvc = 0.476 T = 1.012
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22767 SPT = 0.9432 Tmvc = 0.497 T = 1.054
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26017 SPT = 0.9513 Tmvc = 0.541 T = 1.120
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29405 SPT = 0.9580 Tmvc = 0.572 T = 1.166
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32697 SPT = 0.9639 Tmvc = 0.590 T = 1.190
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35846 SPT = 0.9689 Tmvc = 0.606 T = 1.215
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38949 SPT = 0.9731 Tmvc = 0.611 T = 1.219
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42095 SPT = 0.9766 Tmvc = 0.616 T = 1.226
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45005 SPT = 0.9796 Tmvc = 0.603 T = 1.221
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47778 SPT = 0.9823 Tmvc = 0.608 T = 1.221
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529685 SPT = 0.8033 Tmvc = 0.666 T = 2.424
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45164 SPT = 0.9796 Tmvc = 0.200 T = 0.557
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42047 SPT = 0.9766 Tmvc = 0.170 T = 0.524
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38905 SPT = 0.9731 Tmvc = 0.142 T = 0.430
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35741 SPT = 0.9690 Tmvc = 0.117 T = 0.362
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32561 SPT = 0.9640 Tmvc = 0.096 T = 0.298
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29385 SPT = 0.9581 Tmvc = 0.078 T = 0.251
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26094 SPT = 0.9512 Tmvc = 0.067 T = 0.206
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22799 SPT = 0.9431 Tmvc = 0.057 T = 0.171
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19560 SPT = 0.9337 Tmvc = 0.045 T = 0.134
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16521 SPT = 0.9224 Tmvc = 0.034 T = 0.104
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13607 SPT = 0.9093 Tmvc = 0.026 T = 0.077
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10995 SPT = 0.8936 Tmvc = 0.018 T = 0.056
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8493 SPT = 0.8778 Tmvc = 0.012 T = 0.039
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6227 SPT = 0.8637 Tmvc = 0.008 T = 0.026
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4267 SPT = 0.8557 Tmvc = 0.005 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4782 SPT = 0.7323 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     24.847 Tmvc-total = 10.739 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292577 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     24.912 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292577 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.150 | E =      -4.2603187546 | DW = 1.34752e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     90.504 | E =      -4.3878078304 | DE = -1.27e-01 | DW = 8.83308e-06
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    132.538 | E =      -4.3916076765 | DE = -3.80e-03 | DW = 1.47791e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    172.206 | E =      -4.3919922972 | DE = -3.85e-04 | DW = 1.89885e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    290.875 | E =      -4.3925853891 | DE = -5.93e-04 | DW = 9.12764e-07
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    480.028 | E =      -4.3928308610 | DE = -2.45e-04 | DW = 2.90531e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    671.728 | E =      -4.3928486651 | DE = -1.78e-05 | DW = 3.27700e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    852.841 | E =      -4.3928760435 | DE = -2.74e-05 | DW = 3.07665e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1027.267 | E =      -4.3928760429 | DE = 5.70e-10 | DW = 2.92570e-06
+
+DMRG energy =   -4.392876042891901
+Interatomic distance: 1.5 Angstroms
+converged SCF energy = -4.14911849885705
+nuclear repulsion energy: 7.916112456009111 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.056434606331241e-18
+mpo terms =    1325496
+
+Build MPO | Nsites =    40 | Nterms =    1325496 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.191 T = 0.414
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.258 T = 0.657
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.330 T = 0.798
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4800 SPT = 0.7242 Tmvc = 0.393 T = 0.922
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4295 SPT = 0.8547 Tmvc = 0.449 T = 1.002
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6299 SPT = 0.8622 Tmvc = 0.462 T = 1.051
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8545 SPT = 0.8770 Tmvc = 0.500 T = 1.107
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10995 SPT = 0.8936 Tmvc = 0.560 T = 1.192
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13689 SPT = 0.9088 Tmvc = 0.589 T = 1.240
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16642 SPT = 0.9218 Tmvc = 0.620 T = 1.287
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19706 SPT = 0.9332 Tmvc = 0.646 T = 1.325
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22789 SPT = 0.9432 Tmvc = 0.675 T = 1.359
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26039 SPT = 0.9513 Tmvc = 0.705 T = 1.403
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29402 SPT = 0.9581 Tmvc = 0.739 T = 1.459
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32692 SPT = 0.9639 Tmvc = 0.760 T = 1.485
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35865 SPT = 0.9689 Tmvc = 0.806 T = 1.538
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38969 SPT = 0.9731 Tmvc = 0.831 T = 1.572
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42091 SPT = 0.9766 Tmvc = 0.840 T = 1.586
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45025 SPT = 0.9796 Tmvc = 0.836 T = 1.574
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47771 SPT = 0.9823 Tmvc = 0.830 T = 1.562
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530191 SPT = 0.8031 Tmvc = 0.919 T = 2.996
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45198 SPT = 0.9796 Tmvc = 0.241 T = 0.660
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42260 SPT = 0.9765 Tmvc = 0.207 T = 0.595
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38935 SPT = 0.9731 Tmvc = 0.172 T = 0.512
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35753 SPT = 0.9690 Tmvc = 0.140 T = 0.421
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32758 SPT = 0.9638 Tmvc = 0.119 T = 0.349
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29461 SPT = 0.9580 Tmvc = 0.098 T = 0.291
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26040 SPT = 0.9513 Tmvc = 0.081 T = 0.236
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22804 SPT = 0.9431 Tmvc = 0.066 T = 0.192
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19563 SPT = 0.9337 Tmvc = 0.051 T = 0.151
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16523 SPT = 0.9224 Tmvc = 0.038 T = 0.115
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13613 SPT = 0.9093 Tmvc = 0.027 T = 0.086
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10981 SPT = 0.8938 Tmvc = 0.020 T = 0.062
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8487 SPT = 0.8779 Tmvc = 0.014 T = 0.047
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6289 SPT = 0.8624 Tmvc = 0.009 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4338 SPT = 0.8533 Tmvc = 0.005 T = 0.018
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4843 SPT = 0.7289 Tmvc = 0.003 T = 0.015
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     31.309 Tmvc-total = 14.233 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1294086 SIZE =     25547489 SPT = 0.9493
+
+Rank =     0 Ttotal =     31.342 MPO method = FastBipartite bond dimension =    1722 NNZ =      1294086 SIZE =     25547489 SPT = 0.9493
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.644 | E =      -4.2632934093 | DW = 5.12709e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     90.622 | E =      -4.3787239301 | DE = -1.15e-01 | DW = 1.21352e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    132.169 | E =      -4.3817992453 | DE = -3.08e-03 | DW = 1.84550e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    171.730 | E =      -4.3821341119 | DE = -3.35e-04 | DW = 2.26090e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    288.797 | E =      -4.3826887539 | DE = -5.55e-04 | DW = 1.15481e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    472.627 | E =      -4.3828963727 | DE = -2.08e-04 | DW = 3.59321e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    662.778 | E =      -4.3829069871 | DE = -1.06e-05 | DW = 3.97514e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    849.750 | E =      -4.3829360211 | DE = -2.90e-05 | DW = 3.78223e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1028.167 | E =      -4.3829360203 | DE = 7.29e-10 | DW = 3.60981e-06
+
+DMRG energy =   -4.382936020322756
+Interatomic distance: 1.6 Angstroms
+converged SCF energy = -4.11908710918373
+nuclear repulsion energy: 7.421355427508542 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.199131594690683e-18
+mpo terms =    1325515
+
+Build MPO | Nsites =    40 | Nterms =    1325515 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.166 T = 0.368
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.228 T = 0.567
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.285 T = 0.681
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4772 SPT = 0.7258 Tmvc = 0.340 T = 0.790
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4271 SPT = 0.8556 Tmvc = 0.384 T = 0.883
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6301 SPT = 0.8621 Tmvc = 0.392 T = 0.897
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8545 SPT = 0.8770 Tmvc = 0.417 T = 0.935
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10977 SPT = 0.8938 Tmvc = 0.452 T = 0.992
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13670 SPT = 0.9089 Tmvc = 0.467 T = 1.015
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16672 SPT = 0.9217 Tmvc = 0.495 T = 1.057
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19726 SPT = 0.9332 Tmvc = 0.513 T = 1.083
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22777 SPT = 0.9432 Tmvc = 0.544 T = 1.132
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26023 SPT = 0.9513 Tmvc = 0.579 T = 1.174
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29421 SPT = 0.9580 Tmvc = 0.591 T = 1.198
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32707 SPT = 0.9638 Tmvc = 0.609 T = 1.227
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35852 SPT = 0.9689 Tmvc = 0.626 T = 1.247
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38955 SPT = 0.9731 Tmvc = 0.629 T = 1.251
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42097 SPT = 0.9766 Tmvc = 0.620 T = 1.239
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45047 SPT = 0.9796 Tmvc = 0.623 T = 1.248
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47803 SPT = 0.9823 Tmvc = 0.618 T = 1.238
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529757 SPT = 0.8033 Tmvc = 0.682 T = 2.661
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45198 SPT = 0.9796 Tmvc = 0.212 T = 0.573
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42253 SPT = 0.9765 Tmvc = 0.176 T = 0.524
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38917 SPT = 0.9731 Tmvc = 0.149 T = 0.471
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35970 SPT = 0.9688 Tmvc = 0.123 T = 0.396
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32713 SPT = 0.9638 Tmvc = 0.098 T = 0.325
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29215 SPT = 0.9583 Tmvc = 0.076 T = 0.266
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26007 SPT = 0.9514 Tmvc = 0.064 T = 0.221
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22791 SPT = 0.9432 Tmvc = 0.056 T = 0.187
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19558 SPT = 0.9337 Tmvc = 0.046 T = 0.147
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16492 SPT = 0.9225 Tmvc = 0.037 T = 0.112
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13603 SPT = 0.9094 Tmvc = 0.027 T = 0.085
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10973 SPT = 0.8938 Tmvc = 0.019 T = 0.062
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8447 SPT = 0.8785 Tmvc = 0.013 T = 0.042
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6264 SPT = 0.8629 Tmvc = 0.008 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4313 SPT = 0.8541 Tmvc = 0.005 T = 0.019
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4801 SPT = 0.7312 Tmvc = 0.003 T = 0.016
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     26.360 Tmvc-total = 11.374 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293322 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     26.391 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293322 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     44.070 | E =      -4.2447097087 | DW = 1.87914e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     89.414 | E =      -4.3576961395 | DE = -1.13e-01 | DW = 1.59840e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    130.071 | E =      -4.3607648947 | DE = -3.07e-03 | DW = 1.93213e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    169.016 | E =      -4.3610953935 | DE = -3.30e-04 | DW = 2.66489e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    287.248 | E =      -4.3616462301 | DE = -5.51e-04 | DW = 1.27684e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    470.866 | E =      -4.3618327180 | DE = -1.86e-04 | DW = 4.38556e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    655.956 | E =      -4.3618373919 | DE = -4.67e-06 | DW = 4.67178e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    836.064 | E =      -4.3618666916 | DE = -2.93e-05 | DW = 4.58768e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1018.562 | E =      -4.3618666909 | DE = 7.11e-10 | DW = 4.38097e-06
+
+DMRG energy =   -4.361866690872718
+Interatomic distance: 1.7 Angstroms
+converged SCF energy = -4.08118404740576
+nuclear repulsion energy: 6.984805108243337 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.1019317072252e-18
+mpo terms =    1325534
+
+Build MPO | Nsites =    40 | Nterms =    1325534 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.149 T = 0.324
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.196 T = 0.488
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.250 T = 0.592
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4784 SPT = 0.7251 Tmvc = 0.294 T = 0.684
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4273 SPT = 0.8555 Tmvc = 0.336 T = 0.753
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6287 SPT = 0.8624 Tmvc = 0.343 T = 0.783
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8535 SPT = 0.8772 Tmvc = 0.363 T = 0.825
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10969 SPT = 0.8939 Tmvc = 0.400 T = 0.876
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13663 SPT = 0.9090 Tmvc = 0.405 T = 0.889
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16543 SPT = 0.9223 Tmvc = 0.422 T = 0.913
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19736 SPT = 0.9331 Tmvc = 0.442 T = 0.940
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22906 SPT = 0.9429 Tmvc = 0.450 T = 0.950
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26013 SPT = 0.9513 Tmvc = 0.461 T = 0.971
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29409 SPT = 0.9580 Tmvc = 0.476 T = 0.998
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32701 SPT = 0.9639 Tmvc = 0.495 T = 1.023
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35844 SPT = 0.9689 Tmvc = 0.514 T = 1.046
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    39007 SPT = 0.9731 Tmvc = 0.522 T = 1.064
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42061 SPT = 0.9766 Tmvc = 0.525 T = 1.064
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45035 SPT = 0.9796 Tmvc = 0.520 T = 1.055
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47796 SPT = 0.9823 Tmvc = 0.515 T = 1.047
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530066 SPT = 0.8032 Tmvc = 0.578 T = 2.240
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45229 SPT = 0.9795 Tmvc = 0.173 T = 0.481
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42292 SPT = 0.9765 Tmvc = 0.148 T = 0.448
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    39200 SPT = 0.9729 Tmvc = 0.124 T = 0.393
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    36001 SPT = 0.9687 Tmvc = 0.105 T = 0.337
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32493 SPT = 0.9641 Tmvc = 0.086 T = 0.279
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29213 SPT = 0.9583 Tmvc = 0.066 T = 0.223
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26039 SPT = 0.9513 Tmvc = 0.053 T = 0.181
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22803 SPT = 0.9431 Tmvc = 0.048 T = 0.153
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19553 SPT = 0.9338 Tmvc = 0.039 T = 0.122
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16515 SPT = 0.9224 Tmvc = 0.031 T = 0.096
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13617 SPT = 0.9093 Tmvc = 0.024 T = 0.073
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10981 SPT = 0.8938 Tmvc = 0.017 T = 0.053
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8487 SPT = 0.8779 Tmvc = 0.011 T = 0.037
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6291 SPT = 0.8623 Tmvc = 0.007 T = 0.025
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4339 SPT = 0.8533 Tmvc = 0.004 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4828 SPT = 0.7297 Tmvc = 0.003 T = 0.013
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     22.457 Tmvc-total = 9.597 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293944 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     22.486 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293944 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     43.512 | E =      -4.2149422509 | DW = 1.27932e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     88.515 | E =      -4.3299192378 | DE = -1.15e-01 | DW = 2.05070e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    129.626 | E =      -4.3330304445 | DE = -3.11e-03 | DW = 2.33337e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    168.239 | E =      -4.3333443793 | DE = -3.14e-04 | DW = 3.18863e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    286.338 | E =      -4.3338628188 | DE = -5.18e-04 | DW = 1.63100e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    469.621 | E =      -4.3340221084 | DE = -1.59e-04 | DW = 5.16574e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    658.265 | E =      -4.3340221288 | DE = -2.04e-08 | DW = 5.49662e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    838.605 | E =      -4.3340510041 | DE = -2.89e-05 | DW = 5.34909e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1012.355 | E =      -4.3340510035 | DE = 6.78e-10 | DW = 5.12109e-06
+
+DMRG energy =   -4.334051003462352
+Interatomic distance: 1.8 Angstroms
+converged SCF energy = -4.03830118111602
+nuclear repulsion energy: 6.596760380007595 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.4489706860898582e-18
+mpo terms =    1325556
+
+Build MPO | Nsites =    40 | Nterms =    1325556 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.181 T = 0.401
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.250 T = 0.630
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.317 T = 0.760
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4766 SPT = 0.7261 Tmvc = 0.373 T = 0.874
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4271 SPT = 0.8556 Tmvc = 0.429 T = 0.956
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6263 SPT = 0.8629 Tmvc = 0.433 T = 0.978
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8505 SPT = 0.8776 Tmvc = 0.462 T = 1.018
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10967 SPT = 0.8939 Tmvc = 0.499 T = 1.077
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13667 SPT = 0.9089 Tmvc = 0.511 T = 1.095
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16545 SPT = 0.9223 Tmvc = 0.535 T = 1.126
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19733 SPT = 0.9331 Tmvc = 0.552 T = 1.154
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22909 SPT = 0.9429 Tmvc = 0.577 T = 1.191
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26021 SPT = 0.9513 Tmvc = 0.599 T = 1.200
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29421 SPT = 0.9580 Tmvc = 0.576 T = 1.178
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32714 SPT = 0.9638 Tmvc = 0.584 T = 1.185
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35845 SPT = 0.9689 Tmvc = 0.601 T = 1.205
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38994 SPT = 0.9731 Tmvc = 0.601 T = 1.206
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42088 SPT = 0.9766 Tmvc = 0.590 T = 1.193
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45013 SPT = 0.9796 Tmvc = 0.579 T = 1.180
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47799 SPT = 0.9823 Tmvc = 0.591 T = 1.195
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529701 SPT = 0.8033 Tmvc = 0.649 T = 2.624
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45192 SPT = 0.9796 Tmvc = 0.212 T = 0.569
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42249 SPT = 0.9765 Tmvc = 0.179 T = 0.540
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    39169 SPT = 0.9729 Tmvc = 0.154 T = 0.475
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35965 SPT = 0.9688 Tmvc = 0.129 T = 0.405
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32467 SPT = 0.9641 Tmvc = 0.107 T = 0.336
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29289 SPT = 0.9582 Tmvc = 0.078 T = 0.271
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25927 SPT = 0.9515 Tmvc = 0.059 T = 0.213
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22803 SPT = 0.9431 Tmvc = 0.052 T = 0.175
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19559 SPT = 0.9337 Tmvc = 0.043 T = 0.141
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16527 SPT = 0.9224 Tmvc = 0.036 T = 0.113
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13613 SPT = 0.9093 Tmvc = 0.028 T = 0.086
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10973 SPT = 0.8938 Tmvc = 0.019 T = 0.062
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8448 SPT = 0.8784 Tmvc = 0.013 T = 0.044
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6263 SPT = 0.8629 Tmvc = 0.008 T = 0.030
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4311 SPT = 0.8542 Tmvc = 0.005 T = 0.019
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4793 SPT = 0.7317 Tmvc = 0.003 T = 0.015
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     26.921 Tmvc-total = 11.614 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293204 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     26.957 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293204 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     43.432 | E =      -4.1951484856 | DW = 1.49171e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     88.023 | E =      -4.2988440856 | DE = -1.04e-01 | DW = 2.69913e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    128.844 | E =      -4.3015247100 | DE = -2.68e-03 | DW = 2.70344e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    166.834 | E =      -4.3018352105 | DE = -3.11e-04 | DW = 3.67438e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    282.359 | E =      -4.3023544670 | DE = -5.19e-04 | DW = 1.91426e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    465.504 | E =      -4.3024973895 | DE = -1.43e-04 | DW = 5.97432e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    657.431 | E =      -4.3024974281 | DE = -3.86e-08 | DW = 6.36449e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    842.200 | E =      -4.3025231062 | DE = -2.57e-05 | DW = 6.14272e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =   1020.279 | E =      -4.3025231053 | DE = 8.77e-10 | DW = 5.86799e-06
+
+DMRG energy =   -4.302523105341811
+Interatomic distance: 1.9 Angstroms
+converged SCF energy = -3.9924704084797
+nuclear repulsion energy: 6.249562465270353 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.810171286443345e-18
+mpo terms =    1325545
+
+Build MPO | Nsites =    40 | Nterms =    1325545 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.206 T = 0.451
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.287 T = 0.719
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.368 T = 0.867
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4751 SPT = 0.7270 Tmvc = 0.436 T = 1.038
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.494 T = 1.076
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6260 SPT = 0.8630 Tmvc = 0.504 T = 1.116
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8502 SPT = 0.8777 Tmvc = 0.539 T = 1.165
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10971 SPT = 0.8939 Tmvc = 0.583 T = 1.238
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13671 SPT = 0.9089 Tmvc = 0.593 T = 1.251
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16547 SPT = 0.9223 Tmvc = 0.629 T = 1.298
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19721 SPT = 0.9332 Tmvc = 0.662 T = 1.343
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22893 SPT = 0.9429 Tmvc = 0.657 T = 1.330
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26003 SPT = 0.9514 Tmvc = 0.679 T = 1.365
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29314 SPT = 0.9582 Tmvc = 0.694 T = 1.390
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32605 SPT = 0.9640 Tmvc = 0.705 T = 1.400
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35845 SPT = 0.9689 Tmvc = 0.722 T = 1.426
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38993 SPT = 0.9731 Tmvc = 0.732 T = 1.445
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42076 SPT = 0.9766 Tmvc = 0.728 T = 1.432
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45006 SPT = 0.9796 Tmvc = 0.710 T = 1.404
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47875 SPT = 0.9822 Tmvc = 0.710 T = 1.408
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529911 SPT = 0.8032 Tmvc = 0.793 T = 3.127
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    44957 SPT = 0.9797 Tmvc = 0.250 T = 0.658
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42027 SPT = 0.9766 Tmvc = 0.211 T = 0.619
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    39162 SPT = 0.9729 Tmvc = 0.176 T = 0.553
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35961 SPT = 0.9688 Tmvc = 0.143 T = 0.466
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32579 SPT = 0.9640 Tmvc = 0.121 T = 0.388
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29207 SPT = 0.9583 Tmvc = 0.091 T = 0.305
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26005 SPT = 0.9514 Tmvc = 0.066 T = 0.235
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22681 SPT = 0.9434 Tmvc = 0.056 T = 0.191
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19563 SPT = 0.9337 Tmvc = 0.047 T = 0.156
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16527 SPT = 0.9224 Tmvc = 0.040 T = 0.121
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13597 SPT = 0.9094 Tmvc = 0.031 T = 0.091
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10939 SPT = 0.8942 Tmvc = 0.022 T = 0.067
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8481 SPT = 0.8780 Tmvc = 0.014 T = 0.046
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6254 SPT = 0.8631 Tmvc = 0.009 T = 0.031
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4303 SPT = 0.8545 Tmvc = 0.005 T = 0.019
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4793 SPT = 0.7317 Tmvc = 0.003 T = 0.019
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     31.258 Tmvc-total = 13.716 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292701 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     31.313 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292701 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     43.141 | E =      -4.1393179419 | DW = 1.18558e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     88.083 | E =      -4.2657411103 | DE = -1.26e-01 | DW = 3.27162e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    128.887 | E =      -4.2684952670 | DE = -2.75e-03 | DW = 3.27685e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    166.905 | E =      -4.2687754101 | DE = -2.80e-04 | DW = 4.16664e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    280.083 | E =      -4.2692915213 | DE = -5.16e-04 | DW = 2.14008e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    457.107 | E =      -4.2694123557 | DE = -1.21e-04 | DW = 6.67107e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    639.874 | E =      -4.2694124275 | DE = -7.18e-08 | DW = 7.02006e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    819.963 | E =      -4.2694357381 | DE = -2.33e-05 | DW = 6.99232e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    998.339 | E =      -4.2694357372 | DE = 8.94e-10 | DW = 6.66825e-06
+
+DMRG energy =   -4.269435737170340
+Interatomic distance: 2.0 Angstroms
+SCF not converged.
+SCF energy = -3.94514213860866
+nuclear repulsion energy: 5.937084342006832 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.105368075782967e-18
+mpo terms =    1325484
+
+Build MPO | Nsites =    40 | Nterms =    1325484 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.153 T = 0.336
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.207 T = 0.516
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.261 T = 0.623
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4773 SPT = 0.7257 Tmvc = 0.308 T = 0.724
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.351 T = 0.813
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6301 SPT = 0.8621 Tmvc = 0.361 T = 0.823
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8547 SPT = 0.8770 Tmvc = 0.381 T = 0.860
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10979 SPT = 0.8938 Tmvc = 0.420 T = 0.918
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13673 SPT = 0.9089 Tmvc = 0.421 T = 0.931
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16659 SPT = 0.9217 Tmvc = 0.448 T = 0.971
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19711 SPT = 0.9332 Tmvc = 0.465 T = 0.986
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22783 SPT = 0.9432 Tmvc = 0.487 T = 1.018
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26021 SPT = 0.9513 Tmvc = 0.509 T = 1.051
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29409 SPT = 0.9580 Tmvc = 0.523 T = 1.074
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32693 SPT = 0.9639 Tmvc = 0.535 T = 1.090
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35847 SPT = 0.9689 Tmvc = 0.553 T = 1.113
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38997 SPT = 0.9731 Tmvc = 0.559 T = 1.127
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42177 SPT = 0.9766 Tmvc = 0.550 T = 1.109
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45123 SPT = 0.9796 Tmvc = 0.540 T = 1.098
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47809 SPT = 0.9822 Tmvc = 0.539 T = 1.096
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530219 SPT = 0.8031 Tmvc = 0.601 T = 2.411
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45247 SPT = 0.9795 Tmvc = 0.187 T = 0.511
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42284 SPT = 0.9765 Tmvc = 0.160 T = 0.481
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38911 SPT = 0.9731 Tmvc = 0.136 T = 0.422
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35735 SPT = 0.9690 Tmvc = 0.113 T = 0.357
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32583 SPT = 0.9640 Tmvc = 0.097 T = 0.306
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29315 SPT = 0.9582 Tmvc = 0.073 T = 0.250
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25925 SPT = 0.9515 Tmvc = 0.055 T = 0.201
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22689 SPT = 0.9434 Tmvc = 0.046 T = 0.165
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19559 SPT = 0.9337 Tmvc = 0.038 T = 0.134
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16519 SPT = 0.9224 Tmvc = 0.032 T = 0.102
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13617 SPT = 0.9093 Tmvc = 0.025 T = 0.079
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10977 SPT = 0.8938 Tmvc = 0.018 T = 0.058
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8469 SPT = 0.8781 Tmvc = 0.012 T = 0.040
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6295 SPT = 0.8622 Tmvc = 0.008 T = 0.027
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4343 SPT = 0.8531 Tmvc = 0.004 T = 0.018
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4794 SPT = 0.7316 Tmvc = 0.003 T = 0.016
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     23.855 Tmvc-total = 10.179 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293692 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     23.965 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293692 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     43.459 | E =      -4.1436877651 | DW = 2.18557e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     88.112 | E =      -4.2332995054 | DE = -8.96e-02 | DW = 4.48272e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    128.137 | E =      -4.2354320416 | DE = -2.13e-03 | DW = 4.47594e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    165.683 | E =      -4.2357085277 | DE = -2.76e-04 | DW = 5.30273e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    278.980 | E =      -4.2362117721 | DE = -5.03e-04 | DW = 2.37702e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    454.934 | E =      -4.2363220879 | DE = -1.10e-04 | DW = 7.40776e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    636.158 | E =      -4.2363222134 | DE = -1.25e-07 | DW = 7.81942e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    811.513 | E =      -4.2363410679 | DE = -1.89e-05 | DW = 7.67425e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    983.507 | E =      -4.2363410666 | DE = 1.33e-09 | DW = 7.33902e-06
+
+DMRG energy =   -4.236341066555656
+Interatomic distance: 2.1 Angstroms
+converged SCF energy = -3.89736181930161
+nuclear repulsion energy: 5.654366040006507 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  5.297989247758823e-18
+mpo terms =    1325372
+
+Build MPO | Nsites =    40 | Nterms =    1325372 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.180 T = 0.393
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.246 T = 0.617
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.309 T = 0.733
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4753 SPT = 0.7269 Tmvc = 0.363 T = 0.842
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4283 SPT = 0.8551 Tmvc = 0.418 T = 0.928
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6261 SPT = 0.8630 Tmvc = 0.425 T = 0.957
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8503 SPT = 0.8776 Tmvc = 0.458 T = 1.010
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10971 SPT = 0.8939 Tmvc = 0.491 T = 1.057
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13671 SPT = 0.9089 Tmvc = 0.499 T = 1.073
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16617 SPT = 0.9219 Tmvc = 0.522 T = 1.118
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19664 SPT = 0.9334 Tmvc = 0.544 T = 1.134
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22765 SPT = 0.9432 Tmvc = 0.559 T = 1.156
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26087 SPT = 0.9512 Tmvc = 0.581 T = 1.185
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29390 SPT = 0.9581 Tmvc = 0.586 T = 1.195
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32571 SPT = 0.9640 Tmvc = 0.595 T = 1.204
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35845 SPT = 0.9689 Tmvc = 0.603 T = 1.225
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38971 SPT = 0.9731 Tmvc = 0.616 T = 1.237
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42181 SPT = 0.9765 Tmvc = 0.615 T = 1.239
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45128 SPT = 0.9796 Tmvc = 0.581 T = 1.214
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47815 SPT = 0.9822 Tmvc = 0.604 T = 1.214
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529764 SPT = 0.8033 Tmvc = 0.667 T = 2.659
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45210 SPT = 0.9796 Tmvc = 0.212 T = 0.571
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42247 SPT = 0.9765 Tmvc = 0.180 T = 0.544
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38927 SPT = 0.9731 Tmvc = 0.153 T = 0.485
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35741 SPT = 0.9690 Tmvc = 0.127 T = 0.409
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32588 SPT = 0.9640 Tmvc = 0.104 T = 0.341
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29287 SPT = 0.9582 Tmvc = 0.080 T = 0.272
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25933 SPT = 0.9515 Tmvc = 0.061 T = 0.214
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22668 SPT = 0.9435 Tmvc = 0.051 T = 0.172
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19557 SPT = 0.9337 Tmvc = 0.041 T = 0.140
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16533 SPT = 0.9223 Tmvc = 0.035 T = 0.113
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13592 SPT = 0.9094 Tmvc = 0.028 T = 0.083
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10936 SPT = 0.8942 Tmvc = 0.019 T = 0.059
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8509 SPT = 0.8776 Tmvc = 0.013 T = 0.041
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6261 SPT = 0.8630 Tmvc = 0.008 T = 0.028
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4793 SPT = 0.7317 Tmvc = 0.003 T = 0.015
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     26.899 Tmvc-total = 11.582 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292743 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     26.931 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292743 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     42.912 | E =      -4.0803930068 | DW = 6.58012e-14
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     86.177 | E =      -4.2010025394 | DE = -1.21e-01 | DW = 5.20138e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    126.400 | E =      -4.2034630447 | DE = -2.46e-03 | DW = 5.17486e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    163.597 | E =      -4.2037446435 | DE = -2.82e-04 | DW = 6.50241e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    274.676 | E =      -4.2042468118 | DE = -5.02e-04 | DW = 2.70747e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    447.650 | E =      -4.2043450027 | DE = -9.82e-05 | DW = 8.10231e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    623.073 | E =      -4.2043450027 | DE = -2.91e-11 | DW = 8.48348e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    794.386 | E =      -4.2043600813 | DE = -1.51e-05 | DW = 8.32870e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    964.933 | E =      -4.2043600799 | DE = 1.34e-09 | DW = 7.93706e-06
+
+DMRG energy =   -4.204360079919277
+Interatomic distance: 2.2 Angstroms
+SCF not converged.
+SCF energy = -3.84988307642664
+nuclear repulsion energy: 5.397349401824396 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  2.7024589232247272e-18
+mpo terms =    1325612
+
+Build MPO | Nsites =    40 | Nterms =    1325612 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.183 T = 0.402
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.252 T = 0.632
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.318 T = 0.759
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4798 SPT = 0.7243 Tmvc = 0.378 T = 0.952
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4293 SPT = 0.8548 Tmvc = 0.427 T = 0.952
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6299 SPT = 0.8622 Tmvc = 0.438 T = 0.985
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8547 SPT = 0.8770 Tmvc = 0.463 T = 1.027
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10991 SPT = 0.8937 Tmvc = 0.513 T = 1.095
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13687 SPT = 0.9088 Tmvc = 0.516 T = 1.107
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16675 SPT = 0.9217 Tmvc = 0.542 T = 1.143
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19729 SPT = 0.9332 Tmvc = 0.563 T = 1.173
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22789 SPT = 0.9432 Tmvc = 0.580 T = 1.196
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26124 SPT = 0.9511 Tmvc = 0.608 T = 1.236
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29389 SPT = 0.9581 Tmvc = 0.620 T = 1.252
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32623 SPT = 0.9639 Tmvc = 0.624 T = 1.260
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35863 SPT = 0.9689 Tmvc = 0.646 T = 1.286
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    39021 SPT = 0.9730 Tmvc = 0.657 T = 1.303
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42213 SPT = 0.9765 Tmvc = 0.638 T = 1.281
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45165 SPT = 0.9796 Tmvc = 0.628 T = 1.273
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47827 SPT = 0.9822 Tmvc = 0.633 T = 1.272
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530925 SPT = 0.8029 Tmvc = 0.701 T = 2.857
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45320 SPT = 0.9795 Tmvc = 0.227 T = 0.614
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42011 SPT = 0.9766 Tmvc = 0.190 T = 0.578
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    39085 SPT = 0.9730 Tmvc = 0.160 T = 0.491
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35735 SPT = 0.9690 Tmvc = 0.134 T = 0.418
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32499 SPT = 0.9641 Tmvc = 0.112 T = 0.353
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29311 SPT = 0.9582 Tmvc = 0.083 T = 0.287
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25929 SPT = 0.9515 Tmvc = 0.063 T = 0.228
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22705 SPT = 0.9434 Tmvc = 0.050 T = 0.185
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19573 SPT = 0.9337 Tmvc = 0.041 T = 0.149
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16529 SPT = 0.9223 Tmvc = 0.035 T = 0.115
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13623 SPT = 0.9092 Tmvc = 0.028 T = 0.087
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10977 SPT = 0.8938 Tmvc = 0.020 T = 0.064
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8543 SPT = 0.8771 Tmvc = 0.013 T = 0.044
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6296 SPT = 0.8622 Tmvc = 0.009 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4291 SPT = 0.8549 Tmvc = 0.005 T = 0.019
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4841 SPT = 0.7290 Tmvc = 0.003 T = 0.017
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     28.122 Tmvc-total = 12.103 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1294661 SIZE =     25547489 SPT = 0.9493
+
+Rank =     0 Ttotal =     28.158 MPO method = FastBipartite bond dimension =    1722 NNZ =      1294661 SIZE =     25547489 SPT = 0.9493
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     42.514 | E =      -4.0769153368 | DW = 1.88374e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     85.835 | E =      -4.1714588532 | DE = -9.45e-02 | DW = 6.98975e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    125.750 | E =      -4.1734254091 | DE = -1.97e-03 | DW = 6.88671e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    162.511 | E =      -4.1737155460 | DE = -2.90e-04 | DW = 8.12716e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    272.276 | E =      -4.1742040596 | DE = -4.89e-04 | DW = 3.00403e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    444.583 | E =      -4.1742935049 | DE = -8.94e-05 | DW = 8.70191e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    623.124 | E =      -4.1742935049 | DE = -1.62e-11 | DW = 9.25269e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    793.056 | E =      -4.1743049480 | DE = -1.14e-05 | DW = 8.90163e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    959.059 | E =      -4.1743049473 | DE = 7.39e-10 | DW = 8.47329e-06
+
+DMRG energy =   -4.174304947296521
+Interatomic distance: 2.3 Angstroms
+converged SCF energy = -3.80324281060435
+nuclear repulsion energy: 5.162682036527682 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.1946960903297245e-18
+mpo terms =    1325477
+
+Build MPO | Nsites =    40 | Nterms =    1325477 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.165 T = 0.364
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.225 T = 0.562
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.283 T = 0.672
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4750 SPT = 0.7270 Tmvc = 0.339 T = 0.783
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4283 SPT = 0.8551 Tmvc = 0.387 T = 0.860
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6251 SPT = 0.8632 Tmvc = 0.395 T = 0.888
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8492 SPT = 0.8778 Tmvc = 0.421 T = 0.934
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10967 SPT = 0.8939 Tmvc = 0.460 T = 0.992
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13671 SPT = 0.9089 Tmvc = 0.453 T = 0.995
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16592 SPT = 0.9220 Tmvc = 0.482 T = 1.040
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19652 SPT = 0.9334 Tmvc = 0.502 T = 1.054
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22759 SPT = 0.9432 Tmvc = 0.516 T = 1.079
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26123 SPT = 0.9511 Tmvc = 0.537 T = 1.104
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29395 SPT = 0.9581 Tmvc = 0.537 T = 1.105
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32572 SPT = 0.9640 Tmvc = 0.542 T = 1.106
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35839 SPT = 0.9689 Tmvc = 0.557 T = 1.131
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38981 SPT = 0.9731 Tmvc = 0.568 T = 1.148
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42134 SPT = 0.9766 Tmvc = 0.561 T = 1.142
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45088 SPT = 0.9796 Tmvc = 0.549 T = 1.126
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47777 SPT = 0.9823 Tmvc = 0.557 T = 1.133
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529968 SPT = 0.8032 Tmvc = 0.613 T = 2.507
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45226 SPT = 0.9795 Tmvc = 0.198 T = 0.539
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42159 SPT = 0.9766 Tmvc = 0.167 T = 0.510
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38925 SPT = 0.9731 Tmvc = 0.142 T = 0.435
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35853 SPT = 0.9689 Tmvc = 0.119 T = 0.371
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32475 SPT = 0.9641 Tmvc = 0.096 T = 0.339
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29197 SPT = 0.9583 Tmvc = 0.074 T = 0.254
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25931 SPT = 0.9515 Tmvc = 0.058 T = 0.201
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22693 SPT = 0.9434 Tmvc = 0.045 T = 0.158
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19573 SPT = 0.9337 Tmvc = 0.037 T = 0.129
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16531 SPT = 0.9223 Tmvc = 0.030 T = 0.103
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13605 SPT = 0.9094 Tmvc = 0.026 T = 0.078
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10945 SPT = 0.8941 Tmvc = 0.018 T = 0.057
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8500 SPT = 0.8777 Tmvc = 0.012 T = 0.040
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6256 SPT = 0.8631 Tmvc = 0.008 T = 0.027
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4791 SPT = 0.7318 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     24.996 Tmvc-total = 10.689 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292675 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     25.034 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292675 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     41.181 | E =      -4.0326787620 | DW = 2.00816e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     82.803 | E =      -4.1432840541 | DE = -1.11e-01 | DW = 7.71297e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    122.247 | E =      -4.1458096867 | DE = -2.53e-03 | DW = 7.70419e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    158.603 | E =      -4.1461422461 | DE = -3.33e-04 | DW = 9.54585e-05
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    267.451 | E =      -4.1466366881 | DE = -4.94e-04 | DW = 3.26252e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    430.633 | E =      -4.1467190875 | DE = -8.24e-05 | DW = 9.20985e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    600.475 | E =      -4.1467190876 | DE = -3.50e-11 | DW = 9.72997e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    760.717 | E =      -4.1467292906 | DE = -1.02e-05 | DW = 9.41885e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    923.240 | E =      -4.1467292893 | DE = 1.27e-09 | DW = 8.96118e-06
+
+DMRG energy =   -4.146729289331694
+Interatomic distance: 2.4 Angstroms
+converged SCF energy = -3.75781420103655
+nuclear repulsion energy: 4.947570285005695 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.1209818264596767e-18
+mpo terms =    1325555
+
+Build MPO | Nsites =    40 | Nterms =    1325555 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.183 T = 0.394
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.245 T = 0.619
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.311 T = 0.738
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4762 SPT = 0.7264 Tmvc = 0.372 T = 0.855
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4273 SPT = 0.8555 Tmvc = 0.428 T = 0.985
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6257 SPT = 0.8631 Tmvc = 0.434 T = 0.978
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8491 SPT = 0.8778 Tmvc = 0.466 T = 1.026
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10971 SPT = 0.8939 Tmvc = 0.510 T = 1.087
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13666 SPT = 0.9090 Tmvc = 0.530 T = 1.117
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16671 SPT = 0.9217 Tmvc = 0.559 T = 1.161
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19725 SPT = 0.9332 Tmvc = 0.578 T = 1.195
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22773 SPT = 0.9432 Tmvc = 0.595 T = 1.217
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26053 SPT = 0.9513 Tmvc = 0.614 T = 1.239
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29325 SPT = 0.9582 Tmvc = 0.614 T = 1.248
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32594 SPT = 0.9640 Tmvc = 0.635 T = 1.273
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35833 SPT = 0.9689 Tmvc = 0.652 T = 1.298
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38981 SPT = 0.9731 Tmvc = 0.661 T = 1.305
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42218 SPT = 0.9765 Tmvc = 0.667 T = 1.366
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45162 SPT = 0.9796 Tmvc = 0.650 T = 1.288
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47806 SPT = 0.9822 Tmvc = 0.646 T = 1.273
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530013 SPT = 0.8032 Tmvc = 0.725 T = 2.648
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45217 SPT = 0.9796 Tmvc = 0.213 T = 0.580
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42248 SPT = 0.9765 Tmvc = 0.178 T = 0.509
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38927 SPT = 0.9731 Tmvc = 0.155 T = 0.459
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35866 SPT = 0.9689 Tmvc = 0.128 T = 0.398
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32489 SPT = 0.9641 Tmvc = 0.103 T = 0.327
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29211 SPT = 0.9583 Tmvc = 0.077 T = 0.267
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25921 SPT = 0.9515 Tmvc = 0.062 T = 0.217
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22689 SPT = 0.9434 Tmvc = 0.054 T = 0.182
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19567 SPT = 0.9337 Tmvc = 0.044 T = 0.149
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16523 SPT = 0.9224 Tmvc = 0.035 T = 0.117
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13617 SPT = 0.9093 Tmvc = 0.026 T = 0.089
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10971 SPT = 0.8939 Tmvc = 0.019 T = 0.064
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8503 SPT = 0.8776 Tmvc = 0.012 T = 0.044
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6255 SPT = 0.8631 Tmvc = 0.008 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4299 SPT = 0.8546 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4769 SPT = 0.7330 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     27.774 Tmvc-total = 12.196 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293080 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     27.808 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293080 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     41.177 | E =      -4.0066642664 | DW = 1.72894e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     82.854 | E =      -4.1185221943 | DE = -1.12e-01 | DW = 9.06345e-05
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    122.286 | E =      -4.1210410501 | DE = -2.52e-03 | DW = 9.00122e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    158.495 | E =      -4.1213853504 | DE = -3.44e-04 | DW = 1.12716e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    267.371 | E =      -4.1218847566 | DE = -4.99e-04 | DW = 3.64641e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    431.215 | E =      -4.1219592415 | DE = -7.45e-05 | DW = 9.80253e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    600.162 | E =      -4.1219592416 | DE = -5.14e-11 | DW = 1.03179e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    763.037 | E =      -4.1219670322 | DE = -7.79e-06 | DW = 9.97096e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    926.441 | E =      -4.1219670298 | DE = 2.38e-09 | DW = 9.41300e-06
+
+DMRG energy =   -4.121967029799662
+Interatomic distance: 2.5 Angstroms
+converged SCF energy = -3.7138469388369
+nuclear repulsion energy: 4.749667473605468 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.278580981366019e-18
+mpo terms =    1325514
+
+Build MPO | Nsites =    40 | Nterms =    1325514 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.176 T = 0.386
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.239 T = 0.602
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.301 T = 0.728
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4748 SPT = 0.7272 Tmvc = 0.356 T = 0.834
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4281 SPT = 0.8552 Tmvc = 0.404 T = 1.002
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6245 SPT = 0.8633 Tmvc = 0.414 T = 0.944
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8483 SPT = 0.8779 Tmvc = 0.440 T = 0.993
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10971 SPT = 0.8939 Tmvc = 0.486 T = 1.049
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13667 SPT = 0.9089 Tmvc = 0.495 T = 1.068
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16593 SPT = 0.9220 Tmvc = 0.520 T = 1.100
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19649 SPT = 0.9334 Tmvc = 0.542 T = 1.140
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22763 SPT = 0.9432 Tmvc = 0.550 T = 1.145
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26119 SPT = 0.9512 Tmvc = 0.577 T = 1.175
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29412 SPT = 0.9580 Tmvc = 0.580 T = 1.181
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32587 SPT = 0.9640 Tmvc = 0.587 T = 1.188
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35827 SPT = 0.9689 Tmvc = 0.600 T = 1.200
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38991 SPT = 0.9731 Tmvc = 0.604 T = 1.211
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42129 SPT = 0.9766 Tmvc = 0.591 T = 1.197
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45067 SPT = 0.9796 Tmvc = 0.585 T = 1.199
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47807 SPT = 0.9822 Tmvc = 0.580 T = 1.197
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529776 SPT = 0.8033 Tmvc = 0.652 T = 2.679
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45177 SPT = 0.9796 Tmvc = 0.218 T = 0.583
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42232 SPT = 0.9765 Tmvc = 0.180 T = 0.537
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38919 SPT = 0.9731 Tmvc = 0.154 T = 0.480
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35731 SPT = 0.9690 Tmvc = 0.128 T = 0.407
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32503 SPT = 0.9641 Tmvc = 0.105 T = 0.347
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29287 SPT = 0.9582 Tmvc = 0.083 T = 0.284
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25939 SPT = 0.9515 Tmvc = 0.061 T = 0.223
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22687 SPT = 0.9434 Tmvc = 0.051 T = 0.184
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19547 SPT = 0.9338 Tmvc = 0.042 T = 0.149
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16528 SPT = 0.9223 Tmvc = 0.036 T = 0.114
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13609 SPT = 0.9093 Tmvc = 0.028 T = 0.087
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10941 SPT = 0.8942 Tmvc = 0.019 T = 0.063
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8486 SPT = 0.8779 Tmvc = 0.013 T = 0.044
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6245 SPT = 0.8633 Tmvc = 0.008 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4295 SPT = 0.8547 Tmvc = 0.005 T = 0.019
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4781 SPT = 0.7324 Tmvc = 0.003 T = 0.017
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     26.784 Tmvc-total = 11.415 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292456 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     26.820 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292456 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     40.161 | E =      -3.9784776142 | DW = 9.52129e-14
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     80.017 | E =      -4.0969268724 | DE = -1.18e-01 | DW = 1.02122e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    119.210 | E =      -4.0992422603 | DE = -2.32e-03 | DW = 1.00192e-04
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    154.975 | E =      -4.0995837942 | DE = -3.42e-04 | DW = 1.24071e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    261.727 | E =      -4.1000838897 | DE = -5.00e-04 | DW = 3.70981e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    421.825 | E =      -4.1001535757 | DE = -6.97e-05 | DW = 1.01024e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    592.085 | E =      -4.1001535758 | DE = -8.08e-11 | DW = 1.05606e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    755.735 | E =      -4.1001614827 | DE = -7.91e-06 | DW = 1.02777e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    918.203 | E =      -4.1001614808 | DE = 1.91e-09 | DW = 9.59979e-06
+
+DMRG energy =   -4.100161480788270
+Interatomic distance: 2.5 Angstroms
+converged SCF energy = -3.7138469388369
+nuclear repulsion energy: 4.749667473605468 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  4.278580981366019e-18
+mpo terms =    1325514
+
+Build MPO | Nsites =    40 | Nterms =    1325514 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.151 T = 0.332
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.203 T = 0.507
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.259 T = 0.618
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4748 SPT = 0.7272 Tmvc = 0.303 T = 0.707
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4281 SPT = 0.8552 Tmvc = 0.349 T = 0.776
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6245 SPT = 0.8633 Tmvc = 0.354 T = 0.806
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8483 SPT = 0.8779 Tmvc = 0.376 T = 0.847
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10971 SPT = 0.8939 Tmvc = 0.410 T = 0.894
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13667 SPT = 0.9089 Tmvc = 0.417 T = 0.914
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16593 SPT = 0.9220 Tmvc = 0.439 T = 0.943
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19649 SPT = 0.9334 Tmvc = 0.453 T = 0.963
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22763 SPT = 0.9432 Tmvc = 0.465 T = 0.980
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26119 SPT = 0.9512 Tmvc = 0.494 T = 1.025
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29412 SPT = 0.9580 Tmvc = 0.499 T = 1.035
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32587 SPT = 0.9640 Tmvc = 0.512 T = 1.053
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35827 SPT = 0.9689 Tmvc = 0.529 T = 1.077
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38991 SPT = 0.9731 Tmvc = 0.539 T = 1.090
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42129 SPT = 0.9766 Tmvc = 0.535 T = 1.081
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45067 SPT = 0.9796 Tmvc = 0.526 T = 1.068
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47807 SPT = 0.9822 Tmvc = 0.528 T = 1.068
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529776 SPT = 0.8033 Tmvc = 0.591 T = 2.314
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45177 SPT = 0.9796 Tmvc = 0.179 T = 0.497
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42232 SPT = 0.9765 Tmvc = 0.151 T = 0.463
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38919 SPT = 0.9731 Tmvc = 0.128 T = 0.403
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35731 SPT = 0.9690 Tmvc = 0.107 T = 0.344
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32503 SPT = 0.9641 Tmvc = 0.092 T = 0.298
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29287 SPT = 0.9582 Tmvc = 0.074 T = 0.241
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25939 SPT = 0.9515 Tmvc = 0.053 T = 0.185
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22687 SPT = 0.9434 Tmvc = 0.044 T = 0.150
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19547 SPT = 0.9338 Tmvc = 0.037 T = 0.123
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16528 SPT = 0.9223 Tmvc = 0.032 T = 0.097
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13609 SPT = 0.9093 Tmvc = 0.025 T = 0.075
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10941 SPT = 0.8942 Tmvc = 0.018 T = 0.054
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8486 SPT = 0.8779 Tmvc = 0.012 T = 0.038
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6245 SPT = 0.8633 Tmvc = 0.007 T = 0.025
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4295 SPT = 0.8547 Tmvc = 0.004 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4781 SPT = 0.7324 Tmvc = 0.003 T = 0.013
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     23.120 Tmvc-total = 9.899 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292456 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     23.156 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292456 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     41.153 | E =      -3.9690904115 | DW = 1.37045e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     81.976 | E =      -4.0966030719 | DE = -1.28e-01 | DW = 1.01319e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    121.120 | E =      -4.0992324394 | DE = -2.63e-03 | DW = 9.91810e-05
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    156.901 | E =      -4.0995821044 | DE = -3.50e-04 | DW = 1.24122e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    264.130 | E =      -4.1000826142 | DE = -5.01e-04 | DW = 3.72724e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    424.329 | E =      -4.1001533607 | DE = -7.07e-05 | DW = 1.01248e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    591.452 | E =      -4.1001533608 | DE = -7.36e-11 | DW = 1.05837e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    754.910 | E =      -4.1001613132 | DE = -7.95e-06 | DW = 1.02609e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    922.100 | E =      -4.1001613110 | DE = 2.27e-09 | DW = 9.58233e-06
+
+DMRG energy =   -4.100161310961475
+Interatomic distance: 2.6 Angstroms
+converged SCF energy = -3.67149927342354
+nuclear repulsion energy: 4.566987955389872 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  2.3448784425057463e-18
+mpo terms =    1325628
+
+Build MPO | Nsites =    40 | Nterms =    1325628 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.171 T = 0.375
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.231 T = 0.583
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.295 T = 0.706
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4762 SPT = 0.7264 Tmvc = 0.351 T = 0.817
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.411 T = 0.908
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6255 SPT = 0.8631 Tmvc = 0.416 T = 0.935
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8497 SPT = 0.8777 Tmvc = 0.445 T = 0.984
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10965 SPT = 0.8939 Tmvc = 0.482 T = 1.040
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13666 SPT = 0.9090 Tmvc = 0.506 T = 1.074
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16672 SPT = 0.9217 Tmvc = 0.531 T = 1.117
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19724 SPT = 0.9332 Tmvc = 0.560 T = 1.152
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22769 SPT = 0.9432 Tmvc = 0.573 T = 1.172
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26058 SPT = 0.9513 Tmvc = 0.592 T = 1.195
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29341 SPT = 0.9581 Tmvc = 0.596 T = 1.203
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32593 SPT = 0.9640 Tmvc = 0.614 T = 1.230
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35835 SPT = 0.9689 Tmvc = 0.631 T = 1.261
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38993 SPT = 0.9731 Tmvc = 0.644 T = 1.271
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42163 SPT = 0.9766 Tmvc = 0.638 T = 1.266
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45107 SPT = 0.9796 Tmvc = 0.630 T = 1.249
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47797 SPT = 0.9823 Tmvc = 0.626 T = 1.235
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   530150 SPT = 0.8032 Tmvc = 0.697 T = 2.532
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45210 SPT = 0.9796 Tmvc = 0.205 T = 0.560
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42271 SPT = 0.9765 Tmvc = 0.176 T = 0.500
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38931 SPT = 0.9731 Tmvc = 0.150 T = 0.461
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35743 SPT = 0.9690 Tmvc = 0.125 T = 0.384
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32499 SPT = 0.9641 Tmvc = 0.100 T = 0.319
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29214 SPT = 0.9583 Tmvc = 0.076 T = 0.261
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26039 SPT = 0.9513 Tmvc = 0.066 T = 0.219
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22695 SPT = 0.9434 Tmvc = 0.053 T = 0.176
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19555 SPT = 0.9338 Tmvc = 0.043 T = 0.141
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16522 SPT = 0.9224 Tmvc = 0.034 T = 0.108
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13619 SPT = 0.9093 Tmvc = 0.025 T = 0.082
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10981 SPT = 0.8938 Tmvc = 0.018 T = 0.059
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8506 SPT = 0.8776 Tmvc = 0.012 T = 0.042
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6269 SPT = 0.8628 Tmvc = 0.008 T = 0.028
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4311 SPT = 0.8542 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4832 SPT = 0.7295 Tmvc = 0.003 T = 0.014
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      151 SPT = 0.9729 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     26.677 Tmvc-total = 11.739 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1293254 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     26.708 MPO method = FastBipartite bond dimension =    1722 NNZ =      1293254 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     40.145 | E =      -3.9505042560 | DW = 3.67692e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     79.860 | E =      -4.0776037552 | DE = -1.27e-01 | DW = 1.12842e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    118.449 | E =      -4.0803482127 | DE = -2.74e-03 | DW = 1.10166e-04
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    153.969 | E =      -4.0807278535 | DE = -3.80e-04 | DW = 1.41330e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    259.838 | E =      -4.0812269561 | DE = -4.99e-04 | DW = 3.88987e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    419.633 | E =      -4.0812915501 | DE = -6.46e-05 | DW = 1.02976e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    585.318 | E =      -4.0812915503 | DE = -1.02e-10 | DW = 1.07461e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    740.900 | E =      -4.0812980911 | DE = -6.54e-06 | DW = 1.05828e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    897.510 | E =      -4.0812980886 | DE = 2.49e-09 | DW = 9.85485e-06
+
+DMRG energy =   -4.081298088645917
+Interatomic distance: 2.7 Angstroms
+converged SCF energy = -3.63086362583085
+nuclear repulsion energy: 4.397840253338392 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  2.094479672632237e-18
+mpo terms =    1325694
+
+Build MPO | Nsites =    40 | Nterms =    1325694 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.167 T = 0.362
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.222 T = 0.556
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.283 T = 0.675
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4760 SPT = 0.7265 Tmvc = 0.333 T = 0.774
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.379 T = 0.849
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6245 SPT = 0.8633 Tmvc = 0.387 T = 0.885
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8489 SPT = 0.8778 Tmvc = 0.411 T = 0.922
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10969 SPT = 0.8939 Tmvc = 0.457 T = 0.987
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13671 SPT = 0.9089 Tmvc = 0.467 T = 1.007
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16545 SPT = 0.9223 Tmvc = 0.486 T = 1.035
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19737 SPT = 0.9331 Tmvc = 0.503 T = 1.065
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22911 SPT = 0.9429 Tmvc = 0.521 T = 1.089
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26020 SPT = 0.9513 Tmvc = 0.549 T = 1.128
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29329 SPT = 0.9582 Tmvc = 0.552 T = 1.128
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32609 SPT = 0.9640 Tmvc = 0.567 T = 1.145
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35845 SPT = 0.9689 Tmvc = 0.577 T = 1.165
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38997 SPT = 0.9731 Tmvc = 0.581 T = 1.171
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42133 SPT = 0.9766 Tmvc = 0.576 T = 1.169
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45083 SPT = 0.9796 Tmvc = 0.570 T = 1.169
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47805 SPT = 0.9822 Tmvc = 0.570 T = 1.168
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529951 SPT = 0.8032 Tmvc = 0.642 T = 2.576
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    44969 SPT = 0.9797 Tmvc = 0.204 T = 0.548
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42019 SPT = 0.9766 Tmvc = 0.170 T = 0.497
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38939 SPT = 0.9731 Tmvc = 0.147 T = 0.510
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35942 SPT = 0.9688 Tmvc = 0.121 T = 0.388
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32687 SPT = 0.9639 Tmvc = 0.099 T = 0.324
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29209 SPT = 0.9583 Tmvc = 0.077 T = 0.263
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26023 SPT = 0.9513 Tmvc = 0.057 T = 0.210
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22703 SPT = 0.9434 Tmvc = 0.050 T = 0.176
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19560 SPT = 0.9337 Tmvc = 0.041 T = 0.143
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16524 SPT = 0.9224 Tmvc = 0.035 T = 0.113
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13619 SPT = 0.9093 Tmvc = 0.027 T = 0.087
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10973 SPT = 0.8938 Tmvc = 0.019 T = 0.063
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8494 SPT = 0.8778 Tmvc = 0.013 T = 0.043
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6251 SPT = 0.8632 Tmvc = 0.008 T = 0.027
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4297 SPT = 0.8547 Tmvc = 0.005 T = 0.017
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4767 SPT = 0.7332 Tmvc = 0.003 T = 0.015
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     25.452 Tmvc-total = 10.875 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292784 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     25.485 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292784 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     38.985 | E =      -3.9362876964 | DW = 1.01722e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     77.025 | E =      -4.0618407049 | DE = -1.26e-01 | DW = 1.28487e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    115.218 | E =      -4.0642668234 | DE = -2.43e-03 | DW = 1.22752e-04
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    150.659 | E =      -4.0646644156 | DE = -3.98e-04 | DW = 1.60545e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    256.286 | E =      -4.0651696319 | DE = -5.05e-04 | DW = 3.97274e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    415.945 | E =      -4.0652304797 | DE = -6.08e-05 | DW = 1.04339e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    585.486 | E =      -4.0652304799 | DE = -1.66e-10 | DW = 1.07854e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    747.266 | E =      -4.0652361392 | DE = -5.66e-06 | DW = 1.07289e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    913.234 | E =      -4.0652361354 | DE = 3.82e-09 | DW = 9.85947e-06
+
+DMRG energy =   -4.065236135426709
+Interatomic distance: 2.8 Angstroms
+converged SCF energy = -3.59198639583527
+nuclear repulsion energy: 4.240774530004882 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.358638701707908e-18
+mpo terms =    1325554
+
+Build MPO | Nsites =    40 | Nterms =    1325554 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.149 T = 0.317
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.186 T = 0.471
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.240 T = 0.574
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4742 SPT = 0.7275 Tmvc = 0.282 T = 0.663
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4286 SPT = 0.8550 Tmvc = 0.322 T = 0.733
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6241 SPT = 0.8634 Tmvc = 0.328 T = 0.756
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8479 SPT = 0.8780 Tmvc = 0.353 T = 0.799
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10968 SPT = 0.8939 Tmvc = 0.382 T = 0.847
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13653 SPT = 0.9090 Tmvc = 0.398 T = 0.870
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16581 SPT = 0.9221 Tmvc = 0.414 T = 0.895
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19622 SPT = 0.9335 Tmvc = 0.434 T = 0.928
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22777 SPT = 0.9432 Tmvc = 0.452 T = 0.955
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    25983 SPT = 0.9514 Tmvc = 0.468 T = 0.983
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29303 SPT = 0.9582 Tmvc = 0.478 T = 0.996
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32595 SPT = 0.9640 Tmvc = 0.491 T = 1.014
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35834 SPT = 0.9689 Tmvc = 0.501 T = 1.028
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38987 SPT = 0.9731 Tmvc = 0.512 T = 1.934
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42113 SPT = 0.9766 Tmvc = 0.504 T = 1.036
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45055 SPT = 0.9796 Tmvc = 0.498 T = 1.033
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47798 SPT = 0.9823 Tmvc = 0.499 T = 1.035
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529335 SPT = 0.8035 Tmvc = 0.559 T = 2.204
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    45142 SPT = 0.9796 Tmvc = 0.172 T = 0.483
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42003 SPT = 0.9766 Tmvc = 0.146 T = 0.453
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38945 SPT = 0.9731 Tmvc = 0.123 T = 0.394
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35743 SPT = 0.9690 Tmvc = 0.103 T = 0.332
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32633 SPT = 0.9639 Tmvc = 0.085 T = 0.279
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29357 SPT = 0.9581 Tmvc = 0.067 T = 0.224
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    25999 SPT = 0.9514 Tmvc = 0.053 T = 0.180
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22695 SPT = 0.9434 Tmvc = 0.042 T = 0.146
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19563 SPT = 0.9337 Tmvc = 0.036 T = 0.120
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16520 SPT = 0.9224 Tmvc = 0.030 T = 0.093
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13605 SPT = 0.9094 Tmvc = 0.024 T = 0.073
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10941 SPT = 0.8942 Tmvc = 0.017 T = 0.053
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8477 SPT = 0.8780 Tmvc = 0.011 T = 0.037
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6237 SPT = 0.8635 Tmvc = 0.007 T = 0.025
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4295 SPT = 0.8547 Tmvc = 0.004 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4777 SPT = 0.7326 Tmvc = 0.003 T = 0.013
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     22.995 Tmvc-total = 9.375 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1291718 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     23.025 MPO method = FastBipartite bond dimension =    1722 NNZ =      1291718 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     38.661 | E =      -3.9053270920 | DW = 2.94794e-14
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     76.603 | E =      -4.0484370565 | DE = -1.43e-01 | DW = 1.36223e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    114.906 | E =      -4.0507573644 | DE = -2.32e-03 | DW = 1.30252e-04
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    150.048 | E =      -4.0511789983 | DE = -4.22e-04 | DW = 1.74671e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    255.543 | E =      -4.0516904421 | DE = -5.11e-04 | DW = 3.61563e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    415.412 | E =      -4.0517454392 | DE = -5.50e-05 | DW = 1.01916e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    579.779 | E =      -4.0517454395 | DE = -2.75e-10 | DW = 1.04047e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    735.701 | E =      -4.0517496874 | DE = -4.25e-06 | DW = 1.04588e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    898.614 | E =      -4.0517496853 | DE = 2.12e-09 | DW = 9.41896e-06
+
+DMRG energy =   -4.051749685285977
+Interatomic distance: 2.9 Angstroms
+converged SCF energy = -3.55488249661258
+nuclear repulsion energy: 4.094540925521957 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  3.496941919908123e-18
+mpo terms =    1325555
+
+Build MPO | Nsites =    40 | Nterms =    1325555 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.155 T = 0.337
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.205 T = 0.511
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.257 T = 0.617
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4759 SPT = 0.7265 Tmvc = 0.304 T = 0.713
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4275 SPT = 0.8554 Tmvc = 0.347 T = 0.896
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6251 SPT = 0.8632 Tmvc = 0.357 T = 0.821
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8491 SPT = 0.8778 Tmvc = 0.383 T = 0.861
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10969 SPT = 0.8939 Tmvc = 0.416 T = 0.912
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13636 SPT = 0.9092 Tmvc = 0.430 T = 0.935
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16676 SPT = 0.9217 Tmvc = 0.442 T = 0.954
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19735 SPT = 0.9331 Tmvc = 0.462 T = 0.983
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22801 SPT = 0.9431 Tmvc = 0.477 T = 1.004
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    26012 SPT = 0.9514 Tmvc = 0.495 T = 1.023
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29326 SPT = 0.9582 Tmvc = 0.499 T = 1.040
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32617 SPT = 0.9639 Tmvc = 0.508 T = 1.049
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35827 SPT = 0.9689 Tmvc = 0.520 T = 1.067
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38989 SPT = 0.9731 Tmvc = 0.528 T = 1.088
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42123 SPT = 0.9766 Tmvc = 0.522 T = 1.087
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45073 SPT = 0.9796 Tmvc = 0.520 T = 1.084
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47783 SPT = 0.9823 Tmvc = 0.531 T = 1.099
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529673 SPT = 0.8033 Tmvc = 0.589 T = 2.355
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    44955 SPT = 0.9797 Tmvc = 0.184 T = 0.515
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42020 SPT = 0.9766 Tmvc = 0.158 T = 0.487
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38922 SPT = 0.9731 Tmvc = 0.133 T = 0.408
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35892 SPT = 0.9688 Tmvc = 0.111 T = 0.348
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32646 SPT = 0.9639 Tmvc = 0.091 T = 0.294
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29361 SPT = 0.9581 Tmvc = 0.070 T = 0.244
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26031 SPT = 0.9513 Tmvc = 0.057 T = 0.196
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22697 SPT = 0.9434 Tmvc = 0.044 T = 0.153
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19548 SPT = 0.9338 Tmvc = 0.035 T = 0.122
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16500 SPT = 0.9225 Tmvc = 0.031 T = 0.101
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13617 SPT = 0.9093 Tmvc = 0.025 T = 0.078
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10977 SPT = 0.8938 Tmvc = 0.018 T = 0.062
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8523 SPT = 0.8774 Tmvc = 0.012 T = 0.041
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6274 SPT = 0.8627 Tmvc = 0.008 T = 0.027
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4298 SPT = 0.8546 Tmvc = 0.005 T = 0.016
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4767 SPT = 0.7332 Tmvc = 0.003 T = 0.013
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     23.543 Tmvc-total = 9.933 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292478 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     23.575 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292478 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     37.723 | E =      -3.9017717356 | DW = 2.57395e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     74.392 | E =      -4.0369300110 | DE = -1.35e-01 | DW = 1.33592e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    112.285 | E =      -4.0395458369 | DE = -2.62e-03 | DW = 1.28474e-04
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    147.005 | E =      -4.0399897255 | DE = -4.44e-04 | DW = 1.79109e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    251.643 | E =      -4.0405072273 | DE = -5.18e-04 | DW = 3.78451e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    410.628 | E =      -4.0405580952 | DE = -5.09e-05 | DW = 1.02269e-05
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    575.348 | E =      -4.0405580956 | DE = -3.91e-10 | DW = 1.05797e-05
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    735.959 | E =      -4.0405613099 | DE = -3.21e-06 | DW = 1.04463e-05
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    899.433 | E =      -4.0405613033 | DE = 6.51e-09 | DW = 9.43885e-06
+
+DMRG energy =   -4.040561303349386
+Interatomic distance: 3.0 Angstroms
+converged SCF energy = -3.51954540536008
+nuclear repulsion energy: 3.958056228004556 Ha
+integral symmetrize error =  0.0
+integral cutoff error =  2.367496314802102e-18
+mpo terms =    1325659
+
+Build MPO | Nsites =    40 | Nterms =    1325659 | Algorithm = FastBIP | Cutoff = 1.00e-20
+ Site =     0 /    40 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.184 T = 0.399
+ Site =     1 /    40 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.248 T = 0.627
+ Site =     2 /    40 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.315 T = 0.759
+ Site =     3 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4748 SPT = 0.7272 Tmvc = 0.371 T = 0.866
+ Site =     4 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     4287 SPT = 0.8550 Tmvc = 0.422 T = 0.948
+ Site =     5 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     6245 SPT = 0.8633 Tmvc = 0.431 T = 0.982
+ Site =     6 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =     8489 SPT = 0.8778 Tmvc = 0.471 T = 1.039
+ Site =     7 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    10969 SPT = 0.8939 Tmvc = 0.507 T = 1.094
+ Site =     8 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    13655 SPT = 0.9090 Tmvc = 0.519 T = 1.115
+ Site =     9 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    16593 SPT = 0.9220 Tmvc = 0.550 T = 1.161
+ Site =    10 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    19647 SPT = 0.9334 Tmvc = 0.559 T = 1.198
+ Site =    11 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    22778 SPT = 0.9432 Tmvc = 0.586 T = 1.218
+ Site =    12 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    25999 SPT = 0.9514 Tmvc = 0.616 T = 1.250
+ Site =    13 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    29425 SPT = 0.9580 Tmvc = 0.622 T = 1.268
+ Site =    14 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    32711 SPT = 0.9638 Tmvc = 0.620 T = 1.263
+ Site =    15 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    35841 SPT = 0.9689 Tmvc = 0.648 T = 1.299
+ Site =    16 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    38993 SPT = 0.9731 Tmvc = 0.665 T = 1.341
+ Site =    17 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    42137 SPT = 0.9766 Tmvc = 0.647 T = 1.319
+ Site =    18 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =    45079 SPT = 0.9796 Tmvc = 0.648 T = 1.324
+ Site =    19 /    40 .. Mmpo =  1722 DW = 0.00e+00 NNZ =    47807 SPT = 0.9822 Tmvc = 0.672 T = 1.350
+ Site =    20 /    40 .. Mmpo =  1564 DW = 0.00e+00 NNZ =   529592 SPT = 0.8034 Tmvc = 0.728 T = 2.860
+ Site =    21 /    40 .. Mmpo =  1414 DW = 0.00e+00 NNZ =    44953 SPT = 0.9797 Tmvc = 0.224 T = 0.613
+ Site =    22 /    40 .. Mmpo =  1272 DW = 0.00e+00 NNZ =    42023 SPT = 0.9766 Tmvc = 0.195 T = 0.588
+ Site =    23 /    40 .. Mmpo =  1138 DW = 0.00e+00 NNZ =    38933 SPT = 0.9731 Tmvc = 0.162 T = 0.498
+ Site =    24 /    40 .. Mmpo =  1012 DW = 0.00e+00 NNZ =    35889 SPT = 0.9688 Tmvc = 0.134 T = 0.419
+ Site =    25 /    40 .. Mmpo =   894 DW = 0.00e+00 NNZ =    32669 SPT = 0.9639 Tmvc = 0.107 T = 0.349
+ Site =    26 /    40 .. Mmpo =   784 DW = 0.00e+00 NNZ =    29381 SPT = 0.9581 Tmvc = 0.083 T = 0.284
+ Site =    27 /    40 .. Mmpo =   682 DW = 0.00e+00 NNZ =    26005 SPT = 0.9514 Tmvc = 0.065 T = 0.230
+ Site =    28 /    40 .. Mmpo =   588 DW = 0.00e+00 NNZ =    22697 SPT = 0.9434 Tmvc = 0.049 T = 0.173
+ Site =    29 /    40 .. Mmpo =   502 DW = 0.00e+00 NNZ =    19571 SPT = 0.9337 Tmvc = 0.040 T = 0.143
+ Site =    30 /    40 .. Mmpo =   424 DW = 0.00e+00 NNZ =    16521 SPT = 0.9224 Tmvc = 0.033 T = 0.113
+ Site =    31 /    40 .. Mmpo =   354 DW = 0.00e+00 NNZ =    13617 SPT = 0.9093 Tmvc = 0.029 T = 0.086
+ Site =    32 /    40 .. Mmpo =   292 DW = 0.00e+00 NNZ =    10941 SPT = 0.8942 Tmvc = 0.020 T = 0.062
+ Site =    33 /    40 .. Mmpo =   238 DW = 0.00e+00 NNZ =     8489 SPT = 0.8778 Tmvc = 0.013 T = 0.043
+ Site =    34 /    40 .. Mmpo =   192 DW = 0.00e+00 NNZ =     6247 SPT = 0.8633 Tmvc = 0.008 T = 0.029
+ Site =    35 /    40 .. Mmpo =   154 DW = 0.00e+00 NNZ =     4291 SPT = 0.8549 Tmvc = 0.005 T = 0.018
+ Site =    36 /    40 .. Mmpo =   116 DW = 0.00e+00 NNZ =     4763 SPT = 0.7334 Tmvc = 0.003 T = 0.015
+ Site =    37 /    40 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    38 /    40 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    39 /    40 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =     28.341 Tmvc-total = 12.200 MPO bond dimension =  1722 MaxDW = 0.00e+00
+NNZ =      1292419 SIZE =     25547489 SPT = 0.9494
+
+Rank =     0 Ttotal =     28.377 MPO method = FastBipartite bond dimension =    1722 NNZ =      1292419 SIZE =     25547489 SPT = 0.9494
+
+Sweep =    0 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     37.496 | E =      -3.9011050647 | DW = 6.21321e-13
+
+Sweep =    1 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =     73.319 | E =      -4.0279177753 | DE = -1.27e-01 | DW = 1.41637e-04
+
+Sweep =    2 | Direction =  forward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    111.041 | E =      -4.0303642429 | DE = -2.45e-03 | DW = 1.34679e-04
+
+Sweep =    3 | Direction = backward | Bond dimension =  250 | Noise =  1.00e-04 | Dav threshold =  1.00e-10
+Time elapsed =    145.616 | E =      -4.0308104983 | DE = -4.46e-04 | DW = 1.83790e-04
+
+Sweep =    4 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    249.536 | E =      -4.0313181577 | DE = -5.08e-04 | DW = 3.33182e-06
+
+Sweep =    5 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    405.793 | E =      -4.0313688655 | DE = -5.07e-05 | DW = 9.48014e-06
+
+Sweep =    6 | Direction =  forward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    565.480 | E =      -4.0313688654 | DE = 5.44e-11 | DW = 9.58790e-06
+
+Sweep =    7 | Direction = backward | Bond dimension =  500 | Noise =  1.00e-05 | Dav threshold =  1.00e-10
+Time elapsed =    717.666 | E =      -4.0313718750 | DE = -3.01e-06 | DW = 9.70494e-06
+
+Sweep =    8 | Direction =  forward | Bond dimension =  500 | Noise =  0.00e+00 | Dav threshold =  1.00e-09
+Time elapsed =    873.716 | E =      -4.0313718706 | DE = 4.34e-09 | DW = 8.53833e-06
+
+DMRG energy =   -4.031371870608532
+Interatomic distances: [0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0]
+DMRG energies: [-3.5344050825640316, -3.9097317487678858, -4.139808980294045, -4.27616511810216, -4.351023082005659, -4.385327981507567, -4.392876042891901, -4.382936020322756, -4.361866690872718, -4.334051003462352, -4.302523105341811, -4.26943573717034, -4.2363410665556565, -4.204360079919277, -4.1743049472965215, -4.146729289331694, -4.121967029799662, -4.10016148078827, -4.100161310961475, -4.081298088645917, -4.0652361354267095, -4.051749685285977, -4.040561303349386, -4.031371870608532]
