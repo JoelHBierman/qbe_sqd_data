@@ -1,0 +1,716 @@
+Loading openmpi-gcc/openmpi4.1.0-gcc9.3.0
+  Loading requirement: gcc/9.3.0
+Semistochastic Heat-bath Configuration Interation (SHCI)
+
+Executable: /usr/local/usrapps/quest/shci/shci
+Start time: Tue Sep  9 21:07:03 2025
+Infrastructure: 1 nodes * 1 threads
+Master node: c056n03
+Configuration:
+{
+  "chem": {
+    "point_group": "dih"
+  },
+  "eps_vars": [
+    5e-05,
+    2e-05,
+    1e-05,
+    8e-06,
+    5e-06
+  ],
+  "eps_vars_schedule": [
+    0.002,
+    0.001,
+    0.0005,
+    0.0002,
+    0.0001
+  ],
+  "n_dn": 4,
+  "n_up": 4,
+  "system": "chem"
+}
+Timing format: [DIFF/SECTION/TOTAL]
+
+BEG OF setup[0.0/54.3]GB [0.000/0.000/0.000]s
+
+BEG OF load integrals, setup[0.0/54.3]GB [0.001/0.000/0.001]s
+n_orbs: 40
+n_elecs (from FCIDUMP): 8
+orb_sym: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+END OF load fcidump [0.0/54.3]GB [0.216/0.216/0.216]s
+HF det up: 0 1 2 3 
+HF det dn: 0 1 2 3 
+Orbitals energy:
+#  0: E =  -0.510862858411, E_1b =  -1.953572817765, sym =  1, origin #  0
+#  1: E =  -0.443050937100, E_1b =  -1.905124048284, sym =  1, origin #  1
+#  2: E =  -0.443050937100, E_1b =  -1.905124048284, sym =  1, origin #  2
+#  3: E =  -0.299041012024, E_1b =  -1.787405819279, sym =  1, origin #  3
+#  4: E =  -0.134630443916, E_1b =  -1.790202057870, sym =  1, origin #  4
+#  5: E =   0.040688557245, E_1b =  -1.628208220121, sym =  1, origin #  5
+#  6: E =   0.040688557245, E_1b =  -1.628208220121, sym =  1, origin #  6
+#  7: E =   0.162888053882, E_1b =  -1.525607069233, sym =  1, origin #  7
+#  8: E =   0.641780274159, E_1b =  -1.076161836500, sym =  1, origin #  8
+#  9: E =   0.688858752636, E_1b =  -0.969168319084, sym =  1, origin #  9
+# 10: E =   0.688858752636, E_1b =  -0.969168319084, sym =  1, origin # 10
+# 11: E =   0.703823533204, E_1b =  -0.946533882277, sym =  1, origin # 11
+# 12: E =   0.752015415805, E_1b =  -0.981172134461, sym =  1, origin # 12
+# 13: E =   0.752015415805, E_1b =  -0.981172134461, sym =  1, origin # 13
+# 14: E =   0.766180943368, E_1b =  -0.953188293331, sym =  1, origin # 14
+# 15: E =   0.766884944697, E_1b =  -0.875155501410, sym =  1, origin # 15
+# 16: E =   1.054280847202, E_1b =  -0.854882681941, sym =  1, origin # 16
+# 17: E =   1.221068033745, E_1b =  -0.659566002536, sym =  1, origin # 17
+# 18: E =   1.221068033745, E_1b =  -0.659566002536, sym =  1, origin # 18
+# 19: E =   1.300151009491, E_1b =  -0.574579897999, sym =  1, origin # 19
+# 20: E =   1.333307846237, E_1b =  -0.548788899601, sym =  1, origin # 20
+# 21: E =   1.333307846237, E_1b =  -0.548788899601, sym =  1, origin # 21
+# 22: E =   1.337890819559, E_1b =  -0.526503690086, sym =  1, origin # 22
+# 23: E =   1.349297921171, E_1b =  -0.523732621248, sym =  1, origin # 23
+# 24: E =   1.372064394616, E_1b =  -0.490126541017, sym =  1, origin # 24
+# 25: E =   1.372064394616, E_1b =  -0.490126541017, sym =  1, origin # 25
+# 26: E =   1.385835996118, E_1b =  -0.519788705150, sym =  1, origin # 26
+# 27: E =   1.430607416800, E_1b =  -0.412007582418, sym =  1, origin # 27
+# 28: E =   1.522686519172, E_1b =  -0.412007582418, sym =  1, origin # 28
+# 29: E =   1.587446655067, E_1b =  -0.327578239203, sym =  1, origin # 29
+# 30: E =   1.587446655067, E_1b =  -0.327578239203, sym =  1, origin # 30
+# 31: E =   1.627907844237, E_1b =  -0.284874793506, sym =  1, origin # 31
+# 32: E =   1.795820188345, E_1b =  -0.130852746770, sym =  1, origin # 32
+# 33: E =   1.805435770511, E_1b =  -0.119159365085, sym =  1, origin # 33
+# 34: E =   1.805435770511, E_1b =  -0.119159365085, sym =  1, origin # 34
+# 35: E =   1.820262309663, E_1b =  -0.130767003134, sym =  1, origin # 35
+# 36: E =   1.850425755680, E_1b =  -0.070298343201, sym =  1, origin # 36
+# 37: E =   2.025107937886, E_1b =   0.073370691664, sym =  1, origin # 37
+# 38: E =   2.025107937886, E_1b =   0.073370691664, sym =  1, origin # 38
+# 39: E =   2.165544110340, E_1b =   0.212388881467, sym =  1, origin # 39
+HF det up: 0 1 2 3 
+HF det dn: 0 1 2 3 
+END OF reorder orbitals [0.0/54.3]GB [0.009/0.225/0.225]s
+FCIDUMP cache saved to: integrals_cache.dat
+END OF load integrals, setup[0.0/54.3]GB [0.009/0.233/0.234]s
+
+BEG OF setup hci queue, setup[0.0/54.3]GB [0.000/0.000/0.234]s
+Max hci queue elem: 0.1211064671 Ha
+Number of entries in hci queue: 430,428
+END OF setup hci queue, setup[0.0/54.3]GB [0.219/0.219/0.453]s
+
+BEG OF setup singles_queue, setup[0.0/54.3]GB [0.000/0.000/0.453]s
+Max singles_queue elem: 0.3877248810 Ha
+Number of entries in singles_queue: 446
+END OF setup singles_queue, setup[0.0/54.3]GB [0.010/0.010/0.464]s
+HF energy: -9.2472324782 Ha
+END OF setup[0.0/54.3]GB [0.001/0.464/0.464]s
+
+BEG OF variation[0.0/54.3]GB [0.000/0.000/0.464]s
+Final iteration 0 HF ndets= 1 energy= -9.24723248
+
+BEG OF eps_var=5.00e-05, variation[0.0/54.3]GB [0.000/0.000/0.464]s
+Try Loading Wavefunction wf_eps1_5.00e-05.dat
+Loaded 737,564 dets from: wf_eps1_5.00e-05.dat
+State 0:
+----------------------------------------
+Excite Lv       # dets         Sum c^2
+0                    1      0.23611292
+1                   80      0.02738968
+2                 6240      0.53570393
+3                91178      0.13295709
+4               297880      0.05759632
+5               246706      0.00862056
+6                85038      0.00153413
+7                 9784      0.00007221
+8                  657      0.00001316
+----------------------------------------
+Orbital                        Sum c^2
+0                           1.80222810
+1                           1.69171353
+2                           1.69171353
+3                           1.03337242
+4                           1.03822140
+5                           0.25587443
+6                           0.25587443
+7                           0.14766479
+8                           0.00428393
+9                           0.00779874
+10                          0.00779874
+11                          0.00710883
+12                          0.01090736
+13                          0.01090736
+14                          0.01001239
+15                          0.01100178
+16                          0.00232006
+17                          0.00150303
+18                          0.00150303
+19                          0.00066231
+20                          0.00071390
+21                          0.00071390
+22                          0.00050821
+23                          0.00060819
+24                          0.00044399
+25                          0.00044399
+26                          0.00131651
+27                          0.00030981
+28                          0.00030839
+29                          0.00018507
+30                          0.00018507
+31                          0.00013388
+32                          0.00034110
+33                          0.00017973
+34                          0.00017973
+35                          0.00037430
+36                          0.00010423
+37                          0.00019538
+38                          0.00019538
+39                          0.00008904
+Sum orbitals c^2: 8.00000000
+----------------------------------------
+Most important dets:
+Excite Lv         Coef      Det (Reordered orb)
+2           0.49975357      |  0  1  2  4 |  0  1  2  4 |
+0           0.48591452      |  0  1  2  3 |  0  1  2  3 |
+2          -0.19533229      |  0  2  3  4 |  0  2  3  4 |
+2          -0.19533229      |  0  1  3  4 |  0  1  3  4 |
+2          -0.15828457      |  0  1  2  6 |  0  1  2  6 |
+2          -0.15828457      |  0  1  2  5 |  0  1  2  5 |
+2          -0.08508182      |  1  2  3  4 |  1  2  3  4 |
+2           0.07964655      |  0  1  2  3 |  0  2  4  5 |
+2           0.07964655      |  0  1  2  3 |  0  1  4  6 |
+2           0.07964655      |  0  2  4  5 |  0  1  2  3 |
+2           0.07964655      |  0  1  4  6 |  0  1  2  3 |
+2           0.07871803      |  0  1  3  6 |  0  1  2  4 |
+2           0.07871803      |  0  1  2  4 |  0  2  3  5 |
+2           0.07871803      |  0  2  3  5 |  0  1  2  4 |
+2           0.07871803      |  0  1  2  4 |  0  1  3  6 |
+1           0.07490629      |  0  1  3  5 |  0  1  2  3 |
+1          -0.07490629      |  0  2  3  6 |  0  1  2  3 |
+1           0.07490629      |  0  1  2  3 |  0  1  3  5 |
+1          -0.07490629      |  0  1  2  3 |  0  2  3  6 |
+3          -0.06377374      |  0  2  4  5 |  1  2  3  4 |
+----------------------------------------
+HF energy: -9.2472324782 Ha
+Variational energy: -9.5300283066 Ha	
+END OF eps_var=5.00e-05, variation[0.1/54.4]GB [0.695/0.695/1.159]s
+
+BEG OF eps_var=2.00e-05, variation[0.1/54.4]GB [0.000/0.000/1.159]s
+Try Loading Wavefunction wf_eps1_2.00e-05.dat
+
+BEG OF main, eps_var=2.00e-05, variation[0.1/54.4]GB [0.001/0.000/1.160]s
+
+BEG OF #1, main, eps_var=2.00e-05, variation[0.1/54.4]GB [0.002/0.000/1.162]s
+20% 40% 60% 80% 100% 
+Number of dets / new dets: 1,866,454 / 1,128,890
+END OF get next det list [0.4/54.7]GB [3.790/3.790/4.952]s
+END OF update unique ab [0.5/54.8]GB [1.146/4.936/6.098]s
+END OF create abm1 [0.5/54.8]GB [0.517/5.452/6.614]s
+Outer size of a/b singles: 17,349 / 17,349
+Full size of absingles: 2,790,444
+END OF create absingles [0.5/54.8]GB [0.691/6.142/7.304]s
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+Number of nonzero elems: 1,541,535,732
+END OF generate sparse hamiltonian [17.2/71.5]GB [771.584/777.724/778.886]s
+Davidson #0:  -9.5300283066
+Davidson #1:  -9.5307308655
+Davidson #2:  -9.5307505475
+Davidson #3:  -9.5307526140
+Davidson #4:  -9.5307530388
+Davidson #5:  -9.5307531239
+Davidson #6:  -9.5307531710
+Davidson #7:  -9.5307531909
+Davidson #8:  -9.5307531988
+END OF diagonalize sparse hamiltonian [17.4/71.7]GB [204.830/982.554/983.716]s
+Iteration 1 eps1= 2.00e-05 ndets= 1,866,454 energy= -9.53075320
+END OF #1, main, eps_var=2.00e-05, variation[17.4/71.7]GB [0.000/982.555/983.716]s
+
+BEG OF #2, main, eps_var=2.00e-05, variation[17.4/71.7]GB [0.008/0.000/983.725]s
+20% 40% 60% 80% 100% 
+Number of dets / new dets: 1,884,924 / 18,470
+END OF get next det list [17.4/71.7]GB [1.490/1.490/985.215]s
+END OF update unique ab [17.4/71.7]GB [0.207/1.696/985.421]s
+END OF create abm1 [17.4/71.7]GB [0.028/1.720/985.445]s
+Outer size of a/b singles: 17,427 / 17,427
+Full size of absingles: 1,912,960
+END OF create absingles [17.4/71.7]GB [0.225/1.944/985.668]s
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+Number of nonzero elems: 1,560,301,740
+END OF generate sparse hamiltonian [17.5/71.9]GB [58.315/60.255/1043.979]s
+Davidson #0:  -9.5307531988
+Davidson #1:  -9.5307578779
+Davidson #2:  -9.5307579248
+Davidson #3:  -9.5307579278
+Davidson #4:  -9.5307579293
+Davidson #5:  -9.5307579301
+Davidson #6:  -9.5307579314
+Davidson #7:  -9.5307579344
+Davidson #8:  -9.5307579370
+END OF diagonalize sparse hamiltonian [17.6/71.9]GB [213.695/273.950/1257.674]s
+Iteration 2 eps1= 2.00e-05 ndets= 1,884,924 energy= -9.53075794
+END OF #2, main, eps_var=2.00e-05, variation[17.6/71.9]GB [0.000/273.950/1257.674]s
+
+BEG OF #3, main, eps_var=2.00e-05, variation[17.6/71.9]GB [0.012/0.000/1257.686]s
+20% 40% 60% 80% 100% 
+Number of dets / new dets: 1,885,292 / 368
+END OF get next det list [17.6/71.9]GB [0.943/0.943/1258.629]s
+END OF update unique ab [17.6/71.9]GB [0.009/0.952/1258.638]s
+END OF create abm1 [17.6/71.9]GB [0.002/0.954/1258.639]s
+Outer size of a/b singles: 17,429 / 17,429
+Full size of absingles: 144,236
+END OF create absingles [17.6/71.9]GB [0.029/0.983/1258.668]s
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+Number of nonzero elems: 1,560,707,140
+END OF generate sparse hamiltonian [17.6/71.9]GB [7.102/8.084/1265.770]s
+Davidson #0:  -9.5307579370
+Davidson #1:  -9.5307580010
+Davidson #2:  -9.5307580026
+Davidson #3:  -9.5307580046
+Davidson #4:  -9.5307580094
+Davidson #5:  -9.5307580113
+Davidson #6:  -9.5307580130
+Davidson #7:  -9.5307580170
+Davidson #8:  -9.5307580280
+END OF diagonalize sparse hamiltonian [17.4/71.8]GB [208.117/216.201/1473.886]s
+Iteration 3 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075803
+END OF #3, main, eps_var=2.00e-05, variation[17.4/71.8]GB [0.000/216.201/1473.887]s
+
+BEG OF #4, main, eps_var=2.00e-05, variation[17.4/71.8]GB [0.000/0.000/1473.887]s
+Davidson #0:  -9.5307580280
+Davidson #1:  -9.5307580333
+Davidson #2:  -9.5307580410
+Davidson #3:  -9.5307580494
+Davidson #4:  -9.5307580546
+Davidson #5:  -9.5307580574
+Davidson #6:  -9.5307580639
+Davidson #7:  -9.5307580750
+Davidson #8:  -9.5307580871
+END OF diagonalize sparse hamiltonian [17.5/71.8]GB [201.833/201.833/1675.720]s
+Iteration 4 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075809
+END OF #4, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/201.833/1675.720]s
+
+BEG OF #5, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/0.000/1675.720]s
+Davidson #0:  -9.5307580871
+Davidson #1:  -9.5307580973
+Davidson #2:  -9.5307581109
+Davidson #3:  -9.5307581233
+Davidson #4:  -9.5307581310
+Davidson #5:  -9.5307581373
+Davidson #6:  -9.5307581482
+Davidson #7:  -9.5307581644
+Davidson #8:  -9.5307581845
+END OF diagonalize sparse hamiltonian [17.5/71.8]GB [207.024/207.024/1882.744]s
+Iteration 5 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075818
+END OF #5, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/207.024/1882.744]s
+
+BEG OF #6, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/0.000/1882.744]s
+Davidson #0:  -9.5307581845
+Davidson #1:  -9.5307582038
+Davidson #2:  -9.5307582238
+Davidson #3:  -9.5307582416
+Davidson #4:  -9.5307582548
+Davidson #5:  -9.5307582669
+Davidson #6:  -9.5307582849
+Davidson #7:  -9.5307583100
+Davidson #8:  -9.5307583440
+END OF diagonalize sparse hamiltonian [17.5/71.8]GB [211.306/211.306/2094.050]s
+Iteration 6 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075834
+END OF #6, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/211.306/2094.050]s
+
+BEG OF #7, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/0.000/2094.050]s
+Davidson #0:  -9.5307583440
+Davidson #1:  -9.5307583786
+Davidson #2:  -9.5307584108
+Davidson #3:  -9.5307584385
+Davidson #4:  -9.5307584606
+Davidson #5:  -9.5307584820
+Davidson #6:  -9.5307585126
+Davidson #7:  -9.5307585541
+Davidson #8:  -9.5307586112
+END OF diagonalize sparse hamiltonian [17.5/71.8]GB [209.434/209.434/2303.485]s
+Iteration 7 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075861
+END OF #7, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/209.435/2303.485]s
+
+BEG OF #8, main, eps_var=2.00e-05, variation[17.5/71.8]GB [0.000/0.000/2303.485]s
+Davidson #0:  -9.5307586112
+Davidson #1:  -9.5307586710
+Davidson #2:  -9.5307587248
+Davidson #3:  -9.5307587708
+Davidson #4:  -9.5307588078
+Davidson #5:  -9.5307588447
+Davidson #6:  -9.5307588968
+Davidson #7:  -9.5307589672
+Davidson #8:  -9.5307590635
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [207.591/207.591/2511.076]s
+Iteration 8 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075906
+END OF #8, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/207.591/2511.076]s
+
+BEG OF #9, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/2511.076]s
+Davidson #0:  -9.5307590635
+Davidson #1:  -9.5307591655
+Davidson #2:  -9.5307592569
+Davidson #3:  -9.5307593348
+Davidson #4:  -9.5307593972
+Davidson #5:  -9.5307594599
+Davidson #6:  -9.5307595491
+Davidson #7:  -9.5307596691
+Davidson #8:  -9.5307598318
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [203.798/203.798/2714.874]s
+Iteration 9 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53075983
+END OF #9, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/203.798/2714.874]s
+
+BEG OF #10, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/2714.874]s
+Davidson #0:  -9.5307598318
+Davidson #1:  -9.5307600054
+Davidson #2:  -9.5307601611
+Davidson #3:  -9.5307602937
+Davidson #4:  -9.5307603990
+Davidson #5:  -9.5307605056
+Davidson #6:  -9.5307606576
+Davidson #7:  -9.5307608624
+Davidson #8:  -9.5307611380
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [205.143/205.143/2920.017]s
+Iteration 10 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53076114
+END OF #10, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/205.143/2920.017]s
+
+BEG OF #11, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/2920.017]s
+Davidson #0:  -9.5307611380
+Davidson #1:  -9.5307614330
+Davidson #2:  -9.5307616981
+Davidson #3:  -9.5307619238
+Davidson #4:  -9.5307621018
+Davidson #5:  -9.5307622829
+Davidson #6:  -9.5307625416
+Davidson #7:  -9.5307628904
+Davidson #8:  -9.5307633575
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [207.306/207.306/3127.323]s
+Iteration 11 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53076336
+END OF #11, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/207.306/3127.323]s
+
+BEG OF #12, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/3127.323]s
+Davidson #0:  -9.5307633575
+Davidson #1:  -9.5307638592
+Davidson #2:  -9.5307643099
+Davidson #3:  -9.5307646937
+Davidson #4:  -9.5307649946
+Davidson #5:  -9.5307653018
+Davidson #6:  -9.5307657414
+Davidson #7:  -9.5307663342
+Davidson #8:  -9.5307671266
+END OF diagonalize sparse hamiltonian [17.2/71.6]GB [210.811/210.811/3338.134]s
+Iteration 12 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53076713
+END OF #12, main, eps_var=2.00e-05, variation[17.2/71.6]GB [0.000/210.812/3338.134]s
+
+BEG OF #13, main, eps_var=2.00e-05, variation[17.2/71.6]GB [0.000/0.000/3338.134]s
+Davidson #0:  -9.5307671266
+Davidson #1:  -9.5307679794
+Davidson #2:  -9.5307687445
+Davidson #3:  -9.5307693958
+Davidson #4:  -9.5307699044
+Davidson #5:  -9.5307704248
+Davidson #6:  -9.5307711702
+Davidson #7:  -9.5307721758
+Davidson #8:  -9.5307735195
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [212.578/212.578/3550.712]s
+Iteration 13 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53077352
+END OF #13, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/212.578/3550.712]s
+
+BEG OF #14, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/3550.712]s
+Davidson #0:  -9.5307735195
+Davidson #1:  -9.5307749680
+Davidson #2:  -9.5307762644
+Davidson #3:  -9.5307773674
+Davidson #4:  -9.5307782256
+Davidson #5:  -9.5307791051
+Davidson #6:  -9.5307803656
+Davidson #7:  -9.5307820671
+Davidson #8:  -9.5307843427
+END OF diagonalize sparse hamiltonian [17.3/71.7]GB [211.175/211.175/3761.887]s
+Iteration 14 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53078434
+END OF #14, main, eps_var=2.00e-05, variation[17.3/71.7]GB [0.000/211.175/3761.887]s
+
+BEG OF #15, main, eps_var=2.00e-05, variation[17.3/71.7]GB [0.000/0.000/3761.887]s
+Davidson #0:  -9.5307843427
+Davidson #1:  -9.5307867985
+Davidson #2:  -9.5307889888
+Davidson #3:  -9.5307908505
+Davidson #4:  -9.5307922940
+Davidson #5:  -9.5307937747
+Davidson #6:  -9.5307958982
+Davidson #7:  -9.5307987655
+Davidson #8:  -9.5308026079
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [209.238/209.238/3971.125]s
+Iteration 15 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53080261
+END OF #15, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/209.238/3971.125]s
+
+BEG OF #16, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/3971.125]s
+Davidson #0:  -9.5308026079
+Davidson #1:  -9.5308067568
+Davidson #2:  -9.5308104407
+Davidson #3:  -9.5308135670
+Davidson #4:  -9.5308159806
+Davidson #5:  -9.5308184573
+Davidson #6:  -9.5308220130
+Davidson #7:  -9.5308268148
+Davidson #8:  -9.5308332648
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [208.059/208.059/4179.184]s
+Iteration 16 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53083326
+END OF #16, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/208.059/4179.184]s
+
+BEG OF #17, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/4179.184]s
+Davidson #0:  -9.5308332648
+Davidson #1:  -9.5308402283
+Davidson #2:  -9.5308463773
+Davidson #3:  -9.5308515828
+Davidson #4:  -9.5308555785
+Davidson #5:  -9.5308596771
+Davidson #6:  -9.5308655719
+Davidson #7:  -9.5308735300
+Davidson #8:  -9.5308842441
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [210.286/210.286/4389.470]s
+Iteration 17 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53088424
+END OF #17, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/210.286/4389.470]s
+
+BEG OF #18, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/4389.470]s
+Davidson #0:  -9.5308842441
+Davidson #1:  -9.5308957970
+Davidson #2:  -9.5309059294
+Davidson #3:  -9.5309144757
+Davidson #4:  -9.5309209815
+Davidson #5:  -9.5309276469
+Davidson #6:  -9.5309372605
+Davidson #7:  -9.5309502244
+Davidson #8:  -9.5309677016
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [205.879/205.879/4595.349]s
+Iteration 18 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53096770
+END OF #18, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/205.879/4595.349]s
+
+BEG OF #19, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/4595.349]s
+Davidson #0:  -9.5309677016
+Davidson #1:  -9.5309864937
+Davidson #2:  -9.5310028365
+Davidson #3:  -9.5310165464
+Davidson #4:  -9.5310268583
+Davidson #5:  -9.5310373989
+Davidson #6:  -9.5310526662
+Davidson #7:  -9.5310732028
+Davidson #8:  -9.5311008702
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [204.853/204.853/4800.203]s
+Iteration 19 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53110087
+END OF #19, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/204.853/4800.203]s
+
+BEG OF #20, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/4800.203]s
+Davidson #0:  -9.5311008702
+Davidson #1:  -9.5311304625
+Davidson #2:  -9.5311559286
+Davidson #3:  -9.5311771244
+Davidson #4:  -9.5311927976
+Davidson #5:  -9.5312087578
+Davidson #6:  -9.5312320152
+Davidson #7:  -9.5312631582
+Davidson #8:  -9.5313049456
+END OF diagonalize sparse hamiltonian [17.3/71.6]GB [208.381/208.381/5008.584]s
+Iteration 20 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53130495
+END OF #20, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/208.381/5008.584]s
+
+BEG OF #21, main, eps_var=2.00e-05, variation[17.3/71.6]GB [0.000/0.000/5008.584]s
+Davidson #0:  -9.5313049456
+Davidson #1:  -9.5313492543
+Davidson #2:  -9.5313868887
+Davidson #3:  -9.5314178724
+Davidson #4:  -9.5314402591
+Davidson #5:  -9.5314629309
+Davidson #6:  -9.5314962400
+Davidson #7:  -9.5315405244
+Davidson #8:  -9.5315994427
+END OF diagonalize sparse hamiltonian [17.2/71.6]GB [205.360/205.360/5213.944]s
+Iteration 21 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53159944
+END OF #21, main, eps_var=2.00e-05, variation[17.2/71.6]GB [0.000/205.360/5213.944]s
+
+BEG OF #22, main, eps_var=2.00e-05, variation[17.2/71.6]GB [0.000/0.000/5213.944]s
+Davidson #0:  -9.5315994427
+Davidson #1:  -9.5316611222
+Davidson #2:  -9.5317126795
+Davidson #3:  -9.5317545311
+Davidson #4:  -9.5317838964
+Davidson #5:  -9.5318134250
+Davidson #6:  -9.5318572623
+Davidson #7:  -9.5319149714
+Davidson #8:  -9.5319907620
+END OF diagonalize sparse hamiltonian [17.2/71.6]GB [203.431/203.431/5417.374]s
+Iteration 22 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53199076
+END OF #22, main, eps_var=2.00e-05, variation[17.2/71.6]GB [0.000/203.431/5417.374]s
+
+BEG OF #23, main, eps_var=2.00e-05, variation[17.2/71.6]GB [0.000/0.000/5417.374]s
+Davidson #0:  -9.5319907620
+Davidson #1:  -9.5320687842
+Davidson #2:  -9.5321327932
+Davidson #3:  -9.5321838998
+Davidson #4:  -9.5322185684
+Davidson #5:  -9.5322531481
+Davidson #6:  -9.5323051189
+Davidson #7:  -9.5323727350
+Davidson #8:  -9.5324601438
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [211.243/211.243/5628.618]s
+Iteration 23 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53246014
+END OF #23, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/211.243/5628.618]s
+
+BEG OF #24, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/5628.618]s
+Davidson #0:  -9.5324601438
+Davidson #1:  -9.5325484004
+Davidson #2:  -9.5326193344
+Davidson #3:  -9.5326750016
+Davidson #4:  -9.5327114782
+Davidson #5:  -9.5327475686
+Davidson #6:  -9.5328025267
+Davidson #7:  -9.5328731708
+Davidson #8:  -9.5329630615
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [208.282/208.282/5836.900]s
+Iteration 24 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53296306
+END OF #24, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/208.282/5836.900]s
+
+BEG OF #25, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/5836.900]s
+Davidson #0:  -9.5329630615
+Davidson #1:  -9.5330520601
+Davidson #2:  -9.5331221129
+Davidson #3:  -9.5331762205
+Davidson #4:  -9.5332105779
+Davidson #5:  -9.5332443329
+Davidson #6:  -9.5332963792
+Davidson #7:  -9.5333625628
+Davidson #8:  -9.5334456755
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [203.693/203.693/6040.593]s
+Iteration 25 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53344568
+END OF #25, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/203.693/6040.593]s
+
+BEG OF #26, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/6040.593]s
+Davidson #0:  -9.5334456755
+Davidson #1:  -9.5335265212
+Davidson #2:  -9.5335889148
+Davidson #3:  -9.5336364763
+Davidson #4:  -9.5336659201
+Davidson #5:  -9.5336946893
+Davidson #6:  -9.5337395116
+Davidson #7:  -9.5337960221
+Davidson #8:  -9.5338663348
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [205.078/205.078/6245.670]s
+Iteration 26 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53386633
+END OF #26, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/205.078/6245.671]s
+
+BEG OF #27, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/6245.671]s
+Davidson #0:  -9.5338663348
+Davidson #1:  -9.5339337469
+Davidson #2:  -9.5339848696
+Davidson #3:  -9.5340234510
+Davidson #4:  -9.5340468995
+Davidson #5:  -9.5340697213
+Davidson #6:  -9.5341055464
+Davidson #7:  -9.5341504312
+Davidson #8:  -9.5342059808
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [209.907/209.907/6455.577]s
+Iteration 27 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53420598
+END OF #27, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/209.907/6455.577]s
+
+BEG OF #28, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/6455.577]s
+Davidson #0:  -9.5342059808
+Davidson #1:  -9.5342586541
+Davidson #2:  -9.5342980077
+Davidson #3:  -9.5343274935
+Davidson #4:  -9.5343451990
+Davidson #5:  -9.5343623863
+Davidson #6:  -9.5343894907
+Davidson #7:  -9.5344233019
+Davidson #8:  -9.5344650541
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [210.563/210.563/6666.140]s
+Iteration 28 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53446505
+END OF #28, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/210.563/6666.140]s
+
+BEG OF #29, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/6666.140]s
+Davidson #0:  -9.5344650541
+Davidson #1:  -9.5345043286
+Davidson #2:  -9.5345333089
+Davidson #3:  -9.5345549132
+Davidson #4:  -9.5345677955
+Davidson #5:  -9.5345802802
+Davidson #6:  -9.5346000085
+Davidson #7:  -9.5346245468
+Davidson #8:  -9.5346548479
+END OF diagonalize sparse hamiltonian [17.2/71.5]GB [205.862/205.862/6872.002]s
+Iteration 29 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53465485
+END OF #29, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/205.862/6872.002]s
+
+BEG OF #30, main, eps_var=2.00e-05, variation[17.2/71.5]GB [0.000/0.000/6872.002]s
+Davidson #0:  -9.5346548479
+Davidson #1:  -9.5346831912
+Davidson #2:  -9.5347038917
+Davidson #3:  -9.5347192698
+Davidson #4:  -9.5347284089
+Davidson #5:  -9.5347372575
+Davidson #6:  -9.5347512412
+Davidson #7:  -9.5347686005
+Davidson #8:  -9.5347900671
+END OF diagonalize sparse hamiltonian [17.4/71.7]GB [208.097/208.097/7080.098]s
+Iteration 30 eps1= 2.00e-05 ndets= 1,885,292 energy= -9.53479007
+END OF #30, main, eps_var=2.00e-05, variation[17.4/71.7]GB [0.000/208.097/7080.098]s
+
+BEG OF #31, main, eps_var=2.00e-05, variation[17.4/71.7]GB [0.000/0.000/7080.098]s
+Davidson #0:  -9.5347900671
+Davidson #1:  -9.5348100698
+Davidson #2:  -9.5348245548
+Davidson #3:  -9.5348352897
+Davidson #4:  -9.5348416640
+orterun: Forwarding signal 12 to job
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    c056n03
+  Remote host:   c045n01
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    c056n03
+  Remote host:   c054n01
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    c056n03
+  Remote host:   c042n03
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    c056n03
+  Remote host:   c046n04
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    c056n03
+  Remote host:   c048n01
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    c056n03
+  Remote host:   c048n03
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+--------------------------------------------------------------------------
+orterun noticed that process rank 0 with PID 0 on node c056n03 exited on signal 12 (User defined signal 2).
+--------------------------------------------------------------------------
